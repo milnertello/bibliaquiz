@@ -2215,10 +2215,10 @@
       // El patrón es: Centro -> Izq -> IzqExt -> Izq -> Centro -> Der -> DerExt -> Der -> Izq -> Izq -> Centro -> Der -> DerExt -> Der -> Izq
       const leftPositions = [50, 26.7, 20, 26.7, 50, 73.3, 80, 60, 40, 26.7, 50, 73.3, 80, 60, 40];
       
-      // El nivel 15 está en top:97.4%, espaciado de ~6-9% entre niveles
+      // El nivel 15 está en top:30%, espaciado de ~2% entre niveles
       // Para 85 niveles más (16-100), necesitamos extender significativamente
-      const baseTop = 97.4;
-      const spacing = 8.5; // Espaciado mayor para mejor visualización
+      const baseTop = 30;
+      const spacing = 2.0; // Espaciado reducido para niveles más compactos
       
       for (let i = 16; i <= 100; i++) {
         // Verificar si ya existe

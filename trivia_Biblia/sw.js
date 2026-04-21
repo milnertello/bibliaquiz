@@ -38,7 +38,7 @@ self.addEventListener('activate', event => {
 
 // Estrategia de cache: Cache First para recursos estáticos, Network First para preguntas
 self.addEventListener('fetch', event => {
-  if (event.request.url.includes('preguntas_tjw.json')) {
+  if (event.request.url.includes('/preguntas/
     // Network First para preguntas (siempre intentar actualizar)
     event.respondWith(
       fetch(event.request)
