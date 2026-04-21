@@ -45,27 +45,27 @@
     // Lista de los 20 archivos JSON de preguntas (1050+ preguntas en 100 niveles)
     // default_questions.json se carga primero como fallback esencial
     const questionFiles = [
-      'default_questions.json',
-      'preguntas_genesis_niveles_1_5.json',
-      'preguntas_exodo_niveles_6_10.json',
-      'preguntas_jueces_niveles_11_15.json',
-      'preguntas_reyes_niveles_16_20.json',
-      'preguntas_profetas_niveles_21_25.json',
-      'preguntas_exilio_regreso_niveles_26_30.json',
-      'preguntas_jesus_niveles_31_35.json',
-      'preguntas_jesus_ministerio_niveles_36_40.json',
-      'preguntas_jesus_pasion_niveles_41_45.json',
-      'preguntas_hechos_niveles_46_50.json',
-      'preguntas_cartas_pablo_1_niveles_51_55.json',
-      'preguntas_cartas_pablo_2_niveles_56_60.json',
-      'preguntas_cartas_pastorales_hebreos_niveles_61_65.json',
-      'preguntas_santiago_pedro_juan_niveles_66_70.json',
-      'preguntas_judas_apocalipsis_niveles_71_75.json',
-      'preguntas_at_profundo_niveles_76_80.json',
-      'preguntas_nt_profundo_niveles_81_85.json',
-      'preguntas_sintesis_biblia_niveles_86_90.json',
-      'preguntas_niveles_91_95.json',
-      'preguntas_niveles_finales_96_100.json'
+      'preguntas/default_questions.json',
+      'preguntas/preguntas_genesis_niveles_1_5.json',
+      'preguntas/preguntas_exodo_niveles_6_10.json',
+      'preguntas/preguntas_jueces_niveles_11_15.json',
+      'preguntas/preguntas_reyes_niveles_16_20.json',
+      'preguntas/preguntas_profetas_niveles_21_25.json',
+      'preguntas/preguntas_exilio_regreso_niveles_26_30.json',
+      'preguntas/preguntas_jesus_niveles_31_35.json',
+      'preguntas/preguntas_jesus_ministerio_niveles_36_40.json',
+      'preguntas/preguntas_jesus_pasion_niveles_41_45.json',
+      'preguntas/preguntas_hechos_niveles_46_50.json',
+      'preguntas/preguntas_cartas_pablo_1_niveles_51_55.json',
+      'preguntas/preguntas_cartas_pablo_2_niveles_56_60.json',
+      'preguntas/preguntas_cartas_pastorales_hebreos_niveles_61_65.json',
+      'preguntas/preguntas_santiago_pedro_juan_niveles_66_70.json',
+      'preguntas/preguntas_judas_apocalipsis_niveles_71_75.json',
+      'preguntas/preguntas_at_profundo_niveles_76_80.json',
+      'preguntas/preguntas_nt_profundo_niveles_81_85.json',
+      'preguntas/preguntas_sintesis_biblia_niveles_86_90.json',
+      'preguntas/preguntas_niveles_91_95.json',
+      'preguntas/preguntas_niveles_finales_96_100.json'
     ];
 
     // Gamification
