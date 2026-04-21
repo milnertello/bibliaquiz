@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "21-25",
+    "dificultad": "Fácil-Medio",
+    "tema": "Profetas",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre los profetas mayores y menores del Antiguo Testamento"
+  },
+  "preguntas": [
+    {
+      "id": 201,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Llamamiento",
+      "pregunta": "¿En qué año del rey Uzías murió vio Isaías su visión del trono?",
+      "opciones": {
+        "A": "El primer año",
+        "B": "El año en que murió el rey Uzías",
+        "C": "El décimo año",
+        "D": "El último año"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 6:1 dice: 'En el año en que murió el rey Uzías, yo vi sentado al Señor sobre un trono alto y sublime.'"
+    },
+    {
+      "id": 202,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Visión",
+      "pregunta": "¿Qué serafines vio Isaías junto al trono de Dios?",
+      "opciones": {
+        "A": "Ángeles con espadas",
+        "B": "Seres con seis alas",
+        "C": "Querubines con cuatro rostros",
+        "D": "Estatuas de oro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 6:2 describe a los serafines con seis alas: con dos cubrían su rostro, con dos cubrían sus pies, y con dos volaban."
+    },
+    {
+      "id": 203,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Visión",
+      "pregunta": "¿Qué cantaban los serafines?",
+      "opciones": {
+        "A": "¡Aleluya!",
+        "B": "¡Santo, santo, santo es Jehová de los ejércitos!",
+        "C": "¡Bendito el que viene en nombre de Jehová!",
+        "D": "¡Gloria a Dios en las alturas!"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 6:3 dice que uno llamaba al otro: '¡Santo, santo, santo es Jehová de los ejércitos; toda la tierra está llena de su gloria!'"
+    },
+    {
+      "id": 204,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Llamamiento",
+      "pregunta": "¿Con qué serafín tocó Isaías sus labios?",
+      "opciones": {
+        "A": "Un carbón encendido",
+        "B": "Una espada",
+        "C": "Agua bendita",
+        "D": "Un paño"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Isaías 6:6-7 dice que uno de los serafines voló hacia mí con un carbón encendido en su mano, que había tomado del altar con unas tenazas, y con él tocó mi boca."
+    },
+    {
+      "id": 205,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Qué profecía famosa sobre el Mesías está en Isaías 7:14?",
+      "opciones": {
+        "A": "Nacerá en Belén",
+        "B": "Una virgen concebirá y dará a luz un hijo",
+        "C": "Será crucificado",
+        "D": "Resucitará al tercer día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 7:14 dice: 'Por tanto, el Señor mismo les dará una señal: ¡Miren! La virgen concebirá y dará a luz un hijo, y le pondrá por nombre Emmanuel.'"
+    },
+    {
+      "id": 206,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Qué libro profético es conocido como 'el evangelio del Antiguo Testamento'?",
+      "opciones": {
+        "A": "Jeremías",
+        "B": "Ezequiel",
+        "C": "Isaías",
+        "D": "Daniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Isaías contiene muchas profecías mesiánicas detalladas sobre Jesús, incluyendo su nacimiento, sufrimiento y reinado."
+    },
+    {
+      "id": 207,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Siervo sufriente",
+      "pregunta": "¿En qué capítulos de Isaías se describe al Siervo de Jehová que sufriría?",
+      "opciones": {
+        "A": "1-5",
+        "B": "40-55",
+        "C": "52-53",
+        "D": "66"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Isaías 52:13-53:12 describe al Siervo de Jehová que es despreciado, herido por nuestras rebeliones y muerto por nuestros pecados."
+    },
+    {
+      "id": 208,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Qué animales vivirán juntos en paz según Isaías 11:6-9?",
+      "opciones": {
+        "A": "Perros y gatos",
+        "B": "Lobo con cordero, leopardo con cabrito",
+        "C": "Leones con jirafas",
+        "D": "Elefantes con cebras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 11:6 describe la paz paradójica: 'El lobo habitará con el cordero, y el leopardo se acostará con el cabrito.'"
+    },
+    {
+      "id": 209,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Qué esperanza profetizó Isaías para los judíos cautivos en Babilonia?",
+      "opciones": {
+        "A": "Morirían allí",
+        "B": "Prepararían el camino del desierto para el regreso",
+        "C": "Se convertirían en babilonios",
+        "D": "Construirían un templo nuevo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 40:3-5 habla de una voz que clama en el desierto: 'Preparen el camino de Jehová; enderecen en la soledad una calzada para nuestro Dios.'"
+    },
+    {
+      "id": 210,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Quién fue el rey de Persia que liberó a los judíos, profetizado por Isaías?",
+      "opciones": {
+        "A": "Darío",
+        "B": "Nabucodonosor",
+        "C": "Ciro",
+        "D": "Asuero"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Isaías 44:28 y 45:1 mencionan a Ciro por nombre, llamándolo 'mi ungido' quien dejará ir libre a los cautivos."
+    },
+    {
+      "id": 211,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Llamamiento",
+      "pregunta": "¿Cuál era la excusa de Jeremías cuando Dios lo llamó?",
+      "opciones": {
+        "A": "'Soy demasiado viejo'",
+        "B": "'Soy un muchacho; no sé hablar'",
+        "C": "'Soy pobre'",
+        "D": "'Tengo familia que cuidar'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 1:6 dice que Jeremías respondió: '¡Ay, Señor Jehová! He aquí, no sé hablar, porque soy un muchacho.'"
+    },
+    {
+      "id": 212,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Llamamiento",
+      "pregunta": "¿Qué vio Jeremías en su primera visión?",
+      "opciones": {
+        "A": "Un león",
+        "B": "Una vara de almendro vigilante",
+        "C": "Un fuego",
+        "D": "Un templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 1:11-12 dice que vio una vara de almendro vigilante; el árbol de almendro florece temprano, simbolizando que Dios velaba por su palabra."
+    },
+    {
+      "id": 213,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Profecía",
+      "pregunta": "¿Qué símbolo usó Jeremías para mostrar la inevitable caída de Judá?",
+      "opciones": {
+        "A": "Un árbol cortado",
+        "B": "Una vasija de barro rota",
+        "C": "Una casa en llamas",
+        "D": "Un río seco"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 19 describe cómo Jeremías compró una vasija de barro, la quebró delante de los ancianos, simbolizando que Dios quebraría a Judá."
+    },
+    {
+      "id": 214,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Profecía",
+      "pregunta": "¿Qué profecía de Jeremías se cumplió en la caída de Jerusalén?",
+      "opciones": {
+        "A": "70 años de desolación",
+        "B": "40 años de paz",
+        "C": "100 años de guerra",
+        "D": "1 año de abundancia"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jeremías 25:11 y 29:10 profetizó que las naciones servirían al rey de Babilonia setenta años."
+    },
+    {
+      "id": 215,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Símbolos",
+      "pregunta": "¿Qué compró Jeremías como símbolo de la futura restauración de Israel?",
+      "opciones": {
+        "A": "Una casa",
+        "B": "Un campo en Anatot",
+        "C": "Un templo",
+        "D": "Una vasija de oro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 32:6-15 describe cómo Jeremías compró un campo de su primo Hanameel en Anatot, como señal de que volverían a poseer la tierra."
+    },
+    {
+      "id": 216,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Lamentaciones",
+      "pregunta": "¿Qué libro escribió Jeremías después de la caída de Jerusalén?",
+      "opciones": {
+        "A": "Eclesiastés",
+        "B": "Lamentaciones",
+        "C": "Proverbios",
+        "D": "Cantares"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lamentaciones, atribuido tradicionalmente a Jeremías, lamenta la destrucción de Jerusalén en 607 a.E.C."
+    },
+    {
+      "id": 217,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Ezequiel - Llamamiento",
+      "pregunta": "¿Dónde estaba Ezequiel cuando recibió su llamamiento?",
+      "opciones": {
+        "A": "En Jerusalén",
+        "B": "En Babilonia, entre los cautivos",
+        "C": "En Egipto",
+        "D": "En Asiria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 1:1-3 dice que Ezequiel estaba entre los cautivos junto al río Quebar cuando recibió las visiones."
+    },
+    {
+      "id": 218,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Ezequiel - Visión",
+      "pregunta": "¿Qué vio Ezequiel que tenía cuatro rostros y cuatro alas?",
+      "opciones": {
+        "A": "Serafines",
+        "B": "Querubines",
+        "C": "Ángeles",
+        "D": "Guerreros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 1:5-6 describe las criaturas vivientes (querubines) con cuatro rostros (hombre, león, toro, águila) y cuatro alas."
+    },
+    {
+      "id": 219,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Ezequiel - Profecía",
+      "pregunta": "¿Qué visión tuvo Ezequiel del templo cuando fue llevado allí en espíritu?",
+      "opciones": {
+        "A": "Un templo en llamas",
+        "B": "La gloria de Jehová dejando el templo",
+        "C": "Un templo nuevo",
+        "D": "Sacerdotes adorando"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 8-11 describe cómo la gloria de Jehová se levantó del querubín, salió del templo y se fue de la ciudad."
+    },
+    {
+      "id": 220,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Ezequiel - Símbolos",
+      "pregunta": "¿Qué escribió Ezequiel en un ladrillo como símbolo del asedio?",
+      "opciones": {
+        "A": "Un poema",
+        "B": "Jerusalén y torres de asedio",
+        "C": "Su nombre",
+        "D": "Una oración"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 4:1-3 dice que debía grabar una ciudad (Jerusalén) en un ladrillo, poner torres de asedio contra ella, y una plancha de hierro entre él y la ciudad."
+    },
+    {
+      "id": 221,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Ezequiel - Símbolos",
+      "pregunta": "¿Qué hizo Ezequiel con su cabello y barba como símbolo del destino de Judá?",
+      "opciones": {
+        "A": "Se los pintó",
+        "B": "Se los rapó con navaja y dividió en tres partes",
+        "C": "Se los trenzó",
+        "D": "Se los cubrió"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 5:1-4 describe cómo tomó una navaja afilada, pasó por su cabeza y barba, dividió el pelo en tres partes, quemó una parte, golpeó otra con espada, y esparció la tercera al viento."
+    },
+    {
+      "id": 222,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Ezequiel - Profecía",
+      "pregunta": "¿Qué famosa profecía mesiánica está en Ezequiel 37?",
+      "opciones": {
+        "A": "El nacimiento del Mesías",
+        "B": "El valle de huesos secos que revive",
+        "C": "La crucifixión",
+        "D": "La segunda venida"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 37 describe el valle de huesos secos que reciben carne y espíritu, simbolizando la resurrección de Israel y también la esperanza de resurrección."
+    },
+    {
+      "id": 223,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Historia",
+      "pregunta": "¿En qué ciudad fue llevado cautivo Daniel?",
+      "opciones": {
+        "A": "Asiria",
+        "B": "Babilonia",
+        "C": "Egipto",
+        "D": "Persia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 1:1-6 dice que Nabucodonosor rey de Babilonia vino contra Jerusalén, y Daniel fue llevado cautivo a Babilonia."
+    },
+    {
+      "id": 224,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Historia",
+      "pregunta": "¿Qué nombres babilónicos recibieron Daniel y sus tres compañeros?",
+      "opciones": {
+        "A": "Sadrac, Mesac y Abednego",
+        "B": "Beltsasar, Sadrac, Mesac y Abednego",
+        "C": "Daniel, Ananías, Misael y Azarías",
+        "D": "Nabucodonosor, Belsasar, Darío y Ciro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 1:7 dice que a Daniel le pusieron por nombre Beltsasar; y a Ananías, Sadrac; a Misael, Mesac; y a Azarías, Abednego."
+    },
+    {
+      "id": 225,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Interpretación",
+      "pregunta": "¿Qué había comido Daniel durante tres años para mantenerse puro?",
+      "opciones": {
+        "A": "Solo carne",
+        "B": "Solo pan y agua",
+        "C": "Verduras y agua",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Daniel 1:12 dice que Daniel pidió probar a sus siervos diez días dándoles a comer legumbres y a beber agua."
+    },
+    {
+      "id": 226,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Sueños",
+      "pregunta": "¿Qué sueño tuvo Nabucodonosor que solo Daniel pudo interpretar?",
+      "opciones": {
+        "A": "Un árbol grande que fue cortado",
+        "B": "Una estatua con cabeza de oro, pecho de plata, vientre de bronce, piernas de hierro y pies de hierro y barro",
+        "C": "Un río que se secaba",
+        "D": "Un templo en llamas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 2:31-45 describe la estatua con cabeza de oro (Babilonia), pecho de plata (Medo-Persia), vientre de bronce (Grecia), piernas de hierro (Roma) y pies de hierro y barro."
+    },
+    {
+      "id": 227,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Horno",
+      "pregunta": "¿Cuántos hombres vio el rey en el horno de fuego ardiente?",
+      "opciones": {
+        "A": "Tres",
+        "B": "Cuatro, y el cuarto parecía hijo de los dioses",
+        "C": "Dos",
+        "D": "Uno"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 3:25 dice que el rey dijo: 'He aquí yo veo cuatro hombres sueltos, que se pasean en medio del fuego sin sufrir daño alguno; y el aspecto del cuarto es semejante a hijo de los dioses.'"
+    },
+    {
+      "id": 228,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Belsasar",
+      "pregunta": "¿Qué escribió la mano misteriosa en el banquete de Belsasar?",
+      "opciones": {
+        "A": "Mene, Mene, Tecel, Parsín",
+        "B": "Aleluya",
+        "C": "Paz",
+        "D": "Guerra"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Daniel 5:5-28 describe la mano que escribió Mene (contado), Mene (contado), Tecel (pesado), Parsín (dividido), anunciando la caída de Babilonia."
+    },
+    {
+      "id": 229,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Leones",
+      "pregunta": "¿Por qué fue echado Daniel a la fosa de los leones?",
+      "opciones": {
+        "A": "Por robar",
+        "B": "Por orar a Dios en contra del decreto real",
+        "C": "Por matar a alguien",
+        "D": "Por adorar ídolos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 6:10-16 dice que Daniel oraba tres veces al día como era su costumbre, violando el decreto de no orar a nadie excepto al rey."
+    },
+    {
+      "id": 230,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Leones",
+      "pregunta": "¿Qué le dijo Daniel al rey Darío al salir de la fosa de los leones?",
+      "opciones": {
+        "A": "'Me vengaré de mis enemigos'",
+        "B": "'Mi Dios envió su ángel y cerró las bocas de los leones'",
+        "C": "'Nunca más oraré'",
+        "D": "'Tengo hambre'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 6:22 dice que Daniel respondió: 'Mi Dios envió su ángel, y cerró las bocas de los leones, y no me han hecho daño.'"
+    },
+    {
+      "id": 231,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Daniel - Profecía",
+      "pregunta": "¿Qué animales vio Daniel en su visión de las cuatro bestias?",
+      "opciones": {
+        "A": "Un león, un oso, un leopardo y una bestia terrible",
+        "B": "Una águila, un toro, un león y un hombre",
+        "C": "Solo un dragón",
+        "D": "Cuatro caballos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Daniel 7 describe cuatro bestias: león (Babilonia), oso (Medo-Persia), leopardo (Grecia) y una bestia terrible (Roma)."
+    },
+    {
+      "id": 232,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Oseas - Profecía",
+      "pregunta": "¿Qué inusual mandato le dio Dios a Oseas?",
+      "opciones": {
+        "A": "Casarse con una mujer de mala reputación",
+        "B": "Vestirse de luto por 40 años",
+        "C": "No hablar por un año",
+        "D": "Comer pan hecho con estiércol"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Oseas 1:2 dice que Jehová dijo a Oseas: 'Ve, toma para ti una mujer de mala reputación y ten hijos de mala reputación; porque la tierra se prostituye apartándose de Jehová.'"
+    },
+    {
+      "id": 233,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Oseas - Profecía",
+      "pregunta": "¿Cuáles fueron los nombres simbólicos de los hijos de Oseas?",
+      "opciones": {
+        "A": "Jezreel, 'No compasión', 'No mi pueblo'",
+        "B": "Emanuel, 'Dios con nosotros'",
+        "C": "Israel, Judá, Benjamín",
+        "D": "Adán, Set, Enoc"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Oseas 1:4-9 describe los tres hijos con nombres simbólicos: Jezreel (Dios siembra), Lo-ruhama (no compasión), y Lo-ammi (no mi pueblo)."
+    },
+    {
+      "id": 234,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Joel - Profecía",
+      "pregunta": "¿Qué plaga describió Joel que devastó la tierra?",
+      "opciones": {
+        "A": "Langostas",
+        "B": "Peste",
+        "C": "Terremoto",
+        "D": "Inundación"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Joel 1:4 describe la invasión de langostas: 'Lo que dejó la oruga se lo comió la langosta; y lo que dejó la langosta se lo comió el saltón; y lo que dejó el saltón se lo comió el revoltonero.'"
+    },
+    {
+      "id": 235,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Joel - Profecía",
+      "pregunta": "¿Qué promesa del espíritu profetizó Joel que se cumplió en Pentecostés?",
+      "opciones": {
+        "A": "'Derramaré mi espíritu sobre toda carne'",
+        "B": "'Haré llover fuego del cielo'",
+        "C": "'Abriré los mares'",
+        "D": "'Haré callar a los profetas'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Joel 2:28 dice: 'Y después de esto derramaré mi espíritu sobre toda carne, y profetizarán vuestros hijos y vuestras hijas.' Hechos 2:16-17 cita esta profecía."
+    },
+    {
+      "id": 236,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Amós - Profecía",
+      "pregunta": "¿Cuál era la profesión de Amós antes de ser profeta?",
+      "opciones": {
+        "A": "Sacerdote",
+        "B": "Pastor de ovejas y cultivador de higos",
+        "C": "Rey",
+        "D": "Carpintero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Amós 1:1 y 7:14 dice que Amós era pastor de Tecoa, y cultivaba higos silvestres."
+    },
+    {
+      "id": 237,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Amós - Profecía",
+      "pregunta": "¿Qué visión tuvo Amós de la cesta de fruta madura?",
+      "opciones": {
+        "A": "Que Israel sería bendecido",
+        "B": "Que el fin había llegado para Israel",
+        "C": "Que habría abundancia",
+        "D": "Que los gentiles se convertirían"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Amós 8:1-2 usa el juego de palabras hebreo entre 'cesta de fruta madura' (qayits) y 'fin' (qets), anunciando que el fin había llegado."
+    },
+    {
+      "id": 238,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Jonás - Historia",
+      "pregunta": "¿A qué ciudad fue enviado Jonás a predicar?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Nínive",
+        "C": "Tiro",
+        "D": "Sidón"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jonás 1:2 dice: 'Levántate, ve a Nínive, la gran ciudad, y predica contra ella; porque su maldad ha subido delante de mí.'"
+    },
+    {
+      "id": 239,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Jonás - Historia",
+      "pregunta": "¿Adónde intentó huir Jonás?",
+      "opciones": {
+        "A": "A Egipto",
+        "B": "A Tarsis",
+        "C": "A Jerusalén",
+        "D": "A Damasco"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jonás 1:3 dice que Jonás bajó a Jope, donde halló un barco que iba a Tarsis; pagó su pasaje y embarcó para irse con ellos a Tarsis."
+    },
+    {
+      "id": 240,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Jonás - Historia",
+      "pregunta": "¿Cuánto tiempo estuvo Jonás en el vientre del gran pez?",
+      "opciones": {
+        "A": "1 día",
+        "B": "3 días y 3 noches",
+        "C": "7 días",
+        "D": "40 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jonás 1:17 dice que Jehová preparó un gran pez para que tragara a Jonás; y Jonás estuvo en el vientre del pez tres días y tres noches."
+    },
+    {
+      "id": 241,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Miqueas - Profecía",
+      "pregunta": "¿Qué profecía de Miqueas se cumplió con el nacimiento de Jesús?",
+      "opciones": {
+        "A": "Que nacería en Nazaret",
+        "B": "Que nacería en Belén de Efrata",
+        "C": "Que nacería en Jerusalén",
+        "D": "Que nacería en Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Miqueas 5:2 dice: 'Pero tú, Belén Efrata, aunque eres pequeña entre las familias de Judá, de ti me saldrá el que ha de ser gobernante en Israel.' Mateo 2:5-6 cita esto."
+    },
+    {
+      "id": 242,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Miqueas - Profecía",
+      "pregunta": "¿Qué pide Dios según Miqueas 6:8?",
+      "opciones": {
+        "A": "Sacrificios de miles de carneros",
+        "B": "Hacer justicia, amar la misericordia, andar humildemente con Dios",
+        "C": "Construir templos",
+        "D": "Ayunar 40 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Miqueas 6:8 dice: 'Oh hombre, él te ha declarado lo que es bueno, y qué pide Jehová de ti: solamente hacer justicia, y amar misericordia, y humillarte ante tu Dios.'"
+    },
+    {
+      "id": 243,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Habacuc - Profecía",
+      "pregunta": "¿Qué famosa frase dice Habacuc 2:4 sobre la justicia?",
+      "opciones": {
+        "A": "'El justo vivirá por su fe'",
+        "B": "'El justo nunca pecará'",
+        "C": "'El justo será rico'",
+        "D": "'El justo no sufrirá'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Habacuc 2:4 dice: 'He aquí que aquel cuya alma no es recta, se enorgullece; pero el justo vivirá por su fe.' Citado en Romanos 1:17 y Gálatas 3:11."
+    },
+    {
+      "id": 244,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Sofonías - Profecía",
+      "pregunta": "¿Qué día describe Sofonías como 'día de la indignación de Jehová'?",
+      "opciones": {
+        "A": "El sábado",
+        "B": "El día de Jehová",
+        "C": "La Pascua",
+        "D": "Pentecostés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Sofonías 1:14-15 describe el 'día grande de Jehová' cercano, día de la indignación, día de angustia y aflicción."
+    },
+    {
+      "id": 245,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Hageo - Profecía",
+      "pregunta": "¿Qué exhortó Hageo al pueblo a hacer?",
+      "opciones": {
+        "A": "Ir a la guerra",
+        "B": "Edificar la casa de Jehová (el templo)",
+        "C": "Dejar de trabajar",
+        "D": "Huir a Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hageo 1:2-8 exhorta al pueblo que dice 'No es tiempo de venir, el tiempo de la casa de Jehová', a edificar la casa del Señor."
+    },
+    {
+      "id": 246,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Zacarías - Profecía",
+      "pregunta": "¿Qué visión tuvo Zacarías de un hombre entre dos olivos?",
+      "opciones": {
+        "A": "Josué el sumo sacerdote",
+        "B": "El sumo sacerdote Josué, y más tarde se aplica al Ungido (Mesías)",
+        "C": "Zorobabel",
+        "D": "Esdras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Zacarías 3 y 4 describen visiones del sumo sacerdote Josué y de un candelabro de oro con dos olivos a los lados, simbolizando a los ungidos (Zorobabel y Josué)."
+    },
+    {
+      "id": 247,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Zacarías - Profecía",
+      "pregunta": "¿Qué entrada triunfal profetizó Zacarías 9:9?",
+      "opciones": {
+        "A": "Un rey en un carro de guerra",
+        "B": "El Rey viene a ti, justo y salvador, humilde y cabalgando sobre un asno",
+        "C": "Un general en un caballo blanco",
+        "D": "Un sacerdote caminando"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Zacarías 9:9 dice: 'Alégrate mucho, hija de Sion; da voces de júbilo, hija de Jerusalén; he aquí tu Rey viene a ti, justo y salvador, humilde, y cabalgando sobre un asno.' Mateo 21:4-5 lo cita."
+    },
+    {
+      "id": 248,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Zacarías - Profecía",
+      "pregunta": "¿Qué profecía de Zacarías se cumplió cuando los soldados perforaron las manos y pies de Jesús?",
+      "opciones": {
+        "A": "Serían clavados en una cruz",
+        "B": "Lo que me hicieron cuando clavaron mis manos y mis pies",
+        "C": "Sería golpeado en la cara",
+        "D": "Sería azotado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Zacarías 12:10 y 13:6 hablan de las marcas en las manos y el costado, y de mirar al que traspasaron."
+    },
+    {
+      "id": 249,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Malaquías - Profecía",
+      "pregunta": "¿Qué profetizó Malaquías sobre el precursor del Mesías?",
+      "opciones": {
+        "A": "Que sería un ángel",
+        "B": "Que Elías vendría antes del día grande",
+        "C": "Que sería un rey extranjero",
+        "D": "Que sería un sacerdote romano"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías 4:5 dice: 'He aquí yo os envío a Elías el profeta, antes que venga el día grande y terrible de Jehová.' Juan el Bautista cumplió esto según Lucas 1:17."
+    },
+    {
+      "id": 250,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Malaquías - Profecía",
+      "pregunta": "¿Qué dice Malaquías sobre el diezmo?",
+      "opciones": {
+        "A": "Que ya no es necesario",
+        "B": "'Traed todos los diezmos a los almacenes'",
+        "C": "Que se debe dar a los pobres",
+        "D": "Que se debe quemar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías 3:10 dice: 'Traed todos los diezmos a los almacenes, para que haya alimento en mi casa; y probadme ahora en esto, dice Jehová de los ejércitos.'"
+    }
+  ]
+}

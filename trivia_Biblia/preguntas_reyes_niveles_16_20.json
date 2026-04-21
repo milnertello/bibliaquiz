@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "16-20",
+    "dificultad": "Fácil",
+    "tema": "Reyes de Israel",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre los reinados de Saúl, David, Salomón y los reyes divididos"
+  },
+  "preguntas": [
+    {
+      "id": 151,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿Quién ungió a Saúl como rey de Israel?",
+      "opciones": {
+        "A": "El sumo sacerdote",
+        "B": "Samuel",
+        "C": "David",
+        "D": "Jonathan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 10:1 dice que Samuel tomó el frasco de aceite y lo derramó sobre la cabeza de Saúl, y lo besó."
+    },
+    {
+      "id": 152,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿Cuánto medía Saúl, el primer rey de Israel?",
+      "opciones": {
+        "A": "De estatura mediana",
+        "B": "De hombros para arriba más alto que cualquiera del pueblo",
+        "C": "Enano",
+        "D": "No se menciona"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 9:2 dice que no había entre el pueblo nadie más bien parecido que él; desde los hombros para arriba sobrepasaba a cualquiera del pueblo."
+    },
+    {
+      "id": 153,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿Qué pecado cometió Saúl que le costó el reino?",
+      "opciones": {
+        "A": "Adorar ídolos",
+        "B": "Ofrecer sacrificio cuando debía esperar a Samuel",
+        "C": "Matar a un inocente",
+        "D": "Robar del templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 13:8-14 describe cómo Saúl ofreció el holocausto impacientemente, sin esperar a Samuel, pecando contra Dios."
+    },
+    {
+      "id": 154,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿A quién no quiso matar Saúl cuando Dios lo ordenó?",
+      "opciones": {
+        "A": "Los filisteos",
+        "B": "Agag, rey de Amalec",
+        "C": "Los amonitas",
+        "D": "Los moabitas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 15:9 dice que Saúl y el pueblo perdonaron a Agag, y a lo mejor de las ovejas y del ganado."
+    },
+    {
+      "id": 155,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿De qué ciudad era David?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Belén",
+        "C": "Hebrón",
+        "D": "Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 16:1 dice que Jehová dijo a Samuel: 'Llena tu cuerno de aceite y vete; te envío a Isaí el belenita.'"
+    },
+    {
+      "id": 156,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Cuántos hijos tenía Isaí, el padre de David?",
+      "opciones": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "12"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 16:10-11 dice que pasaron siete hijos ante Samuel, pero David era el octavo, el menor."
+    },
+    {
+      "id": 157,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Qué animal David mató para proteger las ovejas de su padre?",
+      "opciones": {
+        "A": "Un lobo",
+        "B": "Un oso y un león",
+        "C": "Un tigre",
+        "D": "Una serpiente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 17:34-37 dice que David había matado un león y un oso mientras cuidaba las ovejas de su padre."
+    },
+    {
+      "id": 158,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David y Goliat",
+      "pregunta": "¿Qué gigante filisteo mató David?",
+      "opciones": {
+        "A": "Sísara",
+        "B": "Goliat de Gat",
+        "C": "Og",
+        "D": "Anac"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 17:4 dice que salió un hombre de los campamentos de los filisteos, cuyo nombre era Goliat, de Gat."
+    },
+    {
+      "id": 159,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David y Goliat",
+      "pregunta": "¿Con qué arma mató David a Goliat?",
+      "opciones": {
+        "A": "Una espada",
+        "B": "Una lanza",
+        "C": "Una piedra de honda",
+        "D": "Un arco"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 17:49 dice que David metió su mano en la bolsa, tomó de allí una piedra, y la tiró con la honda, e hirió al filisteo en la frente."
+    },
+    {
+      "id": 160,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David y Saúl",
+      "pregunta": "¿Por qué Saúl persiguió a David?",
+      "opciones": {
+        "A": "Porque David robó sus ovejas",
+        "B": "Por celos, porque el pueblo prefería a David",
+        "C": "Porque David mató a su hijo",
+        "D": "Porque David quería ser sacerdote"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 18:7-9 dice que las mujeres cantaban: 'Saúl ha matado sus miles, y David sus diez miles', lo que llenó de ira a Saúl."
+    },
+    {
+      "id": 161,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David y Saúl",
+      "pregunta": "¿Cuántas veces David tuvo la oportunidad de matar a Saúl y no lo hizo?",
+      "opciones": {
+        "A": "Una vez",
+        "B": "Dos veces",
+        "C": "Tres veces",
+        "D": "Nunca tuvo la oportunidad"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 24 y 26 describen dos ocasiones en que David pudo matar a Saúl pero se abstuvo de hacerlo."
+    },
+    {
+      "id": 162,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Con quién se casó David después de matar a Goliat?",
+      "opciones": {
+        "A": "Abigail",
+        "B": "Betsabé",
+        "C": "Mical, hija de Saúl",
+        "D": "Ana"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 18:27 dice que David le fue dada Mical, hija de Saúl, por esposa, como recompensa por matar a cien filisteos."
+    },
+    {
+      "id": 163,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Quién era el mejor amigo de David?",
+      "opciones": {
+        "A": "Joab",
+        "B": "Jonathan, hijo de Saúl",
+        "C": "Abner",
+        "D": "Siba"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 18:1 dice que el alma de Jonathan quedó ligada al alma de David, y Jonathan lo amó como a sí mismo."
+    },
+    {
+      "id": 164,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Cómo murieron Saúl y sus hijos?",
+      "opciones": {
+        "A": "De enfermedad",
+        "B": "En batalla contra los filisteos en el monte Gilboa",
+        "C": "Ejecutados por David",
+        "D": "Ahogados"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 31:1-6 describe la muerte de Saúl y sus hijos en batalla contra los filisteos en el monte Gilboa."
+    },
+    {
+      "id": 165,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David rey",
+      "pregunta": "¿Sobre qué tribu reinó David primero?",
+      "opciones": {
+        "A": "Judá",
+        "B": "Efraín",
+        "C": "Benjamín",
+        "D": "Todo Israel"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "2 Samuel 2:4 dice que los hombres de Judá vinieron y allí ungieron a David por rey sobre la casa de Judá."
+    },
+    {
+      "id": 166,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David rey",
+      "pregunta": "¿Cuántos años reinó David sobre todo Israel y Judá?",
+      "opciones": {
+        "A": "20 años",
+        "B": "33 años",
+        "C": "40 años",
+        "D": "50 años"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Samuel 5:4-5 dice que David tenía treinta años cuando comenzó a reinar, y reinó cuarenta años."
+    },
+    {
+      "id": 167,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David rey",
+      "pregunta": "¿Qué ciudad hizo David su capital?",
+      "opciones": {
+        "A": "Hebrón",
+        "B": "Jerusalén (la ciudad de David)",
+        "C": "Samaria",
+        "D": "Betel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 5:6-9 describe cómo David capturó la fortaleza de Sion, y la llamó la ciudad de David."
+    },
+    {
+      "id": 168,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - El arca",
+      "pregunta": "¿Quién intentó llevar el arca en un carro nuevo y murió por tocarla?",
+      "opciones": {
+        "A": "David",
+        "B": "Uza",
+        "C": "Abiatar",
+        "D": "Sadoq"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 6:6-7 dice que Uza extendió su mano al arca y la sostuvo, porque los bueyes tropezaban; y Jehová se encendió en ira contra Uza."
+    },
+    {
+      "id": 169,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David pecado",
+      "pregunta": "¿Con quién cometió adulterio David?",
+      "opciones": {
+        "A": "Abigail",
+        "B": "Betsabé, esposa de Urías",
+        "C": "Mical",
+        "D": "Abisag"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 11:2-5 describe cómo David vio a Betsabé bañándose y cometió adulterio con ella."
+    },
+    {
+      "id": 170,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David pecado",
+      "pregunta": "¿Qué hizo David para ocultar su adulterio?",
+      "opciones": {
+        "A": "Confesó inmediatamente",
+        "B": "Hizo matar a Urías, el esposo de Betsabé",
+        "C": "Exilió a Betsabé",
+        "D": "Pagó dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 11:14-17 describe cómo David ordenó poner a Urías donde más duro fuera el combate, para que muriera."
+    },
+    {
+      "id": 171,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - David pecado",
+      "pregunta": "¿Qué profeta confrontó a David por su pecado?",
+      "opciones": {
+        "A": "Samuel",
+        "B": "Gad",
+        "C": "Natan",
+        "D": "Aías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Samuel 12:1 dice que Jehová envió a Natan a David; y viniendo a él, le dijo: 'Había dos hombres en una ciudad.'"
+    },
+    {
+      "id": 172,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - David pecado",
+      "pregunta": "¿Qué consecuencia tuvo el pecado de David según Natan?",
+      "opciones": {
+        "A": "Perdería el reino",
+        "B": "La espada no se apartaría de su casa",
+        "C": "Sería exiliado",
+        "D": "Perdería todas sus riquezas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 12:10 dice que ahora no se apartará jamás de tu casa la espada, por cuanto me menospreciaste y tomaste la mujer de Urías."
+    },
+    {
+      "id": 173,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - Absalón",
+      "pregunta": "¿Quién se rebeló contra David y tomó el reino?",
+      "opciones": {
+        "A": "Adonías",
+        "B": "Absalón",
+        "C": "Amnón",
+        "D": "Salomón"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 15 describe la rebelión de Absalón contra su padre David, tomando el reino de Israel."
+    },
+    {
+      "id": 174,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - Absalón",
+      "pregunta": "¿Qué le sucedió a Absalón durante la batalla contra David?",
+      "opciones": {
+        "A": "Fue capturado",
+        "B": "Se escapó",
+        "C": "Su cabeza quedó atrapada en un árbol y lo mataron",
+        "D": "Se rindió"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Samuel 18:9-15 describe cómo la cabeza de Absalón quedó enredada en una encina, y Joab lo mató con tres lanzadas."
+    },
+    {
+      "id": 175,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Quién sucedió a David como rey?",
+      "opciones": {
+        "A": "Adonías",
+        "B": "Absalón",
+        "C": "Salomón",
+        "D": "Roboam"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 2:12 dice que Salomón se sentó en el trono de David su padre, y su reino fue establecido firmemente."
+    },
+    {
+      "id": 176,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Qué pidió Salomón a Dios cuando se le ofreció cualquier cosa?",
+      "opciones": {
+        "A": "Riquezas",
+        "B": "Larga vida",
+        "C": "Sabiduría para juzgar al pueblo",
+        "D": "Victoria en batallas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 3:9 dice que Salomón pidió: 'Da, pues, a tu siervo corazón entendido para juzgar a tu pueblo, para discernir entre lo bueno y lo malo.'"
+    },
+    {
+      "id": 177,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Cuántos hijos tenía David cuando murió?",
+      "opciones": {
+        "A": "Uno",
+        "B": "Doce",
+        "C": "Veintidós",
+        "D": "No se sabe el número exacto, pero varios"
+      },
+      "respuesta_correcta": "D",
+      "explicacion": "1 Crónicas 3:1-9 enumera los hijos de David, incluyendo a los nacidos en Hebrón y Jerusalén."
+    },
+    {
+      "id": 178,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Qué famoso caso de sabiduría resolvió Salomón?",
+      "opciones": {
+        "A": "El caso del becerro de oro",
+        "B": "Dos mujeres que reclamaban el mismo bebé",
+        "C": "Un robo de ovejas",
+        "D": "Un asesinato"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 3:16-28 describe el caso de las dos prostitutas que reclamaban el mismo bebé vivo."
+    },
+    {
+      "id": 179,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Quién construyó el templo de Jehová en Jerusalén?",
+      "opciones": {
+        "A": "David",
+        "B": "Salomón",
+        "C": "Josué",
+        "D": "Moisés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 6:1 dice que en el año cuatrocientos ochenta después de la salida de los hijos de Israel de la tierra de Egipto, en el cuarto año del reinado de Salomón sobre Israel, comenzó a edificar la casa de Jehová."
+    },
+    {
+      "id": 180,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Cuántos años tardó Salomón en construir el templo?",
+      "opciones": {
+        "A": "7 años",
+        "B": "13 años",
+        "C": "20 años",
+        "D": "40 años"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 6:38 dice que en el año undécimo, en el mes de bul, que es el octavo mes, fue terminada la casa con todas sus dependencias."
+    },
+    {
+      "id": 181,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Qué rey de Tiro ayudó a Salomón con materiales para el templo?",
+      "opciones": {
+        "A": "Abimelec",
+        "B": "Hiram",
+        "C": "Ben-adad",
+        "D": "Acab"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 5:1 dice que Hiram rey de Tiro envió sus siervos a Salomón, porque había oído que lo habían ungido por rey en lugar de su padre."
+    },
+    {
+      "id": 182,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Qué había en el Lugar Santísimo del templo de Salomón?",
+      "opciones": {
+        "A": "El altar del incienso",
+        "B": "El arca del pacto con los querubines",
+        "C": "La mesa de los panes",
+        "D": "El candelabro de oro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 8:6 dice que metieron el arca del pacto en el Lugar Santísimo de la casa, en el santuario interior."
+    },
+    {
+      "id": 183,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Reina de Saba",
+      "pregunta": "¿Qué reina vino a visitar a Salomón para probarlo con preguntas difíciles?",
+      "opciones": {
+        "A": "La reina de Egipto",
+        "B": "La reina de Saba",
+        "C": "La reina de Persia",
+        "D": "La reina de Tiro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 10:1 dice que la reina de Saba, al oír la fama de Salomón en relación con el nombre de Jehová, vino a probarlo con preguntas difíciles."
+    },
+    {
+      "id": 184,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Cuántas esposas tuvo Salomón según 1 Reyes?",
+      "opciones": {
+        "A": "100",
+        "B": "300",
+        "C": "700 esposas y 300 concubinas",
+        "D": "1000"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 11:3 dice que tuvo setecientas esposas, princesas, y trescientas concubinas."
+    },
+    {
+      "id": 185,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - División",
+      "pregunta": "¿Quién sucedió a Salomón como rey?",
+      "opciones": {
+        "A": "Jeroboam",
+        "B": "Roboam",
+        "C": "David",
+        "D": "Abías"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 11:43 dice que Roboam su hijo reinó en su lugar."
+    },
+    {
+      "id": 186,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - División",
+      "pregunta": "¿En cuántos reinos se dividió Israel después de Salomón?",
+      "opciones": {
+        "A": "2",
+        "B": "3",
+        "C": "12",
+        "D": "10"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 12:16-20 describe la división del reino en Israel (diez tribus al norte) y Judá (dos tribus al sur)."
+    },
+    {
+      "id": 187,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - División",
+      "pregunta": "¿Quién se convirtió en rey de las diez tribus del norte?",
+      "opciones": {
+        "A": "Roboam",
+        "B": "Jeroboam hijo de Nabat",
+        "C": "Salomón",
+        "D": "David"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 12:20 dice que cuando todo Israel oyó que Jeroboam había vuelto, le enviaron a llamar a la asamblea y le hicieron rey sobre todo Israel."
+    },
+    {
+      "id": 188,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Jeroboam",
+      "pregunta": "¿Qué pecado cometió Jeroboam que condenó a Israel?",
+      "opciones": {
+        "A": "Robar dinero",
+        "B": "Hacer becerros de oro en Betel y Dan para adoración",
+        "C": "Matar a sacerdotes",
+        "D": "Adorar a Baal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 12:28-30 describe cómo Jeroboam hizo dos becerros de oro y dijo al pueblo: 'He aquí tus dioses, Israel, que te sacaron de la tierra de Egipto.'"
+    },
+    {
+      "id": 189,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Profetas",
+      "pregunta": "¿Qué profeta anunció la división del reino a Jeroboam?",
+      "opciones": {
+        "A": "Elías",
+        "B": "Eliseo",
+        "C": "Ahías de Silo",
+        "D": "Natán"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 11:29-31 describe cómo el profeta Ahías de Silo le dijo a Jeroboam que tomaría diez tribus."
+    },
+    {
+      "id": 190,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Profetas",
+      "pregunta": "¿Qué profeta desafió a los profetas de Baal en el monte Carmelo?",
+      "opciones": {
+        "A": "Eliseo",
+        "B": "Elías",
+        "C": "Moisés",
+        "D": "Samuel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 18:17-40 describe el desafío de Elías contra los 450 profetas de Baal en el monte Carmelo."
+    },
+    {
+      "id": 191,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Qué rey y reina adoraban a Baal en el tiempo de Elías?",
+      "opciones": {
+        "A": "Salomón y sus esposas",
+        "B": "Acab y Jezabel",
+        "C": "Jeroboam y su esposa",
+        "D": "Roboam y su madre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 16:31-32 dice que Acab tomó por esposa a Jezabel, hija de Etbaal rey de los sidonios, y fue y sirvió a Baal."
+    },
+    {
+      "id": 192,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Cuánto tiempo no llovió por la oración de Elías?",
+      "opciones": {
+        "A": "1 año",
+        "B": "3 años y 6 meses",
+        "C": "7 años",
+        "D": "40 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 17:1 y Santiago 5:17 mencionan que no llovió por tres años y seis meses."
+    },
+    {
+      "id": 193,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Quién alimentó a Elías durante la sequía?",
+      "opciones": {
+        "A": "Un rey",
+        "B": "Una viuda de Sarepta (Sarafat)",
+        "C": "Sus discípulos",
+        "D": "Cuervos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 17:9-16 describe cómo una viuda de Sarepta alimentó a Elías con harina y aceite milagrosamente multiplicados."
+    },
+    {
+      "id": 194,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Eliseo",
+      "pregunta": "¿Quién sucedió a Elías como profeta?",
+      "opciones": {
+        "A": "Natán",
+        "B": "Isaías",
+        "C": "Eliseo",
+        "D": "Jeremías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 2:9-15 describe la transferencia del espíritu de Elías a Eliseo."
+    },
+    {
+      "id": 195,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Elías",
+      "pregunta": "¿Cómo fue llevado Elías al cielo?",
+      "opciones": {
+        "A": "Murió de viejo",
+        "B": "En un torbellino en un carro de fuego",
+        "C": "Caminando",
+        "D": "Se durmió"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Reyes 2:11 dice que un carro de fuego con caballos de fuego se interpuso entre ambos, y Elías subió al cielo en un torbellino."
+    },
+    {
+      "id": 196,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Naamán",
+      "pregunta": "¿Qué sirio fue sanado de lepra por Eliseo?",
+      "opciones": {
+        "A": "Ben-adad",
+        "B": "Hazael",
+        "C": "Naamán",
+        "D": "Jehú"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 5:1-14 describe la sanación de Naamán, comandante del ejército sirio, quien se sumergió siete veces en el Jordán."
+    },
+    {
+      "id": 197,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Israel caída",
+      "pregunta": "¿Qué imperio conquistó al reino del norte (Israel)?",
+      "opciones": {
+        "A": "Egipto",
+        "B": "Asiria",
+        "C": "Babilonia",
+        "D": "Persia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Reyes 17:6 dice que en el noveno año de Oseas, el rey de Asiria conquistó Samaria y llevó cautivo a Israel a Asiria."
+    },
+    {
+      "id": 198,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Judá caída",
+      "pregunta": "¿Qué imperio conquistó al reino del sur (Judá)?",
+      "opciones": {
+        "A": "Asiria",
+        "B": "Egipto",
+        "C": "Babilonia",
+        "D": "Persia"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 25:1-11 describe la conquista de Jerusalén por Nabucodonosor, rey de Babilonia."
+    },
+    {
+      "id": 199,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Hezekías",
+      "pregunta": "¿Qué rey de Judá hizo reformas religiosas y celebró la Pascua con gran gozo?",
+      "opciones": {
+        "A": "Acab",
+        "B": "Manasés",
+        "C": "Ezequías (Hezekías)",
+        "D": "Josías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 18:1-6 describe las reformas de Ezequías, quien removió los lugares altos y quebró las columnas."
+    },
+    {
+      "id": 200,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Ezequías",
+      "pregunta": "¿Cuántos años Dios extendió la vida de Ezequías cuando oró?",
+      "opciones": {
+        "A": "5 años",
+        "B": "10 años",
+        "C": "15 años",
+        "D": "20 años"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 20:5-6 dice que Jehová extendió la vida de Ezequías quince años."
+    }
+  ]
+}

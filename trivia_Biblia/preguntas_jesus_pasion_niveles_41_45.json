@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "41-45",
+    "dificultad": "Medio-Difícil",
+    "tema": "Pasión, muerte y resurrección de Jesús",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre la última semana, crucifixión y resurrección de Jesús"
+  },
+  "preguntas": [
+    {
+      "id": 401,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Pascua",
+      "pregunta": "¿Qué festividad judía se celebraba cuando Jesús fue crucificado?",
+      "opciones": {
+        "A": "Pentecostés",
+        "B": "La Pascua",
+        "C": "Hanukkah",
+        "D": "Tabernáculos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:2 dice que Jesús dijo: 'Sabéis que dentro de dos días es la pascua, y el Hijo del Hombre es entregado para ser crucificado.'"
+    },
+    {
+      "id": 402,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas - Preparación",
+      "pregunta": "¿Qué día de la semana Jesús fue ungido en Betania?",
+      "opciones": {
+        "A": "Sábado",
+        "B": "Sábado anterior (antes de la Pascua)",
+        "C": "Viernes",
+        "D": "Domingo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:6-13 y Juan 12:1-8 describen la unción en Betania seis días antes de la pascua, posiblemente sábado anterior."
+    },
+    {
+      "id": 403,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Juan - Unción",
+      "pregunta": "¿Quién ungió a Jesús con perfume costoso en Betania?",
+      "opciones": {
+        "A": "María hermana de Marta y Lázaro",
+        "B": "Una mujer pecadora",
+        "C": "María Magdalena",
+        "D": "A y B son posibles según los evangelios"
+      },
+      "respuesta_correcta": "D",
+      "explicacion": "Juan 12:3 identifica a María hermana de Lázaro. Lucas 7:37-38 describe a una mujer pecadora. Los testigos de Jehová interpretan que podrían ser eventos diferentes o la misma persona."
+    },
+    {
+      "id": 404,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Jueves",
+      "pregunta": "¿Qué instituyó Jesús durante la última cena?",
+      "opciones": {
+        "A": "El bautismo",
+        "B": "La Cena del Señor (Eucaristía)",
+        "C": "La circuncisión",
+        "D": "El diezmo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:26-28 describe cómo Jesús tomó pan, lo partió y dio a sus discípulos, y también la copa, diciendo que era su cuerpo y sangre."
+    },
+    {
+      "id": 405,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Jueves",
+      "pregunta": "¿Qué cantaron Jesús y los discípulos después de la última cena?",
+      "opciones": {
+        "A": "Un himno de victoria",
+        "B": "Un himno (salmo)",
+        "C": "Nada",
+        "D": "Aleluyas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:30 dice que habiendo cantado un himno, salieron al monte de los Olivos."
+    },
+    {
+      "id": 406,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Predicción",
+      "pregunta": "¿Qué predijo Jesús sobre Pedro durante la última cena?",
+      "opciones": {
+        "A": "Que lo amaría siempre",
+        "B": "Que lo negaría tres veces antes de que cantara el gallo",
+        "C": "Que moriría con él",
+        "D": "Que sería el primer papa"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:34 dice que Jesús dijo: 'De cierto te digo que esta noche, antes que cante el gallo, me negarás tres veces.'"
+    },
+    {
+      "id": 407,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Juan - Lavatorio",
+      "pregunta": "¿Qué hizo Jesús que sorprendió a los discípulos durante la última cena?",
+      "opciones": {
+        "A": "Bailó",
+        "B": "Lavó los pies de los discípulos",
+        "C": "Durmió",
+        "D": "Comió solo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 13:4-5 dice que se levantó de la cena, se quitó su ropa superior, y tomó una toalla y se la ciñó, y echó agua en un lebrillo y comenzó a lavar los pies de los discípulos."
+    },
+    {
+      "id": 408,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Juan - Mandamiento nuevo",
+      "pregunta": "¿Cuál es el mandamiento nuevo que Jesús dio en la última cena?",
+      "opciones": {
+        "A": "'No matarás'",
+        "B": "'Que os améis unos a otros; como yo os he amado'",
+        "C": "'Honra a tu padre'",
+        "D": "'Guarda el sábado'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 13:34 dice: 'Un mandamiento nuevo os doy: Que os améis unos a otros; como yo os he amado, que también os améis unos a otros.'"
+    },
+    {
+      "id": 409,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Juan - Consolador",
+      "pregunta": "¿Qué prometió Jesús enviar después de su partida?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "El Espíritu de la verdad (Consolador)",
+        "C": "Un profeta",
+        "D": "Un rey"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 14:16-17 dice que Jesús pedirá al Padre que dé otro Consolador para que esté con ustedes para siempre: el Espíritu de verdad."
+    },
+    {
+      "id": 410,
+      "nivel": 41,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Getsemaní",
+      "pregunta": "¿Dónde oró Jesús antes de ser arrestado?",
+      "opciones": {
+        "A": "En el templo",
+        "B": "En el huerto de Getsemaní (huerto de los olivos)",
+        "C": "En la casa de Caifás",
+        "D": "En la casa de Pilato"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:36 dice que llegaron a un lugar llamado Getsemaní, y Jesús dijo a sus discípulos: 'Sentaos aquí, mientras voy allá a orar.'"
+    },
+    {
+      "id": 411,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Getsemaní",
+      "pregunta": "¿Qué tres discípulos tomó Jesús más adentro en Getsemaní?",
+      "opciones": {
+        "A": "Pedro, Andrés y Juan",
+        "B": "Pedro, Jacobo y Juan",
+        "C": "Felipe, Tomás y Mateo",
+        "D": "Juan, Santiago y Andrés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:37 dice que tomó consigo a Pedro, y a los dos hijos de Zebedeo (Jacobo y Juan)."
+    },
+    {
+      "id": 412,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Oración",
+      "pregunta": "¿Qué oró Jesús tres veces en Getsemaní?",
+      "opciones": {
+        "A": "'Padre, glorifícame'",
+        "B": "'Padre mío, si es posible, pase de mí esta copa'",
+        "C": "'Vengan a mí'",
+        "D": "'Perdónalos'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:39 dice que se adelantó un poco, y se postró sobre su rostro, orando y diciendo: 'Padre mío, si es posible, pase de mí esta copa.'"
+    },
+    {
+      "id": 413,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Sumisión",
+      "pregunta": "¿Cómo concluyó Jesús su oración en Getsemaní?",
+      "opciones": {
+        "A": "'No quiero'",
+        "B": "'No se haga mi voluntad, sino la tuya'",
+        "C": "'Sálvenme'",
+        "D": "'Huyamos'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:42 dice la segunda vez: 'Padre mío, si no puede pasar esta copa sin que yo la beba, hágase tu voluntad.'"
+    },
+    {
+      "id": 414,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Sudor",
+      "pregunta": "¿Qué pasó con Jesús mientras oraba intensamente?",
+      "opciones": {
+        "A": "Se durmió",
+        "B": "Su sudor se hizo como grandes gotas de sangre",
+        "C": "Desapareció",
+        "D": "Se enfermó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 22:44 dice que estando en agonía, oraba más intensamente; y era su sudor como grandes gotas de sangre que caían hasta la tierra."
+    },
+    {
+      "id": 415,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Arresto",
+      "pregunta": "¿Quién guió a los soldados para arrestar a Jesús?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Judas Iscariote con un beso",
+        "C": "Pilato",
+        "D": "Caifás"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:47-48 dice que vino Judas, uno de los doce, y con él una gran multitud; y había dado señal a los enemigos, diciendo: 'Al que yo besare, ése es.'"
+    },
+    {
+      "id": 416,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Juan - Espada",
+      "pregunta": "¿Qué hizo Pedro durante el arresto de Jesús?",
+      "opciones": {
+        "A": "Huyó",
+        "B": "Cortó la oreja derecha de Malsus (siervo del sumo sacerdote)",
+        "C": "Oró",
+        "D": "Negó a Jesús"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:51 dice que uno de los que estaban con Jesús, extendiendo la mano, sacó su espada, e hiriendo al siervo del sumo sacerdote, le quitó la oreja. Juan 18:10 identifica a Pedro."
+    },
+    {
+      "id": 417,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Sanación",
+      "pregunta": "¿Qué hizo Jesús con la oreja cortada del siervo?",
+      "opciones": {
+        "A": "La ignoró",
+        "B": "La sanó",
+        "C": "Se la llevó",
+        "D": "La tiró"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 22:51 dice que respondiendo Jesús, dijo: 'Dejad hasta aquí.' Y tocando su oreja, le sanó."
+    },
+    {
+      "id": 418,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Juan - Juicio nocturno",
+      "pregunta": "¿Dónde llevó primero Jesús después del arresto?",
+      "opciones": {
+        "A": "Ante Pilato",
+        "B": "Ante Anás y luego Caifás (sumo sacerdote)",
+        "C": "A la cárcel",
+        "D": "Al templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 18:13 dice que lo llevaron primero a Anás; porque era suegro de Caifás, sumo sacerdote de aquel año."
+    },
+    {
+      "id": 419,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Negación",
+      "pregunta": "¿Cuántas veces negó Pedro a Jesús?",
+      "opciones": {
+        "A": "Una",
+        "B": "Dos",
+        "C": "Tres",
+        "D": "Cuatro"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Mateo 26:69-75 describe tres negaciones de Pedro: ante una criada, ante otra persona, y ante los que estaban allí."
+    },
+    {
+      "id": 420,
+      "nivel": 42,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Negación",
+      "pregunta": "¿Qué señal marcó la tercera negación de Pedro?",
+      "opciones": {
+        "A": "Un relámpago",
+        "B": "El canto del gallo",
+        "C": "Un terremoto",
+        "D": "Un grito"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:74-75 dice que inmediatamente cantó el gallo, y Pedro se acordó de las palabras de Jesús."
+    },
+    {
+      "id": 421,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Juicio",
+      "pregunta": "¿Qué acusación hicieron contra Jesús ante el Sanedrín?",
+      "opciones": {
+        "A": "Robo",
+        "B": "Blasfemia (por afirmar ser el Hijo de Dios)",
+        "C": "Adulterio",
+        "D": "Asesinato"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:65 dice que el sumo sacerdote rasgó sus vestidos diciendo: 'Ha blasfemado; ¿qué más necesidad tenemos de testigos?'"
+    },
+    {
+      "id": 422,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Juicio",
+      "pregunta": "¿Qué declaró Jesús cuando el sumo sacerdote lo juramentó?",
+      "opciones": {
+        "A": "'Soy un profeta'",
+        "B": "'Tú lo has dicho; y os digo que de aquí en adelante veréis al Hijo del Hombre sentado a la diestra de la virtud de Dios'",
+        "C": "'No soy nada'",
+        "D": "'Mentís'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:64 dice: 'Tú lo has dicho; y además os digo, que de aquí en adelante veréis al Hijo del Hombre sentado a la diestra de la virtud de Dios, y que viene sobre las nubes del cielo.'"
+    },
+    {
+      "id": 423,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Escarnio",
+      "pregunta": "¿Qué le hicieron a Jesús mientras estaba en la casa del sumo sacerdote?",
+      "opciones": {
+        "A": "Le lavaron los pies",
+        "B": "Le escupieron, le dieron bofetadas y le hicieron burla",
+        "C": "Le sirvieron comida",
+        "D": "Le adoraron"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 26:67 dice que le escupieron en el rostro, y le dieron bofetadas, y otros le abofeteaban."
+    },
+    {
+      "id": 424,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Judas",
+      "pregunta": "¿Qué hizo Judas después de entregar a Jesús?",
+      "opciones": {
+        "A": "Se arrepintió, devolvió las monedas de plata y se ahorcó",
+        "B": "Huyó feliz",
+        "C": "Pidió perdón a Jesús",
+        "D": "Se unió a los discípulos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:3-5 dice que Judas, arrepentido, devolvió las treinta monedas de plata, y fue y se ahorcó."
+    },
+    {
+      "id": 425,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Pilato",
+      "pregunta": "¿Quién era el gobernador romano que juzgó a Jesús?",
+      "opciones": {
+        "A": "Herodes",
+        "B": "Poncio Pilato",
+        "C": "Caifás",
+        "D": "Anás"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:2 dice que le llevaron atado a Poncio Pilato, gobernador."
+    },
+    {
+      "id": 426,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Herodes",
+      "pregunta": "¿A quién envió Pilato a Jesús durante el juicio?",
+      "opciones": {
+        "A": "A César",
+        "B": "A Herodes Antipas",
+        "C": "Al templo",
+        "D": "A la cárcel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 23:7 dice que Pilato envió a Jesús a Herodes, que también estaba en Jerusalén en aquellos días."
+    },
+    {
+      "id": 427,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Herodes",
+      "pregunta": "¿Qué hizo Herodes con Jesús?",
+      "opciones": {
+        "A": "Lo liberó",
+        "B": "Lo escarneció, lo vistió con una ropa espléndida y lo devolvió a Pilato",
+        "C": "Lo crucificó",
+        "D": "Lo defendió"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 23:11 dice que Herodes con sus soldados le menospreció y escarneció, vistiéndole con una ropa espléndida; y volvió a enviarle a Pilato."
+    },
+    {
+      "id": 428,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Barabás",
+      "pregunta": "¿A quién soltó Pilato en lugar de Jesús según la costumbre de la fiesta?",
+      "opciones": {
+        "A": "A Pedro",
+        "B": "A Barrabás (prisionero sedicioso)",
+        "C": "A Juan",
+        "D": "A Judas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:15-26 describe cómo la multitud pidió a Pilato que soltara a Barrabás y crucificara a Jesús."
+    },
+    {
+      "id": 429,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Flagelación",
+      "pregunta": "¿Qué ordenó Pilato hacer con Jesús antes de la crucifixión?",
+      "opciones": {
+        "A": "Lo azotara (flagelar)",
+        "B": "Lo encarcelara",
+        "C": "Lo liberara",
+        "D": "Lo exiliara"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:26 dice que Pilato soltó a Barrabás, y habiendo azotado a Jesús, lo entregó para ser crucificado."
+    },
+    {
+      "id": 430,
+      "nivel": 43,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Corona de espinas",
+      "pregunta": "¿Qué le pusieron los soldados a Jesús en la cabeza?",
+      "opciones": {
+        "A": "Una corona de oro",
+        "B": "Una corona de espinas",
+        "C": "Un turbante",
+        "D": "Un casco"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:29 dice que pusieron sobre su cabeza una corona tejida de espinas."
+    },
+    {
+      "id": 431,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Cruz",
+      "pregunta": "¿Qué bebida le dieron a Jesús en la cruz para beber?",
+      "opciones": {
+        "A": "Vino",
+        "B": "Vinagre (o vino agrio)",
+        "C": "Agua",
+        "D": "Leche"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:34 dice que le dieron a beber vinagre mezclado con hiel; pero él, después de haberlo probado, no quiso beber."
+    },
+    {
+      "id": 432,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Crucifixión",
+      "pregunta": "¿A qué hora crucificaron a Jesús según Marcos?",
+      "opciones": {
+        "A": "A las seis de la mañana",
+        "B": "A la hora tercera (9 de la mañana)",
+        "C": "A las doce",
+        "D": "A la hora sexta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Marcos 15:25 dice que era la hora tercera cuando crucificaron a Jesús."
+    },
+    {
+      "id": 433,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Crucifixión",
+      "pregunta": "¿Dónde fue crucificado Jesús?",
+      "opciones": {
+        "A": "En el templo",
+        "B": "En el lugar llamado Gólgota (Calvario, el lugar de la Calavera)",
+        "C": "En la puerta de la ciudad",
+        "D": "En el desierto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:33 dice que llegaron al lugar llamado Gólgota, que significa Lugar de la Calavera."
+    },
+    {
+      "id": 434,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Crucifixión",
+      "pregunta": "¿Con quiénes fue crucificado Jesús?",
+      "opciones": {
+        "A": "Con dos ladrones (o malhechores)",
+        "B": "Con Pedro y Juan",
+        "C": "Con Barrabás y Caifás",
+        "D": "Solo"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:38 dice que con él crucificaron dos ladrones, uno a la derecha y otro a la izquierda."
+    },
+    {
+      "id": 435,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Vestimenta",
+      "pregunta": "¿Qué hicieron los soldados con las vestiduras de Jesús?",
+      "opciones": {
+        "A": "Las quemaron",
+        "B": "Las echaron suertes",
+        "C": "Las devolvieron a María",
+        "D": "Las guardaron"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:35 dice que después de haberle crucificado, repartieron entre sí sus vestiduras, echando suertes sobre ellas."
+    },
+    {
+      "id": 436,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Inscripción",
+      "pregunta": "¿Qué decía el letrero sobre la cabeza de Jesús en la cruz?",
+      "opciones": {
+        "A": "'Este es Jesús, el rey de los judíos'",
+        "B": "'Este es Jesús, el rey de los judíos' (en hebreo, latín y griego)",
+        "C": "'Criminal'",
+        "D": "'Blasfemo'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:37 y Juan 19:19-20 dicen que la inscripción decía 'Jesús el Nazareno, el rey de los judíos' y estaba en hebreo, latín y griego."
+    },
+    {
+      "id": 437,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Escarnio",
+      "pregunta": "¿Qué gritaban los que pasaban mientras Jesús estaba en la cruz?",
+      "opciones": {
+        "A": "'Salvador'",
+        "B": "'Tú que destruyes el templo y en tres días lo reedificas, sálvate a ti mismo'",
+        "C": "'Perdónanos'",
+        "D": "'Hosanna'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:40 dice que decían: 'Tú que destruyes el templo y en tres días lo reedificas, sálvate a ti mismo.'"
+    },
+    {
+      "id": 438,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Perdón",
+      "pregunta": "¿Qué dijo Jesús por los que lo crucificaban?",
+      "opciones": {
+        "A": "'Maldíganlos'",
+        "B": "'Padre, perdónalos, porque no saben lo que hacen'",
+        "C": "'Venganza'",
+        "D": "'No olvidaré esto'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 23:34 dice que Jesús dijo: 'Padre, perdónalos, porque no saben lo que hacen.'"
+    },
+    {
+      "id": 439,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Ladrón",
+      "pregunta": "¿Qué le prometió Jesús al ladrón arrepentido?",
+      "opciones": {
+        "A": "'Mañana estarás conmigo en el paraíso'",
+        "B": "'Te sanaré'",
+        "C": "'Descenderé de la cruz'",
+        "D": "'Tus pecados son pocos'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Lucas 23:43 dice que Jesús le dijo: 'De cierto te digo que hoy estarás conmigo en el paraíso.'"
+    },
+    {
+      "id": 440,
+      "nivel": 44,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Tinieblas",
+      "pregunta": "¿Qué fenómeno ocurrió durante la crucifixión de Jesús?",
+      "opciones": {
+        "A": "Terremoto y oscuridad",
+        "B": "Oscuridad sobre toda la tierra desde la hora sexta hasta la hora novena",
+        "C": "Lluvia",
+        "D": "Nieve"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:45 dice que desde la hora sexta hubo tinieblas sobre toda la tierra hasta la hora novena."
+    },
+    {
+      "id": 441,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Últimas palabras",
+      "pregunta": "¿Cuáles fueron las últimas palabras de Jesús según Juan?",
+      "opciones": {
+        "A": "'Está consumado'",
+        "B": "'Todo está cumplido'",
+        "C": "'Padre, en tus manos encomiendo mi espíritu'",
+        "D": "'Elí, Elí, ¿lama sabactani?'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 19:30 dice que cuando Jesús hubo tomado el vinagre, dijo: 'Todo está cumplido.' Y habiendo inclinado la cabeza, entregó el espíritu."
+    },
+    {
+      "id": 442,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Muerte",
+      "pregunta": "¿Qué sucedió en el templo cuando Jesús murió?",
+      "opciones": {
+        "A": "Se quemó",
+        "B": "El velo del santuario se rasgó en dos, de arriba abajo",
+        "C": "Sonó una trompeta",
+        "D": "Se cerró"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:51 dice que he aquí, el velo del santuario se rasgó en dos, de arriba abajo."
+    },
+    {
+      "id": 443,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Muerte",
+      "pregunta": "¿Qué fenómeno acompañó la muerte de Jesús?",
+      "opciones": {
+        "A": "Un terremoto",
+        "B": "Un eclipse solar",
+        "C": "Una tormenta",
+        "D": "Una inundación"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:51 dice que la tierra tembló, y las rocas se partieron."
+    },
+    {
+      "id": 444,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Centurión",
+      "pregunta": "¿Qué dijo el centurión al ver cómo murió Jesús?",
+      "opciones": {
+        "A": "'Maldito seas'",
+        "B": "'Verdaderamente este era Hijo de Dios' (o 'justo')",
+        "C": "'Es un criminal'",
+        "D": "'No entiendo'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:54 dice que el centurión y los que con él guardaban a Jesús, visto el terremoto y las cosas que habían sido hechas, temieron en gran manera, diciendo: 'Verdaderamente este era Hijo de Dios.'"
+    },
+    {
+      "id": 445,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Sepultura",
+      "pregunta": "¿Quién pidió el cuerpo de Jesús a Pilato para sepultarlo?",
+      "opciones": {
+        "A": "José de Arimatea, discípulo de Jesús",
+        "B": "Los discípulos",
+        "C": "Pilato mismo",
+        "D": "Los soldados"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:57-58 dice que vino un hombre rico de Arimatea, llamado José, discípulo de Jesús, y pidió a Pilato el cuerpo de Jesús."
+    },
+    {
+      "id": 446,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Sepultura",
+      "pregunta": "¿Dónde pusieron a Jesús?",
+      "opciones": {
+        "A": "En un pozo",
+        "B": "En un sepulcro nuevo de José de Arimatea, hecho en la roca",
+        "C": "En el templo",
+        "D": "En un río"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:59-60 dice que José tomó el cuerpo, lo envolvió en una sábana limpia, y lo puso en su sepulcro nuevo, que había sido labrado en la peña."
+    },
+    {
+      "id": 447,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo - Guardia",
+      "pregunta": "¿Qué hizo Pilato con el sepulcro de Jesús?",
+      "opciones": {
+        "A": "Lo dejó abierto",
+        "B": "Selló la piedra y puso guardia",
+        "C": "Lo quemó",
+        "D": "Lo destruyó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 27:65-66 dice que Pilato les dijo: 'Allí tenéis guardias; id, aseguradlo como sabéis.' Y sellaron la piedra."
+    },
+    {
+      "id": 448,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Resurrección",
+      "pregunta": "¿Qué día resucitó Jesús?",
+      "opciones": {
+        "A": "El sábado",
+        "B": "El primer día de la semana (domingo)",
+        "C": "El viernes",
+        "D": "El jueves"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 28:1 dice que al terminar el sábado, al amanecer del primer día de la semana, vinieron María Magdalena y la otra María a ver el sepulcro."
+    },
+    {
+      "id": 449,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Resurrección",
+      "pregunta": "¿Quién(es) vieron primero a Jesús resucitado según los evangelios?",
+      "opciones": {
+        "A": "Los discípulos",
+        "B": "María Magdalena (y las otras mujeres)",
+        "C": "Pedro",
+        "D": "Pilato"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 20:14-18 dice que María Magdalena vio primero a Jesús. Marcos 16:9 confirma que resucitado por la mañana, apareció primero a María Magdalena."
+    },
+    {
+      "id": 450,
+      "nivel": 45,
+      "dificultad": 8,
+      "tema": "Mateo/Marcos/Lucas/Juan - Resurrección",
+      "pregunta": "¿Qué dijo el ángel a las mujeres en el sepulcro?",
+      "opciones": {
+        "A": "'Llorad'",
+        "B": "'¿Por qué buscáis entre los muertos al que vive? No está aquí, sino que ha resucitado'",
+        "C": "'Id en paz'",
+        "D": "'No entren'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 24:5-6 dice que les dijeron: '¿Por qué buscáis entre los muertos al que vive? No está aquí, sino que ha resucitado.'"
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "86-90",
+    "dificultad": "Muy difícil",
+    "tema": "Síntesis bíblica completa (repaso cronológico, conexiones temáticas, teología bíblica)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas de síntesis que conectan todo el canon bíblico, temas teológicos mayores y panoramas cronológicos"
+  },
+  "preguntas": [
+    {
+      "id": 851,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Panorama bíblico - Estructura",
+      "pregunta": "¿Cuáles son las 4 divisiones principales del canon bíblico protestante?",
+      "opciones": {
+        "A": "5 libros de Moisés, 12 libros de historia, 5 libros poéticos, 17 libros proféticos",
+        "B": "Antiguo Testamento (Pentateuco, Históricos, Poéticos, Proféticos), Nuevo Testamento (Evangelios, Hechos, Epístolas, Apocalipsis)",
+        "C": "Solo dos partes",
+        "D": "Tres partes iguales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El canon bíblico protestante (66 libros) se divide en: 1) Antiguo Testamento (39 libros): Pentateuco/Ley (5), Históricos (12), Poéticos/Sabiduría (5), Proféticos (17: mayores 5 + menores 12). 2) Nuevo Testamento (27 libros): Evangelios (4), Hechos (1), Epístolas (21: Paulinas 13 + Generales 8), Apocalipsis (1)."
+    },
+    {
+      "id": 852,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Panorama bíblico - Cronología AT",
+      "pregunta": "¿Cuáles son las 7 épocas principales del Antiguo Testamento?",
+      "opciones": {
+        "A": "Solo 3 épocas",
+        "B": "Creación-Patriarcas (Génesis), Éxodo-Desierto (Éxodo-Números), Conquista-Jueces (Josué-Jueces), Reyes Unidos y Divididos (1 Samuel-2 Reyes), Exilio (2 Reyes, 2 Crónicas), Retorno (Esdras-Nehemías, Ester), Silencio (400 años)",
+        "C": "5 épocas solamente",
+        "D": "10 épocas diferentes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Las 7 épocas del AT son: 1) Creación-Patriarcas (Génesis, c. 4000-1800 a.C.), 2) Éxodo-Desierto (Éxodo-Números, c. 1446-1406 a.C.), 3) Conquista-Jueces (Josué-Jueces, c. 1406-1050 a.C.), 4) Reyes (1 Samuel-2 Reyes, c. 1050-586 a.C.), 5) Exilio (586-538 a.C.), 6) Retorno (Esdras-Nehemías, 538-430 a.C.), 7) Silencio intertestamentario (430 a.C.-4 d.C.)."
+    },
+    {
+      "id": 853,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Panorama bíblico - Cronología NT",
+      "pregunta": "¿Cuáles son las 6 épocas principales de la era cristiana en el Nuevo Testamento?",
+      "opciones": {
+        "A": "Solo 3",
+        "B": "Nacimiento e infancia (c. 4 a.C.), Ministerio de Jesús (c. 26-30 d.C.), Iglesia primitiva (Hechos 1-7, c. 30-34 d.C.), Expansión a gentiles (Hechos 8-12, c. 34-48 d.C.), Misiones de Pablo (Hechos 13-28, c. 48-62 d.C.), Cárcel y escrituras de Pablo, Pedro, Juan, Judas (c. 60-98 d.C.)",
+        "C": "Solo 2",
+        "D": "8 épocas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Las 6 épocas del NT son: 1) Nacimiento/infancia (c. 4 a.C., Mateo-Lucas), 2) Ministerio de Jesús (c. 26-30 d.C., Mateo-Marcos-Lucas-Juan), 3) Iglesia primitiva en Jerusalén (Hechos 1-7, c. 30-34 d.C.), 4) Expansión a Samaria y gentiles (Hechos 8-12, c. 34-48 d.C.), 5) Misiones de Pablo (Hechos 13-28, c. 48-62 d.C.), 6) Cartas posteriores y Apocalipsis (c. 60-98 d.C.)."
+    },
+    {
+      "id": 854,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Promesa",
+      "pregunta": "¿Cuál es la 'promesa seminal' (Protoevangelium) de Génesis 3:15 y cómo se desarrolla?",
+      "opciones": {
+        "A": "No existe",
+        "B": "La simiente de la mujer herirá la cabeza de la serpiente; se desarrolla en Abraham (Génesis 12, 22), Judá (Génesis 49), David (2 Samuel 7), y culmina en Jesús (Gálatas 3:16, Génesis 3:15 cumplido en la crucifixión y resurrección)",
+        "C": "Es solo para Eva",
+        "D": "Se refiere a Abel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 3:15 (Protoevangelium): 'ésta te herirá en la cabeza, y tú le herirás en el calcañar.' Desarrollo: 1) Abraham (Génesis 12:3; 22:18 'en tu simiente'), 2) Judá (Génesis 49:10 'el cetro no se apartará'), 3) David (2 Samuel 7:12-16), 4) Isaías (7:14; 9:6-7; 53), 5) Cumplimiento: Gálatas 3:16 'a Abraham fueron hechas las promesas, y a su simiente... que es Cristo.'"
+    },
+    {
+      "id": 855,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Alianzas",
+      "pregunta": "¿Cuáles son las 5 alianzas principales del Antiguo Testamento y su significado?",
+      "opciones": {
+        "A": "Solo 2 alianzas",
+        "B": "Alianza adámica (dominio), noéica (no destruir por diluvio), abrahámica (tierra, nación, simiente), sinaítica/mosaica (ley), davídica (reino eterno) - todas culminan en la Nueva Alianza en Cristo (Jeremías 31:31; Lucas 22:20)",
+        "C": "Solo 3 alianzas",
+        "D": "8 alianzas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Las 5 alianzas del AT: 1) Adámica (Génesis 1:28; 9:1-3, dominio/bendición), 2) Noéica (Génesis 9:8-17, arcoíris, no destruir por diluvio), 3) Abrahámica (Génesis 12:1-3; 15; 17, tierra, nación, simiente, circuncisión), 4) Sinaítica (Éxodo 19-24, ley/mandamientos), 5) Davídica (2 Samuel 7:12-16, reino eterno). Todas culminan en la Nueva Alianza en Cristo (Jeremías 31:31; Lucas 22:20; Hebreos 8-10)."
+    },
+    {
+      "id": 856,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Templo",
+      "pregunta": "¿Cuál es la evolución del concepto de 'morada de Dios' en la Biblia?",
+      "opciones": {
+        "A": "Siempre es el mismo",
+        "B": "Jardín de Edén (presencia inmediata), Tabernáculo (Éxodo 25-40), Templo de Salomón (1 Reyes 6-8), Segundo templo (Esdras), Templo espiritual (Efesios 2:19-22; 1 Corintios 3:16; 6:19), Jerusalén celestial (Apocalipsis 21:22)",
+        "C": "Solo un templo",
+        "D": "No hay evolución"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Evolución de la morada de Dios: 1) Edén (Génesis 3:8, presencia inmediata), 2) Tabernáculo (Éxodo 25-40, presencia entre Israel), 3) Templo de Salomón (1 Reyes 6-8, 957 a.C., casa para el nombre de Dios), 4) Segundo Templo (515 a.C., Esdras; ampliado por Herodes), 5) Templo espiritual (NT: Efesios 2:19-22 creyentes como templo; 1 Corintios 3:16; 6:19), 6) Jerusalén celestial (Apocalipsis 21:22 'no vi templo en ella, porque el Señor Dios Todopoderoso es el templo de ella')."
+    },
+    {
+      "id": 857,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Exodo",
+      "pregunta": "¿Cómo es el Éxodo de Israel un tipo del éxodo cristiano?",
+      "opciones": {
+        "A": "No hay conexión",
+        "B": "Egipto = mundo/esclavitud al pecado, Faraón = Satanás, Moisés = tipo de Cristo (libertador), cordero pascual = Cristo, mar Rojo = bautismo (1 Corintios 10:1-2), desierto = vida cristiana, Canaán = cielo/promesa; Lucas 9:31 la muerte de Jesús es su 'exodo'",
+        "C": "Son eventos sin relación",
+        "D": "Solo es historia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tipología del Éxodo: Egipto = mundo/esclavitud al pecado; Faraón = Satanás (príncipe de este mundo); Moisés = tipo de Cristo (libertador, mediador); cordero pascual = Cristo (1 Corintios 5:7); mar Rojo = bautismo (1 Corintios 10:1-2, bautizados en Moisés/nube); desierto = vida cristiana (tentaciones, provisión divina, maná); Canaán = cielo (tierra prometida de reposo). Lucas 9:31 habla del 'éxodo' de Jesús (su muerte en Jerusalén)."
+    },
+    {
+      "id": 858,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Sacerdocio",
+      "pregunta": "¿Cuál es la evolución del sacerdocio en la Biblia?",
+      "opciones": {
+        "A": "Solo un sacerdocio",
+        "B": "Sacerdocio universal (Génesis, cabeza de familia), sacerdocio levítico/aarónico (Éxodo 28-29, Levítico), sacerdocio davidico (Salmo 110), sacerdocio de Cristo (Hebreos 4:14-5:10; Melquisedec), sacerdocio real de los creyentes (1 Pedro 2:5, 9; Apocalipsis 1:6; 5:10)",
+        "C": "No hay sacerdocio",
+        "D": "Solo levítico"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Evolución del sacerdocio: 1) Universal patriarcal (Génesis, cabezas de familia como Noé, Abraham ofrecían sacrificios), 2) Levítico/Aarónico (Éxodo 28-29, Levítico 8-10, única tribu sacerdotal), 3) Sacerdocio real-profético davidico (Salmo 110:4, rey-sacerdote), 4) Cristo Sumo Sacerdote (Hebreos 4:14-5:10, según orden de Melquisedec, no Aarón), 5) Sacerdocio de todos los creyentes (1 Pedro 2:5, 9 'sacerdocio santo, real'; Apocalipsis 1:6; 5:10)."
+    },
+    {
+      "id": 859,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Realeza",
+      "pregunta": "¿Cómo se desarrolla el tema del reinado en la Biblia?",
+      "opciones": {
+        "A": "No hay tema de reinado",
+        "B": "Dios es Rey (Salmo 47, 93, 95-99), reyes humanos (Saul fracasa, David pacto eterno), reyes divididos (idolatría), Cautiverio (sin rey), Jesús Rey (Juan 18:36-37; Apocalipsis 19:16), reinado milenial (Apocalipsis 20:4-6), reinado eterno (1 Corintios 15:24-28; Apocalipsis 22:5)",
+        "C": "Solo reyes malos",
+        "D": "Dios nunca es rey"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Desarrollo del reinado: 1) Dios es Rey (Salmo 47:2, 6-8; 93:1; 95-99, teocracia), 2) Reyes humanos (Saul fracasa, 1 Samuel 15; David pacto eterno, 2 Samuel 7), 3) Reyes divididos (idolatría, caída), 4) Cautiverio (sin rey propio), 5) Jesús Rey (Juan 18:36-37 'mi reino no es de este mundo'; Apocalipsis 19:16 'Rey de reyes'), 6) Reinado milenial (Apocalipsis 20:4-6, con los santos), 7) Reinado eterno (1 Corintios 15:24-28 entrega el reino; Apocalipsis 22:5 'reinarán por los siglos de los siglos')."
+    },
+    {
+      "id": 860,
+      "nivel": 86,
+      "dificultad": 16,
+      "tema": "Hilo rojo bíblico - Sacrificio",
+      "pregunta": "¿Cuál es la progresión del sistema sacrificial a Cristo?",
+      "opciones": {
+        "A": "No hay progresión",
+        "B": "Abel (ofrenda aceptada), Noé (altar), Abraham (sacrificio Isaac tipo), Pascua (cordero sangre protege), sistema levítico (múltiples sacrificios temporales), Salm 40:6-8 (no agrada sacrificios externos), Isaías 53 (siervo sufriente), Juan 1:29 (Cordero de Dios), Hebreos 9-10 (Cristo ofrenda una vez para siempre)",
+        "C": "Solo sacrificios levíticos",
+        "D": "Abel fue rechazado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Progresión del sacrificio: 1) Abel (Génesis 4:4, ofrenda aceptada), 2) Noé (Génesis 8:20, altar), 3) Abraham (Génesis 22, Isaac tipo), 4) Pascua (Éxodo 12, sangre protege), 5) Levítico (Levítico 1-7, múltiples sacrificios que no quitan pecado permanentemente, Hebreos 10:4), 6) Salmo 40:6-8 (sacrificios externos no agrada), 7) Isaías 53 (siervo sufriente como ofrenda), 8) Juan 1:29 (Cordero de Dios), 9) Hebreos 9-10 (Cristo ofrenda una vez para siempre, consuma el sistema)."
+    },
+    {
+      "id": 861,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Temas teológicos mayores - Pecado",
+      "pregunta": "¿Cuál es la doctrina bíblica del pecado (hamartología) según Romanos 1-3, 5:12-21?",
+      "opciones": {
+        "A": "Que el pecado no existe",
+        "B": "Origen: Adán (Romanos 5:12); universalidad: todos pecaron (Romanos 3:23); consecuencias: muerte física y espiritual (Romanos 6:23); naturaleza: rebelión contra Dios, transgresión de ley (1 Juan 3:4); remisión: solo por sangre (Hebreos 9:22); solución: fe en Cristo (Romanos 3:24-26)",
+        "C": "Que solo algunos pecan",
+        "D": "Que el pecado es bueno"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hamartología bíblica: Origen (Romanos 5:12 'por un hombre entró el pecado'), Universalidad (Romanos 3:23 'todos pecaron'), Consecuencias (Romanos 6:23 'la paga del pecado es muerte'), Naturaleza (1 Juan 3:4 'el pecado es infracción de la ley'), Remisión (Hebreos 9:22 'sin derramamiento de sangre no hay perdón'), Solución (Romanos 3:24-26 'justificados gratuitamente por su gracia mediante la redención en Cristo')."
+    },
+    {
+      "id": 862,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Temas teológicos mayores - Salvación",
+      "pregunta": "¿Cuál es el orden de salvación (Ordo Salutis) según Romanos 8:29-30?",
+      "opciones": {
+        "A": "Fe, arrepentimiento, bautismo, justificación, santificación, glorificación",
+        "B": "Los predestinó, los llamó (eficazmente), los justificó, los glorificó; incluye: elección, llamado, regeneración, fe, arrepentimiento, justificación, adopción, santificación, perseverancia, glorificación",
+        "C": "Solo bautismo",
+        "D": "Solo buenas obras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:29-30 (cadenas de oro de la salvación): 'a los que antes conoció, también los predestinó... a los que predestinó, a éstos también llamó; y a los que llamó, a éstos también justificó; y a los que justificó, a éstos también glorificó.' Ordo Salutis completo: 1) Elección (Efesios 1:4), 2) Llamado eficaz (2 Timoteo 1:9), 3) Regeneración (Tito 3:5), 4) Fe y arrepentimiento (Efesios 2:8), 5) Justificación (Romanos 4:5), 6) Adopción (Efesios 1:5), 7) Santificación (1 Tesalonicenses 4:3), 8) Perseverancia (Filipenses 1:6), 9) Glorificación (Romanos 8:30)."
+    },
+    {
+      "id": 863,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Temas teológicos mayores - Iglesia",
+      "pregunta": "¿Cuáles son las metáforas principales de la iglesia en el Nuevo Testamento?",
+      "opciones": {
+        "A": "Solo una metáfora",
+        "B": "Cuerpo de Cristo (1 Corintios 12; Efesios 4:12; Romanos 12:4-5), templo/edificio (1 Corintios 3:9, 16-17; Efesios 2:19-22), esposa de Cristo (Efesios 5:25-32; 2 Corintios 11:2; Apocalipsis 19:7; 21:9), rebaño (Hechos 20:28; 1 Pedro 5:2-3), sacerdocio (1 Pedro 2:5, 9), familia de Dios (Efesios 2:19; 1 Timoteo 3:15)",
+        "C": "Solo templo",
+        "D": "Solo cuerpo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Metáforas de la iglesia en el NT: 1) Cuerpo de Cristo (1 Corintios 12:12-27; Efesios 4:12, 16; Romanos 12:4-5, unidad, diversidad de miembros), 2) Templo/edificio (1 Corintios 3:9, 16-17; Efesios 2:19-22; 1 Pedro 2:5), 3) Esposa de Cristo (Efesios 5:25-32; 2 Corintios 11:2; Apocalipsis 19:7; 21:9, relación de amor, fidelidad), 4) Rebaño (Hechos 20:28; 1 Pedro 5:2-3, pastores=cuidado), 5) Sacerdocio (1 Pedro 2:5, 9 'sacerdocio santo, real', acceso a Dios), 6) Familia de Dios (Efesios 2:19; 1 Timoteo 3:15, hijos de Dios, hermanos)."
+    },
+    {
+      "id": 864,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Temas teológicos mayores - Futuro",
+      "pregunta": "¿Cuáles son los eventos escatológicos finales según 1 Tesalonicenses 4-5; 2 Tesalonicenses 2; Apocalipsis 19-22?",
+      "opciones": {
+        "A": "No hay eventos finales",
+        "B": "Arrebatamiento (1 Tesalonicenses 4:16-17), tribulación/apostasía (2 Tesalonicenses 2:3-4), segunda venida (Apocalipsis 19:11-16), resurrección de los muertos (1 Corintios 15:20-23), juicio de las naciones (Mateo 25:31-46), milenio (Apocalipsis 20:1-6), juicio final (Apocalipsis 20:11-15), cielos nuevos y tierra nueva (Apocalipsis 21-22)",
+        "C": "Solo un juicio",
+        "D": "Solo el infierno"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Secuencia escatológica: 1) Arrebatamiento (1 Tesalonicenses 4:16-17, iglesia encontrada con Cristo), 2) Tribulación/apostasía (2 Tesalonicenses 2:3-4, tiempo de angustia, hombre de pecado), 3) Segunda venida (Apocalipsis 19:11-16, con los santos, establecimiento del reino), 4) Resurrección de los muertos (1 Corintios 15:20-23, primera y segunda resurrección), 5) Juicio de las naciones (Mateo 25:31-46, ovejas y cabras), 6) Milenio (Apocalipsis 20:1-6, reinado de Cristo), 7) Juicio final (Apocalipsis 20:11-15, gran trono blanco), 8) Cielos nuevos y tierra nueva (Apocalipsis 21-22, morada eterna con Dios)."
+    },
+    {
+      "id": 865,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Tipología bíblica avanzada - José",
+      "pregunta": "¿En qué formas es José tipo de Jesucristo según Génesis 37-50?",
+      "opciones": {
+        "A": "No es tipo",
+        "B": "Amado del padre, envidiado por hermanos, rechazado, vendido por 20/30 piezas de plata, tentado (no pecó), interpreta sueños, humillado luego exaltado, salva a sus hermanos aunque lo dañaron, no retuvo malicia ('lo que pensaron para mal, Dios lo destinó para bien')",
+        "C": "Es exactamente igual",
+        "D": "No hay similitudes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "José como tipo de Cristo (Génesis 37-50): 1) Amado del padre (túnica de colores), 2) Enviado a buscar hermanos, 3) Enviado por hermanos, 4) Rechazado por hermanos, 5) Vendido por 20 piezas de plata (José) / 30 (Jesús), 6) Llevado a Egipto (gentiles), 7) Tentado por mujer de Potifar (no pecó), 8) Humillado (cárcel) luego exaltado (primer ministro), 9) Salva a sus hermanos aunque lo dañaron, 10) Génesis 50:20 'vosotros pensasteis mal contra mí, mas Dios lo destinó a bien.'"
+    },
+    {
+      "id": 866,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Tipología bíblica avanzada - Isaac",
+      "pregunta": "¿Por qué es Isaac tipo de Cristo en Génesis 22?",
+      "opciones": {
+        "A": "No es tipo",
+        "B": "Hijo del pacto prometido, hijo único (amado), carga la leña (madero), sube el monte (Moria = zona del templo/Gólgota), Abraham ofrece al hijo (resurrección figurada), Dios provee el cordero sustituto (Jehová Jireh)",
+        "C": "Es diferente",
+        "D": "Es opuesto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaac como tipo de Cristo (Génesis 22): 1) Hijo del pacto prometido (Génesis 21), 2) Hijo único (amado, v. 2, 12, 16), 3) Carga la leña para el holocausto (v. 6, tipo de la cruz), 4) Suben juntos (v. 6 'fueron juntos'), 5) Mont Moria (2 Crónicas 3:1, templo construido allí; zona del Gólgota), 6) Abraham ofrece al hijo (resurrección figurada, Hebreos 11:19), 7) Dios provee sustituto (carnero, v. 13; Jehová Jireh v. 14), 8) Cordero de Dios sustituto real en Cristo."
+    },
+    {
+      "id": 867,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Tipología bíblica avanzada - Moisés",
+      "pregunta": "¿Cuáles son las similitudes entre Moisés y Jesús?",
+      "opciones": {
+        "A": "Ninguna",
+        "B": "Perseguido al nacer (decreto de muerte, escapó), refugiado en tierra de paganos, retorna a liberar su pueblo, hace señales/milagros, da ley/maná, mediador entre Dios y pueblo, intercesor, no entró a la tierra prometida pero la vio (Transfiguración, tierra celestial)",
+        "C": "Son opuestos",
+        "D": "Moisés es superior"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Moisés como tipo de Cristo: 1) Perseguido al nacer (Faraón manda matar niños hebreos, Éxodo 1:22; Moisés escapó), 2) Refugiado en tierra pagana (Madian/Egipto; Jesús en Egipto, Mateo 2), 3) Retorna a liberar pueblo, 4) Hace señales/milagros, 5) Da ley (Sinaí) / Jesús da ley nueva (Sermón del Monte), 6) Da maná / Jesús es pan de vida, 7) Mediador (Éxodo 32, Deuteronomio 5:5) / Jesús único mediador (1 Timoteo 2:5), 8) Intercesor (Éxodo 32:11-14, 30-32; Números 14:11-20) / Jesús intercede (Romanos 8:34; Hebreos 7:25), 9) No entró a Canaán (Números 20:12) pero la vio (Deuteronomio 34:4) / Jesús no entró a Canaán terrenal pero entró a la celestial (Hebreos 9:24)."
+    },
+    {
+      "id": 868,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Tipología bíblica avanzada - Josué",
+      "pregunta": "¿Cómo cumple Josué como tipo de Cristo lo que Moisés no pudo hacer?",
+      "opciones": {
+        "A": "No hay conexión",
+        "B": "Moisés liberó pero no pudo entrar a Canaán; Josué (mismo nombre de Jesús en griego: Iesous) conduce al pueblo a la tierra prometida, conquista enemigos, reparte herencia, establece al pueblo en la tierra de reposo (Hebreos 4:8-11)",
+        "C": "Moisés es mejor",
+        "D": "Josué fracasó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué (Yeshua en hebreo = Jehová es salvación; Iesous en griego = Jesús) como tipo de Cristo: 1) Moisés liberó de Egipto pero no entró a Canaán (Números 20:12; Deuteronomio 34), 2) Josué conduce al pueblo a la tierra prometida (Josué 1-4, cruzan el Jordán), 3) Conquista enemigos (Josué 6-12), 4) Reparte herencia a las tribus (Josué 13-21), 5) Establece al pueblo en la tierra de reposo (Josué 21:44; 22:4; 23:1), 6) Hebreos 4:8-11 'si Josué les hubiera dado el reposo, no hablaría después de otro día; por tanto, queda un reposo para el pueblo de Dios.' Cristo da el verdadero reposo."
+    },
+    {
+      "id": 869,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Tipología bíblica avanzada - David",
+      "pregunta": "¿En qué formas es David el mejor tipo de Cristo en el Antiguo Testamento?",
+      "opciones": {
+        "A": "No es tipo",
+        "B": "Ungido rey antes de reinar (persecución de Saul), pastor de ovejas que se convierte en pastor de Israel, conquista el enemigo (Goliat = victoria sobre pecado/Satanás), establece el reino, pacto eterno con su casa (2 Samuel 7:12-16), hijo de Dios (Salmo 2:7), sufre injustamente, magnánimo con enemigos (2 veces perdona a Saul), adorador (Salmos), mesías ungido por Dios",
+        "C": "Es un mal tipo",
+        "D": "Solo fue rey"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "David como tipo de Cristo: 1) Ungido rey (1 Samuel 16) pero no reinó inmediatamente; perseguido por Saul (1 Samuel 18-31), 2) Pastor de ovejas → pastor de Israel (2 Samuel 5:2; 7:8; Salmo 23; 78:70-72), 3) Goliat (1 Samuel 17) = victoria sobre enemigo imposible (tipo de Cristo venciendo pecado/Satanás), 4) Establece reino, conquista Sion (Jebús/Jerusalén), 5) Pacto eterno (2 Samuel 7:12-16, reino eterno; Lucas 1:32-33 cumplido en Cristo), 6) Hijo de Dios (Salmo 2:7; Hechos 13:33 cumplido en resurrección), 7) Sufre injustamente, 8) Magnánimo con enemigos (2 veces perdona a Saul: 1 Samuel 24, 26), 9) Adorador/Psalms (Salterio), 10) Mesías (Cristo) = Ungido."
+    },
+    {
+      "id": 870,
+      "nivel": 87,
+      "dificultad": 16,
+      "tema": "Tipología bíblica avanzada - Jonás",
+      "pregunta": "¿Por qué es Jonás un tipo específico de la muerte y resurrección de Jesús?",
+      "opciones": {
+        "A": "No es tipo",
+        "B": "Desobediente profeta fugitivo, tormenta calma cuando es echado al mar, 3 días y 3 noches en el vientre del gran pez, vomitado vivo (resurrección tipo), predicación de arrepentimiento resulta en conversión de Nínive (Mateo 12:38-41, 16:4; Lucas 11:29-32)",
+        "C": "Solo es historia",
+        "D": "No hay conexión con Jesús"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jonás como tipo de la muerte/resurrección de Cristo: 1) Profeta fugitivo, 2) Tormenta en el mar (Jonás 1:4-15), 3) Echado al mar, calma la tempestad (Jonás 1:15), 4) 'Preparó Jehová un gran pez' para que tragase a Jonás (Jonás 1:17), 5) 'Y estuvo Jonás en el vientre del pez tres días y tres noches' (Jonás 1:17), 6) Oró desde el vientre (Jonás 2), 7) 'Y mandó Jehová al pez, y vomitó a Jonás en tierra' (Jonás 2:10, resurrección tipo), 8) Predicó a Nínive, arrepentimiento masivo (Jonás 3), 9) Mateo 12:38-41 'como estuvo Jonás en el vientre del gran pez tres días y tres noches, así estará el Hijo del Hombre en el corazón de la tierra.'"
+    },
+    {
+      "id": 871,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Conexiones AT-NT profundas - Salmos",
+      "pregunta": "¿Cómo se citan los Salmos en el NT y qué categorías tienen cumplimiento en Cristo?",
+      "opciones": {
+        "A": "No se citan",
+        "B": "Salmos de lamentación cumplidos en la crucifixión (Salmo 22, 31, 69), Salmos de resurrección cumplidos (Salmo 16:10 en Hechos 2:27), Salmos de exaltación cumplidos en la ascensión (Salmo 68:18 en Efesios 4:8; Salmo 110:1 en Hechos 2:34-35), Salmos de sufrimiento justo (Salmo 22, 31, 35, 38, 41, 69)",
+        "C": "Solo Salmo 23",
+        "D": "Solo Salmo 119"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Citas de Salmos en el NT referidas a Cristo: 1) Lamentación/sufrimiento en la crucifixión: Salmo 22 (Mateo 27:35, 39, 43, 46; Juan 19:24, 28; Hebreos 2:12), Salmo 31:5 (Lucas 23:46), Salmo 69 (Juan 15:25; 19:28), 2) Resurrección: Salmo 16:8-11 (Hechos 2:25-28; 13:35), 3) Exaltación/ascensión: Salmo 68:18 (Efesios 4:8), Salmo 110:1 (Mateo 22:44; Hechos 2:34-35; 7:55-56; Efesios 1:20; Colosenses 3:1; Hebreos 1:3, 13), 4) Sacerdocio: Salmo 110:4 (Hebreos 5:6, 10; 6:20; 7:17, 21), 5) Hijo: Salmo 2:7 (Hechos 13:33; Hebreos 1:5; 5:5)."
+    },
+    {
+      "id": 872,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Conexiones AT-NT profundas - Isaías",
+      "pregunta": "¿Cuáles son los 'Canciones del Siervo' de Isaías 42-53 y cómo se cumplen en Cristo?",
+      "opciones": {
+        "A": "No hay canciones",
+        "B": "Primer canto (42:1-9): siervo elegido, dado como pacto, luz para gentiles (Mateo 12:15-21). Segundo canto (49:1-13): formado desde el vientre, restaurar tribus de Jacob, luz para gentiles (Lucas 2:32). Tercer canto (50:4-11): oído para oír, no rebelde, entrega espalda a los golpes, barba a los que arrancan (Mateo 26:67; 27:30). Cuarto canto (52:13-53:12): sufrimiento vicario, desfigurado, herido por rebeliones, molido por pecados (Mateo 8:17; Juan 12:38; Hechos 8:32-35; Romanos 4:25; 1 Pedro 2:21-25)",
+        "C": "Solo Isaías 53",
+        "D": "Ninguna se cumple"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Cuatro Cantos del Siervo de Isaías: 1) Isaías 42:1-9: 'He aquí mi siervo... mi escogido, en quien mi alma tiene contentamiento; he puesto sobre él mi espíritu' (Mateo 12:15-21 cita vv. 1-4). 2) Isaías 49:1-13: 'Desde el vientre de mi madre me llamó Jehová... luz de las naciones' (Lucas 2:32 Simón citando v. 6). 3) Isaías 50:4-11: 'El Señor Jehová me abrió el oído... mi cuerpo no tengo de apartar' (Mateo 26:67; 27:30 escupieron, golpearon). 4) Isaías 52:13-53:12: el más extenso, 'despreciado y desechado entre los hombres... ciertamente él llevó nuestras enfermedades... herido fue por nuestras rebeliones... le hirieron' (Mateo 8:17; Juan 12:38; Hechos 8:32-35; Romanos 4:25; 1 Pedro 2:21-25)."
+    },
+    {
+      "id": 873,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Conexiones AT-NT profundas - Jeremías",
+      "pregunta": "¿Cómo se cumple la profecía de la Nueva Alianza de Jeremías 31:31-34 en el NT?",
+      "opciones": {
+        "A": "No se cumple",
+        "B": "Días vienen que haré nueva alianza con Israel y Judá... no como la que hice con sus padres... pondré mi ley en su interior y la escribiré en su corazón; les seré por Dios y ellos me serán por pueblo; enseñarán todos a sus prójimos diciendo: Conoced a Jehová; perdonaré maldad y no me acordaré de pecado. Cumplida en Lucas 22:20; 1 Corintios 11:25 (copa nueva alianza); Hebreos 8:8-12; 10:16-17 (cita completa); 2 Corintios 3 (espíritu de la nueva alianza)",
+        "C": "Solo para Israel",
+        "D": "Solo para el AT"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 31:31-34 (Nueva Alianza): 'He aquí que vienen días... que haré con la casa de Israel y con la casa de Judá alianza nueva; no como la alianza que hice con sus padres... esta es la alianza que haré con la casa de Israel después de aquellos días... pondré mi ley en su interior, y la escribiré en su corazón; y yo les seré a ellos por Dios, y ellos me serán a mí por pueblo. Y no enseñará más ninguno a su prójimo... diciendo: Conoced a Jehová; porque todos me conocerán... perdonaré la maldad de ellos, y no me acordaré de sus pecados.' Cumplida: Lucas 22:20 'esta copa es el nuevo pacto en mi sangre'; 1 Corintios 11:25; Hebreos 8:8-12 (cita completa); Hebreos 10:16-17; 2 Corintios 3:6 'ministros de nueva alianza'."
+    },
+    {
+      "id": 874,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Conexiones AT-NT profundas - Ezequiel",
+      "pregunta": "¿Cómo se cumplen las profecías de restauración de Ezequiel 36-37 en el NT?",
+      "opciones": {
+        "A": "No se cumplen",
+        "B": "Ezequiel 36:25-27 (agua limpia, espíritu nuevo, corazón de carne) = regeneración (Tito 3:5; Juan 3:5). Ezequiel 37 (huesos secos, valle) = resurrección física de Israel y resurrección espiritual; Romanos 11 (restauración de Israel); Apocalipsis 20:4-6 (resurrección general)",
+        "C": "Solo para el pasado",
+        "D": "No tienen significado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 36-37 cumplido: 1) Ezequiel 36:25-27: 'Echaré sobre vosotros agua limpia, y seréis limpios... os daré corazón nuevo, y pondré espíritu nuevo dentro de vosotros... y os daré corazón de carne' = regeneración cristiana (Tito 3:5 'lavaimiento de la regeneración'; Juan 3:5 'nacido del agua y del Espíritu'), 2) Ezequiel 37 (Valle de Huesos Secos): 'He aquí que yo abro vuestros sepulcros... y os haré subir de vuestras sepulcros, pueblo mío... y os llevaré a la tierra de Israel' = restauración nacional de Israel (1948), pero también resurrección espiritual y física final (Apocalipsis 20:4-6), 3) Romanos 11:26 'Y así todo Israel será salvo'."
+    },
+    {
+      "id": 875,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Conexiones AT-NT profundas - Daniel",
+      "pregunta": "¿Cómo se cumple la profecía de las 70 semanas de Daniel 9:24-27?",
+      "opciones": {
+        "A": "No se cumple",
+        "B": "Setenta semanas están determinadas sobre tu pueblo... para terminar la prevaricación, y poner fin al pecado... desde la salida de la orden para restaurar y edificar Jerusalén hasta el Mesías Príncipe, 7 semanas y 62 semanas... después de las 62 semanas se quitará la vida al Mesías... destruirá al pueblo de un príncipe que ha de venir... por una semana confirmará el pacto... en medio de la semana hará cesar el sacrificio y la ofrenda. Cumplimiento: Artajerjes 445 a.C. + 483 años (69 semanas de años) = 38 d.C. (cortección de calendario) ≈ entrada triunfal; la última semana aún futura (tribulación)",
+        "C": "Solo era para Daniel",
+        "D": "No tiene sentido"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 9:24-27 (70 semanas = 490 años proféticos): v. 24 'Setenta semanas están determinadas sobre tu pueblo... para terminar la prevaricación, y poner fin al pecado...' v. 25 'Desde la salida de la orden para restaurar y edificar Jerusalén hasta el Mesías Príncipe, habrá siete semanas y sesenta y dos semanas' (69 semanas = 483 años). Cálculo: decreto de Artajerjes (Nehemías 2:1, 445 a.C.) + 483 años = 38 d.C. (ajuste calendario) ≈ entrada triunfal de Jesús. v. 26 'después de las sesenta y dos semanas se quitará la vida al Mesías' (crucifixión). v. 27 'a la mitad de la semana hará cesar el sacrificio y la ofrenda' (3.5 años de ministerio). La última semana (70ª) muchos creen que es futura (tribulación)."
+    },
+    {
+      "id": 876,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Temas éticos avanzados - Ética del Antiguo Testamento",
+      "pregunta": "¿Cuál es la base ética del AT según Éxodo 20 (Decálogo) y Deuteronomio?",
+      "opciones": {
+        "A": "No tiene base ética",
+        "B": "Los Diez Mandamientos (Éxodo 20:1-17; Deuteronomio 5:4-21) divididos en dos tablas: deberes para con Dios (1-4: no otros dioses, no ídolos, no tomar nombre en vano, sábado) y deberes para con el prójimo (5-10: honrar padres, no matar, no adulterar, no hurtar, no falso testimonio, no codiciar); resumen: amarás a Jehová y a tu prójimo",
+        "C": "Solo sacrificios",
+        "D": "Solo ceremonias"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ética del AT: Decálogo (Éxodo 20:1-17; Deuteronomio 5:4-21). Primera tabla (deberes hacia Dios): 1) No otros dioses, 2) No ídolos, 3) No tomar nombre en vano, 4) Guardar sábado. Segunda tabla (deberes hacia el prójimo): 5) Honrar padres, 6) No matarás, 7) No adulterarás, 8) No hurtarás, 9) No falso testimonio, 10) No codiciarás. Resumen: 'Y amarás a Jehová tu Dios... y a tu prójimo como a ti mismo' (Levítico 19:18; Deuteronomio 6:5; Lucas 10:27)."
+    },
+    {
+      "id": 877,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Temas éticos avanzados - Ética de Jesús",
+      "pregunta": "¿Qué eleva Jesús en el Sermón del Monte (Mateo 5-7) sobre la ley?",
+      "opciones": {
+        "A": "Que la ley no importa",
+        "B": "No vine para abrogar la ley... vine para cumplirla... quienquiera que quebrare uno de estos mandamientos... será llamado el menor en el reino... a menos que vuestra justicia sea mayor que la de los escribas... no entraréis en el reino; antítesis: 'oísteis que fue dicho... pero yo os digo' (ira=lugar de fuego, mirar con lujuria=adulterio, divorcio excepto fornicación=adulterio, no jurar en falso=no jurar, ojo por ojo=amor a enemigos, odiar a enemigos=orar por enemigos)",
+        "C": "Que hay que abolir la ley",
+        "D": "Que solo los judíos son salvos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 5:17-48 (Sermón del Monte): Jesús cumple la ley (v. 17-20). Antítesis (v. 21-48): 'Oísteis que fue dicho a los antiguos... Pero yo os digo': 1) No matarás vs. no estar enojado (v. 21-26), 2) No adulterarás vs. no mirar con lujuria (v. 27-30), 3) El que repudia su mujer vs. excepto fornicación (v. 31-32), 4) No jurar en falso vs. no jurar de ningún modo (v. 33-37), 5) Ojo por ojo vs. no resistir al malo (v. 38-42), 6) Amarás a tu prójimo y aborrecerás a tu enemigo vs. amar a enemigos, orar por los que os persiguen (v. 43-48). Jesús internaliza y profundiza la ley."
+    },
+    {
+      "id": 878,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Temas éticos avanzados - Ética de Pablo",
+      "pregunta": "¿Cómo sintetiza Pablo la ética cristiana en Romanos 12-15?",
+      "opciones": {
+        "A": "Solo leyes",
+        "B": "Presentad vuestros cuerpos... no os conforméis... sino transformaos... sea vuestro amor fingido... aborreced lo malo, seguid lo bueno... sed benignos, solícitos... no venguéis vosotros... venced el mal con el bien... someteos a las autoridades... amad al prójimo",
+        "C": "Solo sacrificios",
+        "D": "Solo ceremonias"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ética de Pablo (Romanos 12-15): Cap. 12: sacrificio vivo, transformación mental, uso de dones, amor sin fingimiento, aborrecer lo malo, seguir lo bueno, amor fraternal, honra mutua, diligencia, fervor, gozo, paciencia, oración, hospitalidad, bendecid a los que os persiguen, no vengar (v. 19), vencer el mal con el bien (v. 21). Cap. 13: someterse a autoridades, amar al prójimo (v. 8-10), tiempo es urgente (v. 11-14). Cap. 14-15: libertad con responsabilidad, recibir débiles, no juzgarse, edificar al prójimo."
+    },
+    {
+      "id": 879,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Temas éticos avanzados - Ética de Santiago",
+      "pregunta": "¿Cuál es la síntesis ética de Santiago en su carta?",
+      "opciones": {
+        "A": "Fe sin obras",
+        "B": "Tened por sumo gozo... pruebas... paciencia perfecta... pedid sabiduría... fe sin obras es muerta... el que controla la lengua es varón perfecto... sabiduría de lo alto es pura, pacífica... amistad del mundo es enemistad contra Dios... humildad... juicio de ricos... paciencia hasta la venida del Señor... oración de fe salva al enfermo",
+        "C": "Solo fe",
+        "D": "Solo obras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ética de Santiago: 1) Gozo en pruebas, paciencia perfecta, sabiduría de Dios (1:2-8), 2) Humildad, ricos humillados, pobres exaltados (1:9-11), 3) Hacedores de la palabra, no solo oidores (1:19-27), 4) Favoritismo prohibido, amor al prójimo como ley real (2:1-13), 5) Fe y obras inseparables, fe sin obras muerta (2:14-26), 6) Control de la lengua (3:1-12), 7) Sabiduría de arriba vs. terrenal (3:13-18), 8) Amistad del mundo = enemistad contra Dios (4:1-10), 5) Juicio contra ricos opresores (5:1-6), 6) Paciencia hasta la venida del Señor (5:7-12), 7) Oración de fe, confesión, edificación mutua (5:13-20)."
+    },
+    {
+      "id": 880,
+      "nivel": 88,
+      "dificultad": 16,
+      "tema": "Temas éticos avanzados - Ética de Pedro y Juan",
+      "pregunta": "¿Cuál es la síntesis ética de 1-2 Pedro y 1-3 Juan?",
+      "opciones": {
+        "A": "No tienen ética",
+        "B": "1 Pedro: santidad, temor, obediencia, amor fraternal no fingido, crecimiento, desechar malicia... sufrimiento como Cristo... someterse a autoridades... esposas sujetas, esposos honor... compasión, humildad, sobriedad, vigilancia contra diablo... 2 Pedro: crecid en fe, virtud, conocimiento, dominio propio, paciencia, piedad, afecto fraternal, amor... 1 Juan: andar en luz, confesar pecados, obedecer mandamientos, amar a hermanos, no amar mundo, guardarse de falsos profetas. 2-3 Juan: andar en la verdad, hospitalidad",
+        "C": "Solo leyes",
+        "D": "Solo sacrificios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ética de Pedro y Juan: 1 Pedro: santidad (1:15-16), amor fraternal no fingido creciendo (1:22), desechar malicia, gimoteo, fingimiento, envidia (2:1), someterse a autoridades (2:13-17), esposas sujetas con conducta piadosa, esposos con honor, compasión (3:1-8), armonía, simpatía, amor fraternal, compasión, humildad (3:8), no devolver mal (3:9), santificar a Dios en corazón (3:15), vivir para la voluntad de Dios no pasiones humanas (4:2), vigilancia, sobriedad, resistir diablo (5:8-9). 2 Pedro: crecer en fe, virtud, conocimiento, dominio propio, paciencia, piedad, afecto fraternal, amor (1:5-7). 1 Juan: andar en luz (1:7), confesar pecados (1:9), obedecer (2:3-6), amar hermanos (2:9-11), no amar mundo (2:15-17), guardarse de falsos profetas (4:1)."
+    },
+    {
+      "id": 881,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Apologética bíblica - Autenticidad",
+      "pregunta": "¿Qué evidencias hay de la autenticidad histórica del NT?",
+      "opciones": {
+        "A": "Ninguna evidencia",
+        "B": "Manuscritos abundantes (más de 5,800 manuscritos griegos, 10,000 latinos, 9,300 otros), fechas tempranas (papiros del siglo II), testimonio de testigos oculares (Lucas 1:1-4; Hechos 26:26; 2 Pedro 1:16; 1 Juan 1:1-3), arqueología (Pilato, Erasto, Licaonia, Éfeso, etc.), cumplimiento de profecías (Isaías 53, Salmo 22), consistencia interna",
+        "C": "Solo tradición",
+        "D": "Solo fe"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Evidencias de autenticidad del NT: 1) Manuscritos: más de 5,800 manuscritos griegos, 10,000 latinos, 9,300 en otras lenguas (siríaco, armenio, etc.), más que cualquier libro antiguo. 2) Fechas tempranas: papiros del siglo II (P52 de Juan 18, c. 125 d.C.), Bodmer papyri, Chester Beatty. 3) Testigos oculares: Lucas 1:1-4 (basado en testigos); Hechos 26:26 'no se hace en escondido'; 2 Pedro 1:16 'no seguimos fábulas'; 1 Juan 1:1-3 'lo que hemos oído, visto, contemplado, palpado'. 4) Arqueología: inscripción de Pilato, Erasto (Hechos 19:22; Romanos 16:23), Éfeso, etc. 5) Cumplimiento profético. 6) Consistencia interna."
+    },
+    {
+      "id": 882,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Apologética bíblica - Resurrección",
+      "pregunta": "¿Cuáles son las evidencias de la resurrección de Jesús?",
+      "opciones": {
+        "A": "No hay evidencias",
+        "B": "Tumba vacía (Mateo 28; Marcos 16; Lucas 24; Juan 20), apariciones múltiples (a María Magdalena, Pedro, Santiago, 12, más de 500, Pablo), transformación de los apóstoles (de cobardes a mártires), domingo como día de reposo, comunidad cristiana primitiva, testimonio de enemigos (guardias, judíos), registros tempranos (creedos en 1 Corintios 15:3-8, Marcos 16)",
+        "C": "Solo testimonio de amigos",
+        "D": "Solo un testigo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Evidencias de la resurrección: 1) Tumba vacía (Mateo 28:1-15; Marcos 16:1-8; Lucas 24:1-12; Juan 20:1-10), testigo de mujeres (inventarías con testigos no creíbles en esa cultura). 2) Apariciones: María Magdalena (Juan 20:11-18), Pedro (Lucas 24:34; 1 Corintios 15:5), 12 (Lucas 24:36-43; Juan 20:19-23), más de 500 (1 Corintios 15:6), Santiago (1 Corintios 15:7), Pablo (Hechos 9; 1 Corintios 15:8). 3) Transformación de apóstoles (de cobardes en Getsemaní a mártires). 4) Domingo como día de reposo (desde resurrección). 5) Comunidad cristiana primitiva (Hechos). 6) Testimonio de enemigos (Mateo 28:11-15 guardias, judíos admiten tumba vacía). 7) Credos tempranos (1 Corintios 15:3-8, antes del 55 d.C.; Marcos 16)."
+    },
+    {
+      "id": 883,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Apologética bíblica - Profecía",
+      "pregunta": "¿Cuáles son las profecías mesiánicas más específicas cumplidas en Jesús?",
+      "opciones": {
+        "A": "Ninguna específica",
+        "B": "Lugar nacimiento (Miqueas 5:2 = Belén), nacimiento virginal (Isaías 7:14), linaje David (2 Samuel 7), tiempo (Daniel 9), entrada triunfal (Zacarías 9:9), silencio ante acusadores (Isaías 53:7), crucifixión método (Salmo 22:16), vestidos repartidos (Salmo 22:18), no hueso quebrado (Salmo 34:20), sepultura rica (Isaías 53:9), resurrección (Salmo 16:10), 30 piezas plata (Zacarías 11:12-13)",
+        "C": "Solo una profecía",
+        "D": "Profecías vagas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Profecías mesiánicas específicas cumplidas en Jesús: 1) Lugar: Miqueas 5:2 (Belén) = Mateo 2:5-6. 2) Virgen: Isaías 7:14 = Mateo 1:23. 3) Linaje: 2 Samuel 7:12-16 (David) = Lucas 1:32-33. 4) Tiempo: Daniel 9:24-27 (69 semanas) ≈ entrada triunfal. 5) Entrada: Zacarías 9:9 = Mateo 21:4-5. 6) Silencio: Isaías 53:7 = Mateo 27:12-14. 7) Crucifixión: Salmo 22:16 (manos/pies horadados) = Juan 20:25. 8) Vestidos: Salmo 22:18 = Mateo 27:35. 9) Huesos: Salmo 34:20 = Juan 19:36. 10) Sepultura rica: Isaías 53:9 = Mateo 27:57-60. 11) Resurrección: Salmo 16:10 = Hechos 2:27. 12) 30 piezas: Zacarías 11:12-13 = Mateo 27:3-10."
+    },
+    {
+      "id": 884,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Apologética bíblica - Manuscritos",
+      "pregunta": "¿Por qué confiar en la preservación del texto bíblico?",
+      "opciones": {
+        "A": "No hay confianza",
+        "B": "Número de manuscritos (más de 25,000 del NT), antigüedad (algunos del siglo II), variedad (diferentes familias textuales: Alejandrina, Occidental, Cesariense, Bizantina), criterios textuales (lectio difficilior potior, brevior lectio), descubrimientos recientes (papiros del siglo II-III), Septuaginta (traducción griega del AT 250 a.C.), manuscritos del Mar Muerto (primeros textos bíblicos del siglo II a.C.)",
+        "C": "Solo tradición oral",
+        "D": "Solo suposición"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Preservación del texto bíblico: 1) Número: más de 25,000 manuscritos del NT, más que cualquier obra antigua. 2) Antigüedad: P52 (Juan 18, c. 125 d.C.), papiros Bodmer (siglo II-III), Chester Beatty (siglo III). 3) Variedad: diferentes familias textuales (Alejandrina, Occidental, Cesariense, Bizantina). 4) Criterios textuales: lectio difficilior potior (lectura más difícil preferida), brevior lectio (lectura más corta), etc. 5) Septuaginta (traducción griega del AT, 250 a.C.). 6) Manuscritos del Mar Muerto (siglo II a.C. al I d.C., primeros textos bíblicos antiguos)."
+    },
+    {
+      "id": 885,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Lectura devocional bíblica",
+      "pregunta": "¿Cuáles son los métodos clásicos de lectura devocional (Lectio Divina)?",
+      "opciones": {
+        "A": "Solo leer rápido",
+        "B": "Lectio (lectura: leer despacio, meditar), meditatio (meditación: reflexionar, repetir), oratio (oración: dialogar con Dios sobre el texto), contemplatio (contemplación: descansar en Dios, silencio), actio (acción: aplicar, vivir la Palabra)",
+        "C": "Solo memorizar",
+        "D": "Solo escuchar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lectio Divina (lectura sagrada), método benedictino tradicional: 1) Lectio (lectura): leer despacio, atentamente, dejar que la palabra resuene, buscar frase/palabra que toque el corazón. 2) Meditatio (meditación): reflexionar, rumiar, repetir, hacer conexiones, ¿qué dice Dios hoy? 3) Oratio (oración): dialogar con Dios, responder a la palabra, conversación íntima. 4) Contemplatio (contemplación): descansar en Dios, silencio, amor, unión. 5) Actio (acción): aplicar, vivir la Palabra, compromiso concreto. No es estudio académico sino encuentro personal con Dios."
+    },
+    {
+      "id": 886,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Estudio bíblico práctico",
+      "pregunta": "¿Cuál es el método de estudio bíblico Inductivo (OIA)?",
+      "opciones": {
+        "A": "Solo leer",
+        "B": "Observación (¿qué dice el texto? 5W1H: quién, qué, cuándo, dónde, por qué, cómo), Interpretación (¿qué significa el texto? contexto, palabras clave, comparación, cultura), Aplicación (¿cómo aplico a mi vida? principio universal, personalización, plan de acción)",
+        "C": "Solo memorizar",
+        "D": "Solo escuchar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Método de estudio inductivo (OIA - Observation, Interpretation, Application): 1) Observación (¿qué dice el texto?): usar 5W1H (quién, qué, cuándo, dónde, por qué, cómo), repeticiones, comparaciones, contrastes, palabras clave, preguntas del texto. 2) Interpretación (¿qué significa el texto?): contexto histórico-cultural, contexto literario, contexto inmediato, libro, canon; uso de diccionarios, concordancias, comentarios; conexiones con otros pasajes. 3) Aplicación (¿cómo aplico?): principio universal, personalización, plan de acción concreto, ¿qué haré, cuándo, cómo?"
+    },
+    {
+      "id": 887,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Memorización bíblica",
+      "pregunta": "¿Qué métodos son efectivos para memorizar Escritura?",
+      "opciones": {
+        "A": "Solo leer una vez",
+        "B": "Repetición (decir en voz alta, escribir, escuchar), asociación (visual, emocional, contextual), uso de tarjetas, aplicación (practicar), revisión espaciada (revisar después de 1 día, 1 semana, 1 mes), comprensión (entender significado), motivación (por qué memorizar: testimonio, victoria sobre pecado, consuelo)",
+        "C": "Solo escuchar música",
+        "D": "Solo leer en silencio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Métodos para memorizar Escritura: 1) Repetición: decir en voz alta, escribir, escuchar grabaciones, leer en diferentes traducciones. 2) Asociación: crear imágenes mentales, conectar con emociones, contexto personal. 3) Tarjetas (flashcards): versículo en un lado, referencia en otro. 4) Aplicación: practicar el versículo, usarlo en oración. 5) Revisión espaciada: repetir después de 1 día, 1 semana, 1 mes, 3 meses (ley de la práctica distribuida). 6) Comprensión: entender el significado, no solo palabras. 7) Motivación: propósito claro (testimonio, lucha contra pecado, consuelo, guía)."
+    },
+    {
+      "id": 888,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Panorama final - Propósito de la Biblia",
+      "pregunta": "¿Cuál es el propósito último de la Biblia según Juan 20:30-31 y 2 Timoteo 3:15-17?",
+      "opciones": {
+        "A": "Entretenimiento",
+        "B": "Estas cosas se han escrito para que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo, tengáis vida en su nombre; desde la niñez sabes las Sagradas Escrituras, las cuales te pueden hacer sabio para la salvación por la fe que es en Cristo Jesús; toda Escritura es inspirada por Dios y útil para enseñar, para redargüir, para corregir, para instruir en justicia",
+        "C": "Historia solamente",
+        "D": "Ciencia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Propósito de la Biblia: Juan 20:30-31 'Y many otras señales hizo Jesús en presencia de sus discípulos, las cuales no están escritas en este libro. Pero éstas se han escrito para que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo, tengáis vida en su nombre.' 2 Timoteo 3:15-17 'Y que desde la niñez has sabido las Sagradas Escrituras, las cuales te pueden hacer sabio para la salvación por la fe que es en Cristo Jesús. Toda Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia, a fin de que el hombre de Dios sea perfecto, enteramente preparado para toda buena obra.'"
+    },
+    {
+      "id": 889,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Panorama final - Cristo en toda la Biblia",
+      "pregunta": "¿Cómo es Jesucristo el tema central de toda la Biblia según Lucas 24:27 y Juan 5:39-40?",
+      "opciones": {
+        "A": "No es el tema",
+        "B": "Comenzando desde Moisés y siguiendo por todos los profetas, les declaraba en todas las Escrituras lo que de él decían... escudriñáis las Escrituras... y ellas son las que dan testimonio de mí; y no queréis venir a mí para que tengáis vida",
+        "C": "Es solo un personaje",
+        "D": "No aparece en el AT"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Cristo en toda la Biblia: Lucas 24:27 'Y comenzando desde Moisés y siguiendo por todos los profetas, les declaraba en todas las Escrituras lo que de él decían.' Juan 5:39-40 'Escudriñáis las Escrituras, porque en ellas pensáis que tenéis la vida eterna; y ellas son las que dan testimonio de mí; y no queréis venir a mí para que tengáis vida.' El AT promete/profetiza a Cristo, el NT presenta/cumple a Cristo. Génesis 3:15 (Protoevangelium) a Apocalipsis 22:20 (venida). Todo apunta a Él."
+    },
+    {
+      "id": 890,
+      "nivel": 89,
+      "dificultad": 16,
+      "tema": "Panorama final - Esperanza final",
+      "pregunta": "¿Cuál es la esperanza final de la Biblia según Apocalipsis 21-22?",
+      "opciones": {
+        "A": "Destrucción",
+        "B": "Cielos nuevos y tierra nueva... nueva Jerusalén descendiendo del cielo, como esposa ataviada para su esposo... enjugará Dios toda lágrima... no habrá ya más muerte... el que venciere heredará todas las cosas... seréis sus hijos... yo soy la raíz y el linaje de David, la estrella resplandeciente de la mañana. Y el Espíritu y la esposa dicen: Ven. Y el que oye, diga: Ven. Y el que tiene sed, venga; y el que quiere, tome del agua de la vida gratuitamente",
+        "C": "Oscuridad",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esperanza final (Apocalipsis 21-22): Apocalipsis 21:1-2 'Cielos nuevos y tierra nueva... la santa ciudad, nueva Jerusalén, descendiendo del cielo de Dios, dispuesta como una esposa ataviada para su esposo.' 21:4 'Enjugará Dios toda lágrima de los ojos de ellos; y ya no habrá muerte.' 21:7 'El que venciere, heredará estas cosas; y yo seré su Dios, y él será mi hijo.' 22:3-4 'El trono de Dios y del Cordero estará en ella... y verán su rostro.' 22:16-17 'Yo soy la raíz y el linaje de David, la estrella resplandeciente de la mañana. Y el Espíritu y la esposa dicen: Ven.'"
+    },
+    {
+      "id": 891,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Panorama completo",
+      "pregunta": "¿Cuántos libros tiene la Biblia completa (canon protestante)?",
+      "opciones": {
+        "A": "39",
+        "B": "66 (39 AT + 27 NT)",
+        "C": "27",
+        "D": "73"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Biblia completa (canon protestante) tiene 66 libros: 39 en el Antiguo Testamento (Génesis a Malaquías) y 27 en el Nuevo Testamento (Mateo a Apocalipsis). La versión católica romana incluye deuterocanónicos (apócrifos) y tiene 73 libros."
+    },
+    {
+      "id": 892,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Divisiones del AT",
+      "pregunta": "¿Cuáles son las divisiones del Antiguo Testamento según la Traducción del Nuevo Mundo?",
+      "opciones": {
+        "A": "Solo 2",
+        "B": "Pentateuco o Ley (5 libros), Libros de Historia (12), Libros de Poesía (5), Libros de Profecía (17: Profetas Mayores 5 + Profetas Menores 12)",
+        "C": "Solo 3",
+        "D": "10 divisiones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Traducción del Nuevo Mundo (y la mayoría de biblias protestantes) divide el AT en: 1) Pentateuco o Ley (5 libros: Génesis, Éxodo, Levítico, Números, Deuteronomio), 2) Libros de Historia (12 libros: Josué a Ester), 3) Libros de Poesía (5 libros: Job, Salmos, Proverbios, Eclesiastés, Cantar de los Cantares), 4) Libros de Profecía (17 libros: Profetas Mayores 5 [Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel] + Profetas Menores 12 [Oseas a Malaquías])."
+    },
+    {
+      "id": 893,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Divisiones del NT",
+      "pregunta": "¿Cuáles son las divisiones del Nuevo Testamento?",
+      "opciones": {
+        "A": "Solo 2",
+        "B": "Evangelios Históricos (4: Mateo, Marcos, Lucas, Juan), Hechos de los Apóstoles (1), Cartas de Pablo (13), Cartas Generales (8), Profecía (1: Apocalipsis)",
+        "C": "Solo 3",
+        "D": "7 divisiones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El Nuevo Testamento tiene 27 libros divididos en: 1) Evangelios Históricos (4: Mateo, Marcos, Lucas, Juan), 2) Hechos de los Apóstoles (1 libro), 3) Cartas de Pablo (13: Romanos a Filemón), 4) Cartas Generales (8: Hebreos a Judas), 5) Profecía (1: Apocalipsis de Juan). Otras divisiones usan: Evangelios Sinópticos + Juan, o Epístolas Paulinas (Romanos a Tesalonicenses, Timoteo, Tito, Filemón) + Epístolas Generales."
+    },
+    {
+      "id": 894,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Tiempo de escritura",
+      "pregunta": "¿Durante cuántos años aproximadamente se escribió la Biblia?",
+      "opciones": {
+        "A": "100 años",
+        "B": "Unos 1,600 años (1500 a.C. - 100 d.C.)",
+        "C": "50 años",
+        "D": "500 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Biblia fue escrita durante aproximadamente 1,600 años: desde alrededor del 1500 a.C. (Moisés escribiendo Génesis-Deuteronomio, aunque algunos contenidos son más antiguos) hasta alrededor del 95-100 d.C. (Juan escribiendo Apocalipsis en la isla de Patmos). Fueron más de 40 autores diferentes, en 3 idiomas (hebreo, arameo, griego), en 3 continentes (Asia, África, Europa)."
+    },
+    {
+      "id": 895,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Autores",
+      "pregunta": "¿Aproximadamente cuántos autores humanos escribieron la Biblia?",
+      "opciones": {
+        "A": "1 autor",
+        "B": "Aproximadamente 40 autores diferentes (reyes, pastores, pescadores, médicos, profetas, sacerdotes, etc.)",
+        "C": "100 autores",
+        "D": "5 autores"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Aproximadamente 40 autores humanos diferentes escribieron la Biblia, de muy diversos orígenes: reyes (David, Salomón, Ezequiel/Manassés), pastores (Moisés, Amós), pescadores (Pedro, Juan, Santiago, Andrés), médico (Lucas), recaudador de impuestos (Mateo), fariseo tentmaker (Pablo), sacerdotes (Jeremías, Ezequiel, Zacarías), profetas profetisas (Isaías, Oseas, Joel, Miqueas, Habacuc, Sofonías, Ageo, Malaquías, Débora, Ana, Isabel, María), etc."
+    },
+    {
+      "id": 896,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Versículos y palabras",
+      "pregunta": "¿Cuántos versículos aproximadamente tiene la Biblia en español?",
+      "opciones": {
+        "A": "10,000 versículos",
+        "B": "Aproximadamente 31,000 versículos (dependiendo de la traducción: RV1960 tiene 31,102, NVI tiene 31,071)",
+        "C": "5,000 versículos",
+        "D": "100,000 versículos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Biblia en español tiene aproximadamente 31,000 versículos (varía según la traducción): Reina-Valera 1960 tiene 31,102 versículos (23,145 en AT + 7,957 en NT). Nueva Versión Internacional tiene 31,071 versículos. La Traducción en Lenguaje Actual tiene aproximadamente la misma cantidad. El número exacto varía porque diferentes traducciones dividen los versículos ligeramente diferente (especialmente en los Salmos y poetas)."
+    },
+    {
+      "id": 897,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Palabras",
+      "pregunta": "¿Cuál es el versículo más corto de la Biblia?",
+      "opciones": {
+        "A": "Juan 3:16",
+        "B": "Juan 11:35 - 'Jesús lloró.' (en griego: 'Ἐδάκρυσεν ὁ Ἰησοῦς' - 3 palabras, 16 letras)",
+        "C": "Génesis 1:1",
+        "D": "Salmo 23:1"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El versículo más corto de la Biblia es Juan 11:35: 'Jesús lloró.' (en español 2 palabras, 9 letras). En griego original (koiné): 'Ἐδάκρυσεν ὁ Ἰησοῦς' (Edakruse ho Iēsous) - 3 palabras, 16 letras. En hebreo, el versículo más corto es también muy breve, pero la numeración varía. Este versículo muestra la humanidad de Jesús y su compasión ante la muerte de Lázaro y el dolor de María y Marta."
+    },
+    {
+      "id": 898,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Capítulo medio",
+      "pregunta": "¿Cuál es el capítulo 'medio' de la Biblia (aproximado)?",
+      "opciones": {
+        "A": "Génesis 1",
+        "B": "Salmo 118 (en algunas numeraciones Salmo 117) - hay 594 capítulos antes y 594 después en RV1960, o Salmo 117 (capítulo más corto)",
+        "C": "Apocalipsis 22",
+        "D": "Mateo 28"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "En la Reina-Valera 1960 (1,189 capítulos totales), el capítulo medio es Salmo 118: hay 594 capítulos antes (Génesis 1 a Salmo 117) y 594 capítulos después (Salmo 119 a Apocalipsis 22). Salmo 118 es un salmo de acción de gracias por la misericordia de Dios y habla de la piedra rechazada por los edificadores (v. 22) citado en el NT sobre Cristo. Nota: el capítulo más corto es Salmo 117 (2 versículos), y algunos consideran ese el 'medio' por simetría."
+    },
+    {
+      "id": 899,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Versículo medio",
+      "pregunta": "¿Cuál es el versículo 'medio' de la Biblia (aproximado)?",
+      "opciones": {
+        "A": "Juan 3:16",
+        "B": "Salmo 103:1-2 (aproximado, dependiendo de traducción) - 'Bendice, alma mía, a Jehová, y bendiga todo mi ser su santo nombre. Bendice, alma mía, a Jehová, y no olvides ninguno de sus beneficios.'",
+        "C": "Génesis 1:1",
+        "D": "Apocalipsis 22:21"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Aproximadamente, con ~31,102 versículos en RV1960, el versículo 'medio' estaría alrededor del versículo 15,551-15,552, que cae en el Salmo 103 (versículos 1-2: 'Bendice, alma mía, a Jehová...'). Este es un salmo de alabanza por los beneficios de Dios. Nota: el cálculo exacto varía por traducción y división de versículos."
+    },
+    {
+      "id": 900,
+      "nivel": 90,
+      "dificultad": 16,
+      "tema": "Síntesis final - Mensaje central",
+      "pregunta": "¿Cuál es el mensaje central de toda la Biblia en una frase?",
+      "opciones": {
+        "A": "Obediencia a la ley",
+        "B": "Jesús es el Cristo, el Hijo de Dios, y creyendo en él tenemos vida eterna (Juan 20:31) - Dios ama a los pecadores y envió a su Hijo para salvarlos mediante la fe (Juan 3:16)",
+        "C": "Ser buenas personas",
+        "D": "Cumplir ceremonias"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El mensaje central de toda la Biblia: Dios ama a los pecadores y envió a su Hijo Jesucristo para salvarlos mediante la fe. Resumen: Juan 20:31 'para que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo, tengáis vida en su nombre.' Juan 3:16 'Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.' El AT promete/profetiza esto; el NT presenta/cumple esto."
+    }
+  ]
+}

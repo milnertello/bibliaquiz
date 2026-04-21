@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "46-50",
+    "dificultad": "Medio-Difícil",
+    "tema": "Iglesia primitiva (Hechos de los Apóstoles)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre el nacimiento de la iglesia, Pentecostés, los apóstoles y la expansión del cristianismo"
+  },
+  "preguntas": [
+    {
+      "id": 451,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Ascensión",
+      "pregunta": "¿Cuántos días después de la resurrección Jesús ascendió al cielo?",
+      "opciones": {
+        "A": "3 días",
+        "B": "7 días",
+        "C": "40 días",
+        "D": "50 días"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Hechos 1:3 dice que también se les presentó vivo, después de su pasión, con muchas pruebas infalibles, siéndoles visto por espacio de cuarenta días."
+    },
+    {
+      "id": 452,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Ascensión",
+      "pregunta": "¿Dónde ascendió Jesús al cielo según Hechos?",
+      "opciones": {
+        "A": "En el templo",
+        "B": "En el monte de los Olivos",
+        "C": "En el mar de Galilea",
+        "D": "En Jerusalén"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 1:12 dice que entonces volvieron a Jerusalén desde el monte llamado de los Olivos, que está cerca de Jerusalén."
+    },
+    {
+      "id": 453,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Promesa",
+      "pregunta": "¿Qué promesa hizo Jesús antes de ascender?",
+      "opciones": {
+        "A": "'Volveré pronto'",
+        "B": "'Recibiréis poder cuando haya venido sobre vosotros el Espíritu Santo'",
+        "C": "'Seréis ricos'",
+        "D": "'No sufriréis'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 1:8 dice: 'Pero recibiréis poder, cuando haya venido sobre vosotros el Espíritu Santo, y me seréis testigos.'"
+    },
+    {
+      "id": 454,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Elección",
+      "pregunta": "¿Quién fue elegido para reemplazar a Judas Iscariote?",
+      "opciones": {
+        "A": "Pablo",
+        "B": "Matías",
+        "C": "Bernabé",
+        "D": "Timoteo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 1:26 dice que echaron suertes, y la suerte cayó sobre Matías; y fue contado con los once apóstoles."
+    },
+    {
+      "id": 455,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Pentecostés",
+      "pregunta": "¿Cuántos días después de la Pascua ocurrió Pentecostés?",
+      "opciones": {
+        "A": "40 días",
+        "B": "50 días",
+        "C": "7 días",
+        "D": "100 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 2:1 dice que al cumplirse el día de Pentecostés, estaban todos unánimes juntos. Pentecostés significa 'quinquagésimo' o día 50."
+    },
+    {
+      "id": 456,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Pentecostés",
+      "pregunta": "¿Qué sonido se oyó cuando vino el Espíritu Santo en Pentecostés?",
+      "opciones": {
+        "A": "Un trueno",
+        "B": "Como de un viento recio que venía corriendo",
+        "C": "Una campana",
+        "D": "Música"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 2:2 dice que de repente vino un estruendo del cielo como de un viento recio que venía corriendo, el cual llenó toda la casa donde estaban sentados."
+    },
+    {
+      "id": 457,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Pentecostés",
+      "pregunta": "¿Qué apareció sobre cada uno de los discípulos en Pentecostés?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "Lenguas repartidas como de fuego",
+        "C": "Palomas",
+        "D": "Estrellas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 2:3 dice que se les aparecieron lenguas repartidas, como de fuego, asentándose sobre cada uno de ellos."
+    },
+    {
+      "id": 458,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Pentecostés",
+      "pregunta": "¿Cuántas personas se convirtieron el día de Pentecostés?",
+      "opciones": {
+        "A": "100",
+        "B": "300",
+        "C": "3,000",
+        "D": "5,000"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Hechos 2:41 dice que fueron añadidas como tres mil personas a los discípulos."
+    },
+    {
+      "id": 459,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Pentecostés",
+      "pregunta": "¿Qué profeta citó Pedro en su sermón de Pentecostés?",
+      "opciones": {
+        "A": "Isaías",
+        "B": "Joel",
+        "C": "Jeremías",
+        "D": "Daniel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 2:16-21 cita a Joel 2:28-32: 'Y será en los postreros días, dice Dios, que derramaré de mi Espíritu sobre toda carne.'"
+    },
+    {
+      "id": 460,
+      "nivel": 46,
+      "dificultad": 8,
+      "tema": "Hechos - Comunidad",
+      "pregunta": "¿Qué hacían los primeros cristianos según Hechos 2:42?",
+      "opciones": {
+        "A": "Trabajaban solo",
+        "B": "Perseveraban en la doctrina de los apóstoles, en la comunión, en el partimiento del pan y en las oraciones",
+        "C": "Viajaban",
+        "D": "Descansaban"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 2:42 dice que perseveraban en la doctrina de los apóstoles, en la comunión unos con otros, en el partimiento del pan y en las oraciones."
+    },
+    {
+      "id": 461,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Curación",
+      "pregunta": "¿Quienes fueron los primeros milagrosamente sanados después de Pentecostés?",
+      "opciones": {
+        "A": "El paralítico en la puerta del templo (llamado Bello)",
+        "B": "Un cojo de nacimiento a la puerta del templo llamado Bello",
+        "C": "Lázaro",
+        "D": "La suegra de Pedro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 3:2-10 describe cómo Pedro y Juan sanaron a un hombre cojo de nacimiento a la puerta del templo llamada la Hermosa."
+    },
+    {
+      "id": 462,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Ananías y Safira",
+      "pregunta": "¿Qué pecado cometieron Ananías y Safira?",
+      "opciones": {
+        "A": "Robo",
+        "B": "Mentir al Espíritu Santo sobre el precio de la tierra vendida",
+        "C": "Adulterio",
+        "D": "Idolatría"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 5:3-4 dice que Pedro les dijo: '¿Por qué se ha llenado Satanás tu corazón para que mintieses al Espíritu Santo?'"
+    },
+    {
+      "id": 463,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Ananías y Safira",
+      "pregunta": "¿Qué les sucedió a Ananías y Safira por mentir?",
+      "opciones": {
+        "A": "Fueron exiliados",
+        "B": "Murieron instantáneamente",
+        "C": "Fueron encarcelados",
+        "D": "Perdieron su dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 5:5 dice que al oír Ananías estas palabras, cayó y expiró... y Hechos 5:10 dice que también ella (Safira) cayó junto a sus pies y murió."
+    },
+    {
+      "id": 464,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Diáconos",
+      "pregunta": "¿Quién fue el primer mártir cristiano?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Esteban",
+        "C": "Pablo",
+        "D": "Santiago"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 7:54-60 describe el martirio de Esteban, quien fue apedreado hasta la muerte."
+    },
+    {
+      "id": 465,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Esteban",
+      "pregunta": "¿Qué visión tuvo Esteban antes de morir?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "Los cielos abiertos y al Hijo del Hombre de pie a la diestra de Dios",
+        "C": "Fuego",
+        "D": "Su madre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 7:55-56 dice que Esteban, lleno del Espíritu Santo, fijos los ojos en el cielo, vio la gloria de Dios, y a Jesús que estaba a la diestra de Dios."
+    },
+    {
+      "id": 466,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Saulo",
+      "pregunta": "¿Quién cuidaba las ropas de los que apedrearon a Esteban?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Saulo de Tarso (Pablo)",
+        "C": "Juan",
+        "D": "Felipe"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 7:58 dice que echaron fuera de la ciudad a Esteban, y arrojaron piedras; y los testigos pusieron sus ropas a los pies de un joven llamado Saulo."
+    },
+    {
+      "id": 467,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Conversión de Pablo",
+      "pregunta": "¿Adónde iba Saulo cuando Jesús se le apareció?",
+      "opciones": {
+        "A": "A Jerusalén",
+        "B": "A Damasco para perseguir a los cristianos",
+        "C": "A Roma",
+        "D": "A Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 9:1-3 describe cómo Saulo, respirando aún amenazas y muerte contra los discípulos del Señor, iba de camino a Damasco."
+    },
+    {
+      "id": 468,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Conversión de Pablo",
+      "pregunta": "¿Qué le preguntó Jesús a Saulo en el camino a Damasco?",
+      "opciones": {
+        "A": "'¿Por qué me persigues?'",
+        "B": "'Saulo, Saulo, ¿por qué me persigues?'",
+        "C": "'¿Quién eres?'",
+        "D": "'¿Adónde vas?'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 9:4 dice que cayendo en tierra, oyó una voz que le decía: 'Saulo, Saulo, ¿por qué me persigues?'"
+    },
+    {
+      "id": 469,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Conversión de Pablo",
+      "pregunta": "¿Cuánto tiempo estuvo ciego Saulo después de su conversión?",
+      "opciones": {
+        "A": "Un día",
+        "B": "Tres días",
+        "C": "Siete días",
+        "D": "Cuarenta días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 9:9 dice que estuvo tres días sin ver, y no comió ni bebió."
+    },
+    {
+      "id": 470,
+      "nivel": 47,
+      "dificultad": 8,
+      "tema": "Hechos - Ananías",
+      "pregunta": "¿Quién sanó a Saulo de su ceguera?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Ananías, un discípulo en Damasco",
+        "C": "Barnabé",
+        "D": "Juan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 9:10-18 describe cómo Ananías, por temor pero obedeciendo a Dios, fue a Saulo, puso las manos sobre él y recobró la vista."
+    },
+    {
+      "id": 471,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Conversión de Pablo",
+      "pregunta": "¿Qué dijo Ananías a Saulo cuando lo sanó?",
+      "opciones": {
+        "A": "'Vete de aquí'",
+        "B": "'El Dios de nuestros padres te ha escogido para que conocieses su voluntad... serás testigo suyo a todos los hombres'",
+        "C": "'Eres malo'",
+        "D": "'No puedes entrar'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 22:14-15 dice: 'El Dios de nuestros padres te ha escogido para que conocieses su voluntad... porque serás testigo suyo a todos los hombres.'"
+    },
+    {
+      "id": 472,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Cornelio",
+      "pregunta": "¿Quién fue el primer gentil convertido al cristianismo?",
+      "opciones": {
+        "A": "Pablo",
+        "B": "Cornelio, un centurión romano",
+        "C": "Timoteo",
+        "D": "Apolos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 10 describe la conversión de Cornelio, un centurión romano devoto, enviando Pedro a predicarle."
+    },
+    {
+      "id": 473,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Visión de Pedro",
+      "pregunta": "¿Qué vio Pedro en la visión antes de ir a Cornelio?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "Un gran lienzo con animales impuros descendiendo del cielo",
+        "C": "Fuego",
+        "D": "Jesús"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 10:11-12 describe la visión del lienzo grande con cuatro puntas, bajando del cielo con animales de cuatro patas, y otros animales."
+    },
+    {
+      "id": 474,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Visión de Pedro",
+      "pregunta": "¿Qué le dijo la voz a Pedro tres veces en la visión?",
+      "opciones": {
+        "A": "'Levántate, Pedro, mata y come'",
+        "B": "'Levántate, Pedro, sacrifica'",
+        "C": "'Levántate, Pedro, ora'",
+        "D": "'Levántate, Pedro, predica'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Hechos 10:13 dice que le llegó una voz: 'Levántate, Pedro, mata y come.' Y esto sucedió tres veces."
+    },
+    {
+      "id": 475,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Cornelio",
+      "pregunta": "¿Qué recibieron los gentiles en la casa de Cornelio?",
+      "opciones": {
+        "A": "Dinero",
+        "B": "El Espíritu Santo igual que los judíos",
+        "C": "Comida",
+        "D": "Ropa"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 10:44-47 describe cómo el Espíritu Santo cayó sobre todos los que oían la palabra, hablando en lenguas."
+    },
+    {
+      "id": 476,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Eclesia de Antioquía",
+      "pregunta": "¿Dónde se llamó por primera vez a los discípulos 'cristianos'?",
+      "opciones": {
+        "A": "En Jerusalén",
+        "B": "En Antioquía de Siria",
+        "C": "En Roma",
+        "D": "En Éfeso"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 11:26 dice que se reunieron con la iglesia por todo un año, y enseñaron a mucha gente; y a los discípulos se les llamó cristianos por primera vez en Antioquía."
+    },
+    {
+      "id": 477,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Eclesia de Antioquía",
+      "pregunta": "¿Quiénes enseñaron en Antioquía durante un año?",
+      "opciones": {
+        "A": "Pedro y Juan",
+        "B": "Bernabé y Saulo (Pablo)",
+        "C": "Santiago y Felipe",
+        "D": "Apolos y Timoteo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 11:26 dice que se reunieron con la iglesia por todo un año, y enseñaron a mucha gente. Bernabé fue a buscar a Saulo."
+    },
+    {
+      "id": 478,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Liberación",
+      "pregunta": "¿Cómo escapó Pedro de la cárcel de Herodes?",
+      "opciones": {
+        "A": "Por una revuelta",
+        "B": "Un ángel lo liberó milagrosamente",
+        "C": "Sobornó a los guardias",
+        "D": "Las puertas se abrieron solas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 12:6-11 describe cómo un ángel del Señor iluminó la celda, golpeó a Pedro para despertarlo, y las cadenas cayeron de sus manos."
+    },
+    {
+      "id": 479,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Herodes",
+      "pregunta": "¿Qué le sucedió a Herodes Agripa I después de aceptar adoración divina?",
+      "opciones": {
+        "A": "Se convirtió",
+        "B": "Un ángel del Señor lo hirió, y fue comido de gusanos y murió",
+        "C": "Fue encarcelado",
+        "D": "Se suicidó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 12:21-23 dice que un ángel del Señor lo hirió de muerte, porque no dio la gloria a Dios; y expiró comido de gusanos."
+    },
+    {
+      "id": 480,
+      "nivel": 48,
+      "dificultad": 8,
+      "tema": "Hechos - Pablo y Bernabé",
+      "pregunta": "¿Quién acompañó a Pablo en su primer viaje misionero?",
+      "opciones": {
+        "A": "Silas",
+        "B": "Bernabé",
+        "C": "Timoteo",
+        "D": "Lucas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 13:2-4 describe cómo el Espíritu Santo llamó a apartar a Bernabé y a Saulo para la obra, y comenzaron su primer viaje misionero."
+    },
+    {
+      "id": 481,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Primer viaje",
+      "pregunta": "¿En qué isla Pablo y Bernabé hicieron el primer convers notable?",
+      "opciones": {
+        "A": "Creta",
+        "B": "Chipre",
+        "C": "Rodas",
+        "D": "Patmos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 13:4-12 describe cómo llegaron a Salamina de Chipre y convirtieron al procónsul Sergio Paulo."
+    },
+    {
+      "id": 482,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Pablo en Listra",
+      "pregunta": "¿Qué hicieron los habitantes de Listra cuando sanaron a un cojo?",
+      "opciones": {
+        "A": "Creyeron en Dios",
+        "B": "Quisieron ofrecer sacrificios a Pablo y Bernabé como dioses (Júpiter y Mercurio)",
+        "C": "Los persiguieron",
+        "D": "Los mataron"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 14:8-18 describe cómo los sacerdotes de Júpiter querían ofrecer sacrificios, y Pablo y Bernabé tuvieron que rasgar sus vestidos y detenerlos."
+    },
+    {
+      "id": 483,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Concilio de Jerusalén",
+      "pregunta": "¿Qué decidió el Concilio de Jerusalén sobre los gentiles convertidos?",
+      "opciones": {
+        "A": "Que debían circuncidarse",
+        "B": "Que no debían circumcidarse ni guardar toda la ley de Moisés",
+        "C": "Que debían guardar el sábado",
+        "D": "Que debían ofrecer sacrificios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 15:19-20 dice que no se ha de inquietar a los gentiles que se convierten a Dios, sino escribirles que se abstengan de contaminaciones de ídolos, fornicación, animales estrangulados y sangre."
+    },
+    {
+      "id": 484,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Concilio de Jerusalén",
+      "pregunta": "¿Quién presidió el Concilio de Jerusalén?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Santiago (hermano de Jesús)",
+        "C": "Juan",
+        "D": "Pablo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 15:13 dice que después que callaron, Santiago respondió diciendo: 'Hermanos, oídme.' Y su decisión fue la que se adoptó."
+    },
+    {
+      "id": 485,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Segundo viaje",
+      "pregunta": "¿Quién se unió a Pablo en el segundo viaje misionero?",
+      "opciones": {
+        "A": "Bernabé",
+        "B": "Silas y luego Timoteo",
+        "C": "Lucas",
+        "D": "Marcos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 15:40 dice que Pablo escogiendo a Silas, salió encomendado por los hermanos a la gracia de Dios. Timoteo se unió más tarde (16:1-3)."
+    },
+    {
+      "id": 486,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Macedonia",
+      "pregunta": "¿Qué visión tuvo Pablo en Troas que lo llevó a Europa?",
+      "opciones": {
+        "A": "Un león",
+        "B": "Un varón macedonio que le rogaba: 'Pasa a Macedonia y ayúdanos'",
+        "C": "Un ángel",
+        "D": "Fuego"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 16:9 dice que se le apareció de noche a Pablo una visión: un varón macedonio estaba en pie, rogándole y diciendo: 'Pasa a Macedonia y ayúdanos.'"
+    },
+    {
+      "id": 487,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Filipos",
+      "pregunta": "¿Quién fue la primera conversa europea mencionada en Hechos?",
+      "opciones": {
+        "A": "Lidia, vendedora de púrpura",
+        "B": "La carcelero de Filipos",
+        "C": "Timoteo",
+        "D": "Priscila"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Hechos 16:14-15 describe cómo una mujer llamada Lidia, vendedora de púrpura, de la ciudad de Tiatira, adoradora de Dios, escuchó, y el Señor abrió el corazón de ella."
+    },
+    {
+      "id": 488,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Filipos",
+      "pregunta": "¿Qué hizo el carcelero de Filipos después del terremoto?",
+      "opciones": {
+        "A": "Huyó",
+        "B": "Se convirtió junto con toda su casa",
+        "C": "Mató a Pablo",
+        "D": "Encarceló a más gente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 16:27-34 describe cómo el carcelero, temiendo que los prisioneros hubiesen huido, se dispuso a matarse, pero Pablo lo detuvo, y luego creyó junto con toda su casa."
+    },
+    {
+      "id": 489,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Tesalónica",
+      "pregunta": "¿Qué acusaron los judíos contra Pablo en Tesalónica?",
+      "opciones": {
+        "A": "Que enseñaban a guardar la ley",
+        "B": "Que estos que han trastornado el mundo han venido también aquí... diciendo que hay otro rey, Jesús",
+        "C": "Que robaban",
+        "D": "Que mataban"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 17:6-7 dice que acusaron a los cristianos de ir contra los decretos de César, diciendo que hay otro rey, Jesús."
+    },
+    {
+      "id": 490,
+      "nivel": 49,
+      "dificultad": 8,
+      "tema": "Hechos - Berea",
+      "pregunta": "¿Por qué los bereanos eran más nobles que los tesalonicenses?",
+      "opciones": {
+        "A": "Porque eran más ricos",
+        "B": "Porque recibieron la palabra con toda solicitud, escudriñando cada día las Escrituras para ver si estas cosas eran así",
+        "C": "Porque construyeron un templo",
+        "D": "Porque ofrendaron más"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 17:11 dice que estos eran más nobles que los que estaban en Tesalónica, pues recibieron la palabra con toda solicitud, escudriñando cada día las Escrituras."
+    },
+    {
+      "id": 491,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Atenas",
+      "pregunta": "¿Qué altar vio Pablo en Atenas que le dio oportunidad de predicar?",
+      "opciones": {
+        "A": "Un altar a Zeus",
+        "B": "Un altar con esta inscripción: Al dios no conocido",
+        "C": "Un altar a Apolo",
+        "D": "Un altar a Atenea"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 17:23 dice que pasando y viendo sus objetos de culto, halló también un altar en que estaba esta inscripción: Al dios no conocido."
+    },
+    {
+      "id": 492,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Atenas",
+      "pregunta": "¿Qué cita de poetas griegos usó Pablo en el Areópago?",
+      "opciones": {
+        "A": "'En él vivimos, nos movemos y somos'",
+        "B": "'Somos su descendencia'",
+        "C": "Ambas son correctas",
+        "D": "Ninguna"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Hechos 17:28 cita a poetas griegos: 'Porque en él vivimos, nos movemos y somos', y 'ciertos poetas de entre vosotros han dicho: Somos también su descendencia.'"
+    },
+    {
+      "id": 493,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Corinto",
+      "pregunta": "¿Con quiénes trabajó Pablo haciendo tiendas en Corinto?",
+      "opciones": {
+        "A": "Con Timoteo",
+        "B": "Con Priscila y Aquila",
+        "C": "Con Silas",
+        "D": "Con Bernabé"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 18:2-3 dice que encontró a un judío llamado Aquila, natural del Ponto, y a su mujer Priscila... y se quedó con ellos, y trabajaba, porque el oficio de ellos era hacer tiendas."
+    },
+    {
+      "id": 494,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Éfeso",
+      "pregunta": "¿Qué sucedió cuando Pablo impartió el Espíritu Santo a los discípulos de Éfeso?",
+      "opciones": {
+        "A": "Cayeron dormidos",
+        "B": "Hablaron en lenguas y profetizaron",
+        "C": "Se enfermaron",
+        "D": "No pasó nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 19:6 dice que Pablo les impuso las manos, vino el Espíritu Santo sobre ellos, y hablaban en lenguas y profetizaban."
+    },
+    {
+      "id": 495,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Éfeso",
+      "pregunta": "¿Qué quemaron los creyentes de Éfeso cuando se arrepintieron?",
+      "opciones": {
+        "A": "Sus casas",
+        "B": "Sus libros de artes curiosas (curandería/magia)",
+        "C": "Sus ropas",
+        "D": "Sus barcos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 19:19 dice que muchos de los que habían creído venían, confesando y dando cuenta de sus hechos. Y muchos de los que habían practicado la magia juntaron sus libros y los quemaron ante todos."
+    },
+    {
+      "id": 496,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Pablo arrestado",
+      "pregunta": "¿Por qué Pablo fue arrestado en Jerusalén?",
+      "opciones": {
+        "A": "Por predicar contra el templo",
+        "B": "Por llevar gentiles al templo",
+        "C": "Falsamente acusado de enseñar contra la ley de Moisés",
+        "D": "Por robar"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Hechos 21:21-28 describe cómo los judíos falsamente acusaron a Pablo de enseñar a los judíos apostatas a no circuncidar ni guardar las costumbres."
+    },
+    {
+      "id": 497,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Defensa de Pablo",
+      "pregunta": "¿En qué idioma habló Pablo cuando se defendió ante la multitud?",
+      "opciones": {
+        "A": "Griego",
+        "B": "Hebreo (aramaico)",
+        "C": "Latín",
+        "D": "Latín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 21:40 dice que Pablo, estando en pie en las gradas, hizo señal con la mano al pueblo; y hecha gran silencio, les habló en lengua hebrea."
+    },
+    {
+      "id": 498,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Apelación",
+      "pregunta": "¿Adónde apeló Pablo para ser juzgado?",
+      "opciones": {
+        "A": "Al sumo sacerdote",
+        "B": "A César",
+        "C": "A Herodes",
+        "D": "Al sanedrín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 25:11-12 dice que Pablo apeló a César: 'Me apelo a César.' Y Festo respondió: 'A César has apelado; a César irás.'"
+    },
+    {
+      "id": 499,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Viaje a Roma",
+      "pregunta": "¿Cómo llegó Pablo a Roma?",
+      "opciones": {
+        "A": "Caminando",
+        "B": "Como prisionero en un barco que naufragó",
+        "C": "En caballo",
+        "D": "En carro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 27-28 describe el viaje de Pablo a Roma como prisionero, incluyendo el naufragio en Malta."
+    },
+    {
+      "id": 500,
+      "nivel": 50,
+      "dificultad": 8,
+      "tema": "Hechos - Final",
+      "pregunta": "¿Qué hizo Pablo durante sus dos años de arresto domiciliario en Roma?",
+      "opciones": {
+        "A": "Descansó",
+        "B": "Predicaba el reino de Dios y enseñaba acerca del Señor Jesucristo abiertamente y sin prohibición",
+        "C": "Escribió cartas",
+        "D": "Construyó una iglesia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 28:30-31 dice que Pablo habitó dos años enteros en su casa alquilada, y recibía a todos los que venían a verle, predicando el reino de Dios y enseñando acerca del Señor Jesucristo."
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "71-75",
+    "dificultad": "Muy difícil",
+    "tema": "Carta de Judas y Apocalipsis (Revelación)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre la carta de Judas y el libro de Apocalipsis"
+  },
+  "preguntas": [
+    {
+      "id": 701,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Fe",
+      "pregunta": "¿Por qué escribió Judas según Judas 1:3?",
+      "opciones": {
+        "A": "Para contar historias",
+        "B": "Para exhortar a contender por la fe que ha sido una vez dada a los santos",
+        "C": "Para hablar de dinero",
+        "D": "Para describir viajes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:3 dice: 'Amados, por considerar que sería necesario escribiros exhortándoos a que contendáis por la fe que ha sido una vez dada a los santos.'"
+    },
+    {
+      "id": 702,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Intrusionados",
+      "pregunta": "¿Qué son ciertos hombres según Judas 1:4?",
+      "opciones": {
+        "A": "Justos",
+        "B": "Intrusionados que hacen cambiar la gracia de Dios en libertinaje y niegan al único Soberano",
+        "C": "Santos",
+        "D": "Honrados"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:4 dice que ciertos hombres se han intrusionado, los cuales desde mucho antes estaban marcados para esta condenación, hombres impíos que hacen cambiar la gracia de Dios en libertinaje, y niegan al único Soberano, y a nuestro Señor Jesucristo."
+    },
+    {
+      "id": 703,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Israel",
+      "pregunta": "¿Qué ejemplo usa Judas de Israel en el desierto?",
+      "opciones": {
+        "A": "Que fueron perfectos",
+        "B": "Que aunque salvados de Egipto, los que no creyeron fueron destruidos",
+        "C": "Que no tuvieron problemas",
+        "D": "Que fueron siempre obedientes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:5 dice que recordemos que el Señor, habiendo salvado al pueblo de la tierra de Egipto, después destruyó a los que no creyeron."
+    },
+    {
+      "id": 704,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Ángeles",
+      "pregunta": "¿Qué pasó con los ángeles que no guardaron su dignidad según Judas 1:6?",
+      "opciones": {
+        "A": "Fueron exaltados",
+        "B": "Ha reservado para el juicio del gran día con prisiones eternas debajo de la oscuridad",
+        "C": "Fueron liberados",
+        "D": "Fueron ignorados"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:6 dice: 'Y a los ángeles que no guardaron su dignidad, sino que abandonaron su propia morada, los ha encadenado en prisiones eternas debajo de la oscuridad para el juicio del gran día.'"
+    },
+    {
+      "id": 705,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Sodoma",
+      "pregunta": "¿Qué le pasó a Sodoma y Gomorra según Judas 1:7?",
+      "opciones": {
+        "A": "Fueron bendecidas",
+        "B": "Son puestas por ejemplo, sufriendo el juicio del fuego eterno por fornicación y corrupción",
+        "C": "Fueron perdonadas",
+        "D": "Fueron ignoradas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:7 dice: 'Como Sodoma y Gomorra y las ciudades vecinas, las cuales de la misma manera que aquellos, habiendo fornicado e ido en pos de vicios contra naturaleza, son puestas por ejemplo, sufriendo el juicio del fuego eterno.'"
+    },
+    {
+      "id": 706,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Miguel",
+      "pregunta": "¿Qué discusión tuvo Miguel con el diablo según Judas 1:9?",
+      "opciones": {
+        "A": "Sobre el paraíso",
+        "B": "Sobre el cuerpo de Moisés, y Miguel no se atrevió a pronunciar juicio blasfemo",
+        "C": "Sobre Abraham",
+        "D": "Sobre David"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:9 dice que Miguel, el arcángel, cuando contendía con el diablo disputando por el cuerpo de Moisés, no se atrevió a pronunciar contra él juicio blasfemo, sino que dijo: El Señor te reprenda."
+    },
+    {
+      "id": 707,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Cain",
+      "pregunta": "¿Por qué camino van los falsos maestros según Judas 1:11?",
+      "opciones": {
+        "A": "El de la fe",
+        "B": "El camino de Caín, y se lanzaron por recompresa al error de Balaam",
+        "C": "El de la obediencia",
+        "D": "El de la humildad"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:11 dice: '¡Ay de ellos! Porque han seguido el camino de Caín, y se lanzaron por recompresa al error de Balaam, y perecieron en la contradicción de Coré.'"
+    },
+    {
+      "id": 708,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Amor de Dios",
+      "pregunta": "¿Dónde debemos edificarnos según Judas 1:20-21?",
+      "opciones": {
+        "A": "En nuestra propia fuerza",
+        "B": "Edificados sobre vuestra santísima fe, orando en el Espíritu Santo, manteneos en el amor de Dios",
+        "C": "En el mundo",
+        "D": "En la riqueza"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:20-21 dice: 'Pero vosotros, amados, edificaos sobre vuestra santísima fe, orando en el Espíritu Santo, manteneos en el amor de Dios, esperando la misericordia de nuestro Señor Jesucristo para vida eterna.'"
+    },
+    {
+      "id": 709,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Judas - Gloria",
+      "pregunta": "¿Quién es el único Dios según Judas 1:24-25?",
+      "opciones": {
+        "A": "Cualquier dios",
+        "B": "Aquel que es capaz de guardarles sin caída y presentarles sin mancha ante su gloria con gran alegría, al único Dios Salvador nuestro, por medio de Jesucristo",
+        "C": "Muchos dioses",
+        "D": "Ningún Dios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Judas 1:24-25 dice: 'A aquel que es capaz de guardarles sin caída, y de presentarles sin mancha ante su gloria con gran alegría, al único Dios Salvador nuestro, por medio de nuestro Señor Jesucristo, sea gloria y majestad.'"
+    },
+    {
+      "id": 710,
+      "nivel": 71,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Autor",
+      "pregunta": "¿Quién escribió el Apocalipsis según Apocalipsis 1:1, 4, 9?",
+      "opciones": {
+        "A": "Pablo",
+        "B": "Juan, su siervo",
+        "C": "Pedro",
+        "D": "Santiago"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 1:1, 4, 9 indica que Juan es el autor, quien se encontraba en la isla de Patmos por causa de la palabra de Dios y el testimonio de Jesucristo."
+    },
+    {
+      "id": 711,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Revelación",
+      "pregunta": "¿De quién es esta revelación según Apocalipsis 1:1?",
+      "opciones": {
+        "A": "De Juan",
+        "B": "De Jesucristo, que Dios le dio para manifestar a sus siervos las cosas que deben suceder",
+        "C": "De un ángel",
+        "D": "De Pablo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 1:1 dice: 'La revelación de Jesucristo, que Dios le dio, para manifestar a sus siervos las cosas que deben suceder pronto.'"
+    },
+    {
+      "id": 712,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Las 7 iglesias",
+      "pregunta": "¿A cuántas iglesias se dirige el mensaje según Apocalipsis 1:4, 11?",
+      "opciones": {
+        "A": "3",
+        "B": "7 iglesias que están en Asia: Efeso, Esmirna, Pérgamo, Tiatira, Sardis, Filadelfia y Laodicea",
+        "C": "12",
+        "D": "100"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 1:4, 11 menciona las 7 iglesias en Asia: Efeso, Esmirna, Pérgamo, Tiatira, Sardis, Filadelfia y Laodicea."
+    },
+    {
+      "id": 713,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Alfa y Omega",
+      "pregunta": "¿Cómo se describe a Dios según Apocalipsis 1:8?",
+      "opciones": {
+        "A": "Como un ángel",
+        "B": "Como el Alfa y la Omega, el principio y el fin, el que es, el que era y el que ha de venir, el Todopoderoso",
+        "C": "Como un profeta",
+        "D": "Como un rey terrenal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 1:8 dice: 'Yo soy el Alfa y la Omega, principio y fin, dice el Señor, el que es y que era y que ha de venir, el Todopoderoso.'"
+    },
+    {
+      "id": 714,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Vision de Cristo",
+      "pregunta": "¿Cómo describe Juan a Cristo en Apocalipsis 1:13-16?",
+      "opciones": {
+        "A": "Como un bebé",
+        "B": "Vestido de una ropa que llegaba hasta los pies, ceñido por el pecho con un cinto de oro, cabellos blancos como lana, ojos como llama de fuego, pies como bronce, voz como de muchas aguas",
+        "C": "Como un anciano",
+        "D": "Como un niño"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 1:13-16 describe a Cristo vestido con una ropa que llegaba hasta los pies, ceñido por el pecho con un cinto de oro; sus cabellos eran blancos como blanca lana, sus ojos como llama de fuego; sus pies semejantes al bronce bruñido; su voz como el estruendo de muchas aguas."
+    },
+    {
+      "id": 715,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Efeso",
+      "pregunta": "¿Qué tiene contra la iglesia de Efeso según Apocalipsis 2:4?",
+      "opciones": {
+        "A": "Que no trabaja",
+        "B": "Que ha dejado su primer amor",
+        "C": "Que no tiene fe",
+        "D": "Que no da limosnas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 2:4 dice: 'Pero tengo contra ti, que has dejado tu primer amor.'"
+    },
+    {
+      "id": 716,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Esmirna",
+      "pregunta": "¿Qué no recibirá la iglesia de Esmirna según Apocalipsis 2:11?",
+      "opciones": {
+        "A": "Paz",
+        "B": "El que venciere, no recibirá daño de la muerte segunda",
+        "C": "Riqueza",
+        "D": "Poder"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 2:11 dice: 'El que tiene oído, oiga lo que el Espíritu dice a las iglesias. El que venciere, no recibirá daño de la muerte segunda.'"
+    },
+    {
+      "id": 717,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Pergamo",
+      "pregunta": "¿Qué tiene contra la iglesia de Pérgamo según Apocalipsis 2:14-15?",
+      "opciones": {
+        "A": "Que no ora",
+        "B": "Que tienen a los que retienen la doctrina de Balaam, y a los que tienen la doctrina de los nicolaítas",
+        "C": "Que no cantan",
+        "D": "Que no leen"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 2:14-15 dice que tienen a los que retienen la doctrina de Balaam, y también a los que retienen la doctrina de los nicolaítas."
+    },
+    {
+      "id": 718,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Tiatira",
+      "pregunta": "¿Quién es Jezabel según Apocalipsis 2:20?",
+      "opciones": {
+        "A": "Una reina buena",
+        "B": "Una mujer que se dice profetisa, que enseña y seduce a los siervos de Dios a fornicar y a comer cosas sacrificadas a ídolos",
+        "C": "Una santa",
+        "D": "Una virgen"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 2:20 dice: 'Pero tengo contra ti, que toleras que Jezabel, aquella mujer que se dice profetisa, enseñe y seduzca a mis siervos, para que forniquen y coman cosas sacrificadas a ídolos.'"
+    },
+    {
+      "id": 719,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Sardis",
+      "pregunta": "¿Qué dice de la iglesia de Sardis según Apocalipsis 3:1?",
+      "opciones": {
+        "A": "Que es perfecta",
+        "B": "Que tiene nombre de que vive, pero está muerta",
+        "C": "Que es la mejor",
+        "D": "Que no tiene problemas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 3:1 dice: 'Y escribe al ángel de la iglesia en Sardis: Esto dice el que tiene los siete espíritus de Dios, y las siete estrellas: Conozco tus obras, que tienes nombre de que vives, y estás muerta.'"
+    },
+    {
+      "id": 720,
+      "nivel": 72,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Filadelfia",
+      "pregunta": "¿Qué promesa hay para la iglesia de Filadelfia según Apocalipsis 3:11-12?",
+      "opciones": {
+        "A": "Riqueza",
+        "B": "Al que venciere, le haré columna en el templo de mi Dios, y escribiré sobre él el nombre de mi Dios, el nombre de la ciudad de mi Dios y mi nombre nuevo",
+        "C": "Poder terrenal",
+        "D": "Fama"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 3:11-12 dice: 'Al que venciere, le haré columna en el templo de mi Dios, y nunca más saldrá de allí; y escribiré sobre él el nombre de mi Dios, y el nombre de la ciudad de mi Dios, el nuevo Jerusalén, el cual desciende del cielo de mi Dios, y mi nombre nuevo.'"
+    },
+    {
+      "id": 721,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Laodicea",
+      "pregunta": "¿Cómo describe Cristo a la iglesia de Laodicea según Apocalipsis 3:15-16?",
+      "opciones": {
+        "A": "Caliente",
+        "B": "Tibia, ni fría ni caliente; vomitarla de su boca",
+        "C": "Fría",
+        "D": "Perfecta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 3:15-16 dice: 'Conozco tus obras, que ni eres frío ni caliente. ¡Ojalá fueses frío o caliente! Pero por cuanto eres tibio, y ni frío ni caliente, te vomitaré de mi boca.'"
+    },
+    {
+      "id": 722,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Consejo de oro",
+      "pregunta": "¿Qué consejo le da Cristo a Laodicea según Apocalipsis 3:18?",
+      "opciones": {
+        "A": "Nada",
+        "B": "Que le compre oro refinado al fuego, vestiduras blancas y colirio para ungir sus ojos",
+        "C": "Que se vaya",
+        "D": "Que no cambie"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 3:18 dice: 'Te aconsejo que de mí compres oro refinado al fuego, para que seas rico, y vestiduras blancas para vestirte, y que no se descubra la vergüenza de tu desnudez; y unge tus ojos con colirio, para que veas.'"
+    },
+    {
+      "id": 723,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Trono",
+      "pregunta": "¿Qué vio Juan en el cielo según Apocalipsis 4:2?",
+      "opciones": {
+        "A": "Un templo",
+        "B": "Un trono puesto en el cielo, y uno sentado en el trono",
+        "C": "Un jardín",
+        "D": "Un río"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 4:2 dice: 'Y al instante quedé en éxtasis; y vi un trono puesto en el cielo, y sobre el trono uno sentado.'"
+    },
+    {
+      "id": 724,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 24 ancianos",
+      "pregunta": "¿Cuántos ancianos hay alrededor del trono según Apocalipsis 4:4?",
+      "opciones": {
+        "A": "7",
+        "B": "24 ancianos sentados en 24 tronos, vestidos de vestiduras blancas, con coronas de oro",
+        "C": "12",
+        "D": "100"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 4:4 dice: 'Y alrededor del trono había veinticuatro tronos; y vi sobre los tronos a veinticuatro ancianos sentados, vestidos de vestiduras blancas; y tenían en sus cabezas coronas de oro.'"
+    },
+    {
+      "id": 725,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Serafines",
+      "pregunta": "¿Qué seres alaban a Dios continuamente según Apocalipsis 4:8?",
+      "opciones": {
+        "A": "Ángeles",
+        "B": "Cuatro seres vivientes, cada uno con seis alas, llenos de ojos alrededor y por dentro, que no descansan de decir: Santo, santo, santo, Señor Dios Todopoderoso",
+        "C": "Hombres",
+        "D": "Animales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 4:6-8 describe cuatro seres vivientes, cada uno con seis alas, llenos de ojos alrededor y por dentro, que no descansan día ni noche diciendo: Santo, santo, santo es el Señor Dios Todopoderoso."
+    },
+    {
+      "id": 726,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Cordero",
+      "pregunta": "¿Qué vio Juan en la mano derecha del que estaba sentado según Apocalipsis 5:1, 6?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "Un libro escrito dentro y por detrás, y un Cordero como inmolado, con siete cuernos y siete ojos",
+        "C": "Un león",
+        "D": "Un trono"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 5:1 dice que vio en la mano derecha del que estaba sentado en el trono un libro escrito dentro y por detrás. Y 5:6 describe un Cordero como inmolado, en medio del trono, con siete cuernos y siete ojos (los siete espíritus de Dios)."
+    },
+    {
+      "id": 727,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Sello",
+      "pregunta": "¿Cuántos sellos hay según Apocalipsis 5:1, 6:1?",
+      "opciones": {
+        "A": "3",
+        "B": "7 sellos",
+        "C": "12",
+        "D": "100"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 5:1 menciona un libro con 7 sellos, y los capítulos 6-8 describen la apertura de los 7 sellos."
+    },
+    {
+      "id": 728,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 144000",
+      "pregunta": "¿Cuántos sellados hay de las tribus de Israel según Apocalipsis 7:4-8?",
+      "opciones": {
+        "A": "1000",
+        "B": "144,000, 12,000 de cada una de las 12 tribus de Israel",
+        "C": "7",
+        "D": "24"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 7:4-8 dice que se sellaron 144,000 de todas las tribus de los hijos de Israel: 12,000 de cada tribu."
+    },
+    {
+      "id": 729,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Gran multitud",
+      "pregunta": "¿Quién es la gran multitud según Apocalipsis 7:9-10?",
+      "opciones": {
+        "A": "Los israelitas solamente",
+        "B": "Una gran multitud, la cual nadie podía contar, de todas naciones y tribus y pueblos y lenguas, que estaban delante del trono, vestidos de ropas blancas, con palmas en sus manos",
+        "C": "Solo los ángeles",
+        "D": "Los apóstoles"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 7:9-10 describe una gran multitud, la cual nadie podía contar, de todas naciones y tribus y pueblos y lenguas, que estaban delante del trono, vestidos de ropas blancas, con palmas en sus manos."
+    },
+    {
+      "id": 730,
+      "nivel": 73,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 7 trompetas",
+      "pregunta": "¿Cuántas trompetas hay según Apocalipsis 8:2, 6?",
+      "opciones": {
+        "A": "3",
+        "B": "7 trompetas dadas a los 7 ángeles",
+        "C": "12",
+        "D": "24"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 8:2, 6 menciona 7 trompetas dadas a los 7 ángeles, y los capítulos 8-11 describen el sonido de las 7 trompetas."
+    },
+    {
+      "id": 731,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Testigos",
+      "pregunta": "¿Cuánto tiempo profetizarán los dos testigos según Apocalipsis 11:3?",
+      "opciones": {
+        "A": "3 días",
+        "B": "1,260 días, vestidos de cilicio",
+        "C": "7 días",
+        "D": "40 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 11:3 dice: 'Y daré a mis dos testigos que profetichen por 1,260 días, vestidos de cilicio.'"
+    },
+    {
+      "id": 732,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Testigos muertos",
+      "pregunta": "¿Dónde son muertos los dos testigos según Apocalipsis 11:7-8?",
+      "opciones": {
+        "A": "En el cielo",
+        "B": "En la calle de la gran ciudad que espiritualmente se llama Sodoma y Egipto, donde también nuestro Señor fue crucificado",
+        "C": "En el mar",
+        "D": "En el desierto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 11:8 dice: 'Y sus cadáveres estarán en la calle de la gran ciudad que espiritualmente se llama Sodoma y Egipto, donde también nuestro Señor fue crucificado.'"
+    },
+    {
+      "id": 733,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Arca",
+      "pregunta": "¿Qué se vio en el cielo cuando el séptimo ángel tocó la trompeta según Apocalipsis 11:19?",
+      "opciones": {
+        "A": "Un templo",
+        "B": "El arca de su pacto en el templo, y hubo relámpagos, voces, truenos, granizo",
+        "C": "Un río",
+        "D": "Un jardín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 11:19 dice: 'Y el templo de Dios fue abierto en el cielo, y el arca de su pacto se veía en el templo. Y hubo relámpagos, voces, truenos, un terremoto y grande granizo.'"
+    },
+    {
+      "id": 734,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Mujer",
+      "pregunta": "¿Qué aparece en el cielo según Apocalipsis 12:1?",
+      "opciones": {
+        "A": "Un dragón",
+        "B": "Una gran señal: una mujer vestida del sol, con la luna debajo de sus pies, y sobre su cabeza una corona de doce estrellas",
+        "C": "Un león",
+        "D": "Un cordero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 12:1 dice: 'Y una gran señal apareció en el cielo: una mujer vestida del sol, con la luna debajo de sus pies, y sobre su cabeza una corona de doce estrellas.'"
+    },
+    {
+      "id": 735,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Dragón",
+      "pregunta": "¿Quién es el dragón según Apocalipsis 12:9?",
+      "opciones": {
+        "A": "Un animal",
+        "B": "La serpiente antigua, que se llama diablo y Satanás, el que engaña al mundo entero",
+        "C": "Un rey terrenal",
+        "D": "Un profeta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 12:9 dice: 'Y fue lanzado fuera el gran dragón, la serpiente antigua, que se llama diablo y Satanás, el cual engaña al mundo entero; fue arrojado a la tierra, y sus ángeles fueron arrojados con él.'"
+    },
+    {
+      "id": 736,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Victoria",
+      "pregunta": "¿Por qué medio vencieron los hermanos según Apocalipsis 12:11?",
+      "opciones": {
+        "A": "Por la espada",
+        "B": "Por la sangre del Cordero y por la palabra del testimonio de ellos, y no amaron sus vidas hasta la muerte",
+        "C": "Por el dinero",
+        "D": "Por el poder terrenal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 12:11 dice: 'Y ellos le han vencido por la sangre del Cordero y por la palabra del testimonio de ellos, y no amaron sus vidas hasta la muerte.'"
+    },
+    {
+      "id": 737,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 666",
+      "pregunta": "¿Cuál es el número de la bestia según Apocalipsis 13:18?",
+      "opciones": {
+        "A": "777",
+        "B": "666, número de hombre",
+        "C": "999",
+        "D": "123"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 13:18 dice: 'Aquí hay sabiduría. El que tiene entendimiento, cuente el número de la bestia, pues es número de hombre. Y su número es seiscientos sesenta y seis.'"
+    },
+    {
+      "id": 738,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 144000",
+      "pregunta": "¿Qué tienen los 144,000 en la frente según Apocalipsis 14:1?",
+      "opciones": {
+        "A": "Una marca",
+        "B": "El nombre de él (el Cordero) y el nombre del Padre de él escrito en sus frentes",
+        "C": "Un número",
+        "D": "Un símbolo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 14:1 dice: 'Y miré, y he aquí el Cordero estaba en el monte de Sion, y con él a 144,000 que tenían el nombre de él y el nombre del Padre de él escrito en sus frentes.'"
+    },
+    {
+      "id": 739,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Evangelio eterno",
+      "pregunta": "¿Qué mensaje tiene el ángel según Apocalipsis 14:6-7?",
+      "opciones": {
+        "A": "Mensaje de guerra",
+        "B": "Evangelio eterno para predicar a los habitantes de la tierra, temed a Dios y dadle gloria, porque la hora de su juicio ha llegado",
+        "C": "Mensaje de riqueza",
+        "D": "Mensaje de poder"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 14:6-7 dice que un ángel tenía el evangelio eterno para predicar a los habitantes de la tierra: 'Temed a Dios, y dadle gloria; porque la hora de su juicio ha llegado; y adorad a aquel que hizo el cielo y la tierra, el mar y las fuentes de las aguas.'"
+    },
+    {
+      "id": 740,
+      "nivel": 74,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Babilonia",
+      "pregunta": "¿Qué cae según Apocalipsis 14:8?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Ha caído Babilonia la grande, que ha dado a beber a todas las naciones del vino del furor de su fornicación",
+        "C": "Roma",
+        "D": "Atenas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 14:8 dice: 'Otro ángel le siguió, diciendo: Ha caído, ha caído Babilonia la grande, que ha dado a beber a todas las naciones del vino del furor de su fornicación.'"
+    },
+    {
+      "id": 741,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 7 plagas",
+      "pregunta": "¿Cuántas copas hay según Apocalipsis 15:7, 16:1?",
+      "opciones": {
+        "A": "3",
+        "B": "7 copas de la ira de Dios",
+        "C": "12",
+        "D": "24"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 15:7, 16:1 menciona 7 copas llenas de la ira de Dios, y los capítulos 16-18 describen las 7 plagas de las 7 copas."
+    },
+    {
+      "id": 742,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Armagedón",
+      "pregunta": "¿Dónde se reúnen los reyes según Apocalipsis 16:16?",
+      "opciones": {
+        "A": "En Jerusalén",
+        "B": "En Armagedón",
+        "C": "En Roma",
+        "D": "En Babilonia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 16:16 dice: 'Y los reunió en el lugar que en hebreo se llama Armagedón.'"
+    },
+    {
+      "id": 743,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Babilonia la ramera",
+      "pregunta": "¿Cómo es Babilonia la grande según Apocalipsis 17:1-6?",
+      "opciones": {
+        "A": "Ciudad santa",
+        "B": "La madre de las rameras y de las abominaciones de la tierra, ebria de la sangre de los santos",
+        "C": "Ciudad justa",
+        "D": "Ciudad pobre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 17:1-6 describe a Babilonia la grande como la madre de las rameras y de las abominaciones de la tierra, ebria de la sangre de los santos y de los testigos de Jesús."
+    },
+    {
+      "id": 744,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Juicio de Babilonia",
+      "pregunta": "¿Qué dice un ángel poderoso según Apocalipsis 18:1-2?",
+      "opciones": {
+        "A": "'Babilonia es salva'",
+        "B": "'Ha caído, ha caído Babilonia la grande, y se ha hecho habitación de demonios'",
+        "C": "'Babilonia es santa'",
+        "D": "'Babilonia es buena'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 18:2 dice: 'Ha caído, ha caído Babilonia la grande; y se ha hecho habitación de demonios, y guarida de todo espíritu inmundo, y albergue de toda ave inmunda y aborrecible.'"
+    },
+    {
+      "id": 745,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Aleluya",
+      "pregunta": "¿Qué dicen las multitudes celestiales según Apocalipsis 19:1-7?",
+      "opciones": {
+        "A": "'Lamentad'",
+        "B": "'Aleluya: porque el Señor Dios Todopoderoso reina. Aleluya, porque ha sido destruida la gran ramera'",
+        "C": "'Temed'",
+        "D": "'Huíd'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 19:1-7 describe multitudes celestiales diciendo repetidamente 'Aleluya', porque ha sido destruida la gran ramera, y porque el Señor Dios Todopoderoso reina."
+    },
+    {
+      "id": 746,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Cordero",
+      "pregunta": "¿Qué se anuncia en Apocalipsis 19:7, 9?",
+      "opciones": {
+        "A": "Un funeral",
+        "B": "Las bodas del Cordero han llegado, y su esposa se ha preparado; bienaventurados los llamados a la cena de las bodas del Cordero",
+        "C": "Una guerra",
+        "D": "Un juicio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 19:7, 9 dice: 'Gocémonos y alegrémonos, y demos gloria; porque han llegado las bodas del Cordero, y su esposa se ha preparado... Bienaventurados los que son llamados a la cena de las bodas del Cordero.'"
+    },
+    {
+      "id": 747,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Caballo blanco",
+      "pregunta": "¿Quién monta el caballo blanco según Apocalipsis 19:11-16?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "El que se llama Fiel y Verdadero, con ojos como llama de fuego, coronas en la cabeza, vestido de una ropa teñida en sangre, llamado el Verbo de Dios",
+        "C": "Un profeta",
+        "D": "Un rey terrenal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 19:11-16 describe al jinete del caballo blanco llamado Fiel y Verdadero, que juzga y pelea con justicia, con ojos como llama de fuego, muchas coronas en su cabeza, vestido de una ropa teñida en sangre, y su nombre es el Verbo de Dios."
+    },
+    {
+      "id": 748,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - 1000 años",
+      "pregunta": "¿Cuánto tiempo está atado Satanás según Apocalipsis 20:2-3?",
+      "opciones": {
+        "A": "100 años",
+        "B": "1,000 años",
+        "C": "10,000 años",
+        "D": "7 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 20:2-3 dice: 'Y prendió al dragón, la serpiente antigua, que es el diablo y Satanás, y lo ató por mil años; y lo arrojó al abismo, y lo cerró, y puso su sello sobre él.'"
+    },
+    {
+      "id": 749,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Tronos blancos",
+      "pregunta": "¿Qué se abrió según Apocalipsis 20:11-12?",
+      "opciones": {
+        "A": "Un templo",
+        "B": "Un gran trono blanco y el que estaba sentado en él; los muertos, grandes y pequeños, fueron juzgados según sus obras",
+        "C": "Un jardín",
+        "D": "Un río"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 20:11-12 dice: 'Y vi un gran trono blanco, y al que estaba sentado en él, de cuya presencia huyeron la tierra y el cielo; y no se halló lugar para ellos. Y vi a los muertos, grandes y pequeños, de pie ante Dios; y los libros fueron abiertos, y otro libro fue abierto, que es el libro de la vida; y fueron juzgados los muertos por las cosas que estaban escritas en los libros, según sus obras.'"
+    },
+    {
+      "id": 750,
+      "nivel": 75,
+      "dificultad": 13,
+      "tema": "Apocalipsis - Lago de fuego",
+      "pregunta": "¿Qué es el lago de fuego según Apocalipsis 20:14-15?",
+      "opciones": {
+        "A": "Un lago de agua",
+        "B": "La muerte segunda; el lago de fuego, donde serán arrojados los que no se hallaron inscritos en el libro de la vida",
+        "C": "Un lugar de descanso",
+        "D": "Un lugar de bendición"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 20:14-15 dice: 'Y la muerte y el Hades fueron lanzados al lago de fuego. Esta es la muerte segunda. Y el que no se halló inscrito en el libro de la vida fue lanzado al lago de fuego.'"
+    }
+  ]
+}

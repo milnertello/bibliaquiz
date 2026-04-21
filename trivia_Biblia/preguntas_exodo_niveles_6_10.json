@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "6-10",
+    "dificultad": "Muy fácil",
+    "tema": "Éxodo y desierto",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre Moisés, el éxodo de Egipto y la vida en el desierto"
+  },
+  "preguntas": [
+    {
+      "id": 51,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés nacimiento",
+      "pregunta": "¿En qué río fue puesto Moisés cuando era bebé para salvarlo?",
+      "opciones": {
+        "A": "El río Eufrates",
+        "B": "El río Jordán",
+        "C": "El río Nilo",
+        "D": "El río Tigris"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 2:3 dice que la madre de Moisés lo puso en una canasta en medio de los juncos a la orilla del Nilo."
+    },
+    {
+      "id": 52,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés nacimiento",
+      "pregunta": "¿Quién encontró y crió a Moisés?",
+      "opciones": {
+        "A": "La hija del faraón",
+        "B": "La esposa del faraón",
+        "C": "Una sirvienta",
+        "D": "Un sacerdote egipcio"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 2:5-10 dice que la hija del faraón encontró a Moisés y lo crió como su propio hijo."
+    },
+    {
+      "id": 53,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Qué hizo Moisés cuando vio a un egipcio golpeando a un hebreo?",
+      "opciones": {
+        "A": "Lo denunció ante el faraón",
+        "B": "Lo mató",
+        "C": "Lo ignoró",
+        "D": "Huyó inmediatamente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 2:12 dice que Moisés miró a su alrededor y, al no ver a nadie, mató al egipcio y lo escondió en la arena."
+    },
+    {
+      "id": 54,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Adónde huyó Moisés después de matar al egipcio?",
+      "opciones": {
+        "A": "A Canaán",
+        "B": "A Etiopía",
+        "C": "A Madián",
+        "D": "A Babilonia"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 2:15 dice que Moisés huyó de la presencia del faraón y habitó en la tierra de Madián."
+    },
+    {
+      "id": 55,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Cuál era el nombre del suegro de Moisés en Madián?",
+      "opciones": {
+        "A": "Aarón",
+        "B": "Jetro",
+        "C": "Core",
+        "D": "Amram"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 2:16-21 y 3:1 mencionan a Jetro (también llamado Reuel) como el suegro de Moisés."
+    },
+    {
+      "id": 56,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - La zarza ardiente",
+      "pregunta": "¿Dónde vio Moisés la zarza ardiente?",
+      "opciones": {
+        "A": "En el monte Sinaí",
+        "B": "En el monte Horeb",
+        "C": "En el monte Carmelo",
+        "D": "En el monte Tabor"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 3:1 dice que Moisés apacentaba el rebaño de Jetro su suegro, y llegó a Horeb, el monte de Dios."
+    },
+    {
+      "id": 57,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - La zarza ardiente",
+      "pregunta": "¿Qué le dijo Dios a Moisés que se quitara de los pies?",
+      "opciones": {
+        "A": "Su capa",
+        "B": "Su túnica",
+        "C": "Sus sandalias",
+        "D": "Su turbante"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 3:5 dice que Dios le ordenó a Moisés: 'Quítate las sandalias de los pies, porque el lugar donde estás parado es tierra santa.'"
+    },
+    {
+      "id": 58,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Llamamiento de Moisés",
+      "pregunta": "¿Qué nombre le reveló Dios a Moisés?",
+      "opciones": {
+        "A": "El Shaddai",
+        "B": "Yo soy el que soy (Jehová)",
+        "C": "Adonai",
+        "D": "Elohim"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 3:14 dice que Dios respondió a Moisés: 'Yo resultaré ser lo que yo resultaré ser' o 'Yo soy el que soy' (Jehová)."
+    },
+    {
+      "id": 59,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Llamamiento de Moisés",
+      "pregunta": "¿Quién sería la voz de Moisés ante el faraón?",
+      "opciones": {
+        "A": "Su hermano Aarón",
+        "B": "Su hermano Miriam",
+        "C": "Su suegro Jetro",
+        "D": "Su esposa Séfora"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 4:14-16 dice que Aarón sería la voz de Moisés, y Moisés sería como Dios para él."
+    },
+    {
+      "id": 60,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Las plagas",
+      "pregunta": "¿Cuántas plagas envió Dios sobre Egipto?",
+      "opciones": {
+        "A": "7 plagas",
+        "B": "10 plagas",
+        "C": "12 plagas",
+        "D": "3 plagas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 7-12 describe las diez plagas que Dios envió sobre Egipto antes del éxodo."
+    },
+    {
+      "id": 61,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - Las plagas",
+      "pregunta": "¿Cuál fue la primera plaga sobre Egipto?",
+      "opciones": {
+        "A": "Langostas",
+        "B": "Agua convertida en sangre",
+        "C": "Granizo",
+        "D": "Oscuridad"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 7:20-21 dice que Moisés convirtió el agua del Nilo en sangre, la primera plaga."
+    },
+    {
+      "id": 62,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - Las plagas",
+      "pregunta": "¿Cuál fue la última plaga sobre Egipto?",
+      "opciones": {
+        "A": "La muerte de los primogénitos",
+        "B": "Oscuridad durante tres días",
+        "C": "Muerte del ganado",
+        "D": "Sapos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 12:29 dice que a la medianoche Jehová mató a todos los primogénitos en la tierra de Egipto."
+    },
+    {
+      "id": 63,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - La Pascua",
+      "pregunta": "¿Qué animal debía sacrificar cada familia hebrea la noche de la Pascua?",
+      "opciones": {
+        "A": "Un buey",
+        "B": "Un carnero",
+        "C": "Un cordero o cabrito",
+        "D": "Una paloma"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 12:3 dice que cada uno tome un cordero según las familias, un cordero para cada casa."
+    },
+    {
+      "id": 64,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - La Pascua",
+      "pregunta": "¿Qué debían untar los israelitas con la sangre del cordero?",
+      "opciones": {
+        "A": "Sus vestidos",
+        "B": "Los dos postes laterales y el dintel de la puerta",
+        "C": "Sus cabezas",
+        "D": "El suelo de sus casas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 12:7 dice que tomarán de la sangre y la pondrán sobre los dos postes laterales y en el dintel de las casas."
+    },
+    {
+      "id": 65,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - La Pascua",
+      "pregunta": "¿Qué no debían comer los israelitas con el cordero pascual?",
+      "opciones": {
+        "A": "Pan sin levadura",
+        "B": "Hierbas amargas",
+        "C": "Carne cruda o cocida al agua",
+        "D": "Vino"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 12:9 prohíbe comer la carne cruda ni cocida al agua, sino asada al fuego."
+    },
+    {
+      "id": 66,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - El éxodo",
+      "pregunta": "¿Cuántos israelitas salieron de Egipto aproximadamente?",
+      "opciones": {
+        "A": "Unos 6,000",
+        "B": "Unos 60,000",
+        "C": "Unos 600,000",
+        "D": "Unos 6,000,000"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 12:37 dice que los hijos de Israel salieron de Ramsés hacia Sucot, unos seiscientos mil hombres de a pie, sin contar los niños."
+    },
+    {
+      "id": 67,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - El Mar Rojo",
+      "pregunta": "¿Qué levantó Dios para separar las aguas del Mar Rojo?",
+      "opciones": {
+        "A": "Un terremoto",
+        "B": "Un fuerte viento oriental",
+        "C": "Una vara mágica",
+        "D": "La oración de Moisés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 14:21 dice que Jehová hizo que el mar se retirara por un fuerte viento oriental toda aquella noche."
+    },
+    {
+      "id": 68,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - El Mar Rojo",
+      "pregunta": "¿Qué sucedió con los egipcios que persiguieron a los israelitas en el Mar Rojo?",
+      "opciones": {
+        "A": "Regresaron a Egipto",
+        "B": "Las aguas se cerraron sobre ellos y murieron",
+        "C": "Se rindieron",
+        "D": "Escaparon por otro camino"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 14:28 dice que las aguas volvieron y cubrieron los carros y los jinetes, y todo el ejército del faraón."
+    },
+    {
+      "id": 69,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - En el desierto",
+      "pregunta": "¿Qué comida les envió Dios a los israelitas en el desierto?",
+      "opciones": {
+        "A": "Carne de camello",
+        "B": "Maná",
+        "C": "Pan y vino",
+        "D": "Pescado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 16:15 dice que cuando los israelitas vieron la comida, dijeron: '¿Qué es?' Y Moisés les dijo: 'Es el pan que Jehová les ha dado por alimento', llamado maná."
+    },
+    {
+      "id": 70,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - En el desierto",
+      "pregunta": "¿Qué ave les envió Dios para comer en el desierto?",
+      "opciones": {
+        "A": "Palomas",
+        "B": "Cuervos",
+        "C": "Codornices",
+        "D": "Gansos"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 16:13 dice que por la tarde subieron codornices y cubrieron el campamento."
+    },
+    {
+      "id": 71,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Agua de la roca",
+      "pregunta": "¿De dónde sacó Moisés agua para el pueblo en Refidim?",
+      "opciones": {
+        "A": "De un pozo",
+        "B": "De una roca",
+        "C": "Del río Nilo",
+        "D": "De la lluvia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 17:6 dice que Jehová dijo: 'Yo estaré allí delante de ti sobre la roca en Horeb; y tú golpearás la roca, y saldrá agua de ella.'"
+    },
+    {
+      "id": 72,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Batalla con Amalec",
+      "pregunta": "¿Qué tenía que hacer Moisés para que Israel ganara la batalla contra Amalec?",
+      "opciones": {
+        "A": "Orar",
+        "B": "Mantener sus manos levantadas",
+        "C": "Soplar una trompeta",
+        "D": "Caminar alrededor del campamento"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 17:11 dice que sucedía que cuando Moisés alzaba su mano, Israel prevalecía, pero cuando la bajaba, prevalecía Amalec."
+    },
+    {
+      "id": 73,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿En qué monte recibió Moisés los Diez Mandamientos?",
+      "opciones": {
+        "A": "Monte Carmelo",
+        "B": "Monte Sinaí",
+        "C": "Monte Tabor",
+        "D": "Monte Gerizim"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 19:20 dice que Jehová descendió sobre el monte Sinaí y llamó a Moisés a la cumbre del monte."
+    },
+    {
+      "id": 74,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿Cuánto tiempo estuvo Moisés en el monte recibiendo las tablas de la ley?",
+      "opciones": {
+        "A": "3 días",
+        "B": "7 días",
+        "C": "40 días y 40 noches",
+        "D": "1 año"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 24:18 dice que Moisés entró en medio de la nube y subió al monte; y estuvo en el monte cuarenta días y cuarenta noches."
+    },
+    {
+      "id": 75,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿Cuál es el primer mandamiento?",
+      "opciones": {
+        "A": "No matarás",
+        "B": "No tendrás otros dioses delante de mí",
+        "C": "Honrarás a tu padre y a tu madre",
+        "D": "No hurtarás"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 20:3 dice: 'No tendrás otros dioses delante de mí.'"
+    },
+    {
+      "id": 76,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿Qué mandamiento dice 'No tomarás el nombre de Jehová tu Dios en vano'?",
+      "opciones": {
+        "A": "El segundo",
+        "B": "El tercero",
+        "C": "El cuarto",
+        "D": "El quinto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 20:7 contiene el tercer mandamiento: 'No tomarás el nombre de Jehová tu Dios en vano.'"
+    },
+    {
+      "id": 77,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿Qué día está reservado para descansar según el cuarto mandamiento?",
+      "opciones": {
+        "A": "El primer día de la semana",
+        "B": "El séptimo día de la semana (sábado)",
+        "C": "El quinto día",
+        "D": "Cualquier día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 20:8-10 dice: 'Acuérdate del día de descanso para santificarlo... el séptimo día es el día de descanso de Jehová tu Dios.'"
+    },
+    {
+      "id": 78,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿Cuál mandamiento incluye 'Honrarás a tu padre y a tu madre'?",
+      "opciones": {
+        "A": "El cuarto",
+        "B": "El quinto",
+        "C": "El sexto",
+        "D": "El séptimo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 20:12 dice: 'Honra a tu padre y a tu madre, para que tus días se alarguen en la tierra que Jehová tu Dios te da.'"
+    },
+    {
+      "id": 79,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Los Diez Mandamientos",
+      "pregunta": "¿Cuál es el último de los Diez Mandamientos?",
+      "opciones": {
+        "A": "No cometerás adulterio",
+        "B": "No hurtarás",
+        "C": "No codiciarás",
+        "D": "No dirás falso testimonio"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 20:17 dice: 'No codiciarás la casa de tu prójimo; no codiciarás la mujer de tu prójimo...'"
+    },
+    {
+      "id": 80,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - El becerro de oro",
+      "pregunta": "¿Qué hizo el pueblo mientras Moisés estaba en el monte 40 días?",
+      "opciones": {
+        "A": "Oraron día y noche",
+        "B": "Construyeron un becerro de oro y lo adoraron",
+        "C": "Regresaron a Egipto",
+        "D": "Esperaron pacientemente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 32:1-6 describe cómo el pueblo pidió a Aarón que les hiciera un dios, y él hizo un becerro de oro fundido."
+    },
+    {
+      "id": 81,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Quién fue el principal artesano del Tabernáculo?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "Aarón",
+        "C": "Bezalel",
+        "D": "Josué"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 35:30 dice que Jehová llamó a Bezalel hijo de Uri, hijo de Hur, de la tribu de Judá, y lo llenó con el espíritu de Dios."
+    },
+    {
+      "id": 82,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Qué objeto se colocaba en el Lugar Santísimo del Tabernáculo?",
+      "opciones": {
+        "A": "El altar de los sacrificios",
+        "B": "El altar del incienso",
+        "C": "El arca del pacto",
+        "D": "La mesa de los panes"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 25:10-22 describe el arca del pacto que se colocaba en el Lugar Santísimo, cubierta por el propiciatorio."
+    },
+    {
+      "id": 83,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Qué cubría el arca del pacto en su parte superior?",
+      "opciones": {
+        "A": "Un velo de lino",
+        "B": "El propiciatorio (tapa de expiación) de oro",
+        "C": "Una cortina de púrpura",
+        "D": "Una manta de lana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 25:17 describe el propiciatorio de oro puro que cubría el arca, con dos querubines en los extremos."
+    },
+    {
+      "id": 84,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Qué objeto del Tabernáculo tenía siete lámparas?",
+      "opciones": {
+        "A": "El altar del incienso",
+        "B": "El candelabro de oro",
+        "C": "La mesa de los panes de la proposición",
+        "D": "El arca del pacto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 25:31-37 describe el candelabro de oro puro con sus siete lámparas."
+    },
+    {
+      "id": 85,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - Sacerdocio",
+      "pregunta": "¿Quién fue el primer sumo sacerdote de Israel?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "Aarón",
+        "C": "Eleazar",
+        "D": "Itamar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 28:1 dice que toma a Aarón tu hermano y a sus hijos con él, para que me sirvan como sacerdotes."
+    },
+    {
+      "id": 86,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - Sacerdocio",
+      "pregunta": "¿Qué vestidura especial llevaba el sumo sacerdote en su pecho?",
+      "opciones": {
+        "A": "Un cinturón de oro",
+        "B": "El pectoral del juicio",
+        "C": "Un manto de púrpura",
+        "D": "Un turbante de lino"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 28:15-30 describe el pectoral del juicio con las doce piedras preciosas representando las doce tribus."
+    },
+    {
+      "id": 87,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - Levítico",
+      "pregunta": "¿Qué libro de la Biblia sigue a Éxodo?",
+      "opciones": {
+        "A": "Génesis",
+        "B": "Números",
+        "C": "Levítico",
+        "D": "Deuteronomio"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "El orden de los libros del Pentateuco es: Génesis, Éxodo, Levítico, Números y Deuteronomio."
+    },
+    {
+      "id": 88,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Números - En el desierto",
+      "pregunta": "¿Por qué los israelitas vagaron 40 años en el desierto?",
+      "opciones": {
+        "A": "Porque se perdieron",
+        "B": "Por su falta de fe al rechazar entrar a Canaán",
+        "C": "Porque Moisés no sabía el camino",
+        "D": "Porque no tenían suficiente agua"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 14:33-34 dice que los israelitas vagarían 40 años en el desierto por cada día que espían la tierra, por su incredulidad."
+    },
+    {
+      "id": 89,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Números - En el desierto",
+      "pregunta": "¿Qué animal mordió a los israelitas en el desierto?",
+      "opciones": {
+        "A": "Escorpiones",
+        "B": "Serpientes venenosas",
+        "C": "Leones",
+        "D": "Osos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 21:6 dice que Jehová envió serpientes venenosas que mordían al pueblo, y murió mucho pueblo de Israel."
+    },
+    {
+      "id": 90,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Números - La serpiente de bronce",
+      "pregunta": "¿Qué debían hacer los israelitas para sanar de la mordedura de serpiente?",
+      "opciones": {
+        "A": "Orar a Moisés",
+        "B": "Mirar a la serpiente de bronce levantada",
+        "C": "Tomar una medicina especial",
+        "D": "Lavar la herida"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 21:8-9 dice que Moisés hizo una serpiente de bronce y la puso sobre una señal; y sucedía que cuando una serpiente mordía a alguien, miraba a la serpiente de bronce y vivía."
+    },
+    {
+      "id": 91,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Números - Balaam",
+      "pregunta": "¿Qué animal habló con Balaam?",
+      "opciones": {
+        "A": "Un caballo",
+        "B": "Una asna (burra)",
+        "C": "Un camello",
+        "D": "Un perro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 22:28 dice que Jehová abrió la boca de la asna, y ella dijo a Balaam: '¿Qué te he hecho?'"
+    },
+    {
+      "id": 92,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Números - Balaam",
+      "pregunta": "¿Qué bendijo Balaam en lugar de maldecir?",
+      "opciones": {
+        "A": "A los egipcios",
+        "B": "A los amalecitas",
+        "C": "A Israel",
+        "D": "A los filisteos"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Números 22-24 describe cómo Balaam, contratado por Balac para maldecir a Israel, terminó bendiciéndolo."
+    },
+    {
+      "id": 93,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio",
+      "pregunta": "¿Qué significa 'Deuteronomio'?",
+      "opciones": {
+        "A": "Segunda ley",
+        "B": "Primera ley",
+        "C": "Ley sagrada",
+        "D": "Palabra de Dios"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Deuteronomio significa 'segunda ley' en griego, porque contiene la repetición de la ley dada en el Sinaí."
+    },
+    {
+      "id": 94,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Moisés",
+      "pregunta": "¿Dónde murió Moisés?",
+      "opciones": {
+        "A": "En el monte Sinaí",
+        "B": "En Canaán",
+        "C": "En el monte Nebo",
+        "D": "En Egipto"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 34:1,5 dice que Moisés subió de las llanuras de Moab al monte Nebo, y murió allí."
+    },
+    {
+      "id": 95,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Moisés",
+      "pregunta": "¿Quién enterró a Moisés?",
+      "opciones": {
+        "A": "Josué y Eleazar",
+        "B": "Aarón y Miriam",
+        "C": "Dios mismo (Jehová)",
+        "D": "Los israelitas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 34:6 dice que él lo enterró en el valle, y nadie conoce su sepultura hasta hoy. Se entiende que fue Jehová."
+    },
+    {
+      "id": 96,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Josué",
+      "pregunta": "¿Quién sucedió a Moisés como líder de Israel?",
+      "opciones": {
+        "A": "Aarón",
+        "B": "Caleb",
+        "C": "Josué",
+        "D": "Eleazar"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 31:23 dice que Jehová ordenó a Josué hijo de Nun que tomara el mando y fuera fuerte y valiente."
+    },
+    {
+      "id": 97,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Amor",
+      "pregunta": "¿Cuál es el mandamiento más importante según Deuteronomio 6:5?",
+      "opciones": {
+        "A": "No matarás",
+        "B": "Amarás a Jehová tu Dios con todo tu corazón",
+        "C": "Honrarás a tu padre y madre",
+        "D": "Guardarás el día de reposo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Deuteronomio 6:5 dice: 'Y tienes que amar a Jehová tu Dios con todo tu corazón y con toda tu alma y con todas tus fuerzas.'"
+    },
+    {
+      "id": 98,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Profecía",
+      "pregunta": "¿Qué profeta como Moisés prometió Dios levantar?",
+      "opciones": {
+        "A": "Isaías",
+        "B": "Jeremías",
+        "C": "Un profeta de entre sus hermanos",
+        "D": "Daniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 18:18 dice que Jehová levantaría un profeta como Moisés de entre sus hermanos, y pondría mis palabras en su boca."
+    },
+    {
+      "id": 99,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Tierra prometida",
+      "pregunta": "¿Qué tierra fluía según la descripción de Deuteronomio?",
+      "opciones": {
+        "A": "Tierra de arena y roca",
+        "B": "Tierra que fluye leche y miel",
+        "C": "Tierra de oro y plata",
+        "D": "Tierra de aceite y vino"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Deuteronomio 26:9 y otros versículos describen a Canaán como la tierra que fluye leche y miel."
+    },
+    {
+      "id": 100,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Ley",
+      "pregunta": "¿Dónde debía poner el rey una copia de la ley según Deuteronomio?",
+      "opciones": {
+        "A": "En el templo",
+        "B": "En su casa",
+        "C": "Consigo mismo, y leerla todos los días de su vida",
+        "D": "En la plaza pública"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 17:18-19 dice que el rey escribiría una copia de la ley en un libro, y la leería todos los días de su vida."
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "36-40",
+    "dificultad": "Medio",
+    "tema": "Ministerio de Jesús (milagros, enseñanzas, parábolas)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre los milagros, parábolas y enseñanzas de Jesús"
+  },
+  "preguntas": [
+    {
+      "id": 351,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Parábolas",
+      "pregunta": "¿Por qué Jesús hablaba en parábolas?",
+      "opciones": {
+        "A": "Para confundir a todos",
+        "B": "Para que viendo no vean y oyendo no oigan ni entiendan",
+        "C": "Porque era poeta",
+        "D": "Para entretener"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:10-15 dice que Jesús hablaba en parábolas para cumplir la profecía de Isaías, y porque a los discípulos les era dado conocer los misterios."
+    },
+    {
+      "id": 352,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Sembrador",
+      "pregunta": "¿Qué representa la semilla en la parábola del sembrador?",
+      "opciones": {
+        "A": "El dinero",
+        "B": "La palabra de Dios",
+        "C": "Los alimentos",
+        "D": "Las obras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:18-23 explica que la semilla es la palabra del reino, y los diferentes suelos representan las diferentes respuestas del corazón humano."
+    },
+    {
+      "id": 353,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Trigo y cizaña",
+      "pregunta": "¿Qué representa la cizaña en la parábola del trigo y la cizaña?",
+      "opciones": {
+        "A": "Los ángeles",
+        "B": "Los hijos del maligno",
+        "C": "Los discípulos",
+        "D": "Los peces"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:38 dice que el campo es el mundo; la buena semilla son los hijos del reino, y la cizaña son los hijos del maligno."
+    },
+    {
+      "id": 354,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Grano de mostaza",
+      "pregunta": "¿Qué parábola ilustra el crecimiento del reino de Dios desde algo pequeño?",
+      "opciones": {
+        "A": "La levadura",
+        "B": "El grano de mostaza",
+        "C": "El tesoro escondido",
+        "D": "La perla de gran precio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:31-32 compara el reino de los cielos con un grano de mostaza, que es la menor de las semillas pero crece hasta ser un árbol."
+    },
+    {
+      "id": 355,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo - Tesoro y perla",
+      "pregunta": "¿Qué hace el hombre que encuentra un tesoro escondido en un campo?",
+      "opciones": {
+        "A": "Lo comparte",
+        "B": "Lo esconde de nuevo, vende todo lo que tiene y compra ese campo",
+        "C": "Lo ignora",
+        "D": "Lo roba"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:44 dice que el hombre vende todo lo que tiene y compra aquel campo."
+    },
+    {
+      "id": 356,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo - Red",
+      "pregunta": "¿Qué representa la red echada al mar en la parábola?",
+      "opciones": {
+        "A": "La iglesia",
+        "B": "El reino de los cielos que recoge toda clase de peces",
+        "C": "Los discípulos",
+        "D": "El juicio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:47-50 describe cómo la red recoge toda clase de peces, y al final los pescadores separan lo bueno de lo malo."
+    },
+    {
+      "id": 357,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Oveja perdida",
+      "pregunta": "¿Cuántas ovejas deja el pastor para buscar la que se perdió?",
+      "opciones": {
+        "A": "Una",
+        "B": "Noventa y nueve",
+        "C": "Cincuenta",
+        "D": "Diez"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 18:12 dice: 'Si alguno de vosotros tiene cien ovejas, y se descarría una de ellas, ¿no deja las noventa y nueve?'"
+    },
+    {
+      "id": 358,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Lucas - Hijo pródigo",
+      "pregunta": "¿Qué pidió el hijo menor a su padre?",
+      "opciones": {
+        "A": "Perdón",
+        "B": "La parte de la herencia que le correspondía",
+        "C": "Una esposa",
+        "D": "Una casa"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 15:12 dice que el hijo menor le dijo: 'Padre, dame la parte de la herencia que me corresponde.' Y les repartió los bienes."
+    },
+    {
+      "id": 359,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Lucas - Hijo pródigo",
+      "pregunta": "¿Qué trabajo tuvo el hijo pródigo cuando se quedó sin dinero?",
+      "opciones": {
+        "A": "Cuidar ovejas",
+        "B": "Cuidar puercos",
+        "C": "Trabajar en el templo",
+        "D": "Pescar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 15:15 dice que se fue y se unió a uno de los ciudadanos de aquella tierra, quien le envió a sus campos a cuidar puercos."
+    },
+    {
+      "id": 360,
+      "nivel": 36,
+      "dificultad": 7,
+      "tema": "Lucas - Hijo pródigo",
+      "pregunta": "¿Qué hizo el padre cuando vio regresar a su hijo?",
+      "opciones": {
+        "A": "Lo regañó",
+        "B": "Corrió a él, lo abrazó y besó",
+        "C": "Lo ignoró",
+        "D": "Lo castigó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 15:20 describe cómo el padre, estando lejos, lo vio y tuvo compasión, y corriendo le abrazó y le besó."
+    },
+    {
+      "id": 361,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Lucas - Buen samaritano",
+      "pregunta": "¿De qué ciudad era el hombre que fue asaltado en la parábola del buen samaritano?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Jericó",
+        "C": "Belén",
+        "D": "Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 10:30 dice que un hombres descendía de Jerusalén a Jericó, y cayó en manos de unos salteadores."
+    },
+    {
+      "id": 362,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Lucas - Buen samaritano",
+      "pregunta": "¿Quiénes pasaron de largo sin ayudar al herido?",
+      "opciones": {
+        "A": "Un sacerdote y un levita",
+        "B": "Dos discípulos",
+        "C": "Un romano y un griego",
+        "D": "Dos samaritanos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Lucas 10:31-32 dice que un sacerdote y un levita pasaron por allí y vieron al herido, pero siguieron de largo."
+    },
+    {
+      "id": 363,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Lucas - Buen samaritano",
+      "pregunta": "¿Quién finalmente ayudó al herido?",
+      "opciones": {
+        "A": "Un sacerdote",
+        "B": "Un samaritano",
+        "C": "Un levita",
+        "D": "Un romano"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 10:33 dice que un samaritano que iba de camino, vino adonde él estaba, y viéndole, tuvo compasión de él."
+    },
+    {
+      "id": 364,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Lucas - Buen samaritano",
+      "pregunta": "¿Cuál es el mandamiento según la parábola del buen samaritano?",
+      "opciones": {
+        "A": "'Amarás al Señor tu Dios'",
+        "B": "'Amarás a tu prójimo como a ti mismo'",
+        "C": "'Honrarás a tu padre'",
+        "D": "'No matarás'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 10:27-37 concluye que el prójimo es aquel que muestra misericordia, y el mandamiento es amar al prójimo como a uno mismo."
+    },
+    {
+      "id": 365,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Lucas - Amigo importuno",
+      "pregunta": "¿Por qué el amigo abrió la puerta según la parábola del amigo importuno?",
+      "opciones": {
+        "A": "Por amistad",
+        "B": "Por la importunidad (insistencia)",
+        "C": "Por dinero",
+        "D": "Por miedo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 11:8 dice que aunque no se levante a darle por ser su amigo, se levantará por su importunidad y le dará todo lo que necesite."
+    },
+    {
+      "id": 366,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos - Alimentación",
+      "pregunta": "¿Cuántos panes y peces multiplicó Jesús para alimentar a 5,000 hombres?",
+      "opciones": {
+        "A": "2 panes y 3 peces",
+        "B": "5 panes y 2 peces",
+        "C": "7 panes y unos pocos peces",
+        "D": "1 pan y 1 pez"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 14:17-20 dice que tenían cinco panes y dos peces, y con eso alimentaron a cinco mil hombres, sin contar mujeres y niños."
+    },
+    {
+      "id": 367,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos - Alimentación",
+      "pregunta": "¿Cuántas canastas sobraron después de alimentar a los 5,000?",
+      "opciones": {
+        "A": "7",
+        "B": "12",
+        "C": "5",
+        "D": "2"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 14:20 dice que recogieron lo que sobró de los pedazos: doce canastas llenas."
+    },
+    {
+      "id": 368,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos - Alimentación",
+      "pregunta": "¿Cuántos panes multiplicó Jesús para alimentar a 4,000 hombres?",
+      "opciones": {
+        "A": "5",
+        "B": "7",
+        "C": "2",
+        "D": "12"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 15:34-38 describe la alimentación de los cuatro mil con siete panes y unos pocos peces pequeños."
+    },
+    {
+      "id": 369,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos - Alimentación",
+      "pregunta": "¿Cuántas canastas sobraron después de alimentar a los 4,000?",
+      "opciones": {
+        "A": "12",
+        "B": "7",
+        "C": "5",
+        "D": "2"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 15:37 dice que recogieron siete canastas llenas de los pedazos sobrantes."
+    },
+    {
+      "id": 370,
+      "nivel": 37,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Andar sobre el agua",
+      "pregunta": "¿Quién intentó andar sobre el agua hacia Jesús?",
+      "opciones": {
+        "A": "Juan",
+        "B": "Pedro",
+        "C": "Santiago",
+        "D": "Andrés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 14:28-29 dice que Pedro respondió: 'Señor, si eres tú, manda que yo vaya a ti sobre las aguas.' Y Jesús dijo: 'Ven.'"
+    },
+    {
+      "id": 371,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Transfiguración",
+      "pregunta": "¿En qué monte ocurrió la transfiguración de Jesús?",
+      "opciones": {
+        "A": "Monte Sinaí",
+        "B": "Un monte alto (probablemente el Hermón)",
+        "C": "Monte Carmelo",
+        "D": "Monte Tabor"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 17:1 dice que Jesús tomó a Pedro, Jacobo y Juan su hermano, y les hizo subir aparte a un monte alto."
+    },
+    {
+      "id": 372,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Transfiguración",
+      "pregunta": "¿Quiénes aparecieron con Jesús durante la transfiguración?",
+      "opciones": {
+        "A": "Abraham e Isaac",
+        "B": "Moisés y Elías",
+        "C": "David y Salomón",
+        "D": "Noé y Daniel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 17:3 dice que aparecieron Moisés y Elías, hablando con él."
+    },
+    {
+      "id": 373,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Transfiguración",
+      "pregunta": "¿Qué propuso Pedro hacer durante la transfiguración?",
+      "opciones": {
+        "A": "Descender del monte",
+        "B": "Hacer tres enramadas (tiendas)",
+        "C": "Orar",
+        "D": "Ayunar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 17:4 dice que respondiendo Pedro, dijo a Jesús: 'Señor, bueno es para nosotros que estemos aquí; si quieres, hagamos aquí tres enramadas.'"
+    },
+    {
+      "id": 374,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Transfiguración",
+      "pregunta": "¿Qué voz se oyó desde la nube brillante?",
+      "opciones": {
+        "A": "'Este es mi Hijo amado, en quien tengo complacencia; escuchadle'",
+        "B": "'Bajad del monte'",
+        "C": "'Orad'",
+        "D": "'Temed'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 17:5 dice que una voz desde la nube dijo: 'Este es mi Hijo amado, en quien tengo complacencia; escuchadle.'"
+    },
+    {
+      "id": 375,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Demonio",
+      "pregunta": "¿Qué dijo el padre del niño endemoniado a Jesús?",
+      "opciones": {
+        "A": "'Cúralo si puedes'",
+        "B": "'Creo; ayuda a mi incredulidad'",
+        "C": "'No quiero tu ayuda'",
+        "D": "'Tómate tu tiempo'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Marcos 9:24 dice que el padre del niño clamó y dijo: 'Creo, Señor; ayuda a mi incredulidad.'"
+    },
+    {
+      "id": 376,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Impuestos",
+      "pregunta": "¿De dónde sacó Jesús el impuesto del templo para Pedro?",
+      "opciones": {
+        "A": "De su bolsa",
+        "B": "De la boca de un pez",
+        "C": "Del templo",
+        "D": "De los discípulos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 17:27 dice: 'Para que no los escandalices, ve al mar, y echa el anzuelo, y toma el primer pez que suba; y al abrirle la boca, hallarás un estatero.'"
+    },
+    {
+      "id": 377,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Niños",
+      "pregunta": "¿Qué dijo Jesús sobre los niños?",
+      "opciones": {
+        "A": "'Dejad a los niños venir a mí, y no se lo impidáis'",
+        "B": "'Los niños no entienden'",
+        "C": "'Los niños deben trabajar'",
+        "D": "'Los niños son ignorantes'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 19:14 dice: 'Dejad a los niños venir a mí, y no se lo impidáis; porque de los tales es el reino de los cielos.'"
+    },
+    {
+      "id": 378,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Joven rico",
+      "pregunta": "¿Qué le faltaba al joven rico según Jesús?",
+      "opciones": {
+        "A": "Oración",
+        "B": "Vender lo que tenía y dar a los pobres",
+        "C": "Ayunar más",
+        "D": "Ir al templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 19:21 dice que Jesús le dijo: 'Si quieres ser perfecto, anda, vende lo que tienes, y dalo a los pobres, y tendrás tesoro en el cielo.'"
+    },
+    {
+      "id": 379,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Camello y aguja",
+      "pregunta": "¿Qué comparación usó Jesús sobre los ricos y el reino de Dios?",
+      "opciones": {
+        "A": "'Más fácil es pasar un camello por el ojo de una aguja'",
+        "B": "'Los ricos no entran'",
+        "C": "'Los ricos deben donar todo'",
+        "D": "'El dinero es malo'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 19:24 dice: 'Otra vez os digo que es más fácil pasar un camello por el ojo de una aguja, que entrar un rico en el reino de Dios.'"
+    },
+    {
+      "id": 380,
+      "nivel": 38,
+      "dificultad": 7,
+      "tema": "Mateo - Viñedo",
+      "pregunta": "¿Cuál es la parábola del viñedo donde los trabajadores matan a los siervos y al hijo?",
+      "opciones": {
+        "A": "Los obreros de la hora undécima",
+        "B": "Los labradores malvados",
+        "C": "La higuera estéril",
+        "D": "La vid verdadera"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 21:33-46 describe a los labradores malvados que mataron a los siervos del dueño y finalmente a su hijo."
+    },
+    {
+      "id": 381,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Lucas - Diez leprosos",
+      "pregunta": "¿Cuántos leprosos volvieron a dar gracias después de ser sanados?",
+      "opciones": {
+        "A": "Diez",
+        "B": "Uno, un samaritano",
+        "C": "Ninguno",
+        "D": "Cinco"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 17:15-18 dice que uno de ellos, viendo que había sido sanado, volvió, glorificando a Dios a gran voz, y era un samaritano."
+    },
+    {
+      "id": 382,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Juan - Lázaro",
+      "pregunta": "¿Cuántos días estuvo Lázaro muerto cuando Jesús llegó a Betania?",
+      "opciones": {
+        "A": "Un día",
+        "B": "Cuatro días",
+        "C": "Siete días",
+        "D": "Una semana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 11:17 dice que había estado en el sepulcro cuatro días."
+    },
+    {
+      "id": 383,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Juan - Lázaro",
+      "pregunta": "¿Qué dijo Jesús antes de resucitar a Lázaro?",
+      "opciones": {
+        "A": "'Levántate'",
+        "B": "'Yo soy la resurrección y la vida'",
+        "C": "'Ven fuera'",
+        "D": "'Sánate'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 11:25 dice: 'Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá.'"
+    },
+    {
+      "id": 384,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Juan - Lázaro",
+      "pregunta": "¿Qué orden dio Jesús para resucitar a Lázaro?",
+      "opciones": {
+        "A": "'Vive'",
+        "B": "'Lázaro, ven fuera'",
+        "C": "'Despierta'",
+        "D": "'Sánate'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 11:43 dice que Jesús clamó a gran voz: '¡Lázaro, ven fuera!'"
+    },
+    {
+      "id": 385,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Juan - Lázaro",
+      "pregunta": "¿Qué decidieron los sacerdotes después de la resurrección de Lázaro?",
+      "opciones": {
+        "A": "Creer en Jesús",
+        "B": "Matar también a Lázaro",
+        "C": "Matar a Jesús",
+        "D": "Orar"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Juan 11:53 dice que desde aquel día consultaban para matarle."
+    },
+    {
+      "id": 386,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Juan - Entrada triunfal",
+      "pregunta": "¿En qué animal montó Jesús para entrar a Jerusalén?",
+      "opciones": {
+        "A": "Un caballo blanco",
+        "B": "Un pollino (asno)",
+        "C": "Un camello",
+        "D": "Un buey"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 12:14 dice que halló Jesús un pollino, y se sentó sobre él, como está escrito."
+    },
+    {
+      "id": 387,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Juan - Entrada triunfal",
+      "pregunta": "¿Qué gritaba la multitud cuando Jesús entró en Jerusalén?",
+      "opciones": {
+        "A": "'Crucifícale'",
+        "B": "'¡Hosanna! ¡Bendito el que viene en nombre del Señor!'",
+        "C": "'Fuera'",
+        "D": "'Mentiroso'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 12:13 dice que tomaron ramas de palma y salieron a recibirle, y clamaban: '¡Hosanna! ¡Bendito el que viene en nombre del Señor!'"
+    },
+    {
+      "id": 388,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Mateo - Limpiar el templo",
+      "pregunta": "¿Qué hizo Jesús en el templo cuando echó a los cambistas?",
+      "opciones": {
+        "A": "Predicó",
+        "B": "Volteó las mesas y echó fuera a los vendedores",
+        "C": "Oró",
+        "D": "Sanó enfermos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 21:12 dice que Jesús echó fuera a todos los que vendían y compraban en el templo, y volcó las mesas de los cambistas."
+    },
+    {
+      "id": 389,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Mateo - Higuera",
+      "pregunta": "¿Por qué maldijo Jesús la higuera?",
+      "opciones": {
+        "A": "Porque no tenía fruto",
+        "B": "Porque tenía hojas pero no frutos",
+        "C": "Porque era fea",
+        "D": "Porque era demasiado alta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 21:19 dice que vio una higuera cerca del camino, y se le acercó, pero no halló nada en ella, sino hojas solamente; y le dijo: 'Nunca jamás nazca de ti fruto.'"
+    },
+    {
+      "id": 390,
+      "nivel": 39,
+      "dificultad": 7,
+      "tema": "Mateo - Mayor mandamiento",
+      "pregunta": "¿Cuál es el primer y gran mandamiento según Jesús?",
+      "opciones": {
+        "A": "'No matarás'",
+        "B": "'Amarás al Señor tu Dios con todo tu corazón'",
+        "C": "'Honrarás a tu padre'",
+        "D": "'No hurtarás'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:37-38 dice que Jesús le respondió: 'Amarás al Señor tu Dios con todo tu corazón, y con toda tu alma, y con toda tu mente. Este es el primero y el gran mandamiento.'"
+    },
+    {
+      "id": 391,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Mayor mandamiento",
+      "pregunta": "¿Cuál es el segundo mandamiento semejante al primero?",
+      "opciones": {
+        "A": "'No matarás'",
+        "B": "'Amarás a tu prójimo como a ti mismo'",
+        "C": "'Honrarás a tu padre'",
+        "D": "'Guardarás el sábado'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:39 dice: 'Y el segundo es semejante a éste: Amarás a tu prójimo como a ti mismo.'"
+    },
+    {
+      "id": 392,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Denario",
+      "pregunta": "¿De quién era la imagen en el denario (moneda) según Jesús?",
+      "opciones": {
+        "A": "De Dios",
+        "B": "De César",
+        "C": "Del templo",
+        "D": "De los discípulos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:20-21 dice que mostró la moneda y preguntó de quién era la imagen y la inscripción. Ellos dijeron: 'De César.'"
+    },
+    {
+      "id": 393,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Denario",
+      "pregunta": "¿Qué dijo Jesús sobre dar a César y a Dios?",
+      "opciones": {
+        "A": "'No den nada'",
+        "B": "'Dad pues a César lo que es de César, y a Dios lo que es de Dios'",
+        "C": "'Den todo a César'",
+        "D": "'Den solo a Dios'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:21 dice: 'Dad pues a César lo que es de César, y a Dios lo que es de Dios.'"
+    },
+    {
+      "id": 394,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Resurrección",
+      "pregunta": "¿Qué argumento usaron los saduceos sobre la mujer con siete esposos?",
+      "opciones": {
+        "A": "Que no había resurrección",
+        "B": "Que la mujer no podía tener esposos",
+        "C": "Que los hermanos eran malos",
+        "D": "Que Jesús no entendía"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 22:23-28 describe la pregunta de los saduceos (que no creían en resurrección) sobre quién sería el esposo en la resurrección."
+    },
+    {
+      "id": 395,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Resurrección",
+      "pregunta": "¿Qué respondió Jesús a los saduceos sobre la resurrección?",
+      "opciones": {
+        "A": "'No hay resurrección'",
+        "B": "'En la resurrección no se casan ni se dan en casamiento'",
+        "C": "'La mujer será de todos'",
+        "D": "'No lo sé'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:30 dice que en la resurrección no se casan ni se dan en casamiento, sino que son como los ángeles de Dios en el cielo."
+    },
+    {
+      "id": 396,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Mayor en el reino",
+      "pregunta": "¿Quién es el mayor en el reino de los cielos según Jesús?",
+      "opciones": {
+        "A": "El que más sabe",
+        "B": "El que se humilla como un niño",
+        "C": "El que más da",
+        "D": "El que más ora"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 18:4 dice: 'El que se humille como este niño, ése es el mayor en el reino de los cielos.'"
+    },
+    {
+      "id": 397,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Lucas - Ofrenda de la viuda",
+      "pregunta": "¿Cuánto echó la viuda pobre en la ofrenda del templo?",
+      "opciones": {
+        "A": "Mucho dinero",
+        "B": "Dos pequeñas monedas (céntimos)",
+        "C": "Un denario",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 21:2 dice que vio a una viuda pobre que echaba dos pequeñas monedas."
+    },
+    {
+      "id": 398,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Lucas - Ofrenda de la viuda",
+      "pregunta": "¿Por qué dijo Jesús que la viuda dio más que los ricos?",
+      "opciones": {
+        "A": "Porque dio más cantidad",
+        "B": "Porque dio todo lo que tenía para vivir",
+        "C": "Porque era famosa",
+        "D": "Porque era sabia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 21:4 dice que todos estos echaron para las ofrendas de Dios de lo que les sobraba; mas esta, de su pobreza echó todo el sustento que tenía."
+    },
+    {
+      "id": 399,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo/Marcos/Lucas - Fin de los tiempos",
+      "pregunta": "¿Qué edificio profetizó Jesús que sería destruido?",
+      "opciones": {
+        "A": "El palacio de Herodes",
+        "B": "El templo de Jerusalén",
+        "C": "La torre de Siloé",
+        "D": "El muro de Jerusalén"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 24:1-2 dice que Jesús dijo que no quedará piedra sobre piedra que no sea derribada."
+    },
+    {
+      "id": 400,
+      "nivel": 40,
+      "dificultad": 7,
+      "tema": "Mateo - Vigilancia",
+      "pregunta": "¿Qué parábola Jesús contó sobre estar preparados para su venida?",
+      "opciones": {
+        "A": "Las diez vírgenes",
+        "B": "El siervo fiel y prudente",
+        "C": "Los talentos",
+        "D": "Todas las anteriores"
+      },
+      "respuesta_correcta": "D",
+      "explicacion": "Mateo 24-25 contiene las parábolas de las diez vírgenes (25:1-13), el siervo fiel (24:45-51), y los talentos (25:14-30)."
+    }
+  ]
+}

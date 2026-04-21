@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "96-100",
+    "dificultad": "Extremadamente difícil - Nivel Maestro",
+    "tema": "Maestría bíblica completa (síntesis total, aplicación práctica máxima, conexiones avanzadas)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Últimas 50 preguntas para completar 1000. Repaso final exhaustivo de toda la Biblia"
+  },
+  "preguntas": [
+    {
+      "id": 931,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Cronología completa",
+      "pregunta": "¿Cuál es la cronología completa desde Adán hasta Jesús?",
+      "opciones": {
+        "A": "1,000 años",
+        "B": "Aproximadamente 4,000 años: ~2,000 años desde Adán hasta Abraham (Génesis 5, 11), ~2,000 años desde Abraham hasta Jesús (2000 a.C. a 4 d.C.)",
+        "C": "500 años",
+        "D": "10,000 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Cronología bíblica: ~2,000 años Adán-Abraham (Génesis 5, 11), ~2,000 años Abraham-Jesús (aproximadamente 2000 a.C. a 4 d.C.)."
+    },
+    {
+      "id": 932,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Cronología NT",
+      "pregunta": "¿Cuántos años pasaron desde Jesús hasta la terminación del NT?",
+      "opciones": {
+        "A": "5 años",
+        "B": "Aproximadamente 60-70 años (c. 30 d.C. crucifixión a c. 95-100 d.C. Apocalipsis)",
+        "C": "200 años",
+        "D": "1 año"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Desde la crucifixión (c. 30 d.C.) hasta Apocalipsis (c. 95-100 d.C.) pasaron aproximadamente 60-70 años."
+    },
+    {
+      "id": 933,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Edades patriarcas",
+      "pregunta": "¿Cuántos años vivieron los patriarcas pre-diluvianos principales?",
+      "opciones": {
+        "A": "100 años cada uno",
+        "B": "Adán 930, Set 912, Enós 905, Cainán 910, Mahalaleel 895, Jared 962, Enoc 365 (traslado), Matusalén 969, Lamec 777, Noé 950 años",
+        "C": "50 años cada uno",
+        "D": "200 años cada uno"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 5: Adán 930, Set 912, Enós 905, Cainán 910, Mahalaleel 895, Jared 962, Enoc 365 (trasladado), Matusalén 969, Lamec 777, Noé 950."
+    },
+    {
+      "id": 934,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Reyes de Israel y Judá",
+      "pregunta": "¿Cuántos reyes gobernaron Israel (Norte) y Judá (Sur)?",
+      "opciones": {
+        "A": "5 reyes en total",
+        "B": "19 reyes en Israel (Norte, 931-722 a.C.), 20 reyes en Judá (Sur, 931-586 a.C.); total 39 reyes (algunos co-regentes)",
+        "C": "2 reyes",
+        "D": "100 reyes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "19 reyes en Israel del Norte (Jeroboam I a Oseas, 931-722 a.C.), 20 reyes en Judá del Sur (Roboam a Sedequías, 931-586 a.C.)."
+    },
+    {
+      "id": 935,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Sistema levítico",
+      "pregunta": "¿Cuántos levitas eran necesarios para el servicio del Tabernáculo?",
+      "opciones": {
+        "A": "3 levitas",
+        "B": "Aproximadamente 22,000 levitas de 1 mes en adelante (Números 3:39, 4:46-48); 8,580 en edad de servir (4:48)",
+        "C": "100 levitas",
+        "D": "1 levita"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 3:39: 22,000 levitas varones de 1 mes en adelante; 8,580 en edad de servir (30-50 años, 4:48)."
+    },
+    {
+      "id": 936,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Viajes misioneros de Pablo",
+      "pregunta": "¿Cuántos viajes misioneros hizo Pablo según Hechos?",
+      "opciones": {
+        "A": "1 viaje",
+        "B": "3 viajes misioneros principales (Hechos 13-14, 15:36-18:22, 18:23-21:17), más viaje a Roma",
+        "C": "10 viajes",
+        "D": "100 viajes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Pablo hizo 3 viajes misioneros (Hechos 13-14: primer viaje; 15:36-18:22: segundo viaje; 18:23-21:17: tercer viaje), más viaje a Roma como prisionero."
+    },
+    {
+      "id": 937,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Libros del Pentateuco",
+      "pregunta": "¿Cuál es el tema central de cada libro del Pentateuco?",
+      "opciones": {
+        "A": "Todos iguales",
+        "B": "Génesis (origenes), Éxodo (salida/liberación), Levítico (santidad/culto), Números (peregrinación/censo), Deuteronomio (segunda ley/repetición)",
+        "C": "Sin temas",
+        "D": "Solo historia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis (origenes/comienzos), Éxodo (salida de Egipto), Levítico (santidad/sacerdocio), Números (viaje/censo), Deuteronomio (repetición de la ley)."
+    },
+    {
+      "id": 938,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Libros históricos",
+      "pregunta": "¿Cuántos libros históricos tiene el AT y cuáles son?",
+      "opciones": {
+        "A": "5 libros",
+        "B": "12 libros: Josué, Jueces, Rut, 1-2 Samuel, 1-2 Reyes, 1-2 Crónicas, Esdras, Nehemías, Ester",
+        "C": "3 libros",
+        "D": "20 libros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "12 libros de historia: Josué, Jueces, Rut, 1-2 Samuel, 1-2 Reyes, 1-2 Crónicas, Esdras, Nehemías, Ester."
+    },
+    {
+      "id": 939,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Libros poéticos",
+      "pregunta": "¿Cuántos libros poéticos/sabiduría tiene el AT?",
+      "opciones": {
+        "A": "3 libros",
+        "B": "5 libros: Job, Salmos, Proverbios, Eclesiastés, Cantar de los Cantares (algunos incluyen Lamentaciones aquí)",
+        "C": "1 libro",
+        "D": "10 libros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "5 libros de poesía/sabiduría: Job, Salmos, Proverbios, Eclesiastés, Cantar de los Cantares."
+    },
+    {
+      "id": 940,
+      "nivel": 96,
+      "dificultad": 17,
+      "tema": "Maestro - Libros proféticos",
+      "pregunta": "¿Cuántos libros proféticos tiene el AT y cómo se dividen?",
+      "opciones": {
+        "A": "5 libros mayores",
+        "B": "17 libros: 5 mayores (Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel) y 12 menores (Oseas a Malaquías)",
+        "C": "12 libros",
+        "D": "20 libros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "17 libros proféticos: 5 mayores (Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel) y 12 menores (Oseas, Joel, Amós, Abdías, Jonás, Miqueas, Nahúm, Habacuc, Sofonías, Ageo, Zacarías, Malaquías)."
+    },
+    {
+      "id": 941,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Evangelios sinópticos",
+      "pregunta": "¿Por qué se llaman evangelios sinópticos a Mateo, Marcos y Lucas?",
+      "opciones": {
+        "A": "Son iguales",
+        "B": "Porque se pueden ver 'juntos' (syn-optic); comparten mucho contenido común, orden similar de eventos, fuentes comunes (Q, Marcos, M)",
+        "C": "Son diferentes",
+        "D": "No tienen relación"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Sinópticos (del griego syn=con, juntos + optikos=ver): se pueden ver juntos en columnas paralelas. Comparten fuentes comunes: Teoría de las dos fuentes (Marcos + Q + material especial de cada uno)."
+    },
+    {
+      "id": 942,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Evangelio de Juan",
+      "pregunta": "¿Cuál es la diferencia principal entre el Evangelio de Juan y los sinópticos?",
+      "opciones": {
+        "A": "No hay diferencia",
+        "B": "Juan es teológico (Cristoología alta), suplementario, enfocado en Judea y discursos, 7 señales/milagros, 'Yo soy', no parábolas sino discursos extensos",
+        "C": "Es igual a Marcos",
+        "D": "Es más corto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan es diferente: más teológico (Cristoología alta, Jesús como Dios), suplementario (no sinóptico), 7 señales (milagros), 7 'Yo soy', discursos extensos en lugar de parábolas, enfocado en Judea, ministerio de 3 años (3 Pascuas)."
+    },
+    {
+      "id": 943,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Hechos estructura",
+      "pregunta": "¿Cuál es la estructura temática de Hechos 1:8?",
+      "opciones": {
+        "A": "Sin estructura",
+        "B": "Jerusalén (Hechos 1-7), Judea y Samaria (8-12), hasta lo último de la tierra (13-28)",
+        "C": "Solo Jerusalén",
+        "D": "Solo Roma"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hechos 1:8 es el esquema: 'Seréis mis testigos en Jerusalén (cap. 1-7), en toda Judea y Samaria (cap. 8-12), y hasta lo último de la tierra (cap. 13-28).'"
+    },
+    {
+      "id": 944,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Epístolas paulinas",
+      "pregunta": "¿Cuál es el orden cronológico aproximado de las cartas de Pablo?",
+      "opciones": {
+        "A": "Alfabético",
+        "B": "1-2 Tesalonicenses (50-51 d.C.), Gálatas (48-49 o 55), 1-2 Corintios (55), Romanos (56), Efesios, Filipenses, Colosenses, Filemón (60-62), 1 Timoteo, Tito (62-64), 2 Timoteo (67)",
+        "C": "Al azar",
+        "D": "Por tamaño"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Orden cronológico: 1-2 Tesalonicenses (50-51 d.C.), Gálatas (48-49 o 55 d.C.), 1-2 Corintios (55 d.C.), Romanos (56 d.C.), Efesios, Filipenses, Colosenses, Filemón (cárcel en Roma, 60-62 d.C.), 1 Timoteo, Tito (libertad, 62-64 d.C.), 2 Timoteo (segunda cárcel, 67 d.C.)."
+    },
+    {
+      "id": 945,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Apocalipsis interpretación",
+      "pregunta": "¿Cuáles son los 4 métodos principales de interpretar Apocalipsis?",
+      "opciones": {
+        "A": "Solo 1 método",
+        "B": "1) Preterista (ya se cumplió, especialmente 70 d.C.), 2) Historicista (cumplimiento a lo largo de la historia), 3) Futurista (cap. 4-22 aún por cumplirse), 4) Idealista/Teológico (símbolos de lucha espiritual perpetua)",
+        "C": "Solo 2 métodos",
+        "D": "Sin métodos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "4 métodos: Preterista (ya cumplido, especialmente cap. 1-3, posiblemente hasta cap. 19 en 70 d.C.), Historicista (cumplimiento progresivo a través de la historia de la iglesia), Futurista (cap. 4-22 completamente futuro desde el arrebatamiento), Idealista (símbolos eternos de bien vs. mal, no predicciones específicas)."
+    },
+    {
+      "id": 946,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Teología sistemática",
+      "pregunta": "¿Cuáles son las 10 doctrinas principales de la teología sistemática?",
+      "opciones": {
+        "A": "Solo 5 doctrinas",
+        "B": "Teología propia (Dios), Antropología (hombre), Hamartología (pecado), Cristología (Cristo), Soteriología (salvación), Pneumatología (Espíritu Santo), Angelología (ángeles/demonios), Ecclesiología (iglesia), Escatología (futuro), Bibliología (Escrituras)",
+        "C": "Solo 3 doctrinas",
+        "D": "20 doctrinas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "10 categorías de teología sistemática: Bibliología (Escrituras), Teología (Dios), Angelología (ángeles), Antropología (hombre), Hamartología (pecado), Cristología (Cristo), Soteriología (salvación), Pneumatología (Espíritu Santo), Ecclesiología (iglesia), Escatología (futuro)."
+    },
+    {
+      "id": 947,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Hermenéutica",
+      "pregunta": "¿Cuáles son las 5 reglas básicas de interpretación bíblica?",
+      "opciones": {
+        "A": "Sin reglas",
+        "B": "Contexto (literario, histórico, cultural), Literal donde sea posible, Gramática (sintaxis, vocabulario), Síntesis (comparar Escritura con Escritura), Aplicación (relevancia hoy)",
+        "C": "Solo 2 reglas",
+        "D": "Solo imaginación"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "5 reglas hermenéuticas: 1) Contexto (literario, histórico, cultural), 2) Interpretación literal donde sea posible (sentido literal, no alegórico), 3) Gramática (sintaxis, vocabulario, estructura), 4) Síntesis (comparar Escritura con Escritura, analogia scriptura), 5) Aplicación (qué significa para hoy)."
+    },
+    {
+      "id": 948,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Concordancias",
+      "pregunta": "¿Qué es una concordancia bíblica y para qué sirve?",
+      "opciones": {
+        "A": "Un libro de historias",
+        "B": "Índice alfabético de todas las palabras de la Biblia con sus referencias; sirve para estudios de palabras, temas, contextos de uso",
+        "C": "Un comentario",
+        "D": "Una traducción"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Concordancia bíblica: índice exhaustivo de cada palabra en la Biblia con todas sus referencias (Strong, Young, Cruden). Sirve para estudios de palabras originales, temas, comparar usos."
+    },
+    {
+      "id": 949,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Versiones bíblicas",
+      "pregunta": "¿Cuáles son las principales traducciones de la Biblia al español?",
+      "opciones": {
+        "A": "Solo 1 traducción",
+        "B": "Reina-Valera (1569, 1602, 1960), NVI (Nueva Versión Internacional), Dios Habla Hoy, Traducción en Lenguaje Actual, Biblia de las Américas, LBLA",
+        "C": "Solo 2 traducciones",
+        "D": "Solo en latín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Principales traducciones español: Reina-Valera (1569, 1909, 1960, 1995), NVI (1999), Dios Habla Hoy (1966, 1996), Traducción en Lenguaje Actual (1979, 1996), Biblia de las Américas (1986), La Biblia de las Américas (LBLA)."
+    },
+    {
+      "id": 950,
+      "nivel": 97,
+      "dificultad": 17,
+      "tema": "Maestro - Manuscritos",
+      "pregunta": "¿Cuáles son los manuscritos más importantes del NT en griego?",
+      "opciones": {
+        "A": "Solo 1 manuscrito",
+        "B": "Codex Sinaiticus (4º siglo), Codex Vaticanus (4º siglo), Codex Alexandrinus (5º siglo), Papyrus 52 (2º siglo, Juan 18)",
+        "C": "Solo manuscritos modernos",
+        "D": "No hay manuscritos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Manuscritos importantes: Codex Sinaiticus (siglo IV, descubierto en Sinaí), Codex Vaticanus (siglo IV, en Biblioteca Vaticana), Codex Alexandrinus (siglo V), P52 (papiro del siglo II con Juan 18, el más antiguo)."
+    },
+    {
+      "id": 951,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Tipología completa",
+      "pregunta": "¿Cuáles son los principales tipos de Cristo en el AT?",
+      "opciones": {
+        "A": "Solo 1 tipo",
+        "B": "Adán (hombre original), Abel (sacrificio aceptado), Noé (salvación por agua), Melquisedec (rey-sacerdote), Isaac (hijo del sacrificio), José (salvador rechazado), Moisés (libertador), Josué (conquistador), David (rey ungido), Jonás (muerte y resurrección)",
+        "C": "Solo 2 tipos",
+        "D": "No hay tipos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tipos de Cristo: Adán (Génesis 3:15, Rom 5:14), Abel (Génesis 4), Noé (Génesis 6-9, 1 Pedro 3:20-21), Melquisedec (Génesis 14, Salmo 110, Hebreos), Isaac (Génesis 22), José (Génesis 37-50), Moisés (Éxodo, Hechos 3:22, 7:37), Josué (Josué), David (2 Samuel 7, Salmo 2, 110), Jonás (Jonás, Mateo 12:40)."
+    },
+    {
+      "id": 952,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Alianzas",
+      "pregunta": "¿Cuáles son las 5 alianzas principales del AT y la Nueva Alianza?",
+      "opciones": {
+        "A": "Solo 1 alianza",
+        "B": "Adámica, Noéica, Abrahámica, Sinaítica/Mosaica, Davídica, Nueva Alianza en Cristo (Jeremías 31:31; Lucas 22:20; Hebreos 8:8-12)",
+        "C": "Solo 2 alianzas",
+        "D": "10 alianzas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "5 alianzas AT + Nueva Alianza: Adámica (Génesis 1-3), Noéica (Génesis 9), Abrahámica (Génesis 12, 15, 17), Sinaítica (Éxodo 19-24), Davídica (2 Samuel 7), Nueva Alianza (Jeremías 31:31; Lucas 22:20; Hebreos 8-10)."
+    },
+    {
+      "id": 953,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Ofrendas y sacrificios",
+      "pregunta": "¿Cuántos tipos de sacrificios había en el sistema levítico (Levítico 1-7)?",
+      "opciones": {
+        "A": "1 sacrificio",
+        "B": "5 sacrificios: holocausto, ofrenda de grano, ofrenda de paz, ofrenda por el pecado, ofrenda por la culpa",
+        "C": "2 sacrificios",
+        "D": "10 sacrificios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "5 sacrificios Levítico 1-7: holocausto (Lev 1), ofrenda de grano (Lev 2), ofrenda de paz (Lev 3), ofrenda por el pecado (Lev 4), ofrenda por la culpa (Lev 5-6)."
+    },
+    {
+      "id": 954,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Fiestas del Señor",
+      "pregunta": "¿Cuántas fiestas anuales mandaba el Señor en Levítico 23?",
+      "opciones": {
+        "A": "3 fiestas",
+        "B": "7 fiestas: Pascua, pan sin levadura, primicias, Pentecostés, trompetas, expiación, tabernáculos",
+        "C": "1 fiesta",
+        "D": "12 fiestas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "7 fiestas Levítico 23: Pascua, pan sin levadura, primicias, Pentecostés, trompetas, expiación, tabernáculos."
+    },
+    {
+      "id": 955,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Sistema sacerdotal",
+      "pregunta": "¿Cuántos sacerdotes había en Israel en tiempos de David?",
+      "opciones": {
+        "A": "3 sacerdotes",
+        "B": "24 divisiones de sacerdotes (1 Crónicas 24), aproximadamente 24,000 levitas (1 Crónicas 23:3-4)",
+        "C": "1 sacerdote",
+        "D": "100 sacerdotes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "David organizó 24 divisiones de sacerdotes (1 Crónicas 24) y aproximadamente 24,000 levitas para el servicio del templo (1 Crónicas 23:3-4)."
+    },
+    {
+      "id": 956,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Dones espirituales",
+      "pregunta": "¿Cuántos dones espirituales menciona el NT en las listas de Romanos 12, 1 Corintios 12, Efesios 4?",
+      "opciones": {
+        "A": "3 dones",
+        "B": "Aproximadamente 20 dones distintos mencionados en las tres listas (algunos se repiten o son similares)",
+        "C": "1 don",
+        "D": "100 dones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 12:6-8 (7 dones), 1 Corintios 12:8-10, 28 (9 dones de manifestación, otros), Efesios 4:11 (5 ministerios). Total aproximadamente 20 dones distintos mencionados."
+    },
+    {
+      "id": 957,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Fruto vs. dones",
+      "pregunta": "¿Cuál es la diferencia entre fruto del Espíritu y dones del Espíritu?",
+      "opciones": {
+        "A": "Son lo mismo",
+        "B": "Fruto (Gálatas 5:22-23): carácter, crecimiento personal, 9 cualidades para todos. Dones (1 Corintios 12): capacidades, servicio, variedad según el Espíritu",
+        "C": "No hay diferencia",
+        "D": "Son opuestos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Fruto del Espíritu (Gálatas 5:22-23): carácter de Cristo, para todos, crecimiento personal. Dones del Espíritu (1 Corintios 12, Romanos 12, Efesios 4): capacidades especiales, distribuidos según la voluntad del Espíritu, para servicio."
+    },
+    {
+      "id": 958,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Obras de la carne",
+      "pregunta": "¿Cuántas obras de la carne enumera Gálatas 5:19-21?",
+      "opciones": {
+        "A": "5 obras",
+        "B": "17 obras: adulterio, fornicación, inmundicia, lascivia, idolatría, hechicerías, enemistades, pleitos, celos, iras, contiendas, disensiones, herejías, envidias, homicidios, borracheras, orgías",
+        "C": "3 obras",
+        "D": "Sin obras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 5:19-21 enumera 17 obras de la carne que impiden heredar el reino de Dios."
+    },
+    {
+      "id": 959,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Armadura de Dios",
+      "pregunta": "¿Cuáles son las 7 piezas de la armadura espiritual en Efesios 6?",
+      "opciones": {
+        "A": "3 piezas",
+        "B": "Cinturón de verdad, coraza de justicia, calzado del evangelio, escudo de fe, casco de salvación, espada del Espíritu, oración",
+        "C": "1 pieza",
+        "D": "10 piezas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 6:13-18: cinturón de verdad, coraza de justicia, calzado del evangelio de paz, escudo de fe, casco de salvación, espada del Espíritu (Palabra de Dios), orando en todo tiempo."
+    },
+    {
+      "id": 960,
+      "nivel": 98,
+      "dificultad": 17,
+      "tema": "Maestro - Peticiones del Padrenuestro",
+      "pregunta": "¿Cuántas peticiones tiene el Padrenuestro (Mateo 6:9-13)?",
+      "opciones": {
+        "A": "3 peticiones",
+        "B": "7 peticiones: 3 primeras sobre Dios (nombre, reino, voluntad), 4 últimas sobre nosotros (pan, perdón, tentación, mal)",
+        "C": "1 petición",
+        "D": "10 peticiones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 6:9-13: 7 peticiones - santificado sea tu nombre, venga tu reino, hágase tu voluntad, danos hoy nuestro pan, perdona nuestras deudas, no nos metas en tentación, líbranos del mal."
+    },
+    {
+      "id": 961,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Bienaventuranzas",
+      "pregunta": "¿Cuántas bienaventuranzas hay en el Sermón del Monte (Mateo 5:3-12)?",
+      "opciones": {
+        "A": "3 bienaventuranzas",
+        "B": "8 bienaventuranzas (Mateo 5:3-10) más la novena (5:11-12) sobre la persecución",
+        "C": "1 bienaventuranza",
+        "D": "20 bienaventuranzas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "8 bienaventuranzas en Mateo 5:3-10 (pobres en espíritu, los que lloran, mansos, hambrientos de justicia, misericordiosos, limpios de corazón, pacificadores, perseguidos), más la novena en vv. 11-12 (insultados, perseguidos, calumniados)."
+    },
+    {
+      "id": 962,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Parábolas del reino",
+      "pregunta": "¿Cuántas parábolas de Mateo 13 sobre el reino de los cielos?",
+      "opciones": {
+        "A": "2 parábolas",
+        "B": "8 parábolas: sembrador, trigo-cizaña, grano de mostaza, levadura, tesoro escondido, perla preciosa, red, escriba",
+        "C": "1 parábola",
+        "D": "15 parábolas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13 contiene 8 parábolas del reino: sembrador (v. 1-9), trigo y cizaña (v. 24-30), grano de mostaza (v. 31-32), levadura (v. 33), tesoro escondido (v. 44), perla preciosa (v. 45-46), red (v. 47-50), escriba (v. 52)."
+    },
+    {
+      "id": 963,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - I am de Juan",
+      "pregunta": "¿Cuántos 'Yo soy' (ego eimi) declara Jesús en Juan?",
+      "opciones": {
+        "A": "1 declaración",
+        "B": "7 declaraciones con predicado: pan de vida, luz del mundo, puerta, buen pastor, resurrección y vida, camino-verdad-vida, vid verdadera",
+        "C": "3 declaraciones",
+        "D": "20 declaraciones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan registra 7 'Yo soy' con predicado: pan de vida (6:35), luz del mundo (8:12), puerta de las ovejas (10:7, 9), buen pastor (10:11, 14), resurrección y vida (11:25), camino, verdad y vida (14:6), vid verdadera (15:1, 5)."
+    },
+    {
+      "id": 964,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Señales de Juan",
+      "pregunta": "¿Cuántas señales (milagros) registra el Evangelio de Juan?",
+      "opciones": {
+        "A": "20 señales",
+        "B": "7 señales: agua en vino (2), hijo del oficial (4), paralítico (5), multiplicación panes (6), caminar sobre agua (6), ciego de nacimiento (9), resucitar a Lázaro (11), más la octava (su propia resurrección 20-21)",
+        "C": "1 señal",
+        "D": "100 señales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan registra 7 señales: agua en vino (2:1-11), hijo del oficial (4:46-54), paralítico (5:1-15), multiplicación (6:1-14), caminar sobre agua (6:16-21), ciego de nacimiento (9:1-12), resucitar a Lázaro (11:1-45). La octava es su propia resurrección."
+    },
+    {
+      "id": 965,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Mandamiento nuevo",
+      "pregunta": "¿Cuál es el mandamiento nuevo de Jesús en Juan 13:34-35?",
+      "opciones": {
+        "A": "Amar a Dios",
+        "B": "Amados los unos a los otros; como yo os he amado, que también os améis los unos a los otros. En esto conocerán todos que sois mis discípulos, si tuviereis amor los unos con los otros",
+        "C": "Odiar al enemigo",
+        "D": "Amar el dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 13:34-35: 'Un mandamiento nuevo os doy: Que os améis los unos a los otros; como yo os he amado, que también os améis los unos a los otros. En esto conocerán todos que sois mis discípulos, si tuviereis amor los unos con los otros.'"
+    },
+    {
+      "id": 966,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Gran Mandamiento",
+      "pregunta": "¿Cuál es el gran mandamiento según Mateo 22:37-40?",
+      "opciones": {
+        "A": "No matar",
+        "B": "Amarás al Señor tu Dios con todo tu corazón, y con toda tu alma, y con toda tu mente. Este es el primero y el gran mandamiento. Y el segundo es semejante: Amarás a tu prójimo como a ti mismo",
+        "C": "No robar",
+        "D": "Guardar el sábado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:37-40: 'Amarás al Señor tu Dios con todo tu corazón... Este es el primero y el gran mandamiento. Y el segundo es semejante: Amarás a tu prójimo como a ti mismo. De estos dos mandamientos depende toda la ley y los profetas.'"
+    },
+    {
+      "id": 967,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Nuevo nacimiento",
+      "pregunta": "¿Qué significa el nuevo nacimiento según Juan 3:3-7?",
+      "opciones": {
+        "A": "Volver a nacer físicamente",
+        "B": "Nacer de nuevo, nacer del agua y del Espíritu; lo que es nacido de la carne es carne, y lo que es nacido del Espíritu es espíritu. No te maravilles de que te dije: Necesario os es nacer de nuevo",
+        "C": "Ser bautizado solo",
+        "D": "Ser judío"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 3:3-7: 'De cierto, de cierto te digo, que el que no naciere de nuevo, no puede ver el reino de Dios... De cierto, de cierto te digo, que el que no naciere de agua y del Espíritu, no puede entrar en el reino de Dios... Necesario os es nacer de nuevo.'"
+    },
+    {
+      "id": 968,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Justificación",
+      "pregunta": "¿Qué es la justificación según Romanos 3:24-26?",
+      "opciones": {
+        "A": "Hacer buenas obras",
+        "B": "Justificados gratuitamente por su gracia, mediante la redención que es en Cristo Jesús, a quien Dios puso como propiciación por medio de la fe en su sangre",
+        "C": "Ser perfecto",
+        "D": "Seguir la ley"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 3:24-26: 'Siendo justificados gratuitamente por su gracia, mediante la redención que es en Cristo Jesús, a quien Dios puso como propiciación por medio de la fe en su sangre, para manifestar su justicia...'"
+    },
+    {
+      "id": 969,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Santificación",
+      "pregunta": "¿Qué es la santificación según 1 Tesalonicenses 4:3-7?",
+      "opciones": {
+        "A": "Ser perfecto",
+        "B": "Esta es la voluntad de Dios: vuestra santificación, que os apartéis de fornicación; que cada uno de vosotros sepa tener su propia esposa en santidad y honor",
+        "C": "No cambiar",
+        "D": "Ser rico"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Tesalonicenses 4:3-7: 'Porque esta es la voluntad de Dios: vuestra santificación, que os apartéis de fornicación; que cada uno de vosotros sepa tener su propia esposa en santidad y honor... pues Dios no nos ha llamado a inmundicia, sino a santidad.'"
+    },
+    {
+      "id": 970,
+      "nivel": 99,
+      "dificultad": 17,
+      "tema": "Maestro - Glorificación",
+      "pregunta": "¿Qué es la glorificación según Romanos 8:30?",
+      "opciones": {
+        "A": "Ser famoso",
+        "B": "A los que justificó, a éstos también glorificó; conforme a la imagen de su Hijo, para que él sea el primogénito entre muchos hermanos",
+        "C": "Tener dinero",
+        "D": "Ser rey"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:29-30: 'Porque a los que antes conoció, también los predestinó... y a los que justificó, a éstos también glorificó.' La glorificación es la conformación final a la imagen de Cristo."
+    },
+    {
+      "id": 971,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Mensaje completo",
+      "pregunta": "¿Cuál es el mensaje completo de la Biblia en una frase?",
+      "opciones": {
+        "A": "Obediencia a la ley",
+        "B": "Dios amó tanto al mundo que envió a su Hijo unigénito para salvar a todo el que cree, dándole vida eterna y restaurando la relación rota por el pecado",
+        "C": "Ser buena persona",
+        "D": "Acumular riquezas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Resumen: Dios creó al hombre para relación (Génesis 1-2), el pecado rompió esa relación (Génesis 3), Dios prometió redención (Génesis 3:15), envió a su Hijo (Juan 3:16), Jesús murió y resucitó para salvación (Romanos 5:8), todos pueden creer y tener vida eterna (Juan 3:16), Dios restaurará toda la creación (Apocalipsis 21-22)."
+    },
+    {
+      "id": 972,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Propósito",
+      "pregunta": "¿Cuál es el propósito de toda la Escritura según 2 Timoteo 3:15-17 y Juan 20:31?",
+      "opciones": {
+        "A": "Entretenimiento",
+        "B": "Hacernos sabios para salvación por fe en Cristo, útiles para enseñar, redargüir, corregir, instruir en justicia; para que creamos que Jesús es el Cristo y tengamos vida en su nombre",
+        "C": "Historia solamente",
+        "D": "Ciencia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 3:15-17 (sabiduría para salvación, útil para enseñar) + Juan 20:31 (creer que Jesús es el Cristo, tener vida)."
+    },
+    {
+      "id": 973,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Esperanza",
+      "pregunta": "¿Cuál es la esperanza final según Apocalipsis 21:1-4?",
+      "opciones": {
+        "A": "Destrucción",
+        "B": "Cielos nuevos y tierra nueva; Dios enjugará toda lágrima; no habrá muerte, ni llanto, ni clamor, ni dolor",
+        "C": "Oscuridad",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 21:1-4: 'Cielos nuevos y tierra nueva... enjugará Dios toda lágrima de los ojos de ellos; y ya no habrá muerte, ni habrá más llanto, ni clamor, ni dolor.'"
+    },
+    {
+      "id": 974,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Promesa final",
+      "pregunta": "¿Cuál es la última promesa de Jesús en la Biblia según Apocalipsis 22:20?",
+      "opciones": {
+        "A": "Adiós",
+        "B": "Vengo en breve. Amén; sí, ven, Señor Jesús",
+        "C": "Hasta nunca",
+        "D": "No volveré"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 22:20: 'El que da testimonio de estas cosas dice: Ciertamente vengo en breve. Amén; sí, ven, Señor Jesús.'"
+    },
+    {
+      "id": 975,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Bendición final",
+      "pregunta": "¿Cuál es la última bendición de la Biblia en Apocalipsis 22:21?",
+      "opciones": {
+        "A": "Maldición",
+        "B": "La gracia de nuestro Señor Jesucristo sea con todos vosotros. Amén",
+        "C": "Juicio",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 22:21: 'La gracia de nuestro Señor Jesucristo sea con todos vosotros. Amén.' Última palabra de la Biblia."
+    },
+    {
+      "id": 976,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Gran Comisión",
+      "pregunta": "¿Cuál es la Gran Comisión final de Jesús según Mateo 28:19-20?",
+      "opciones": {
+        "A": "Descansar",
+        "B": "Id, haced discípulos de todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo, enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo",
+        "C": "Guardar el sábado",
+        "D": "Hacer dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 28:19-20: 'Por tanto, id, y haced discípulos a todas las naciones, bautizándolos... enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo.'"
+    },
+    {
+      "id": 977,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Completaste la trivia",
+      "pregunta": "¿Cuántas preguntas tiene esta trivia bíblica completa?",
+      "opciones": {
+        "A": "100 preguntas",
+        "B": "1,000 preguntas en 100 niveles (10 niveles por archivo, 10 preguntas por nivel, 100 niveles totales)",
+        "C": "50 preguntas",
+        "D": "10 preguntas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Felicidades por completar los 100 niveles y 1,000 preguntas de esta trivia bíblica organizada cronológicamente según la Traducción del Nuevo Mundo."
+    },
+    {
+      "id": 978,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Felicitaciones",
+      "pregunta": "¿Qué has logrado al completar esta trivia?",
+      "opciones": {
+        "A": "Nada",
+        "B": "Has repasado toda la Biblia desde Génesis hasta Apocalipsis, 66 libros, 1,189 capítulos, aproximadamente 31,000 versículos, en orden cronológico con dificultad progresiva",
+        "C": "Solo un nivel",
+        "D": "Solo un libro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Al completar esta trivia has repasado: 66 libros bíblicos, 1,189 capítulos, ~31,000 versículos, desde Génesis hasta Apocalipsis, en orden cronológico, con dificultad progresiva desde nivel 1 hasta nivel 100."
+    },
+    {
+      "id": 979,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Nivel máximo",
+      "pregunta": "¿Cuál es el nivel máximo de esta trivia bíblica?",
+      "opciones": {
+        "A": "Nivel 50",
+        "B": "Nivel 100",
+        "C": "Nivel 10",
+        "D": "Nivel 5"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El nivel máximo es 100, con dificultad 'Extremadamente difícil - Nivel Maestro'."
+    },
+    {
+      "id": 980,
+      "nivel": 100,
+      "dificultad": 17,
+      "tema": "FINAL - Desafío",
+      "pregunta": "¿Cuál es el desafío final después de completar esta trivia?",
+      "opciones": {
+        "A": "Dejar de estudiar",
+        "B": "Seguir estudiando la Biblia diariamente, compartir el evangelio, hacer discípulos, amar a Dios y al prójimo, esperar la venida de Cristo",
+        "C": "Olvidar todo",
+        "D": "Descansar para siempre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El desafío: Seguir estudiando la Palabra (2 Timoteo 2:15), compartir el evangelio (Mateo 28:19-20), hacer discípulos (2 Timoteo 2:2), amar a Dios y al prójimo (Mateo 22:37-40), esperar la venida de Cristo (Apocalipsis 22:20)."
+    }
+  ]
+}

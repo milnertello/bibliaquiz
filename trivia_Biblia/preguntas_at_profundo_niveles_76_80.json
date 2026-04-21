@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "76-80",
+    "dificultad": "Muy difícil",
+    "tema": "Antiguo Testamento profundo (profecías mesiánicas, tipos y sombras)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas avanzadas sobre profecías mesiánicas, tipología bíblica y conexiones AT-NT"
+  },
+  "preguntas": [
+    {
+      "id": 751,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Génesis",
+      "pregunta": "¿Qué pasará al que maldiga a la simiente de la mujer según Génesis 3:15?",
+      "opciones": {
+        "A": "Será bendecido",
+        "B": "La simiente de la mujer le herirá en la cabeza",
+        "C": "Nada",
+        "D": "Será perdonado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 3:15 (profecía mesiánica primera) dice: 'Y pondré enemistad entre ti y la mujer, y entre tu simiente y la simiente suya; ésta te herirá en la cabeza, y tú le herirás en el calcañar.'"
+    },
+    {
+      "id": 752,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Génesis",
+      "pregunta": "¿Qué promesa se hizo a Abraham sobre todas las familias de la tierra?",
+      "opciones": {
+        "A": "Que serían ricas",
+        "B": "Que en su simiente serían benditas todas las familias de la tierra",
+        "C": "Que tendrían poder",
+        "D": "Que vivirían para siempre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 12:3; 22:18 dice: 'Y serán benditas en ti todas las familias de la tierra.' Esta simiente es Cristo según Gálatas 3:16."
+    },
+    {
+      "id": 753,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Deuteronomio",
+      "pregunta": "¿Qué profeta como Moisés levantaría Dios según Deuteronomio 18:15-19?",
+      "opciones": {
+        "A": "Isaías",
+        "B": "Un profeta como Moisés, de entre sus hermanos; a él oirán",
+        "C": "Jeremías",
+        "D": "Ezequiel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Deuteronomio 18:15, 18 dice: 'Profeta de en medio de ti, de tus hermanos, como yo, te levantará Jehová tu Dios; a él oiréis.' Esto se cumple en Jesucristo según Hechos 3:22; 7:37."
+    },
+    {
+      "id": 754,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - 2 Samuel",
+      "pregunta": "¿Qué pacto haría Dios con David según 2 Samuel 7:12-16?",
+      "opciones": {
+        "A": "Que tendría riquezas",
+        "B": "Que levantaría descendencia después de él, que edificaría casa para el nombre de Dios, y establecería el trono de su reino para siempre",
+        "C": "Que conquistaría el mundo",
+        "D": "Que viviría para siempre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 7:12-16 promete que Dios levantaría descendencia de David, que edificaría casa para el nombre de Dios, y que establecería el trono de su reino para siempre."
+    },
+    {
+      "id": 755,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Salmos",
+      "pregunta": "¿Qué dice el Salmo 2 sobre el Mesías y los reyes de la tierra?",
+      "opciones": {
+        "A": "Que los reyes lo adorarán",
+        "B": "Que los reyes de la tierra se levantan y los príncipes confabulan contra Jehová y su ungido; pero Dios establecerá su rey en Sion",
+        "C": "Que no habrá reyes",
+        "D": "Que habrá paz"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Salmo 2:1-6 describe cómo los reyes de la tierra se levantan contra Jehová y su ungido (Cristo), pero Dios establece a su rey en Sion."
+    },
+    {
+      "id": 756,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Salmos",
+      "pregunta": "¿Qué sucederá con el ungido según Salmo 22 (salmo de la crucifixión)?",
+      "opciones": {
+        "A": "Será coronado inmediatamente",
+        "B": "Le horadarán las manos y los pies, se repartirán sus vestidos, lo escarnecerán; pero Jehová lo levantará",
+        "C": "Será rico",
+        "D": "Será famoso"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Salmo 22 describe detalladamente la crucifixión: horadadura de manos y pies (v. 16), repartición de vestidos (v. 18), escarnio (v. 6-8), pero también resurrección."
+    },
+    {
+      "id": 757,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Isaías",
+      "pregunta": "¿Qué dice Isaías 7:14 sobre la virgen?",
+      "opciones": {
+        "A": "Que tendrá muchos hijos",
+        "B": "Que la virgen concebirá y dará a luz un hijo, y llamará su nombre Emmanuel",
+        "C": "Que no tendrá hijos",
+        "D": "Que será reina"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 7:14 (cumplido en Mateo 1:23) dice: 'Por tanto, el Señor mismo os dará señal: He aquí que la virgen concebirá, y dará a luz un hijo, y llamará su nombre Emmanuel.'"
+    },
+    {
+      "id": 758,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Isaías 9",
+      "pregunta": "¿Cuáles son los títulos del niño nacido según Isaías 9:6-7?",
+      "opciones": {
+        "A": "Profeta y sacerdote",
+        "B": "Admirable Consejero, Dios Fuerte, Padre Eterno, Príncipe de Paz",
+        "C": "Rey y guerrero",
+        "D": "Sacerdote y levita"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 9:6 dice: 'Porque un niño nos es nacido, hijo nos es dado; y el principado sobre su hombro; y se llamará su nombre Admirable Consejero, Dios Fuerte, Padre Eterno, Príncipe de Paz.'"
+    },
+    {
+      "id": 759,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Isaías 53",
+      "pregunta": "¿Cómo es descrito el siervo de Jehová según Isaías 53 (canto del siervo sufriente)?",
+      "opciones": {
+        "A": "Hermoso y poderoso",
+        "B": "Despreciado y rechazado entre los hombres, varón de dolores, herido por nuestras rebeliones, molido por nuestros pecados",
+        "C": "Rico y famoso",
+        "D": "Rey glorioso"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 53 describe al siervo de Jehová como despreciado y rechazado, varón de dolores, herido por nuestras rebeliones, molido por nuestros pecados, pero por su herida fuimos nosotros curados."
+    },
+    {
+      "id": 760,
+      "nivel": 76,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Isaías 53",
+      "pregunta": "¿Qué pasó con el siervo después de su muerte según Isaías 53:10-12?",
+      "opciones": {
+        "A": "Permaneció muerto",
+        "B": "Vio descendencia y prolongó sus días; Jehová se complació en herirle; hizo de la muerte expiación por el pecado; intercede por los rebeldes",
+        "C": "Fue olvidado",
+        "D": "Fue condenado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 53:10-12 dice que Jehová se complació en herirle; cuando haya puesto su vida en expiación por el pecado, verá descendencia, prolongará sus días; intercede por los rebeldes."
+    },
+    {
+      "id": 761,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Miqueas",
+      "pregunta": "¿Dónde nacerá el gobernante de Israel según Miqueas 5:2?",
+      "opciones": {
+        "A": "En Jerusalén",
+        "B": "En Belén de Efrata, pequeña para ser entre los millares de Judá",
+        "C": "En Nazaret",
+        "D": "En Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Miqueas 5:2 (cumplido en Mateo 2:5-6) dice: 'Pero tú, Belén Efrata, pequeña para ser entre los millares de Judá, de ti me saldrá el que ha de ser gobernante en Israel.'"
+    },
+    {
+      "id": 762,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Zacarías",
+      "pregunta": "¿Cómo entrará el rey según Zacarías 9:9?",
+      "opciones": {
+        "A": "En carro de guerra",
+        "B": "Sobre un pollino, hijo de asna, sobre el pollino hijo de asna",
+        "C": "A caballo",
+        "D": "En un carro de fuego"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Zacarías 9:9 (cumplido en Mateo 21:4-5) dice: 'He aquí, tu rey vendrá a ti; justo y salvador, humilde, y montado sobre un pollino, sobre un pollino hijo de asna.'"
+    },
+    {
+      "id": 763,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Zacarías",
+      "pregunta": "¿Cuánto le pagarán al pastor según Zacarías 11:12-13?",
+      "opciones": {
+        "A": "30 monedas de oro",
+        "B": "30 piezas de plata, precio del que fue valuado por ellos; y las arrojarán en la casa de Jehová",
+        "C": "100 monedas",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Zacarías 11:12-13 (cumplido en Mateo 26:15; 27:9) profetiza las 30 piezas de plata que pagaron por Jesús y que fueron arrojadas en el templo."
+    },
+    {
+      "id": 764,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Profecías Mesiánicas - Malaquías",
+      "pregunta": "¿Quién vendrá antes del día grande y terrible de Jehová según Malaquías 4:5-6?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "El profeta Elías, para convertir el corazón de los padres a los hijos y viceversa",
+        "C": "Isaías",
+        "D": "Jeremías"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías 4:5-6 (cumplido en Juan el Bautista según Mateo 11:14; 17:10-13) dice: 'He aquí, yo os envío al profeta Elías antes que venga el día de Jehová, grande y terrible.'"
+    },
+    {
+      "id": 765,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Melquisedec",
+      "pregunta": "¿Quién era Melquisedec según Génesis 14:18-20 y Hebreos 7?",
+      "opciones": {
+        "A": "Un levita",
+        "B": "Rey de Salem y sacerdote del Dios Altísimo, sin genealogía, tipo de Cristo",
+        "C": "Un rey de Israel",
+        "D": "Un profeta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Melquisedec (Génesis 14:18-20) era rey de Salem (paz) y sacerdote del Dios Altísimo. Hebreos 7 explica que es un tipo de Cristo como rey-sacerdote, sin principio ni fin."
+    },
+    {
+      "id": 766,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Moisés",
+      "pregunta": "¿Qué tipo de Cristo es Moisés según Deuteronomio 18:15 y Hechos 3:22?",
+      "opciones": {
+        "A": "Un tipo imperfecto",
+        "B": "Profeta que libera a su pueblo, mediador del pacto, da pan del cielo, levanta la serpiente",
+        "C": "Un rey",
+        "D": "Un sacerdote"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Moisés es tipo de Cristo como: profeta que libera a su pueblo (Éxodo), mediador del pacto (Éxodo 24), da pan del cielo (maná = Cristo pan de vida), levanta la serpiente (Números 21 = Cristo en la cruz)."
+    },
+    {
+      "id": 767,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Josué",
+      "pregunta": "¿Qué significa el nombre de Josué y cómo conecta con Jesús?",
+      "opciones": {
+        "A": "Rey",
+        "B": "Jehová es salvación; el mismo nombre en griego es Jesús",
+        "C": "Guerrero",
+        "D": "Profeta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué (Yeshua en hebreo) significa 'Jehová es salvación'. Este es exactamente el mismo nombre que Jesús (Iesous en griego, Yeshua en arameo). Josué conduce al pueblo a la tierra prometida; Jesús conduce a la tierra celestial."
+    },
+    {
+      "id": 768,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Jonás",
+      "pregunta": "¿Qué tipo de Cristo es Jonás según Mateo 12:38-41?",
+      "opciones": {
+        "A": "Un profeta mentiroso",
+        "B": "Estuvo tres días y tres noches en el vientre del gran pez, como Cristo en la tumba; predicó arrepentimiento",
+        "C": "Un rey",
+        "D": "Un sacerdote"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 12:38-41 dice que como Jonás estuvo tres días y tres noches en el vientre del gran pez, así estará el Hijo del Hombre tres días y tres noches en el corazón de la tierra."
+    },
+    {
+      "id": 769,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Cordero Pascual",
+      "pregunta": "¿Cómo es el Cordero Pascual tipo de Cristo según 1 Corintios 5:7 y Juan 1:29?",
+      "opciones": {
+        "A": "Es un animal cualquiera",
+        "B": "Sin defecto, examinado 4 días, sus huesos no se quebraron, su sangre protege del juicio; Jesús es el Cordero de Dios que quita el pecado del mundo",
+        "C": "Es un símbolo de maldición",
+        "D": "Es solo para los judíos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El Cordero Pascual (Éxodo 12): sin defecto, examinado 4 días (10-14 de Nisán = Domingo de Ramos a Jueves), huesos no quebrados (Juan 19:36), sangre protege del juicio. 1 Corintios 5:7: 'Cristo, nuestra pascua, fue sacrificado por nosotros.'"
+    },
+    {
+      "id": 770,
+      "nivel": 77,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Tabernáculo",
+      "pregunta": "¿Qué representa el Tabernáculo según Hebreos 9:1-12?",
+      "opciones": {
+        "A": "Una tienda cualquiera",
+        "B": "Sombra de los bienes venideros; el Lugar Santísimo = presencia de Dios, Velo = cuerpo de Cristo, Arca = presencia de Dios, Cordero = sacrificio de Cristo",
+        "C": "Un palacio",
+        "D": "Una prisión"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 9:1-12 dice que el tabernáculo es sombra de los bienes venideros. El velo rasgado (Mateo 27:51) representa el acceso a Dios por medio de Cristo."
+    },
+    {
+      "id": 771,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Tipología bíblica - Sumo sacerdote",
+      "pregunta": "¿Cómo es el sumo sacerdote tipo de Cristo según Levítico 16 y Hebreos?",
+      "opciones": {
+        "A": "Es pecador como todos",
+        "B": "Entra al Lugar Santísimo una vez al año con sangre para expiación; Cristo entra una vez para siempre con su propia sangre, sin mancha",
+        "C": "No tiene importancia",
+        "D": "Es solo un símbolo humano"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 16 describe el Yom Kipur (Día de Expiación) donde el sumo sacerdote entra al Lugar Santísimo una vez al año. Hebreos explica que Cristo es el Sumo Sacerdote perfecto que entra una vez para siempre (Hebreos 9:7, 12, 25-28)."
+    },
+    {
+      "id": 772,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Nombres de Dios - El Shaddai",
+      "pregunta": "¿Qué significa El Shaddai y quién lo usó según Génesis 17:1?",
+      "opciones": {
+        "A": "Juez",
+        "B": "Dios Todopoderoso; Dios se apareció a Abram como Dios Todopoderoso",
+        "C": "Guerrero",
+        "D": "Creador"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 17:1 dice: 'Y se apareció Jehová a Abram, y le dijo: Yo soy el Dios Todopoderoso; anda delante de mí, y sea tu vida íntegra.' El Shaddai significa 'Todopoderoso' (el que provee/bendice abundantemente)."
+    },
+    {
+      "id": 773,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Nombres de Dios - Jehová Jireh",
+      "pregunta": "¿Qué significa Jehová Jireh según Génesis 22:14?",
+      "opciones": {
+        "A": "Jehová es mi pastor",
+        "B": "En el monte de Jehová será provisto; Jehová proveerá",
+        "C": "Jehová es paz",
+        "D": "Jehová sana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 22:14 dice: 'Y llamó Abraham el nombre de aquel lugar, Jehová proveerá. Por esto se dice hoy: En el monte de Jehová será provisto.' Jehová Jireh = Jehová proveerá/verá."
+    },
+    {
+      "id": 774,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Nombres de Dios - Jehová Rafa",
+      "pregunta": "¿Qué significa Jehová Rafa según Éxodo 15:26?",
+      "opciones": {
+        "A": "Jehová mi bandera",
+        "B": "Yo Jehová soy tu sanador; Jehová que sana",
+        "C": "Jehová es mi pastor",
+        "D": "Jehová proveerá"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 15:26 dice: '...Si oyeres atentamente la voz de Jehová tu Dios, y haces lo recto delante de sus ojos, y das oído a sus mandamientos, y guardas todos sus estatutos, ninguna enfermedad de las que puse sobre los egipcios pondré sobre ti; porque yo Jehová soy tu sanador.' Jehová Rafa = Jehová sana."
+    },
+    {
+      "id": 775,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Nombres de Dios - Jehová Shalom",
+      "pregunta": "¿Qué significa Jehová Shalom según Jueces 6:24?",
+      "opciones": {
+        "A": "Jehová es mi pastor",
+        "B": "Jehová es paz; Gedeón edificó allí un altar y lo llamó Jehová-salom",
+        "C": "Jehová provee",
+        "D": "Jehová sana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 6:24 dice: 'Y edificó allí Gedeón un altar a Jehová, y lo llamó Jehová-salom; el cual permanece aún hasta hoy en Ofra de los abiezritas.' Jehová Shalom = Jehová es paz."
+    },
+    {
+      "id": 776,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Nombres de Dios - Jehová Tsidkenu",
+      "pregunta": "¿Qué significa Jehová Tsidkenu según Jeremías 33:16?",
+      "opciones": {
+        "A": "Jehová es mi pastor",
+        "B": "Jehová nuestra justicia; en aquellos días Judá será salvo, y Jerusalén habitará seguridad, y esto es lo que la llamarán: Jehová, justicia nuestra",
+        "C": "Jehová sana",
+        "D": "Jehová provee"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 33:16 dice: 'En aquellos días Judá será salvo, y Jerusalén habitará seguridad, y esto es lo que la llamarán: Jehová, justicia nuestra.' Jehová Tsidkenu = Jehová nuestra justicia."
+    },
+    {
+      "id": 777,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Festividades - Pascua",
+      "pregunta": "¿Cuándo se celebra la Pascua y qué representa según Levítico 23:5?",
+      "opciones": {
+        "A": "En el séptimo mes",
+        "B": "El catorce del mes primero entre las dos tardes; representa la liberación de Egipto y el sacrificio de Cristo",
+        "C": "En el día de reposo",
+        "D": "En la cosecha"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 23:5 dice: 'En el mes primero, a los catorce del mes, entre las dos tardes, es la pascua de Jehová.' La Pascua (Pesaj) celebra la liberación de Egipto y es tipo del sacrificio de Cristo (1 Corintios 5:7)."
+    },
+    {
+      "id": 778,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Festividades - Pentecostés",
+      "pregunta": "¿Qué festividad se celebraba 50 días después de la Pascua según Levítico 23:15-21?",
+      "opciones": {
+        "A": "Tabernáculos",
+        "B": "La fiesta de las semanas (Shavuot/Pentecostés), se ofrece una ofrenda de nuevos frutos",
+        "C": "Yom Kipur",
+        "D": "Pascua"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 23:15-21 describe la fiesta de las semanas (Shavuot en hebreo, Pentecostés en griego), celebrada 50 días después de la Pascua, con ofrenda de nuevos frutos. Cumplida en Hechos 2 con la venida del Espíritu Santo."
+    },
+    {
+      "id": 779,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Festividades - Trompetas",
+      "pregunta": "¿Cuándo se celebra la fiesta de las trompetas según Levítico 23:24-25?",
+      "opciones": {
+        "A": "Primer día del primer mes",
+        "B": "El primer día del mes séptimo (Tishri/Rosh Hashaná), memorial de trompetas",
+        "C": "El décimo día del séptimo mes",
+        "D": "El decimoquinto día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 23:24-25 dice: 'El mes séptimo, a primero del mes, tendréis día de reposo memorial de trompetas, y convocación santa.' Esta es la fiesta de Rosh Hashaná (Año Nuevo judío)."
+    },
+    {
+      "id": 780,
+      "nivel": 78,
+      "dificultad": 14,
+      "tema": "Festividades - Yom Kipur",
+      "pregunta": "¿Qué es el día de expiación según Levítico 23:27-32?",
+      "opciones": {
+        "A": "Un día de fiesta",
+        "B": "A los diez de este mes séptimo es el día de expiación; día de ayuno y humillación donde el sumo sacerdote entra al Lugar Santísimo",
+        "C": "Un día de trabajo normal",
+        "D": "Un día de boda"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 23:27-32 describe Yom Kipur (Día de Expiación), el día más solemne del año judío, donde se ayuna y el sumo sacerdote entra al Lugar Santísimo con sangre para expiación. Tipo del sacrificio único de Cristo."
+    },
+    {
+      "id": 781,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Festividades - Tabernáculos",
+      "pregunta": "¿Cuánto dura la fiesta de los tabernáculos según Levítico 23:34-36?",
+      "opciones": {
+        "A": "1 día",
+        "B": "Siete días, y el octavo es día de reposo solemne",
+        "C": "40 días",
+        "D": "50 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 23:34-36 dice: 'A los quince días de este mes séptimo es la fiesta de los tabernáculos... siete días a Jehová... el octavo día tendréis día de reposo solemne.' Sukkot (Tabernáculos) dura 7 días más el octavo (Shemini Atzeret)."
+    },
+    {
+      "id": 782,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Año de Jubileo",
+      "pregunta": "¿Qué ocurre en el año de Jubileo según Levítico 25:8-17?",
+      "opciones": {
+        "A": "Nada especial",
+        "B": "Cada cincuenta años se proclama libertad, se devuelve la propiedad a sus dueños, se libera a los esclavos, no se siembra ni se cosecha",
+        "C": "Se celebra una boda",
+        "D": "Se construyen casas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Levítico 25:8-17 describe el año de Jubileo (cada 50 años): se proclama libertad, se devuelve la propiedad a sus dueños originales, se libera a los esclavos, no se siembra (como año sabbático doble). Tipo del perdón y redención en Cristo (Isaías 61:1-2; Lucas 4:18-19)."
+    },
+    {
+      "id": 783,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 7 en la Biblia?",
+      "opciones": {
+        "A": "Maldición",
+        "B": "Perfección, plenitud, completitud; 7 días de creación, 7 sellos, 7 trompetas, 7 copas, 7 iglesias",
+        "C": "Pecado",
+        "D": "Muerte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 7 en la Biblia representa perfección, plenitud, completitud. Aparece en los 7 días de creación, 7 sellos, 7 trompetas, 7 copas, 7 iglesias, 7 espíritus, etc."
+    },
+    {
+      "id": 784,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 12 en la Biblia?",
+      "opciones": {
+        "A": "Imperfección",
+        "B": "Gobierno divino, elección: 12 tribus, 12 apóstoles, 12 cimientos, 12 puertas del nuevo Jerusalén",
+        "C": "Pecado",
+        "D": "Muerte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 12 representa gobierno divino, elección: 12 tribus de Israel, 12 apóstoles, 12 cimientos de la muralla del nuevo Jerusalén, 12 puertas, 12 perlas, 144,000 (12x12x1,000)."
+    },
+    {
+      "id": 785,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 40 en la Biblia?",
+      "opciones": {
+        "A": "Bendición",
+        "B": "Prueba, juicio o preparación: 40 días y noches de diluvio, 40 años en el desierto, 40 días de ayuno de Jesús y Moisés",
+        "C": "Fiesta",
+        "D": "Descanso"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 40 representa prueba, juicio o preparación: 40 días/noches de diluvio (Génesis 7:12), 40 años Israel en el desierto (Éxodo 16:35), 40 días Moisés ayunó (Éxodo 34:28), 40 días Jesús ayunó (Mateo 4:2)."
+    },
+    {
+      "id": 786,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 3 en la Biblia?",
+      "opciones": {
+        "A": "Maldición",
+        "B": "Resurrección, manifestación divina: tercer día resucitó, 3 veces negó Pedro, Dios trino",
+        "C": "Pecado",
+        "D": "Muerte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 3 representa resurrección, manifestación divina, testimonio: Jesús resucitó al tercer día, 3 veces negó Pedro, 3 veces preguntó Jesús '¿me amas?', tres testigos (1 Juan 5:7), Trinidad."
+    },
+    {
+      "id": 787,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 4 en la Biblia?",
+      "opciones": {
+        "A": "Soledad",
+        "B": "Creación, universalidad: 4 puntos cardinales, 4 vientos, 4 seres vivientes, 4 evangelistas",
+        "C": "Pecado",
+        "D": "Muerte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 4 representa creación, universalidad: 4 puntos cardinales, 4 vientos, 4 seres vivientes (Apocalipsis 4:6-8), 4 evangelistas (con sus símbolos: león, toro, hombre, águila)."
+    },
+    {
+      "id": 788,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 666 según Apocalipsis 13:18?",
+      "opciones": {
+        "A": "Bendición",
+        "B": "Número de hombre, número de la bestia; imperfección humana triplicada",
+        "C": "Santidad",
+        "D": "Perfección"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 13:18 dice que 666 es el número de la bestia, número de hombre. Representa imperfección humana triplicada (7 es perfección divina; 6 es un paso corto de la perfección)."
+    },
+    {
+      "id": 789,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 10 en la Biblia?",
+      "opciones": {
+        "A": "Caos",
+        "B": "Orden divino, gobierno, responsabilidad: 10 mandamientos, 10 talentos, 10 vírgenes, 10 monedas",
+        "C": "Pecado",
+        "D": "Muerte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 10 representa orden divino, gobierno, responsabilidad: 10 mandamientos (Éxodo 20), 10 talentos (Mateo 25), 10 vírgenes (Mateo 25), 10 monedas (Lucas 15), diezmos (10%)."
+    },
+    {
+      "id": 790,
+      "nivel": 79,
+      "dificultad": 14,
+      "tema": "Sistemas numéricos bíblicos",
+      "pregunta": "¿Qué representa el número 1,000 en la Biblia?",
+      "opciones": {
+        "A": "Limitación",
+        "B": "Infinidad, multitud, completitud: mil años de Apocalipsis 20, millares de millares, un día son mil años",
+        "C": "Pecado",
+        "D": "Muerte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El número 1,000 representa infinidad, multitud, completitud: mil años de Apocalipsis 20 (reinado de Cristo), millares de millares (innumerables), 'para Dios mil años son como un día' (2 Pedro 3:8)."
+    },
+    {
+      "id": 791,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Lenguas originales",
+      "pregunta": "¿En qué idioma se escribieron los evangelios originalmente?",
+      "opciones": {
+        "A": "Latín",
+        "B": "Koiné griego (griego común del siglo I)",
+        "C": "Hebreo",
+        "D": "Arameo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Los evangelios y casi todo el Nuevo Testamento se escribieron en Koiné griego (griego común del siglo I), la lingua franca del Imperio Romano oriental. Algunas partes pueden reflejar tradiciones arameas."
+    },
+    {
+      "id": 792,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Lenguas originales",
+      "pregunta": "¿En qué idioma se escribió la mayor parte del Antiguo Testamento?",
+      "opciones": {
+        "A": "Griego",
+        "B": "Hebreo (con pequeñas porciones en arameo: Daniel 2:4-7:28, Esdras 4:8-6:18, 7:12-26, Génesis 31:47, Jeremías 10:11)",
+        "C": "Latín",
+        "D": "Egipcio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La mayor parte del Antiguo Testamento se escribió en hebreo. Hay pequeñas porciones en arameo: Daniel 2:4-7:28, Esdras 4:8-6:18 y 7:12-26, una frase en Génesis 31:47, y Jeremías 10:11."
+    },
+    {
+      "id": 793,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Lenguas originales",
+      "pregunta": "¿Qué idioma habló Jesús principalmente?",
+      "opciones": {
+        "A": "Griego",
+        "B": "Arameo occidental (conocimiento del hebreo bíblico y griego koiné)",
+        "C": "Latín",
+        "D": "Egipcio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jesús habló principalmente arameo occidental (la lengua vernácula de Galilea y Judea en el siglo I). También tendría conocimiento del hebreo bíblico (sinagogas) y posiblemente griego koiné (para comercio)."
+    },
+    {
+      "id": 794,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Traducción del Nuevo Mundo",
+      "pregunta": "¿Cuándo se completó la Traducción del Nuevo Mundo en español?",
+      "opciones": {
+        "A": "1900",
+        "B": "1967 (Nuevo Testamento), 1970 (completa con AT), revisada en 1987 y 2019",
+        "C": "2000",
+        "D": "1950"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Traducción del Nuevo Mundo del Nuevo Testamento en español se publicó en 1967, y la Biblia completa (con el Antiguo Testamento) en 1970. Ha sido revisada en 1987 (referencias), 2019 (edición de estudio)."
+    },
+    {
+      "id": 795,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Manuscritos bíblicos",
+      "pregunta": "¿Cuál es el manuscrito más antiguo completo del Nuevo Testamento?",
+      "opciones": {
+        "A": "Pergaminos del Mar Muerto",
+        "B": "Codex Sinaiticus (siglo IV d.C., contiene AT completo + NT + Apócrifos)",
+        "C": "Codex Vaticanus",
+        "D": "Papiros de Chester Beatty"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El Codex Sinaiticus (siglo IV d.C., descubierto por Tischendorf en el Monasterio de Santa Catalina en el Sinaí) es el manuscrito más antiguo completo del Nuevo Testamento, y también contiene gran parte del AT y los Apócrifos."
+    },
+    {
+      "id": 796,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Manuscritos bíblicos",
+      "pregunta": "¿Qué son los pergaminos del Mar Muerto?",
+      "opciones": {
+        "A": "Manuscritos del Nuevo Testamento",
+        "B": "Manuscritos de la cueva 1 de Qumran (1947): incluyen rollos de Isaías completos y fragmentos de casi todo el AT (excepto Ester), datados del siglo III a.C. al siglo I d.C.",
+        "C": "Cartas romanas",
+        "D": "Documentos griegos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Los pergaminos/rrollos del Mar Muerto (descubiertos 1947 en Qumran) incluyen manuscritos del Antiguo Testamento hebreo (incluyendo un rollo de Isaías completo del siglo II a.C.), datados del siglo III a.C. al siglo I d.C. No incluyen Nuevo Testamento."
+    },
+    {
+      "id": 797,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Canon bíblico",
+      "pregunta": "¿Cuántos libros tiene el canon protestante?",
+      "opciones": {
+        "A": "73",
+        "B": "66 (39 AT + 27 NT)",
+        "C": "80",
+        "D": "27"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El canon protestante tiene 66 libros: 39 en el Antiguo Testamento (hebreo/protestante) y 27 en el Nuevo Testamento. La Biblia católica romana tiene 73 (incluye deuterocanónicos/apócrifos)."
+    },
+    {
+      "id": 798,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Canon bíblico",
+      "pregunta": "¿Qué son los libros deuterocanónicos o apócrifos?",
+      "opciones": {
+        "A": "Libros del Nuevo Testamento",
+        "B": "Libros incluidos en la Septuaginta pero no en el canon hebreo: Tobías, Judith, Ester griega, Sabiduría, Eclesiástico, Baruc, carta de Jeremías, Daniel griego (Susana, Bel y el dragón), 1-2 Macabeos",
+        "C": "Libros protestantes",
+        "D": "Libros del Koran"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Los libros deuterocanónicos (católicos) o apócrifos (protestantes) son: Tobías, Judith, Ester (adiciones griegas), Sabiduría, Eclesiástico (Sirácida), Baruc, Carta de Jeremías, Daniel (adiciones: Susana, Bel y el dragón), 1-2 Macabeos. Están en la Septuaginta pero no en el canon hebreo masorético."
+    },
+    {
+      "id": 799,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Cronología bíblica",
+      "pregunta": "¿Cuánto duró el ministerio de Jesús aproximadamente?",
+      "opciones": {
+        "A": "1 año",
+        "B": "3.5 años (aproximadamente, basado en 3 Pascuas mencionadas en Juan)",
+        "C": "10 años",
+        "D": "40 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El ministerio de Jesús duró aproximadamente 3.5 años (tres años y medio). Esto se basa en las 3 Pascuas mencionadas en el Evangelio de Juan (Juan 2:13; 6:4; 11:55), más el tiempo inicial."
+    },
+    {
+      "id": 800,
+      "nivel": 80,
+      "dificultad": 14,
+      "tema": "Cronología bíblica",
+      "pregunta": "¿En qué año aproximado murió Jesucristo?",
+      "opciones": {
+        "A": "1 a.C.",
+        "B": "33 d.C. (fecha tradicional) o 30 d.C., bajo el gobierno de Poncio Pilato (26-36 d.C.)",
+        "C": "50 d.C.",
+        "D": "70 d.C."
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jesús murió bajo Poncio Pilato (gobernador 26-36 d.C.). La fecha tradicional es el 3 de abril del año 33 d.C., aunque algunos eruditos sugieren el año 30 d.C. La crucifixión ocurrió durante la Pascua judía."
+    }
+  ]
+}

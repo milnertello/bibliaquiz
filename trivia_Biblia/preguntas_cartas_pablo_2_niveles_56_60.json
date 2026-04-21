@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "56-60",
+    "dificultad": "Difícil",
+    "tema": "Cartas de Pablo (Efesios, Filipenses, Colosenses, Tesalonicenses)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre las epístolas de Pablo a Efeso, Filipos, Colosas y Tesalónica"
+  },
+  "preguntas": [
+    {
+      "id": 551,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Ministerio",
+      "pregunta": "¿Qué comparación hace Pablo entre el ministerio de la letra y el del Espíritu?",
+      "opciones": {
+        "A": "Que son iguales",
+        "B": "Que el ministerio del Espíritu es más glorioso que el de la letra que mata",
+        "C": "Que la letra es mejor",
+        "D": "Que no hay diferencia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 3:6-9 dice que el ministerio del Espíritu es más glorioso, y el ministerio de la justicia abunda mucho más en gloria."
+    },
+    {
+      "id": 552,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Vaso de barro",
+      "pregunta": "¿En qué tesoro tenemos según 2 Corintios 4:7?",
+      "opciones": {
+        "A": "En vasos de oro",
+        "B": "En vasos de barro para que la excelencia del poder sea de Dios y no de nosotros",
+        "C": "En cofres fuertes",
+        "D": "En bancos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 4:7 dice: 'Pero tenemos este tesoro en vasos de barro, para que la excelencia del poder sea de Dios, y no de nosotros.'"
+    },
+    {
+      "id": 553,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Casa terrenal",
+      "pregunta": "¿Qué desea Pablo sobre la 'casa terrenal' según 2 Corintios 5:1-4?",
+      "opciones": {
+        "A": "Conservarla",
+        "B": "Ser revestidos de la morada celestial, no desnudos",
+        "C": "Ignorarla",
+        "D": "Destruirla"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 5:1-4 habla de desear ser revestidos de la morada celestial para no hallarnos desnudos."
+    },
+    {
+      "id": 554,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Nueva criatura",
+      "pregunta": "¿Qué somos en Cristo según 2 Corintios 5:17?",
+      "opciones": {
+        "A": "Mejores personas",
+        "B": "Nueva criatura; las cosas viejas pasaron, todas son hechas nuevas",
+        "C": "Más ricos",
+        "D": "Más sabios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 5:17 dice: 'De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; todas son hechas nuevas.'"
+    },
+    {
+      "id": 555,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Embajadores",
+      "pregunta": "¿Qué somos según 2 Corintios 5:20?",
+      "opciones": {
+        "A": "Reyes",
+        "B": "Embajadores en nombre de Cristo, rogando que os reconciliéis con Dios",
+        "C": "Soldados",
+        "D": "Esclavos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 5:20 dice: 'Así que, somos embajadores en nombre de Cristo, como si Dios rogase por medio de nosotros; os rogamos en nombre de Cristo: Reconciliaos con Dios.'"
+    },
+    {
+      "id": 556,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Generosidad",
+      "pregunta": "¿Qué principio dio Pablo sobre la generosidad en 2 Corintios 9?",
+      "opciones": {
+        "A": "'Da todo lo que tienes'",
+        "B": "'Cada uno dé conforme a lo que tiene, no con tristeza ni por necesidad, porque Dios ama al dador alegre'",
+        "C": "'No des nada'",
+        "D": "'Solo da si te sobra'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 9:6-7 dice: 'El que siembra escasamente, escasamente también segará; y el que siembra abundantemente, abundantemente también segará... porque Dios ama al dador alegre.'"
+    },
+    {
+      "id": 557,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Debilidad",
+      "pregunta": "¿Qué dijo Pablo sobre sus debilidades?",
+      "opciones": {
+        "A": "'Me averguenzan'",
+        "B": "'Cuando soy débil, entonces soy fuerte'",
+        "C": "'Las oculto'",
+        "D": "'Las ignoro'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 12:9-10 dice que Pablo se gloriará más bien en sus debilidades, porque cuando es débil, entonces es fuerte por el poder de Cristo."
+    },
+    {
+      "id": 558,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "2 Corintios - Examen",
+      "pregunta": "¿Qué nos examina a nosotros mismos según 2 Corintios 13:5?",
+      "opciones": {
+        "A": "Los demás",
+        "B": "Si estamos en la fe, comprobándonos",
+        "C": "Dios solamente",
+        "D": "Los apóstoles"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 13:5 dice: 'Examinaos a vosotros mismos si estáis en la fe; probaos a vosotros mismos.'"
+    },
+    {
+      "id": 559,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "Gálatas - Justificación",
+      "pregunta": "¿Cómo se justifica el hombre según Gálatas 2:16?",
+      "opciones": {
+        "A": "Por las obras de la ley",
+        "B": "Por la fe en Jesucristo, no por las obras de la ley",
+        "C": "Por ser judío",
+        "D": "Por la circuncisión"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 2:16 dice: 'Sabiendo que el hombre no es justificado por las obras de la ley, sino por la fe en Jesucristo.'"
+    },
+    {
+      "id": 560,
+      "nivel": 56,
+      "dificultad": 10,
+      "tema": "Gálatas - Fe",
+      "pregunta": "¿Qué citó Pablo de Habacuc en Gálatas?",
+      "opciones": {
+        "A": "'El justo por la fe vivirá'",
+        "B": "'El justo por sus obras vivirá'",
+        "C": "'El pecador morirá'",
+        "D": "'La ley es eterna'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Gálatas 3:11 dice: 'Y que ninguno se justifica por la ley delante de Dios, es evidente, porque el justo por la fe vivirá.' Citando Habacuc 2:4."
+    },
+    {
+      "id": 561,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Gálatas - Hijo de la sierva",
+      "pregunta": "¿Qué representa Agar y su hijo Ismael según Gálatas 4?",
+      "opciones": {
+        "A": "La promesa",
+        "B": "El pacto del Sinaí (la ley) que da a luz para esclavitud",
+        "C": "La libertad",
+        "D": "La fe"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 4:24-25 dice que Agar representa el pacto del monte Sinaí, que da a luz para esclavitud, que es el Sinai en Arabia."
+    },
+    {
+      "id": 562,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Gálatas - Libertad",
+      "pregunta": "¿Para qué libertad nos liberó Cristo según Gálatas 5:1?",
+      "opciones": {
+        "A": "Para pecar",
+        "B": "Para libertad; por tanto, manteneos firmes y no os sometáis otra vez al yugo de esclavitud",
+        "C": "Para ser ricos",
+        "D": "Para ignorar la ley"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 5:1 dice: 'Estad, pues, firmes en la libertad con que Cristo nos hizo libres, y no volváis a ser presos del yugo de esclavitud.'"
+    },
+    {
+      "id": 563,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Gálatas - Fruto",
+      "pregunta": "¿Cuál es el fruto del Espíritu según Gálatas 5:22-23?",
+      "opciones": {
+        "A": "Uno solo",
+        "B": "Nueve cualidades: amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza",
+        "C": "Dinero",
+        "D": "Poder"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 5:22-23 enumera nueve frutos del Espíritu: amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza; contra tales cosas no hay ley."
+    },
+    {
+      "id": 564,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Gálatas - Obras de la carne",
+      "pregunta": "¿Cuál NO es una obra de la carne según Gálatas 5:19-21?",
+      "opciones": {
+        "A": "Inmundicia",
+        "B": "Templanza",
+        "C": "Lascivia",
+        "D": "Idolatría"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 5:19-21 lista las obras de la carne: adulterio, fornicación, inmundicia, lascivia, idolatría, hechicerías, enemistades, pleitos, celos, iras, contiendas, divisiones, herejías, envidias, homicidios, borracheras, orgías. La templanza es fruto del Espíritu."
+    },
+    {
+      "id": 565,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Efesios - Bendiciones",
+      "pregunta": "¿Dónde nos bendijo Dios según Efesios 1:3?",
+      "opciones": {
+        "A": "En la tierra",
+        "B": "Con toda bendición espiritual en los lugares celestiales en Cristo",
+        "C": "En el templo",
+        "D": "En Jerusalén"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 1:3 dice: 'Bendito sea el Dios y Padre de nuestro Señor Jesucristo, que nos bendijo con toda bendición espiritual en los lugares celestiales en Cristo.'"
+    },
+    {
+      "id": 566,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Efesios - Salvación",
+      "pregunta": "¿Por qué estáis salvos según Efesios 2:8-9?",
+      "opciones": {
+        "A": "Por las obras",
+        "B": "Por gracia, por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe",
+        "C": "Por ser judíos",
+        "D": "Por la ley"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 2:8-9 dice: 'Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe.'"
+    },
+    {
+      "id": 567,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Efesios - Obra",
+      "pregunta": "¿Para qué somos hechos según Efesios 2:10?",
+      "opciones": {
+        "A": "Para pecar",
+        "B": "Somos hechura suya, creados en Cristo Jesús para buenas obras",
+        "C": "Para juzgar",
+        "D": "Para reinar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 2:10 dice: 'Porque somos hechura suya, creados en Cristo Jesús para buenas obras, las cuales Dios preparó de antemano para que anduviésemos en ellas.'"
+    },
+    {
+      "id": 568,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Efesios - Reconciliación",
+      "pregunta": "¿Qué ha hecho Dios según Efesios 2:14-16?",
+      "opciones": {
+        "A": "Separado judíos y gentiles",
+        "B": "Reconciliado ambos con Dios en un solo cuerpo por medio de la cruz",
+        "C": "Destruido a los gentiles",
+        "D": "Destruido a los judíos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 2:16 dice: 'Y reconcilió con Dios a ambos en un solo cuerpo por medio de la cruz, matando en ella las enemistades.'"
+    },
+    {
+      "id": 569,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Efesios - Fundamento",
+      "pregunta": "¿Sobre qué fundamento está edificada la iglesia según Efesios 2:20?",
+      "opciones": {
+        "A": "Sobre Pedro",
+        "B": "Sobre el fundamento de los apóstoles y profetas, siendo la principal piedra del ángulo Jesucristo mismo",
+        "C": "Sobre Pablo",
+        "D": "Sobre los santos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 2:20 dice: 'Edificados sobre el fundamento de los apóstoles y profetas, siendo la principal piedra del ángulo Jesucristo mismo.'"
+    },
+    {
+      "id": 570,
+      "nivel": 57,
+      "dificultad": 10,
+      "tema": "Efesios - Misterio",
+      "pregunta": "¿Cuál es el misterio según Efesios 3:6?",
+      "opciones": {
+        "A": "Que los judíos son superiores",
+        "B": "Que los gentiles son coherederos, de un mismo cuerpo, y copartícipes de la promesa en Cristo por medio del evangelio",
+        "C": "Que solo los apóstoles se salvan",
+        "D": "Que la ley es eterna"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 3:6 dice: 'Que los gentiles son coherederos y de un mismo cuerpo, y copartícipes de la promesa en Cristo por medio del evangelio.'"
+    },
+    {
+      "id": 571,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Alturas",
+      "pregunta": "¿Qué puede conocer la iglesia según Efesios 3:18-19?",
+      "opciones": {
+        "A": "Las riquezas de las naciones",
+        "B": "La anchura, la longitud, la profundidad y la altura, y conocer el amor de Cristo que excede a todo conocimiento",
+        "C": "Los secretos militares",
+        "D": "La ciencia humana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 3:18-19 dice que pueden comprender con todos los santos cuál sea la anchura, la longitud, la profundidad y la altura, y conocer el amor de Cristo."
+    },
+    {
+      "id": 572,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Unidad",
+      "pregunta": "¿Cuántos cuerpos hay según Efesios 4:4?",
+      "opciones": {
+        "A": "Muchos",
+        "B": "Un solo cuerpo y un solo Espíritu",
+        "C": "Doce",
+        "D": "Dos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:4 dice: 'Hay un solo cuerpo y un solo Espíritu, como fuisteis también llamados en una misma esperanza de vuestra vocación.'"
+    },
+    {
+      "id": 573,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Unidad",
+      "pregunta": "¿Cuántas cosas son según Efesios 4:5-6?",
+      "opciones": {
+        "A": "Siete",
+        "B": "Un solo Señor, una sola fe, un solo bautismo, un solo Dios y Padre de todos",
+        "C": "Doce",
+        "D": "Muchas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:5-6 dice: 'Un solo Señor, una sola fe, un solo bautismo, un solo Dios y Padre de todos, que es sobre todos, y por todos, y en todos.'"
+    },
+    {
+      "id": 574,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Dones",
+      "pregunta": "¿Para qué fueron dados los ministerios según Efesios 4:12?",
+      "opciones": {
+        "A": "Para enriquecerse",
+        "B": "Para la obra del ministerio, para edificación del cuerpo de Cristo",
+        "C": "Para dominar",
+        "D": "Para juzgar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:11-12 dice que él mismo dio a los apóstoles, a los profetas, a los evangelistas, a los pastores y maestros, para la obra del ministerio, para edificación del cuerpo de Cristo."
+    },
+    {
+      "id": 575,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Madurez",
+      "pregunta": "¿Hasta dónde debemos crecer según Efesios 4:13?",
+      "opciones": {
+        "A": "Hasta ser ricos",
+        "B": "Hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo",
+        "C": "Hasta ser famosos",
+        "D": "Hasta ser poderosos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:13 dice: 'Hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo.'"
+    },
+    {
+      "id": 576,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Nuevo hombre",
+      "pregunta": "¿Qué debemos vestir según Efesios 4:24?",
+      "opciones": {
+        "A": "Ropa cara",
+        "B": "El nuevo hombre, creado según Dios en justicia y santidad de la verdad",
+        "C": "Ropa de luto",
+        "D": "Uniforme"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:24 dice: 'Y vestíos del nuevo hombre, creado según Dios en justicia y santidad verdadera.'"
+    },
+    {
+      "id": 577,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Andar",
+      "pregunta": "¿Cómo debemos andar según Efesios 5:2?",
+      "opciones": {
+        "A": "Con tristeza",
+        "B": "En amor, como también Cristo nos amó y se entregó a sí mismo por nosotros",
+        "C": "Con ira",
+        "D": "Con envidia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 5:1-2 dice que seamos imitadores de Dios como hijos amados, y andad en amor, como también Cristo nos amó."
+    },
+    {
+      "id": 578,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Luz",
+      "pregunta": "¿Qué sois según Efesios 5:8?",
+      "opciones": {
+        "A": "Oscuridad",
+        "B": "Luz en el Señor; andad como hijos de luz",
+        "C": "Sombras",
+        "D": "Ciegos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 5:8 dice: 'Porque antes erais tinieblas, mas ahora luz en el Señor; andad como hijos de luz.'"
+    },
+    {
+      "id": 579,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Espíritu",
+      "pregunta": "¿Qué no debemos hacer con el Espíritu Santo según Efesios 4:30?",
+      "opciones": {
+        "A": "Invocarlo",
+        "B": "Entristecerlo, con quien fuimos sellados para el día de la redención",
+        "C": "Alabarlo",
+        "D": "Adorarlo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:30 dice: 'Y no entristezcáis al Espíritu Santo de Dios, con el cual fuisteis sellados para el día de la redención.'"
+    },
+    {
+      "id": 580,
+      "nivel": 58,
+      "dificultad": 10,
+      "tema": "Efesios - Armadura",
+      "pregunta": "¿Cuántas piezas de la armadura enumera Efesios 6:14-17?",
+      "opciones": {
+        "A": "3",
+        "B": "7: cintura de verdad, coraza de justicia, calzado del evangelio, escudo de fe, casco de salvación, espada del Espíritu, y orar siempre",
+        "C": "12",
+        "D": "5"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 6:14-18 enumera: cintura ceñida con verdad, coraza de justicia, calzado del evangelio de la paz, escudo de la fe, casco de la salvación, espada del Espíritu (palabra de Dios), y orar siempre."
+    },
+    {
+      "id": 581,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Filipenses - Alegría",
+      "pregunta": "¿Cuántas veces menciona 'gozo' o 'alegría' Pablo en Filipenses?",
+      "opciones": {
+        "A": "Una",
+        "B": "Muchas veces (aproximadamente 16 veces, incluyendo 'gocemos', 'regocijaos')",
+        "C": "Ninguna",
+        "D": "Dos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Filipenses es conocido como 'la epístola del gozo'; Pablo usa palabras relacionadas con gozo/alegría aproximadamente 16 veces en 4 capítulos, a pesar de estar en prisión."
+    },
+    {
+      "id": 582,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Filipenses - Orar",
+      "pregunta": "¿Qué dice Filipenses 4:6-7 sobre la oración?",
+      "opciones": {
+        "A": "'No oréis'",
+        "B": "'Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios con oración y ruego con acción de gracias; y la paz de Dios sobrepasará todo entendimiento'",
+        "C": "'Orad solo una vez al día'",
+        "D": "'No den gracias'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Filipenses 4:6-7 dice: 'Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios con oración y ruego con acción de gracias. Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones.'"
+    },
+    {
+      "id": 583,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Filipenses - Pensamientos",
+      "pregunta": "¿En qué debemos pensar según Filipenses 4:8?",
+      "opciones": {
+        "A": "En cosas negativas",
+        "B": "En todo lo verdadero, honesto, justo, puro, amable, de buen nombre, virtuoso y digno de alabanza",
+        "C": "En el dinero",
+        "D": "En venganza"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Filipenses 4:8 dice: 'Por lo demás, hermanos, todo lo que es verdadero, todo lo honesto, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buen nombre... en esto pensad.'"
+    },
+    {
+      "id": 584,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Filipenses - Humildad",
+      "pregunta": "¿Quién es el ejemplo supremo de humildad según Filipenses 2?",
+      "opciones": {
+        "A": "Pablo",
+        "B": "Jesucristo, que se humilló hasta la muerte en cruz",
+        "C": "Pedro",
+        "D": "Timoteo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Filipenses 2:5-8 describe cómo Cristo, siendo Dios, se humilló, tomando forma de siervo, obedeciendo hasta la muerte en cruz."
+    },
+    {
+      "id": 585,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Filipenses - Nombre",
+      "pregunta": "¿Qué nombre recibió Jesús según Filipenses 2:9-11?",
+      "opciones": {
+        "A": "Nombre de profeta",
+        "B": "Un nombre sobre todo nombre, para que todo genuflexión y confesión de que Jesucristo es Señor, para gloria de Dios Padre",
+        "C": "Nombre de rey terrenal",
+        "D": "Nombre de sacerdote"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Filipenses 2:9-11 dice que Dios le exaltó y le dio un nombre sobre todo nombre, para que todo genuflexione y confiese que Jesucristo es Señor."
+    },
+    {
+      "id": 586,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Colosenses - Primogénito",
+      "pregunta": "¿Qué es Cristo según Colosenses 1:15?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "La imagen invisible de Dios, el primogénito de toda creación",
+        "C": "Un profeta",
+        "D": "Un rey terrenal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 1:15 dice: 'El cual es la imagen del Dios invisible, el primogénito de toda creación.'"
+    },
+    {
+      "id": 587,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Colosenses - Creación",
+      "pregunta": "¿Qué fue creado por medio de Cristo según Colosenses 1:16?",
+      "opciones": {
+        "A": "Solo la tierra",
+        "B": "Todas las cosas en los cielos y en la tierra, visibles e invisibles, tronos, dominios, principados, potestades",
+        "C": "Solo los ángeles",
+        "D": "Solo los humanos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 1:16 dice: 'Porque por él fueron creadas todas las cosas que hay en los cielos y en la tierra, visibles e invisibles; sean tronos, sean dominios, sean principados, sean potestades.'"
+    },
+    {
+      "id": 588,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Colosenses - Plenitud",
+      "pregunta": "¿Dónde habita la plenitud según Colosenses 1:19 y 2:9?",
+      "opciones": {
+        "A": "En el templo",
+        "B": "En Cristo corporalmente",
+        "C": "En los cielos",
+        "D": "En los santos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 1:19 dice: 'Por cuanto agradó al Padre que en él habitase toda plenitud.' Y 2:9 dice: 'Porque en él habita corporalmente toda la plenitud de la Deidad.'"
+    },
+    {
+      "id": 589,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Colosenses - Reconciliación",
+      "pregunta": "¿Para qué reconcilió Dios todas las cosas consigo mismo según Colosenses 1:20?",
+      "opciones": {
+        "A": "Para destruirlas",
+        "B": "Por la sangre de la cruz de Cristo, haciendo la paz",
+        "C": "Para juzgarlas",
+        "D": "Para ignorarlas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 1:20 dice: 'Y por medio de él reconciliar consigo mismo todas las cosas, así las que están en la tierra, como las que están en los cielos, haciendo la paz mediante la sangre de su cruz.'"
+    },
+    {
+      "id": 590,
+      "nivel": 59,
+      "dificultad": 10,
+      "tema": "Colosenses - Circuncisión espiritual",
+      "pregunta": "¿Qué es la circuncisión de Cristo según Colosenses 2:11?",
+      "opciones": {
+        "A": "Cortar la carne",
+        "B": "La circuncisión no hecha con manos, en el despojamiento del cuerpo de los pecados de la carne",
+        "C": "Un ritual judío",
+        "D": "Una ceremonia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 2:11 dice: 'En el cual también vosotros sois circuncidados con circuncisión no hecha con manos, en el despojamiento de vuestro cuerpo de los pecados de la carne.'"
+    },
+    {
+      "id": 591,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "Colosenses - Filosofía",
+      "pregunta": "¿Qué advertencia da Pablo sobre la filosofía según Colosenses 2:8?",
+      "opciones": {
+        "A": "'Seguid toda filosofía'",
+        "B": "'Mirad que nadie os engañe por medio de filosofías y vanas sutilezas'",
+        "C": "'La filosofía es buena'",
+        "D": "'Solo la filosofía griega'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 2:8 dice: 'Mirad que nadie os engañe por medio de filosofías y vanas sutilezas, según las tradiciones de los hombres, según los rudimentos del mundo.'"
+    },
+    {
+      "id": 592,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "Colosenses - Cosas de arriba",
+      "pregunta": "¿Dónde debemos poner la mira según Colosenses 3:1-2?",
+      "opciones": {
+        "A": "En la tierra",
+        "B": "En las cosas de arriba, donde está Cristo sentado a la diestra de Dios",
+        "C": "En el dinero",
+        "D": "En la fama"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 3:1-2 dice: 'Pues si habéis resucitado con Cristo, buscad las cosas de arriba, donde está Cristo sentado a la diestra de Dios. Poned la mira en las cosas de arriba, no en las de la tierra.'"
+    },
+    {
+      "id": 593,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "Colosenses - Palabra",
+      "pregunta": "¿Qué debe habitar en nosotros según Colosenses 3:16?",
+      "opciones": {
+        "A": "La ira",
+        "B": "La palabra de Cristo habite en vosotros abundantemente",
+        "C": "La envidia",
+        "D": "El temor"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 3:16 dice: 'La palabra de Cristo habite en vosotros abundantemente en toda sabiduría, enseñándoos y exhortándoos unos a otros.'"
+    },
+    {
+      "id": 594,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "1 Tesalonicenses - Segunda venida",
+      "pregunta": "¿Qué enseñó Pablo sobre los muertos en Cristo según 1 Tesalonicenses 4:16-17?",
+      "opciones": {
+        "A": "'Permanecerán muertos'",
+        "B": "'Resucitarán primero, luego los vivos serán arrebatados juntamente con ellos en las nubes'",
+        "C": "'No resucitarán'",
+        "D": "'Se quedarán en la tierra'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Tesalonicenses 4:16-17 dice que los muertos en Cristo resucitarán primero, luego nosotros los que vivimos seremos arrebatados juntamente con ellos en las nubes."
+    },
+    {
+      "id": 595,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "1 Tesalonicenses - Consuelo",
+      "pregunta": "¿Con qué debemos consolarnos según 1 Tesalonicenses 4:18?",
+      "opciones": {
+        "A": "Con riquezas",
+        "B": "Con estas palabras (la esperanza de la resurrección)",
+        "C": "Con comida",
+        "D": "Con viajes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Tesalonicenses 4:18 dice: 'Por tanto, confortaos unos a otros con estas palabras.' Se refiere al consuelo de la resurrección y el arrebatamiento."
+    },
+    {
+      "id": 596,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "1 Tesalonicenses - Día del Señor",
+      "pregunta": "¿Cómo vendrá el día del Señor según 1 Tesalonicenses 5:2?",
+      "opciones": {
+        "A": "Como ladrón de noche",
+        "B": "Con anuncio previo",
+        "C": "Con trompetas",
+        "D": "Con señales claras"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Tesalonicenses 5:2 dice: 'Porque vosotros sabéis perfectamente que el día del Señor vendrá como ladrón de noche.'"
+    },
+    {
+      "id": 597,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "1 Tesalonicenses - Despiertos",
+      "pregunta": "¿Qué debemos ser según 1 Tesalonicenses 5:6?",
+      "opciones": {
+        "A": "Dormidos",
+        "B": "Vigilantes, despiertos y sobrios",
+        "C": "Borrachos",
+        "D": "Ignorantes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Tesalonicenses 5:6 dice: 'Por tanto, no durmamos como los demás, sino velemos y seamos sobrios.'"
+    },
+    {
+      "id": 598,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "1 Tesalonicenses - Instrucciones",
+      "pregunta": "¿Qué instrucciones finales da Pablo en 1 Tesalonicenses 5:16-18?",
+      "opciones": {
+        "A": "'Gozaos siempre, orad sin cesar, dad gracias en todo'",
+        "B": "'Orad una vez al día'",
+        "C": "'No os goceis'",
+        "D": "'No deis gracias'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Tesalonicenses 5:16-18 dice: 'Estad siempre gozosos. Orad sin cesar. Dad gracias en todo, porque esta es la voluntad de Dios para con vosotros en Cristo Jesús.'"
+    },
+    {
+      "id": 599,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "2 Tesalonicenses - Hombre de pecado",
+      "pregunta": "¿Qué se revelará antes del día del Señor según 2 Tesalonicenses 2:3-4?",
+      "opciones": {
+        "A": "Un profeta bueno",
+        "B": "El hombre de pecado (hijo de perdición) que se sienta en el templo de Dios como Dios",
+        "C": "Un ángel",
+        "D": "Un rey justo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Tesalonicenses 2:3-4 dice que primero vendrá la apostasía y se manifestará el hombre de pecado, el hijo de perdición, que se opone y se levanta contra todo lo que se llama Dios."
+    },
+    {
+      "id": 600,
+      "nivel": 60,
+      "dificultad": 10,
+      "tema": "2 Tesalonicenses - Trabajo",
+      "pregunta": "¿Qué instrucción dio Pablo sobre el trabajo en 2 Tesalonicenses 3:10?",
+      "opciones": {
+        "A": "'No trabajéis'",
+        "B": "'Si alguno no quiere trabajar, tampoco coma'",
+        "C": "'Trabajen solo si quieren'",
+        "D": "'Solo los esclavos trabajan'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Tesalonicenses 3:10 dice: 'Porque también cuando estábamos con vosotros, os ordenábamos esto: Si alguno no quiere trabajar, tampoco coma.'"
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "1-5",
+    "dificultad": "Muy fácil",
+    "tema": "Génesis",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas básicas sobre la creación y los patriarcas del libro de Génesis"
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Quién creó los cielos y la tierra según Génesis 1:1?",
+      "opciones": {
+        "A": "Jesús",
+        "B": "Dios",
+        "C": "Los ángeles",
+        "D": "El hombre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 1:1 dice: 'En el principio Dios creó los cielos y la tierra.'"
+    },
+    {
+      "id": 2,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Qué creó Dios el primer día?",
+      "opciones": {
+        "A": "Las plantas",
+        "B": "Los animales",
+        "C": "La luz",
+        "D": "El hombre"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 1:3-5 indica que el primer día Dios creó la luz y separó la luz de las tinieblas."
+    },
+    {
+      "id": 3,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿En qué día Dios creó a los peces y las aves?",
+      "opciones": {
+        "A": "Tercer día",
+        "B": "Cuarto día",
+        "C": "Quinto día",
+        "D": "Sexto día"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 1:20-23 dice que en el quinto día Dios creó las criaturas marinas y las aves."
+    },
+    {
+      "id": 4,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿En qué día Dios creó a Adán y Eva?",
+      "opciones": {
+        "A": "Quinto día",
+        "B": "Sexto día",
+        "C": "Séptimo día",
+        "D": "Octavo día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 1:26-31 dice que el hombre fue creado en el sexto día."
+    },
+    {
+      "id": 5,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Qué día Dios descansó de toda su obra creadora?",
+      "opciones": {
+        "A": "Sexto día",
+        "B": "Séptimo día",
+        "C": "Octavo día",
+        "D": "No descansó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 2:2-3 dice que Dios descansó el séptimo día y lo santificó."
+    },
+    {
+      "id": 6,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Adán y Eva",
+      "pregunta": "¿De qué material fue formado Adán?",
+      "opciones": {
+        "A": "Del agua",
+        "B": "Del fuego",
+        "C": "Del polvo de la tierra",
+        "D": "De una piedra"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 2:7 dice que Jehová Dios formó al hombre del polvo de la tierra."
+    },
+    {
+      "id": 7,
+      "nivel": 1,
+      "dificultad": 2,
+      "tema": "Génesis - Adán y Eva",
+      "pregunta": "¿Dónde puso Dios a Adán después de crearlo?",
+      "opciones": {
+        "A": "En la tierra de Canaán",
+        "B": "En el huerto del Edén",
+        "C": "En Egipto",
+        "D": "En Babilonia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 2:15 dice que Jehová Dios tomó al hombre y lo puso en el huerto del Edén."
+    },
+    {
+      "id": 8,
+      "nivel": 1,
+      "dificultad": 2,
+      "tema": "Génesis - Adán y Eva",
+      "pregunta": "¿Qué árbol estaba prohibido comer Adán y Eva en el Edén?",
+      "opciones": {
+        "A": "El árbol de la vida",
+        "B": "El árbol del conocimiento de lo bueno y lo malo",
+        "C": "La higuera",
+        "D": "La vid"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 2:17 prohíbe comer del árbol del conocimiento de lo bueno y lo malo."
+    },
+    {
+      "id": 9,
+      "nivel": 1,
+      "dificultad": 2,
+      "tema": "Génesis - Adán y Eva",
+      "pregunta": "¿Cómo se llamaba la mujer que Dios creó para Adán?",
+      "opciones": {
+        "A": "María",
+        "B": "Sara",
+        "C": "Eva",
+        "D": "Rebeca"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 3:20 dice que el hombre llamó Eva a su mujer porque ella vino a ser la madre de todo el que vivirá."
+    },
+    {
+      "id": 10,
+      "nivel": 1,
+      "dificultad": 2,
+      "tema": "Génesis - Caín y Abel",
+      "pregunta": "¿Quién mató a su hermano Abel?",
+      "opciones": {
+        "A": "Adán",
+        "B": "Caín",
+        "C": "Set",
+        "D": "Enoc"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 4:8 narra que Caín mató a Abel, su hermano."
+    },
+    {
+      "id": 11,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - Caín y Abel",
+      "pregunta": "¿Cuál de estos hermanos era pastor de ovejas?",
+      "opciones": {
+        "A": "Caín",
+        "B": "Set",
+        "C": "Abel",
+        "D": "Enoc"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 4:2 dice que Abel vino a ser pastor de ovejas, mientras que Caín cultivaba la tierra."
+    },
+    {
+      "id": 12,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - Caín y Abel",
+      "pregunta": "¿Qué ofrenda presentó Abel a Jehová?",
+      "opciones": {
+        "A": "Frutos de la tierra",
+        "B": "Las primicias de su rebaño",
+        "C": "Vino",
+        "D": "Pan sin levadura"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 4:4 indica que Abel trajo de las primicias de su rebaño, de lo más gordo."
+    },
+    {
+      "id": 13,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Quién construyó el arca para sobrevivir al diluvio?",
+      "opciones": {
+        "A": "Abraham",
+        "B": "Noé",
+        "C": "Moisés",
+        "D": "David"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 6:14-22 describe cómo Noé construyó el arca según las instrucciones de Dios."
+    },
+    {
+      "id": 14,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Por qué Dios envió el diluvio según Génesis 6:5-7?",
+      "opciones": {
+        "A": "Porque la gente había construido torres altas",
+        "B": "Porque la maldad del hombre era grande en la tierra",
+        "C": "Porque habían dejado de sacrificar",
+        "D": "Porque adoraban a otros dioses"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 6:5 dice que Jehová vio que la maldad del hombre era mucha en la tierra."
+    },
+    {
+      "id": 15,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Cuántos días y noches llovió durante el diluvio?",
+      "opciones": {
+        "A": "3 días y 3 noches",
+        "B": "7 días y 7 noches",
+        "C": "40 días y 40 noches",
+        "D": "150 días"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 7:12 dice que la lluvia cayó sobre la tierra por cuarenta días y cuarenta noches."
+    },
+    {
+      "id": 16,
+      "nivel": 2,
+      "dificultad": 3,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Cuántas personas entraron en el arca?",
+      "opciones": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "12"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 7:13 enumera a las ocho personas que entraron en el arca: Noé, su esposa, sus tres hijos y sus tres nueras."
+    },
+    {
+      "id": 17,
+      "nivel": 2,
+      "dificultad": 3,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Cómo supo Noé que las aguas habían bajado?",
+      "opciones": {
+        "A": "Vio tierra seca",
+        "B": "Envió un cuervo y luego una paloma",
+        "C": "Abrió una ventana del arca",
+        "D": "Dios le habló directamente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 8:6-12 describe cómo Noé envió primero un cuervo y luego una paloma para verificar si había tierra seca."
+    },
+    {
+      "id": 18,
+      "nivel": 2,
+      "dificultad": 3,
+      "tema": "Génesis - Torre de Babel",
+      "pregunta": "¿Por qué Dios confundió el lenguaje de la gente en Babel?",
+      "opciones": {
+        "A": "Porque querían construir una torre que llegara al cielo",
+        "B": "Porque no querían adorar a Dios",
+        "C": "Porque querían conquistar otras naciones",
+        "D": "Porque no querían tener hijos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 11:4-9 dice que la gente quería construir una torre con su cumbre en los cielos, por lo que Jehová confundió su lenguaje."
+    },
+    {
+      "id": 19,
+      "nivel": 2,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Cuál era el nombre original de Abraham antes de que Dios se lo cambiara?",
+      "opciones": {
+        "A": "Lot",
+        "B": "Nahor",
+        "C": "Abram",
+        "D": "Harán"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 17:5 dice que Dios cambió el nombre de Abram a Abraham, que significa 'padre de una multitud de naciones'."
+    },
+    {
+      "id": 20,
+      "nivel": 2,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Dónde vivía Abraham cuando Dios lo llamó?",
+      "opciones": {
+        "A": "Canaán",
+        "B": "Ur de los caldeos",
+        "C": "Egipto",
+        "D": "Harán"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 11:31 y 12:1 indican que Abraham (Abram) salió de Ur de los caldeos."
+    },
+    {
+      "id": 21,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Qué promesa le hizo Dios a Abraham sobre sus descendientes?",
+      "opciones": {
+        "A": "Que serían esclavos en Egipto",
+        "B": "Que serían tantos como las estrellas del cielo",
+        "C": "Que vivirían siempre en Canaán",
+        "D": "Que nunca tendrían enemigos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 15:5 dice que Dios prometió a Abraham que sus descendientes serían como las estrellas del cielo."
+    },
+    {
+      "id": 22,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Cómo se llamaba la esposa de Abraham?",
+      "opciones": {
+        "A": "Rebeca",
+        "B": "Lea",
+        "C": "Sara",
+        "D": "Raquel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 11:29 y 12:5 mencionan a Sarai (posteriormente Sara) como la esposa de Abram (Abraham)."
+    },
+    {
+      "id": 23,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Qué animal sacrificó Abraham en lugar de su hijo Isaac?",
+      "opciones": {
+        "A": "Un cordero",
+        "B": "Un carnero",
+        "C": "Un toro",
+        "D": "Un macho cabrío"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 22:13 dice que Abraham vio un carnero prendido por los cuernos en la zarza, que sacrificó en lugar de su hijo."
+    },
+    {
+      "id": 24,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Quién fue el hijo de Abraham e Hagar?",
+      "opciones": {
+        "A": "Isaac",
+        "B": "Ismael",
+        "C": "Jacob",
+        "D": "Esaú"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 16:15 dice que Agar dio a luz un hijo de Abram, y le puso el nombre de Ismael."
+    },
+    {
+      "id": 25,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿A qué edad tuvo Isaac su hijo Jacob?",
+      "opciones": {
+        "A": "40 años",
+        "B": "60 años",
+        "C": "100 años",
+        "D": "120 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 25:26 dice que Isaac tenía 60 años cuando Rebeca dio a luz."
+    },
+    {
+      "id": 26,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Isaac",
+      "pregunta": "¿Cuál era el nombre original de Jacob?",
+      "opciones": {
+        "A": "Israel",
+        "B": "Esaú",
+        "C": "Jacob",
+        "D": "No tuvo otro nombre"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jacob siempre se llamó Jacob, aunque Génesis 32:28 dice que Dios le cambió el nombre a Israel después de luchar con el ángel."
+    },
+    {
+      "id": 27,
+      "nivel": 3,
+      "dificultad": 4,
+      "tema": "Génesis - Isaac",
+      "pregunta": "¿Qué sirvienta de Abraham fue madre de Ismael?",
+      "opciones": {
+        "A": "Rebeca",
+        "B": "Hagar",
+        "C": "Keturá",
+        "D": "Milca"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 16:1-3 dice que Sarai, esposa de Abram, tomó a Hagar la egipcia, su sirvienta, y se la dio por esposa a Abram."
+    },
+    {
+      "id": 28,
+      "nivel": 3,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Quién nació primero, Jacob o Esaú?",
+      "opciones": {
+        "A": "Jacob",
+        "B": "Esaú",
+        "C": "Nacieron al mismo tiempo",
+        "D": "No se menciona"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 25:25 dice que salió primero el primogénito, todo cubierto de vello como una prenda de pelo, y le pusieron el nombre de Esaú."
+    },
+    {
+      "id": 29,
+      "nivel": 3,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿A qué edad murió Abraham?",
+      "opciones": {
+        "A": "120 años",
+        "B": "147 años",
+        "C": "175 años",
+        "D": "180 años"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 25:7-8 dice que Abraham respiró por última vez y murió a la edad de 175 años."
+    },
+    {
+      "id": 30,
+      "nivel": 3,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Qué vendió Esaú a Jacob por un plato de lentejas?",
+      "opciones": {
+        "A": "Su casa",
+        "B": "Sus animales",
+        "C": "Su primogenitura",
+        "D": "Su esposa"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 25:29-34 narra cómo Esaú vendió su primogenitura a Jacob a cambio de pan y lentejas."
+    },
+    {
+      "id": 31,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Quién ayudó a Jacob a engañar a Isaac para recibir la bendición del primogénito?",
+      "opciones": {
+        "A": "Su hermano Esaú",
+        "B": "Su madre Rebeca",
+        "C": "Su padre Abraham",
+        "D": "Su siervo Eliezer"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 27:6-17 describe cómo Rebeca planificó y ayudó a Jacob a engañar a su padre Isaac."
+    },
+    {
+      "id": 32,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Dónde tuvo Jacob su famoso sueño de la escalera?",
+      "opciones": {
+        "A": "Betel",
+        "B": "Siquem",
+        "C": "Mamre",
+        "D": "Beerseba"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 28:10-19 dice que Jacob tuvo el sueño en Betel (que significa 'casa de Dios'), y vio una escalera que llegaba al cielo."
+    },
+    {
+      "id": 33,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Cuántos años trabajó Jacob por Raquel?",
+      "opciones": {
+        "A": "7 años",
+        "B": "14 años",
+        "C": "20 años",
+        "D": "40 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 29:18-28 indica que Jacob trabajó 7 años por Lea (engañado) y otros 7 años por Raquel, totalizando 14 años."
+    },
+    {
+      "id": 34,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Cómo se llamaba el padre de Raquel y Lea?",
+      "opciones": {
+        "A": "Betuel",
+        "B": "Labán",
+        "C": "Nahor",
+        "D": "Harán"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 29:16 menciona que Labán tenía dos hijas: la mayor se llamaba Lea y la menor Raquel."
+    },
+    {
+      "id": 35,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob",
+      "pregunta": "¿Cuál era la profesión de Labán, el suegro de Jacob?",
+      "opciones": {
+        "A": "Agricultor",
+        "B": "Pastor de ovejas",
+        "C": "Comerciante",
+        "D": "Alfarero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 29:3-9 muestra que Labán era pastor de ovejas, como lo eran también sus hijas."
+    },
+    {
+      "id": 36,
+      "nivel": 4,
+      "dificultad": 5,
+      "tema": "Génesis - Jacob",
+      "pregunta": "¿Cuántos hijos tuvo Jacob en total (incluyendo José)?",
+      "opciones": {
+        "A": "10",
+        "B": "11",
+        "C": "12",
+        "D": "13"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jacob tuvo 12 hijos que se convirtieron en los progenitores de las 12 tribus de Israel (Génesis 29-30)."
+    },
+    {
+      "id": 37,
+      "nivel": 4,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Qué regalo especial le dio Jacob a José?",
+      "opciones": {
+        "A": "Una espada",
+        "B": "Un anillo",
+        "C": "Una túnica de muchos colores",
+        "D": "Un caballo"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 37:3 dice que Israel (Jacob) amaba más a José que a todos sus otros hijos, y le hizo una túnica de manga larga o de muchos colores."
+    },
+    {
+      "id": 38,
+      "nivel": 4,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Quién sugirió vender a José como esclavo en lugar de matarlo?",
+      "opciones": {
+        "A": "Rubén",
+        "B": "Judá",
+        "C": "Leví",
+        "D": "Simeón"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 37:26-27 dice que Judá propuso vender a José a los ismaelitas en lugar de matarlo."
+    },
+    {
+      "id": 39,
+      "nivel": 4,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿A qué país llevaron a José como esclavo?",
+      "opciones": {
+        "A": "Canaán",
+        "B": "Babilonia",
+        "C": "Egipto",
+        "D": "Asiria"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 37:28 dice que los hermanos vendieron a José a los ismaelitas por veinte piezas de plata, y ellos lo llevaron a Egipto."
+    },
+    {
+      "id": 40,
+      "nivel": 4,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Quién compró a José en Egipto?",
+      "opciones": {
+        "A": "El faraón",
+        "B": "Potifar, oficial del faraón",
+        "C": "Un comerciante",
+        "D": "El sumo sacerdote"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 37:36 dice que los medianitas lo vendieron en Egipto a Potifar, oficial del faraón."
+    },
+    {
+      "id": 41,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Por qué fue encarcelado José?",
+      "opciones": {
+        "A": "Por robar",
+        "B": "Por interpretar sueños sin permiso",
+        "C": "Por la falsa acusación de la esposa de Potifar",
+        "D": "Por desobedecer al faraón"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 39:7-20 narra cómo la esposa de Potifar acusó falsamente a José, y él fue encarcelado."
+    },
+    {
+      "id": 42,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Quiénes fueron los dos compañeros de José en la cárcel que tuvieron sueños?",
+      "opciones": {
+        "A": "El panadero y el copero del rey",
+        "B": "Dos soldados",
+        "C": "Dos sacerdotes",
+        "D": "Dos escribas"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 40:1-5 menciona al copero del rey y al panadero del rey que fueron encarcelados con José."
+    },
+    {
+      "id": 43,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Qué animal apareció en el sueño del faraón que José interpretó?",
+      "opciones": {
+        "A": "Leones",
+        "B": "Vacas gordas y vacas flacas",
+        "C": "Caballos",
+        "D": "Serpientes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 41:1-7 describe los sueños del faraón con siete vacas gordas y siete vacas flacas, y siete espigas llenas y siete espigas vacías."
+    },
+    {
+      "id": 44,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Cuál fue la interpretación que dio José al sueño del faraón?",
+      "opciones": {
+        "A": "Guerra inminente",
+        "B": "Siete años de abundancia y siete años de hambre",
+        "C": "Una rebelión del pueblo",
+        "D": "La muerte del faraón"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 41:29-30 dice que habría siete años de gran abundancia seguidos de siete años de hambre."
+    },
+    {
+      "id": 45,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Qué cargo le dio el faraón a José después de interpretar los sueños?",
+      "opciones": {
+        "A": "Sumo sacerdote",
+        "B": "General del ejército",
+        "C": "Gobernador sobre toda la tierra de Egipto",
+        "D": "Copero principal"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 41:41 dice que el faraón puso a José por gobernador sobre todo Egipto."
+    },
+    {
+      "id": 46,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Cuántos hijos tuvo José en Egipto antes de que vinieran sus hermanos?",
+      "opciones": {
+        "A": "Ninguno",
+        "B": "Uno",
+        "C": "Dos",
+        "D": "Tres"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 41:50-52 dice que José tuvo dos hijos antes de los años de hambre: Manasés y Efraín."
+    },
+    {
+      "id": 47,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Qué significaba el nombre Manasés, el primer hijo de José?",
+      "opciones": {
+        "A": "Dios me ha hecho prosperar",
+        "B": "Dios me ha hecho olvidar todo mi trabajo",
+        "C": "Dios me ha dado fuerzas",
+        "D": "Dios me ha bendecido"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 41:51 dice que José llamó Manasés porque Dios le hizo olvidar todo su trabajo y toda la casa de su padre."
+    },
+    {
+      "id": 48,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Cuál hermano de José no fue a Egipto la primera vez que buscaron alimento?",
+      "opciones": {
+        "A": "Rubén",
+        "B": "Simeón",
+        "C": "Benjamín",
+        "D": "Leví"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 42:4 dice que Jacob no dejó que Benjamín, hermano de José, fuera con sus hermanos."
+    },
+    {
+      "id": 49,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Qué objeto puso José en el saco de Benjamín para probar a sus hermanos?",
+      "opciones": {
+        "A": "Un anillo de oro",
+        "B": "La copa de adivinación de plata",
+        "C": "Un collar",
+        "D": "Un sello"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 44:2 dice que José puso su copa de adivinación de plata en el saco de Benjamín."
+    },
+    {
+      "id": 50,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿A qué edad murió José?",
+      "opciones": {
+        "A": "100 años",
+        "B": "110 años",
+        "C": "120 años",
+        "D": "147 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 50:26 dice que José murió a la edad de 110 años."
+    }
+  ]
+}

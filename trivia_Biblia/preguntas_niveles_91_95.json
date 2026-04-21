@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "91-95",
+    "dificultad": "Extremadamente difícil",
+    "tema": "Repaso y síntesis final de toda la Biblia",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas de repaso final que integran todo el conocimiento bíblico"
+  },
+  "preguntas": [
+    {
+      "id": 901,
+      "nivel": 91,
+      "dificultad": 17,
+      "tema": "Repaso - Tiempo de escritura",
+      "pregunta": "¿Durante cuántos años aproximadamente se escribió la Biblia?",
+      "opciones": {
+        "A": "100 años",
+        "B": "Unos 1,600 años (1500 a.C. - 100 d.C.)",
+        "C": "50 años",
+        "D": "500 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Biblia fue escrita durante aproximadamente 1,600 años por más de 40 autores diferentes."
+    },
+    {
+      "id": 902,
+      "nivel": 91,
+      "dificultad": 17,
+      "tema": "Repaso - Canon",
+      "pregunta": "¿Cuántos libros tiene la Biblia protestante?",
+      "opciones": {
+        "A": "39 libros",
+        "B": "66 libros (39 AT + 27 NT)",
+        "C": "27 libros",
+        "D": "73 libros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "El canon protestante tiene 66 libros: 39 en el Antiguo Testamento y 27 en el Nuevo Testamento."
+    },
+    {
+      "id": 903,
+      "nivel": 91,
+      "dificultad": 17,
+      "tema": "Repaso - Génesis",
+      "pregunta": "¿Cuántos años vivió Matusalén según Génesis 5:27?",
+      "opciones": {
+        "A": "600 años",
+        "B": "969 años",
+        "C": "800 años",
+        "D": "100 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 5:27 dice que Matusalén vivió 969 años, más que cualquier otro personaje bíblico."
+    },
+    {
+      "id": 904,
+      "nivel": 91,
+      "dificultad": 17,
+      "tema": "Repaso - Éxodo",
+      "pregunta": "¿Cuánto tiempo estuvo Israel en el desierto según Números 14:33-34?",
+      "opciones": {
+        "A": "1 año",
+        "B": "40 años (un año por cada día que exploraron la tierra prometida)",
+        "C": "10 años",
+        "D": "100 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 14:33-34 dice 40 años en el desierto por la desobediencia en Cades-barnea."
+    },
+    {
+      "id": 905,
+      "nivel": 91,
+      "dificultad": 17,
+      "tema": "Repaso - Reyes",
+      "pregunta": "¿Cuántos años duró el reino unido bajo Saul, David y Salomón?",
+      "opciones": {
+        "A": "20 años",
+        "B": "Aproximadamente 120 años (40 años cada uno)",
+        "C": "5 años",
+        "D": "200 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Saul 40 años (Hechos 13:21), David 40 años (2 Samuel 5:4), Salomón 40 años (1 Reyes 11:42)."
+    },
+    {
+      "id": 906,
+      "nivel": 92,
+      "dificultad": 17,
+      "tema": "Repaso - Profetas",
+      "pregunta": "¿Cuántos profetas mayores hay en el Antiguo Testamento?",
+      "opciones": {
+        "A": "3",
+        "B": "5 (Isaías, Jeremías, Lamentaciones, Ezequiel, Daniel)",
+        "C": "12",
+        "D": "17"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Los 5 profetas mayores son: Isaías, Jeremías, Lamentaciones (de Jeremías), Ezequiel y Daniel."
+    },
+    {
+      "id": 907,
+      "nivel": 92,
+      "dificultad": 17,
+      "tema": "Repaso - Exilio",
+      "pregunta": "¿Cuántos años duró el exilio babilónico según Jeremías 25:11-12?",
+      "opciones": {
+        "A": "10 años",
+        "B": "70 años",
+        "C": "5 años",
+        "D": "100 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 25:11-12 y 29:10 profetizan 70 años de exilio babilónico."
+    },
+    {
+      "id": 908,
+      "nivel": 92,
+      "dificultad": 17,
+      "tema": "Repaso - Jesús",
+      "pregunta": "¿Cuántas Pascuas menciona el Evangelio de Juan durante el ministerio de Jesús?",
+      "opciones": {
+        "A": "1 Pascua",
+        "B": "3 Pascuas (Juan 2:13, 6:4, 11:55)",
+        "C": "5 Pascuas",
+        "D": "10 Pascuas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan menciona 3 Pascuas: Juan 2:13 (primera), 6:4 (segunda), 11:55 (tercera, crucifixión)."
+    },
+    {
+      "id": 909,
+      "nivel": 92,
+      "dificultad": 17,
+      "tema": "Repaso - Pablo",
+      "pregunta": "¿Cuántas cartas escribió Pablo en el Nuevo Testamento?",
+      "opciones": {
+        "A": "5 cartas",
+        "B": "13 cartas (Romanos a Filemón)",
+        "C": "27 cartas",
+        "D": "4 cartas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Pablo escribió 13 cartas: Romanos, 1-2 Corintios, Gálatas, Efesios, Filipenses, Colosenses, 1-2 Tesalonicenses, 1-2 Timoteo, Tito, Filemón."
+    },
+    {
+      "id": 910,
+      "nivel": 92,
+      "dificultad": 17,
+      "tema": "Repaso - Apocalipsis",
+      "pregunta": "¿Cuántas iglesias se mencionan en Apocalipsis 2-3?",
+      "opciones": {
+        "A": "3 iglesias",
+        "B": "7 iglesias (Efeso, Esmirna, Pérgamo, Tiatira, Sardis, Filadelfia, Laodicea)",
+        "C": "12 iglesias",
+        "D": "1 iglesia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 2-3 menciona 7 iglesias de Asia: Efeso, Esmirna, Pérgamo, Tiatira, Sardis, Filadelfia y Laodicea."
+    },
+    {
+      "id": 911,
+      "nivel": 93,
+      "dificultad": 17,
+      "tema": "Síntesis - Cristo en el AT",
+      "pregunta": "¿Cuántas profecías mesiánicas hay aproximadamente en el Antiguo Testamento?",
+      "opciones": {
+        "A": "10 profecías",
+        "B": "Más de 300 profecías sobre el Mesías",
+        "C": "5 profecías",
+        "D": "1 profecía"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Se estima que más de 300 profecías del AT se cumplieron en la primera venida de Jesús."
+    },
+    {
+      "id": 912,
+      "nivel": 93,
+      "dificultad": 17,
+      "tema": "Síntesis - Doctrina",
+      "pregunta": "¿Cuáles son las 5 Solas de la Reforma?",
+      "opciones": {
+        "A": "Solo una",
+        "B": "Sola Scriptura, Sola Gratia, Sola Fide, Solus Christus, Soli Deo Gloria",
+        "C": "Solo dos",
+        "D": "Diez"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Las 5 Solas: Sola Scriptura (Escritura sola), Sola Gratia (gracia sola), Sola Fide (fe sola), Solus Christus (Cristo solo), Soli Deo Gloria (a Dios sola la gloria)."
+    },
+    {
+      "id": 913,
+      "nivel": 93,
+      "dificultad": 17,
+      "tema": "Síntesis - Fruto del Espíritu",
+      "pregunta": "¿Cuántos frutos del Espíritu enumera Gálatas 5:22-23?",
+      "opciones": {
+        "A": "3 frutos",
+        "B": "9 frutos: amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza",
+        "C": "5 frutos",
+        "D": "12 frutos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 5:22-23 enumera 9 frutos del Espíritu: amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza."
+    },
+    {
+      "id": 914,
+      "nivel": 93,
+      "dificultad": 17,
+      "tema": "Síntesis - Diez Mandamientos",
+      "pregunta": "¿En qué dos tablas se dividen los Diez Mandamientos?",
+      "opciones": {
+        "A": "Sin división",
+        "B": "Tabla 1 (mandamientos 1-4: deberes hacia Dios), Tabla 2 (mandamientos 5-10: deberes hacia el prójimo)",
+        "C": "Tabla única",
+        "D": "Cinco tablas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Los Diez Mandamientos se dividen: Tabla 1 (deberes hacia Dios: 1-4) y Tabla 2 (deberes hacia el prójimo: 5-10)."
+    },
+    {
+      "id": 915,
+      "nivel": 93,
+      "dificultad": 17,
+      "tema": "Síntesis - Armadura",
+      "pregunta": "¿Cuántas piezas tiene la armadura de Dios en Efesios 6:13-17?",
+      "opciones": {
+        "A": "3 piezas",
+        "B": "6 piezas más oración: cinturón de verdad, coraza de justicia, calzado del evangelio, escudo de fe, casco de salvación, espada del Espíritu, orando en todo tiempo",
+        "C": "2 piezas",
+        "D": "12 piezas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 6:13-17 describe 6 piezas de armadura más la oración constante."
+    },
+    {
+      "id": 916,
+      "nivel": 94,
+      "dificultad": 17,
+      "tema": "Final - Mensaje central",
+      "pregunta": "¿Cuál es el mensaje central de toda la Biblia según Juan 20:31?",
+      "opciones": {
+        "A": "Obediencia a la ley",
+        "B": "Que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo, tengáis vida en su nombre",
+        "C": "Ser buenas personas",
+        "D": "Cumplir ceremonias"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 20:31: 'para que creáis que Jesús es el Cristo, el Hijo de Dios, y para que creyendo, tengáis vida en su nombre.'"
+    },
+    {
+      "id": 917,
+      "nivel": 94,
+      "dificultad": 17,
+      "tema": "Final - Propósito",
+      "pregunta": "¿Cuál es el propósito de toda la Escritura según 2 Timoteo 3:15-17?",
+      "opciones": {
+        "A": "Entretenimiento",
+        "B": "Para salvación por fe en Cristo, y útil para enseñar, redargüir, corregir, instruir en justicia",
+        "C": "Historia solamente",
+        "D": "Ciencia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 3:15-17: Las Escrituras 'te pueden hacer sabio para la salvación por la fe que es en Cristo Jesús' y son 'útiles para enseñar, para redargüir, para corregir, para instruir en justicia.'"
+    },
+    {
+      "id": 918,
+      "nivel": 94,
+      "dificultad": 17,
+      "tema": "Final - Salvación",
+      "pregunta": "¿Cómo se obtiene la salvación según Efesios 2:8-9?",
+      "opciones": {
+        "A": "Por obras buenas",
+        "B": "Por gracia, por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe",
+        "C": "Por ser judío",
+        "D": "Por el dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 2:8-9: 'Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe.'"
+    },
+    {
+      "id": 919,
+      "nivel": 94,
+      "dificultad": 17,
+      "tema": "Final - Gran Comisión",
+      "pregunta": "¿Cuál es la Gran Comisión de Mateo 28:19-20?",
+      "opciones": {
+        "A": "Construir iglesias",
+        "B": "Haced discípulos de todas las naciones, bautizándolos, enseñándoles a guardar todo lo que mandé",
+        "C": "Hacer dinero",
+        "D": "Conquistar naciones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 28:19-20: 'Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo, enseñándoles que guarden todas las cosas que os he mandado.'"
+    },
+    {
+      "id": 920,
+      "nivel": 94,
+      "dificultad": 17,
+      "tema": "Final - Esperanza",
+      "pregunta": "¿Cuál es la esperanza final según Apocalipsis 21:1-4?",
+      "opciones": {
+        "A": "Destrucción",
+        "B": "Cielos nuevos y tierra nueva; enjugará Dios toda lágrima; no habrá muerte ni dolor",
+        "C": "Oscuridad",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 21:1-4: 'Cielos nuevos y tierra nueva... enjugará Dios toda lágrima de los ojos... no habrá ya más muerte, ni habrá más llanto, ni clamor, ni dolor.'"
+    },
+    {
+      "id": 921,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Versículos",
+      "pregunta": "¿Cuál es el versículo más corto de la Biblia en español?",
+      "opciones": {
+        "A": "Juan 3:16",
+        "B": "Juan 11:35 - 'Jesús lloró.'",
+        "C": "Génesis 1:1",
+        "D": "Salmo 23:1"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 11:35 es el versículo más corto: 'Jesús lloró.' (solo 2 palabras, 9 letras)."
+    },
+    {
+      "id": 922,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Capítulo medio",
+      "pregunta": "¿Cuál es el capítulo medio de la Biblia (aproximado)?",
+      "opciones": {
+        "A": "Génesis 1",
+        "B": "Salmo 118 (con 594 capítulos antes y 594 después en RV1960)",
+        "C": "Apocalipsis 22",
+        "D": "Mateo 28"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Con 1,189 capítulos totales en RV1960, el capítulo medio es Salmo 118 (594 antes, 594 después)."
+    },
+    {
+      "id": 923,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Libro más largo",
+      "pregunta": "¿Cuál es el libro más largo de la Biblia por número de capítulos?",
+      "opciones": {
+        "A": "Génesis",
+        "B": "Salmos (150 capítulos)",
+        "C": "Isaías",
+        "D": "Mateo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Salmos es el libro más largo con 150 capítulos. Isaías tiene 66 capítulos."
+    },
+    {
+      "id": 924,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Libro más corto",
+      "pregunta": "¿Cuál es el libro más corto del Antiguo Testamento?",
+      "opciones": {
+        "A": "Rut",
+        "B": "Abdías (1 capítulo, 21 versículos) o Salmo 117 (2 versículos)",
+        "C": "Jonás",
+        "D": "Malaquías"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Abdías es el libro más corto del AT con 1 capítulo y 21 versículos. Salmo 117 es el capítulo más corto con 2 versículos."
+    },
+    {
+      "id": 925,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Versículo medio",
+      "pregunta": "¿Aproximadamente cuál es el versículo medio de la Biblia?",
+      "opciones": {
+        "A": "Juan 3:16",
+        "B": "Salmo 103:1-2 (aproximadamente el versículo 15,551 de 31,102)",
+        "C": "Génesis 1:1",
+        "D": "Apocalipsis 22:21"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Con ~31,102 versículos en RV1960, el versículo medio cae alrededor de Salmo 103:1-2."
+    },
+    {
+      "id": 926,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Autores",
+      "pregunta": "¿Aproximadamente cuántos autores humanos escribieron la Biblia?",
+      "opciones": {
+        "A": "1 autor",
+        "B": "Aproximadamente 40 autores diferentes",
+        "C": "100 autores",
+        "D": "5 autores"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Aproximadamente 40 autores humanos diferentes escribieron la Biblia en un período de 1,600 años."
+    },
+    {
+      "id": 927,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Idiomas",
+      "pregunta": "Diferentes idiomas en los que fue escrita la Biblia?",
+      "opciones": {
+        "A": "1 idioma",
+        "B": "3 idiomas: hebreo (mayoría del AT), arameo (pequeñas porciones del AT), griego koiné (NT)",
+        "C": "10 idiomas",
+        "D": "50 idiomas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Biblia fue escrita originalmente en 3 idiomas: hebreo (mayoría del AT), arameo (Daniel, Esdras), griego koiné (NT)."
+    },
+    {
+      "id": 928,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Versículos totales",
+      "pregunta": "¿Cuántos versículos aproximadamente tiene la Biblia en español?",
+      "opciones": {
+        "A": "10,000 versículos",
+        "B": "Aproximadamente 31,000 versículos (varía por traducción)",
+        "C": "5,000 versículos",
+        "D": "100,000 versículos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La Biblia en español tiene aproximadamente 31,000 versículos (RV1960 tiene 31,102)."
+    },
+    {
+      "id": 929,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Extra - Palabras",
+      "pregunta": "¿Cuál es la palabra más corta de la Biblia?",
+      "opciones": {
+        "A": "Jesús",
+        "B": "La letra 'y' aparece como palabra en algunas traducciones (Job 3:2 'Respondió Job, y dijo:')",
+        "C": "Dios",
+        "D": "Fe"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "En español, 'y' es la palabra más corta de la Biblia (aparece en Job 3:2 y otros lugares como palabra independiente)."
+    },
+    {
+      "id": 930,
+      "nivel": 95,
+      "dificultad": 17,
+      "tema": "Final - Promesa",
+      "pregunta": "¿Cuál es la promesa final de Jesús según Apocalipsis 22:20?",
+      "opciones": {
+        "A": "Adiós",
+        "B": "Vengo en breve. Amén; sí, ven, Señor Jesús",
+        "C": "Hasta nunca",
+        "D": "No volveré"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 22:20 es la última promesa de Jesús en la Biblia: 'Vengo en breve. Amén; sí, ven, Señor Jesús.'"
+    }
+  ]
+}

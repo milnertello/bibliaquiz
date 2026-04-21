@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "81-85",
+    "dificultad": "Muy difícil",
+    "tema": "Nuevo Testamento profundo (teología sistemática, parábolas complejas, tipos y antitipos)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas avanzadas sobre teología sistemática, parábolas complejas de Jesús y conexiones doctrinales del NT"
+  },
+  "preguntas": [
+    {
+      "id": 801,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Cristología",
+      "pregunta": "¿Qué enseña Filipenses 2:5-11 sobre la preexistencia y humillación de Cristo?",
+      "opciones": {
+        "A": "Que Jesús solo fue humano",
+        "B": "Estando en forma de Dios, no consideró el ser igual a Dios como cosa a que aferrarse, sino que se despojó a sí mismo, tomando forma de siervo, se humilló hasta la muerte en cruz",
+        "C": "Que Jesús fue creado",
+        "D": "Que Jesús nunca fue divino"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Filipenses 2:5-11 (himno cristológico) dice que Cristo, estando en forma de Dios, no consideró el ser igual a Dios como cosa a que aferrarse, sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres; y estando en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz."
+    },
+    {
+      "id": 802,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Cristología",
+      "pregunta": "¿Qué enseña Colosenses 1:15-20 sobre Cristo como Creador y Cabeza?",
+      "opciones": {
+        "A": "Que Jesús es un ángel",
+        "B": "Es imagen del Dios invisible, primogénito de toda creación; en él fueron creadas todas las cosas; es la cabeza del cuerpo que es la iglesia, primogénito de entre los muertos",
+        "C": "Que Jesús no creó nada",
+        "D": "Que Jesús es menor que los ángeles"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 1:15-20 dice: 'El cual es la imagen del Dios invisible, el primogénito de toda creación; porque en él fueron creadas todas las cosas... Él es la cabeza del cuerpo, que es la iglesia; él es el principio, el primogénito de entre los muertos.'"
+    },
+    {
+      "id": 803,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Soteriología",
+      "pregunta": "¿Qué es la salvación según Efesios 2:8-10 y Tito 3:5?",
+      "opciones": {
+        "A": "Por obras humanas",
+        "B": "Por gracia, por medio de la fe; no por obras para que nadie se gloríe; por el lavamiento de la regeneración y la renovación del Espíritu Santo",
+        "C": "Por la ley de Moisés",
+        "D": "Por el dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 2:8-10 dice: 'Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe.' Tito 3:5: 'nos salvó... por el lavamiento de la regeneración y la renovación del Espíritu Santo.'"
+    },
+    {
+      "id": 804,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Pneumatología",
+      "pregunta": "¿Quién es el Espíritu Santo según Juan 14-16 y Hechos?",
+      "opciones": {
+        "A": "Una fuerza impersonal",
+        "B": "El Consolador, el Espíritu de verdad, que procede del Padre, guía a toda verdad, convence de pecado, da testimonio de Jesús, habita en los creyentes",
+        "C": "Un ángel",
+        "D": "Un concepto abstracto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 14:16-17, 26; 15:26; 16:7-15 describe al Espíritu Santo como el Consolador (Paracleto), el Espíritu de verdad, que procede del Padre, guía a toda verdad, convence de pecado, justicia y juicio, da testimonio de Jesús. Hechos muestra su actividad personal en la iglesia primitiva."
+    },
+    {
+      "id": 805,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Eclesiología",
+      "pregunta": "¿Qué es la iglesia según Efesios y 1 Corintios?",
+      "opciones": {
+        "A": "Un edificio",
+        "B": "Cuerpo de Cristo, templo del Espíritu Santo, esposa de Cristo, columna y baluarte de la verdad, edificada sobre el fundamento de los apóstoles y profetas, con Cristo como piedra angular",
+        "C": "Una organización política",
+        "D": "Un club social"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 1:22-23 (cuerpo); 2:20-22 (edificada sobre apóstoles y profetas, templo); 5:25-32 (esposa). 1 Timoteo 3:15 (columna y baluarte de la verdad). 1 Corintios 12 (cuerpo con muchos miembros)."
+    },
+    {
+      "id": 806,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Escatología",
+      "pregunta": "¿Qué enseña 1 Tesalonicenses 4:13-18 sobre la segunda venida?",
+      "opciones": {
+        "A": "Que no habrá resurrección",
+        "B": "El Señor mismo descenderá del cielo con voz de mando, con voz de arcángel y trompeta de Dios; los muertos en Cristo resucitarán primero, luego los vivos seremos arrebatados juntamente con ellos en las nubes",
+        "C": "Que solo los vivos serán salvos",
+        "D": "Que no habrá señales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Tesalonicenses 4:16-17 dice: 'Porque el Señor mismo con voz de mando, con voz de arcángel, y con trompeta de Dios, descenderá del cielo; y los muertos en Cristo resucitarán primero. Luego nosotros los que vivimos, los que hayamos quedado, seremos arrebatados juntamente con ellos en las nubes.'"
+    },
+    {
+      "id": 807,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Teología - Escatología",
+      "pregunta": "¿Qué enseña Apocalipsis 20 sobre el milenio?",
+      "opciones": {
+        "A": "No hay milenio",
+        "B": "Satanás será atado por 1,000 años, los mártires reinarán con Cristo; después de los 1,000 años Satanás será soltado por un poco de tiempo",
+        "C": "El milenio es figurativo",
+        "D": "Ya pasó el milenio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Apocalipsis 20:1-7 describe el milenio: Satanás atado por 1,000 años (v. 2-3), los mártires reinan con Cristo (v. 4-6), después Satanás es soltado por un poco de tiempo (v. 3, 7). Los Testigos de Jehová interpretan esto simbólicamente como el reinado celestial de Cristo desde 1914 (aunque esta interpretación ha sido cuestionada internamente)."
+    },
+    {
+      "id": 808,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Sembrador",
+      "pregunta": "¿Qué representan las 4 clases de suelo en la parábola del sembrador según Mateo 13:3-9, 18-23?",
+      "opciones": {
+        "A": "4 tipos de clima",
+        "B": "Camino = corazón endurecido; pedregoso = corazón superficial; espinoso = corazón preocupado; buen terreno = corazón receptivo",
+        "C": "4 tipos de agricultores",
+        "D": "4 estaciones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:18-23 interpreta: junto al camino = corazón endurecido donde no entiende (v. 19); pedregoso = corazón superficial que se alegra pero sin raíz (v. 20-21); entre espinos = corazón preocupado por los afanes y riquezas (v. 22); buen terreno = corazón receptivo que da fruto (v. 23)."
+    },
+    {
+      "id": 809,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Trigo y cizaña",
+      "pregunta": "¿Qué significa la parábola del trigo y la cizaña según Mateo 13:24-30, 36-43?",
+      "opciones": {
+        "A": "Que no se debe sembrar trigo",
+        "B": "El sembrador = Hijo del Hombre; campo = mundo; buena simiente = hijos del reino; cizaña = hijos del maligno; siega = fin del mundo; segadores = ángeles",
+        "C": "Que la cizaña es buena",
+        "D": "Que se debe quemar todo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:37-43 interpreta: el sembrador de la buena simiente es el Hijo del Hombre; el campo es el mundo; la buena simiente son los hijos del reino; la cizaña son los hijos del maligno; el enemigo que la sembró es el diablo; la siega es el fin del mundo; los segadores son los ángeles."
+    },
+    {
+      "id": 810,
+      "nivel": 81,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Levadura",
+      "pregunta": "¿Qué significa la levadura en Mateo 13:33 y qué representa en sentido negativo en Mateo 16:6-12?",
+      "opciones": {
+        "A": "Siempre es buena",
+        "B": "En 13:33 = crecimiento del reino; en 16:6-12 = enseñanza de los fariseos y saduceos (hipocresía, herejía)",
+        "C": "Siempre es mala",
+        "D": "Es solo para hacer pan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 13:33 usa la levadura positivamente: el reino es como levadura que fermenta toda la masa. Pero Mateo 16:6-12 usa levadura negativamente: 'Guardaos de la levadura de los fariseos y de los saduceos' (enseñanza/herejía corrupta), y Jesús aclara que no hablaba del pan. Lucas 12:1 identifica la levadura como la hipocresía de los fariseos."
+    },
+    {
+      "id": 811,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Obreros viña",
+      "pregunta": "¿Cuál es el mensaje de la parábola de los obreros de la viña según Mateo 20:1-16?",
+      "opciones": {
+        "A": "Que hay que trabajar mucho",
+        "B": "La gracia de Dios es igual para todos los llamados, sin importar cuándo vinieron; el último será primero y el primero último; no es por mérito humano sino por generosidad divina",
+        "C": "Que hay que ser el primero",
+        "D": "Que el dinero es importante"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 20:1-16 enseña que aunque unos trabajaron desde la mañana y otros una hora, todos recibieron el mismo denario. '¿No te es lícito a ti hacer lo que quieras con lo tuyo? ¿O tienes tú envidia, porque yo soy bueno? Así que los postreros serán primeros, y los primeros postreros.'"
+    },
+    {
+      "id": 812,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Bodas",
+      "pregunta": "¿Qué significa la parábola de las bodas del rey según Mateo 22:1-14?",
+      "opciones": {
+        "A": "Que hay que casarse",
+        "B": "El reino de los cielos es como un rey que hizo bodas para su hijo; los invitados no quisieron venir; los siervos fueron a los cruces de los caminos; uno sin vestido de boda fue echado a las tinieblas de fuera",
+        "C": "Que las bodas son malas",
+        "D": "Que no hay que invitar a nadie"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 22:1-14: el reino es como bodas para el hijo del rey. Los invitados (judíos) no quisieron venir. Los siervos (apóstoles) fueron a los cruces (gentiles). El hombre sin vestido de boda (sin justicia de Cristo) fue echado a las tinieblas de fuera."
+    },
+    {
+      "id": 813,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Diez vírgenes",
+      "pregunta": "¿Qué significan las 10 vírgenes según Mateo 25:1-13?",
+      "opciones": {
+        "A": "Que hay que ser vírgenes",
+        "B": "Las prudentes con aceite (Espíritu, preparación genuina) entraron con el esposo; las insensatas sin aceite fueron excluidas; vigilar porque no sabemos el día ni la hora",
+        "C": "Que el aceite es malo",
+        "D": "Que las lámparas no importan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 25:1-13: las 10 vírgenes esperan al esposo (Cristo). Las 5 prudentes tomaron aceite en sus vasijas (preparación genuina); las 5 insensatas no. Cuando vino el esposo, solo las prudentes entraron. 'Velad, pues, porque no sabéis el día ni la hora en que el Hijo del Hombre ha de venir.'"
+    },
+    {
+      "id": 814,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Talentos",
+      "pregunta": "¿Qué enseña la parábola de los talentos según Mateo 25:14-30?",
+      "opciones": {
+        "A": "Que hay que ser rico",
+        "B": "A los que usaron bien lo recibido (5 y 2 talentos) se les dio más; al que enterró su talento (ociosidad, temor) se le quitó; 'al que tiene, se le dará; al que no tiene, aun lo que tiene se le quitará'",
+        "C": "Que hay que enterrar el dinero",
+        "D": "Que no hay que trabajar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 25:14-30: el que recibió 5 talentos ganó 5 más; el de 2 ganó 2 más; ambos fueron aprobados. El de 1 talento lo enterró por temor y fue reprendido como siervo malo y negligente. 'Porque al que tiene, se le dará, y tendrá más; pero al que no tiene, aun lo que tiene se le quitará.'"
+    },
+    {
+      "id": 815,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Ovejas y cabras",
+      "pregunta": "¿Cuál es el criterio de separación según Mateo 25:31-46?",
+      "opciones": {
+        "A": "Riqueza",
+        "B": "Las obras de misericordia hacia 'aun el más pequeño de estos': di de comer, di de beber, recibí al forastero, vestí al desnudo, visité al enfermo y al preso",
+        "C": "Origen étnico",
+        "D": "Conocimiento teológico"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 25:31-46: las ovejas (justos) son separadas de las cabras (malos). El criterio: 'Tuve hambre, y me disteis de comer; tuve sed, y me disteis de beber; era forastero, y me recibisteis...' 'En cuanto lo hicisteis a uno de estos mis hermanos más pequeños, a mí lo hicisteis.'"
+    },
+    {
+      "id": 816,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Hijo pródigo",
+      "pregunta": "¿Cuántos actos hay en la parábola del hijo pródigo según Lucas 15:11-32?",
+      "opciones": {
+        "A": "1 acto",
+        "B": "3 actos: partida y caída (v. 11-16), retorno y restauración (v. 17-24), reacción del hermano mayor (v. 25-32)",
+        "C": "5 actos",
+        "D": "10 actos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 15:11-32 tiene tres actos: 1) Partida y caída: el hijo pide su herencia, va lejos, lo pierde todo, se hace porquerizo (v. 11-16). 2) Retorno y restauración: arrepentimiento, el padre lo corre, abraza, restaura (v. 17-24). 3) Reacción del hermano mayor: enojo, celos, el padre sale a persuadirlo (v. 25-32)."
+    },
+    {
+      "id": 817,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Mayordomo injusto",
+      "pregunta": "¿Qué enseña la parábola del mayordomo injusto según Lucas 16:1-13?",
+      "opciones": {
+        "A": "Que hay que ser injusto",
+        "B": "Usemos el dinero injusto para ganar amigos, para que cuando falten nos reciban; el que es fiel en lo poco, también en lo mucho es fiel; no podéis servir a Dios y a las riquezas",
+        "C": "Que el dinero no importa",
+        "D": "Que hay que despedir a todos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 16:1-13: el mayordomo injusto, al ser despedido, usó la astucia para ganar amigos. Jesús dice: 'Hacedos amigos por medio de las riquezas injustas, para que cuando os falten, os reciban en las moradas eternas.' Enseña fidelidad en lo poco (v. 10) y que no se puede servir a Dios y a las riquezas (v. 13)."
+    },
+    {
+      "id": 818,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Juez injusto",
+      "pregunta": "¿Qué enseña la parábola del juez injusto según Lucas 18:1-8?",
+      "opciones": {
+        "A": "Que hay que sobornar",
+        "B": "Debemos orar siempre y no desmayar; si un juez injusto vengó a la viuda por su importunidad, ¿cuánto más Dios vindicará a sus escogidos? Cuando venga el Hijo del Hombre, ¿hallará fe en la tierra?",
+        "C": "Que no hay que orar",
+        "D": "Que los jueces son buenos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Luca 18:1-8: 'Es necesario orar siempre, y no desmayar.' Si un juez injusto (que ni temía a Dios ni respetaba a hombres) vengó a la viuda por su importunidad, '¿acaso Dios no hará justicia a sus escogidos...? Os digo que pronto les hará justicia.' Pero: 'Cuando venga el Hijo del Hombre, ¿hallará fe en la tierra?'"
+    },
+    {
+      "id": 819,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Parábolas complejas - Fariseo y publicano",
+      "pregunta": "¿Cuál es la lección de la parábola del fariseo y el publicano según Lucas 18:9-14?",
+      "opciones": {
+        "A": "Que hay que ser fariseo",
+        "B": "El fariseo confiado en su propia justicia no fue justificado; el publicano humillado sí fue justificado; el que se enaltece será humillado, y el que se humilla será enaltecido",
+        "C": "Que hay que ser publicano",
+        "D": "Que las oraciones largas son mejores"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 18:9-14: el fariseo se justificó a sí mismo ('no soy como los otros hombres'); el publicano se golpeó el pecho diciendo 'Dios, sé propicio a mí, pecador.' 'Este descendió a su casa justificado antes que el otro; porque cualquiera que se enaltece, será humillado; y el que se humilla será enaltecido.'"
+    },
+    {
+      "id": 820,
+      "nivel": 82,
+      "dificultad": 15,
+      "tema": "Conexiones AT-NT - Cordero",
+      "pregunta": "¿Qué conexiones hay entre el Cordero Pascual y Jesús según Juan 1:29, 1 Corintios 5:7, 1 Pedro 1:19?",
+      "opciones": {
+        "A": "Ninguna",
+        "B": "Jesús es el Cordero de Dios que quita el pecado del mundo; nuestra pascua; con preciosa sangre como de un cordero sin mancha y sin contaminación",
+        "C": "Son opuestos",
+        "D": "Son iguales en todos los sentidos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 1:29: 'He aquí el Cordero de Dios, que quita el pecado del mundo.' 1 Corintios 5:7: 'Cristo, nuestra pascua, fue sacrificado por nosotros.' 1 Pedro 1:19: 'sino con la sangre preciosa de Cristo, como de un cordero sin mancha y sin contaminación.' El Cordero Pascual (Éxodo 12) es tipo cumplido en Cristo."
+    },
+    {
+      "id": 821,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Conexiones AT-NT - Maná",
+      "pregunta": "¿Qué conexión hay entre el maná y Jesús según Juan 6:31-58?",
+      "opciones": {
+        "A": "Ninguna",
+        "B": "Moisés les dio el pan del cielo (maná), pero mi Padre les da el pan verdadero de cielo; Jesús es el pan de vida; el que come de este pan vivirá para siempre",
+        "C": "Que el maná era mejor",
+        "D": "Que Jesús rechaza el maná"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 6:31-58: los judíos mencionan el maná (v. 31). Jesús responde que no fue Moisés sino el Padre quien da el pan verdadero de cielo (v. 32); 'Yo soy el pan de vida' (v. 35, 48, 51); 'el pan que yo daré es mi carne, la cual yo daré por la vida del mundo' (v. 51); 'el que come de este pan, vivirá eternamente' (v. 58)."
+    },
+    {
+      "id": 822,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Conexiones AT-NT - Serpiente de bronce",
+      "pregunta": "¿Qué conexión hay entre la serpiente de bronce y Jesús según Números 21:4-9 y Juan 3:14-15?",
+      "opciones": {
+        "A": "Ninguna",
+        "B": "Como Moisés levantó la serpiente en el desierto, así es necesario que el Hijo del Hombre sea levantado, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna",
+        "C": "Que ambos son de bronce",
+        "D": "Que ambos muerden"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 21:4-9: serpientes venenosas mordieron a Israel; Moisés hizo una serpiente de bronce y la levantó en un asta; quien la miraba vivía. Juan 3:14-15: 'Y como Moisés levantó la serpiente en el desierto, así es necesario que el Hijo del Hombre sea levantado, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna.'"
+    },
+    {
+      "id": 823,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Conexiones AT-NT - Roca",
+      "pregunta": "¿Qué conexión hay entre la roca de Moisés y Cristo según Éxodo 17:6, 1 Corintios 10:4?",
+      "opciones": {
+        "A": "Ninguna",
+        "B": "Todos bebieron de la misma bebida espiritual; porque bebían de la roca espiritual que los seguía; y la roca era Cristo",
+        "C": "Que Moisés era mejor",
+        "D": "Que el agua no importa"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 17:6: Moisés golpeó la roca y salió agua. 1 Corintios 10:4: 'todos bebieron de la misma bebida espiritual; porque bebían de la roca espiritual que los seguía; y la roca era Cristo.' En Números 20:8-11, Moisés golpeó la roca dos veces (desobediencia); la roca es Cristo que fue golpeado una vez (Hebreos 10:12)."
+    },
+    {
+      "id": 824,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Conexiones AT-NT - Rey David",
+      "pregunta": "¿Cómo es David tipo de Cristo según 2 Samuel 7:12-16, Hechos 2:30-31, 13:22-23?",
+      "opciones": {
+        "A": "No hay conexión",
+        "B": "David fue rey ungido, sufrió persecuciones antes de reinar, conquistó Jerusalén, estableció pacto eterno; Cristo es el Hijo de David que cumple el pacto davídico",
+        "C": "Que David era perfecto",
+        "D": "Que Cristo rechaza a David"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 7:12-16: pacto davídico de reino eterno. Hechos 2:30-31: David profetizó de la resurrección de Cristo. Hechos 13:22-23: 'De la descendencia de David, según la promesa, Dios ha traído a Israel un Salvador, Jesús.' David: ungido, perseguido antes de reinar (Saul), conquistó Jerusalén (Sion), tipo de Cristo que hace todo esto en grado mayor."
+    },
+    {
+      "id": 825,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Conexiones AT-NT - Salmo 22 y 110",
+      "pregunta": "¿Cómo se cumplen Salmo 22 (crucifixión) y 110 (sacerdocio) en Hebreos?",
+      "opciones": {
+        "A": "No se cumplen",
+        "B": "Salmo 22 describe detalladamente la crucifixión (cumplida en los evangelios); Salmo 110 describe a Cristo como rey y sacerdote según el orden de Melquisedec (desarrollado en Hebreos 1, 5, 7)",
+        "C": "Son irrelevantes",
+        "D": "Son contradichos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Salmo 22: crucifixión detallada (v. 1 = Mateo 27:46; v. 6-8 escarnio = Mateo 27:39-44; v. 16 horadadura manos/pies = Juan 20:25-27; v. 18 repartición vestidos = Mateo 27:35). Salmo 110: 'Jehová dijo a mi Señor: Siéntate a mi diestra' (Hebreos 1:3, 13; 10:12-13); 'sacerdocio eterno según el orden de Melquisedec' (Hebreos 5:6; 6:20; 7:17, 21)."
+    },
+    {
+      "id": 826,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Doctrina de la Trinidad",
+      "pregunta": "¿Qué enseñan Mateo 28:19, 2 Corintios 13:14 y 1 Juan 5:7 sobre la Trinidad?",
+      "opciones": {
+        "A": "Que hay tres dioses",
+        "B": "Mateo 28:19: bautizad en el nombre del Padre, del Hijo y del Espíritu Santo; 2 Corintios 13:14: la gracia del Señor Jesucristo, el amor de Dios, y la comunión del Espíritu Santo; 1 Juan 5:7: tres son los que dan testimonio en el cielo: el Padre, el Verbo y el Espíritu Santo",
+        "C": "Que solo hay un Dios sin distinciones",
+        "D": "Que el Espíritu es impersonal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 28:19: bautismo en el nombre (singular) del Padre, del Hijo y del Espíritu Santo. 2 Corintios 13:14: bendición trinitaria. 1 Juan 5:7 (Textus Receptus; verso Johannine Comma, aunque algunos manuscritos lo omiten): 'tres son los que dan testimonio en el cielo: el Padre, el Verbo y el Espíritu Santo; y estos tres son uno.'"
+    },
+    {
+      "id": 827,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Doctrina de la Trinidad",
+      "pregunta": "¿Qué dice Juan 1:1 sobre la Deidad de Cristo?",
+      "opciones": {
+        "A": "Que Jesús fue creado",
+        "B": "En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios",
+        "C": "Que Jesús es un ángel",
+        "D": "Que Jesús es inferior al Padre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 1:1: 'En el principio era el Verbo, y el Verbo era con Dios, y el Verbo era Dios.' La gramática griega (kai theos en ho logos, sin artículo definido antes de theos) enfatiza la naturaleza divina del Verbo sin identificarlo totalmente con el Padre. "
+    },
+    {
+      "id": 828,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Doctrina de la Trinidad",
+      "pregunta": "¿Qué enseña Hebreos 1:8 sobre la Deidad de Cristo?",
+      "opciones": {
+        "A": "Que Jesús es un ángel",
+        "B": "Mas del Hijo dice: Tu trono, oh Dios, es eterno y para siempre; cetro de justicia es el cetro de tu reino; citando Salmo 45:6-7 donde el Salmista llama Dios al Hijo",
+        "C": "Que Jesús es menor que los ángeles",
+        "D": "Que Jesús fue creado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 1:8-9 cita Salmo 45:6-7: 'Mas del Hijo dice: Tu trono, oh Dios, es eterno y para siempre; cetro de equidad es el cetro de tu reino. Has amado la justicia, y aborrecido la maldad; por lo cual te ungió Dios, el Dios tuyo, con aceite de alegría más que a tus compañeros.'"
+    },
+    {
+      "id": 829,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Doctrina de la deidad",
+      "pregunta": "¿Qué dice Juan 8:58 sobre la preexistencia de Jesús?",
+      "opciones": {
+        "A": "Que Jesús nació en Belén",
+        "B": "De cierto, de cierto os digo: antes que Abraham fuese, yo soy (ego eimi, Yo Soy, el nombre divino de Éxodo 3:14)",
+        "C": "Que Jesús es menor que Abraham",
+        "D": "Que Jesús no existía antes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 8:58: 'Jesús les dijo: De cierto, de cierto os digo: Antes que Abraham fuese, yo soy (ego eimi).' Este 'Yo soy' (ἐγώ εἰμι) es la traducción griega del nombre divino hebreo 'Ehyeh asher ehyeh' (Yo soy el que soy) de Éxodo 3:14. Los judíos entendieron esta afirmación como reclamo de deidad (v. 59: tomaron piedras para arrojarle)."
+    },
+    {
+      "id": 830,
+      "nivel": 83,
+      "dificultad": 15,
+      "tema": "Doctrina de la deidad",
+      "pregunta": "¿Qué enseña Colosenses 2:9 sobre la deidad de Cristo?",
+      "opciones": {
+        "A": "Que Jesús es un ángel",
+        "B": "Porque en él habita corporalmente toda la plenitud de la Deidad",
+        "C": "Que Jesús carece de deidad",
+        "D": "Que Jesús es solo un profeta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 2:9: 'Porque en él habita corporalmente toda la plenitud de la Deidad.' La palabra griega es theotēs (deidad, naturaleza divina), no theios (divino, cualidad). En 1:19 dice 'toda la plenitud' (plērōma), término técnico para la totalidad de los atributos divinos."
+    },
+    {
+      "id": 831,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina del pecado",
+      "pregunta": "¿Qué enseña Romanos 3:10-12, 23 sobre el pecado universal?",
+      "opciones": {
+        "A": "Que solo algunos pecan",
+        "B": "No hay justo, ni aun uno... todos se desviaron... no hay quien haga lo bueno, ni aun uno... todos pecaron y están destituidos de la gloria de Dios",
+        "C": "Que los judíos no pecan",
+        "D": "Que los gentiles son los únicos pecadores"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 3:10-12 cita Salmos 14:1-3; 53:1-3: 'No hay justo, ni aun uno; no hay quien entienda... todos se desviaron... no hay quien haga lo bueno, no, ni siquiera uno.' Romanos 3:23: 'por cuanto todos pecaron, y están destituidos de la gloria de Dios.' El pecado es universal (judíos y gentiles)."
+    },
+    {
+      "id": 832,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina del pecado",
+      "pregunta": "¿Qué enseña Romanos 5:12-21 sobre la entrada del pecado?",
+      "opciones": {
+        "A": "Que el pecado siempre existió",
+        "B": "Por un hombre (Adán) entró el pecado en el mundo, y por el pecado la muerte... por la desobediencia de un hombre, los muchos fueron constituidos pecadores; así también por la obediencia de uno, los muchos serán constituidos justos",
+        "C": "Que Dios creó el pecado",
+        "D": "Que la mujer causó el pecado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 5:12-21: Adán como cabeza federal de la humanidad (v. 12, 15, 17, 19); su desobediencia trajo pecado y muerte a todos. Paralelo con Cristo (segundo Adán): su obediencia trae justificación y vida. 'Porque así como por la desobediencia de un hombre los muchos fueron constituidos pecadores, así también por la obediencia de uno, los muchos serán constituidos justos.'"
+    },
+    {
+      "id": 833,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de la salvación",
+      "pregunta": "¿Qué significa 'justificación' según Romanos 4:1-8, 5:1?",
+      "opciones": {
+        "A": "Hacerse justo por obras",
+        "B": "Ser declarado justo por Dios, no por obras, sino por fe... siendo justificados por fe, tenemos paz para con Dios",
+        "C": "Ser mejor que otros",
+        "D": "No pecar más"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 4:1-8: Abraham fue justificado por fe, no por obras (v. 2-3). 'Al que obra, no se le cuenta el salario como gracia, sino como deuda; pero al que no obra, sino cree en el que justifica al impío, su fe le es contada por justicia' (v. 4-5). Romanos 5:1: 'Siendo, pues, justificados por fe, tenemos paz para con Dios por medio de nuestro Señor Jesucristo.'"
+    },
+    {
+      "id": 834,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de la salvación",
+      "pregunta": "¿Qué significa 'santificación' según 1 Tesalonicenses 4:3-7, 5:23?",
+      "opciones": {
+        "A": "Hacerse rico",
+        "B": "La voluntad de Dios es vuestra santificación... Dios no nos ha llamado a inmundicia, sino a santificación... y el Dios de paz os santifique por completo",
+        "C": "Ir al templo",
+        "D": "Leer la Biblia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Tesalonicenses 4:3-7: 'La voluntad de Dios es vuestra santificación... porque Dios no nos ha llamado a inmundicia, sino a santificación.' 5:23: 'Y el mismo Dios de paz os santifique por completo; y todo vuestro ser, espíritu, alma y cuerpo, sea guardado irreprensible para la venida de nuestro Señor Jesucristo.' La santificación es proceso de ser hechos santos, no posición instantánea."
+    },
+    {
+      "id": 835,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de la salvación",
+      "pregunta": "¿Qué significa 'adopción' según Romanos 8:15-17, Efesios 1:5?",
+      "opciones": {
+        "A": "Adoptar niños humanos",
+        "B": "Recibisteis el espíritu de adopción... nos predestinó para ser adoptados hijos suyos por medio de Jesucristo... si hijos, también herederos de Dios y coherederos con Cristo",
+        "C": "Ser mejor que otros",
+        "D": "Trabajar más"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:15-17: 'Porque no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el espíritu de adopción, por el cual clamamos: ¡Abba, Padre!... si hijos, también herederos; herederos de Dios, y coherederos con Cristo.' Efesios 1:5: 'nos predestinó para ser adoptados hijos suyos por medio de Jesucristo.'"
+    },
+    {
+      "id": 836,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de la iglesia",
+      "pregunta": "¿Qué enseña 1 Corintios 12 sobre los dones espirituales?",
+      "opciones": {
+        "A": "Solo algunos tienen dones",
+        "B": "Hay diversidad de dones, pero el mismo Espíritu... son dada por el mismo Espíritu a cada uno para provecho... el cuerpo es uno pero tiene muchos miembros",
+        "C": "Que los dones son para lucirse",
+        "D": "Que solo los apóstoles tienen dones"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 12: diversidad de dones (v. 4-11): sabiduría, conocimiento, fe, sanidades, milagros, profecía, discernimiento, lenguas, interpretación. Uno mismo Espíritu distribuye. Analogía del cuerpo (v. 12-31): un cuerpo, muchos miembros, todos necesarios. No todos son ojo, ni oído; Dios acomodó los miembros en el cuerpo."
+    },
+    {
+      "id": 837,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de la iglesia",
+      "pregunta": "¿Qué enseña Efesios 4:11-16 sobre los ministerios?",
+      "opciones": {
+        "A": "Que solo hay apóstoles",
+        "B": "Él mismo dio a los unos como apóstoles, a otros como profetas, a otros como evangelistas, a otros como pastores y maestros, para la obra del ministerio... hasta que todos lleguemos a la unidad de la fe",
+        "C": "Que no hay ministerios",
+        "D": "Que todos son iguales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:11-16: los ministerios dados por Cristo (v. 11): apóstoles, profetas, evangelistas, pastores y maestros. Propósito (v. 12): para la obra del ministerio, para edificación del cuerpo de Cristo. Meta (v. 13): hasta que todos lleguemos a la unidad de la fe y del conocimiento del Hijo de Dios, a un varón perfecto, a la medida de la estatura de la plenitud de Cristo."
+    },
+    {
+      "id": 838,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de la iglesia",
+      "pregunta": "¿Qué sacramentos/ordinanzas instituyó Cristo según el NT?",
+      "opciones": {
+        "A": "Cinco",
+        "B": "Dos: el bautismo (Mateo 28:19; Romanos 6:3-4) y la Cena del Señor (Mateo 26:26-29; 1 Corintios 11:23-26)",
+        "C": "Diez",
+        "D": "Ninguno"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Cristo instituyó dos sacramentos/ordinanzas para la iglesia: 1) El bautismo: Mateo 28:19 (Gran Comisión); Romanos 6:3-4 (sepultura y resurrección con Cristo). 2) La Cena del Señor (Eucaristía): Mateo 26:26-29 (última cena); 1 Corintios 11:23-26 (institución; 'haced esto en memoria de mí')."
+    },
+    {
+      "id": 839,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de los últimos tiempos",
+      "pregunta": "¿Qué enseña 2 Tesalonicenses 2:1-12 sobre el hombre de pecado?",
+      "opciones": {
+        "A": "Que no habrá apostasía",
+        "B": "Primero vendrá la apostasía y se manifestará el hombre de pecado, el hijo de perdición, que se opone y se levanta contra todo lo que se llama Dios o es objeto de culto, de modo que se sienta en el templo de Dios como Dios, haciéndose pasar por Dios",
+        "C": "Que el mundo será perfecto",
+        "D": "Que no hay señales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Tesalonicenses 2:1-12: la venida de Cristo no será inmediata. Primero: 1) apostasía (v. 3), 2) manifestación del hombre de pecado (v. 3), 3) hijo de perdición (v. 3), 4) oposición a Dios (v. 4), 5) se sienta en el templo de Dios (v. 4), 6) hace señales y prodigios engañosos (v. 9). El que ahora retiene (el Espíritu/cuerpo de creyentes) será quitado de en medio (v. 6-7)."
+    },
+    {
+      "id": 840,
+      "nivel": 84,
+      "dificultad": 15,
+      "tema": "Doctrina de los últimos tiempos",
+      "pregunta": "¿Qué enseña 1 Corintios 15:20-28 sobre la resurrección y el fin?",
+      "opciones": {
+        "A": "Que no habrá resurrección",
+        "B": "Cristo es primicias; luego los de Cristo en su venida; luego el fin, cuando entregue el reino a Dios; Cristo debe reinar hasta poner a todos sus enemigos bajo sus pies; la muerte será destruida",
+        "C": "Que todos morirán",
+        "D": "Que no hay esperanza"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 15:20-28: orden de resurrección (v. 23-24): 1) Cristo primicias, 2) los de Cristo en su venida, 3) luego el fin (cuando entregue el reino a Dios). Cristo debe reinar hasta poner a todos sus enemigos bajo sus pies (v. 25). El enemigo último destruido será la muerte (v. 26). Todo será sometido bajo los pies de Cristo (v. 27)."
+    },
+    {
+      "id": 841,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Ética cristiana",
+      "pregunta": "¿Cuál es la norma de oro según Mateo 7:12?",
+      "opciones": {
+        "A": "Amar a Dios",
+        "B": "Todas las cosas, pues, que queráis que los hombres hagan con vosotros, así también haced vosotros con ellos; porque esto es la ley y los profetas",
+        "C": "No matarás",
+        "D": "No hurtarás"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 7:12 (Norma de Oro): 'Así que, todas las cosas que queráis que los hombres hagan con vosotros, así también haced vosotros con ellos; porque esto es la ley y los profetas.' También en Lucas 6:31: 'Y como queréis que hagan los hombres con vosotros, haced también vosotros con ellos.'"
+    },
+    {
+      "id": 842,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Ética cristiana",
+      "pregunta": "¿Qué enseña Romanos 12:1-2 sobre la transformación?",
+      "opciones": {
+        "A": "Que hay que conformarse al mundo",
+        "B": "Presentad vuestros cuerpos en sacrificio vivo, santo, agradable a Dios... no os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento",
+        "C": "Que hay que seguir las modas",
+        "D": "Que no importa el comportamiento"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 12:1-2: 'Así que, hermanos, os ruego por las misericordias de Dios, que presentéis vuestros cuerpos en sacrificio vivo, santo, agradable a Dios... Y no os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento, para que comprobéis cuál sea la buena voluntad de Dios, agradable y perfecta.'"
+    },
+    {
+      "id": 843,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Ética cristiana",
+      "pregunta": "¿Qué enseña Gálatas 5:22-23 sobre el fruto del Espíritu?",
+      "opciones": {
+        "A": "Que debemos trabajar más",
+        "B": "El fruto del Espíritu es amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza; contra tales cosas no hay ley",
+        "C": "Que debemos ser ricos",
+        "D": "Que debemos ser famosos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Gálatas 5:22-23: 'Mas el fruto del Espíritu es amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza; contra tales cosas no hay ley.' Estas nueve cualidades caracterizan a los que son guiados por el Espíritu (v. 18, 25)."
+    },
+    {
+      "id": 844,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Ética cristiana",
+      "pregunta": "¿Qué enseña Efesios 4:25-32 sobre la conducta cristiana?",
+      "opciones": {
+        "A": "Que hay que engañar",
+        "B": "Dejad la mentira, hablad la verdad... airaos, pero no pequéis... el que hurtaba, no hurte más... de vuestra boca no salga palabra corrompida, sino la que sea buena... sed benignos unos con otros, misericordiosos, perdonándoos unos a otros",
+        "C": "Que hay que robar",
+        "D": "Que hay de mentir"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Efesios 4:25-32: 1) dejad la mentir, hablad verdad (v. 25); 2) airaos pero no pequéis (v. 26); 3) el que hurtaba, no hurte más, trabaje (v. 28); 4) palabra corrupta vs. buena (v. 29); 5) no entristezcáis al Espíritu (v. 30); 6) quitar amargura, enojo, malicia (v. 31); 7) sed benignos, misericordiosos, perdonad (v. 32)."
+    },
+    {
+      "id": 845,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Ética cristiana",
+      "pregunta": "¿Qué enseña Colosenses 3:1-17 sobre la vida cristiana?",
+      "opciones": {
+        "A": "Que hay que buscar la tierra",
+        "B": "Buscad las cosas de arriba, donde está Cristo... poned la mira en las cosas de arriba... haced morir lo terrenal... vestíos de entrañas de misericordia, de benignidad, de humildad... sobre todas estas cosas, vestíos de amor",
+        "C": "Que no importa la conducta",
+        "D": "Que hay que vivir como el mundo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Colosenses 3:1-17: buscad las cosas de arriba (v. 1-2); haced morir lo terrenal (v. 5-11); vestíos (v. 12-14): entrañas de misericordia, benignidad, humildad, mansedumbre, paciencia, soportándoos, perdonándoos, amor (vinculo perfecto); dejad la paz de Dios gobernar (v. 15); habitad en palabra de Cristo (v. 16); haced todo en nombre del Señor (v. 17)."
+    },
+    {
+      "id": 846,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Vida cristiana práctica",
+      "pregunta": "¿Qué enseña Santiago 1:19-27 sobre la religión verdadera?",
+      "opciones": {
+        "A": "Que hay que ser rápido para hablar",
+        "B": "Todo hombre sea pronto para oír, tardío para hablar, tardío para la ira... cuidándose de no ser oyentes olvidadizos, sino hacedores... la religión pura y sin mancha es: visitar huérfanos y viudas, y guardarse sin mancha del mundo",
+        "C": "Que no hay que hacer nada",
+        "D": "Que solo hay que creer"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Santiago 1:19-27: pronto para oír, tardío para hablar e ira (v. 19); quitar inmundicia, recibir con mansedumbre la palabra (v. 21); sed hacedores, no solo oidores (v. 22-25); religión pura: visitar huérfanos y viudas, guardarse sin mancha del mundo (v. 27)."
+    },
+    {
+      "id": 847,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Vida cristiana práctica",
+      "pregunta": "¿Qué enseña 1 Pedro 3:8-12 sobre la hermandad cristiana?",
+      "opciones": {
+        "A": "Que hay que ser enemigos",
+        "B": "Finalmente, sed todos de un mismo sentir, compasivos, amándoos fraternalmente, misericordiosos, amigables; no devolviendo mal por mal... porque quien ama la vida y quiere ver días buenos, guarde su lengua del mal y sus labios de hablar engaño",
+        "C": "Que hay que competir",
+        "D": "Que hay que criticar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Pedro 3:8-12 (citando Salmo 34:12-16): 'sed todos de un mismo sentir, compasivos, amándoos fraternalmente, misericordiosos, amigables; no devolviendo mal por mal... porque el que quiere amar la vida y ver buenos días, guarde su lengua del mal, y sus labios de hablar engaño; apártese del mal, y haga el bien; busque la paz, y sígala.'"
+    },
+    {
+      "id": 848,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Vida cristiana práctica",
+      "pregunta": "¿Qué enseña Romanos 12:3-8 sobre los dones y humildad?",
+      "opciones": {
+        "A": "Que todos son iguales",
+        "B": "No penséis de vosotros más de lo que conviene... según la medida de fe que Dios repartió a cada uno... teniendo dones diferentes... el que enseña, en la enseñanza... el que preside, con solicitud",
+        "C": "Que hay que ser orgulloso",
+        "D": "Que los dones no importan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 12:3-8: 'No penséis de vosotros más de lo que conviene pensar, sino pensad con cordura, conforme a la medida de fe que Dios repartió a cada uno... teniendo dones diferentes según la gracia que nos es dada: el que enseña, en la enseñanza... el que exhorta, en la exhortación... el que preside, con solicitud; el que hace misericordia, con alegría.'"
+    },
+    {
+      "id": 849,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Hermenéutica bíblica",
+      "pregunta": "¿Qué es la hermenéutica bíblica?",
+      "opciones": {
+        "A": "Una ciudad bíblica",
+        "B": "El arte y la ciencia de la interpretación bíblica; incluye observación, interpretación y aplicación; contexto histórico-cultural, contexto literario, contexto teológico",
+        "C": "Un tipo de música",
+        "D": "Un idioma antiguo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La hermenéutica bíblica es el arte y la ciencia de la interpretación bíblica. Incluye: 1) Observación (¿qué dice el texto?), 2) Interpretación (¿qué significa el texto? - contexto histórico-cultural, literario, teológico), 3) Aplicación (¿qué significa para mí?). Principios: contexto, unidad de la Escritura, claridad, progreso de la revelación."
+    },
+    {
+      "id": 850,
+      "nivel": 85,
+      "dificultad": 15,
+      "tema": "Hermenéutica bíblica",
+      "pregunta": "¿Qué método de interpretación usa el NT para el AT según Lucas 24:27, 44-47?",
+      "opciones": {
+        "A": "Ignora el AT",
+        "B": "Cristocéntrico: comenzando desde Moisés y todos los profetas, les declaraba en todas las Escrituras lo que de él decían... es necesario que se cumplan todas las cosas escritas... el Cristo padecería y resucitaría de entre los muertos",
+        "C": "Literal únicamente",
+        "D": "Allegórico únicamente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 24:27: 'Y comenzando desde Moisés y siguiendo por todos los profetas, les declaraba en todas las Escrituras lo que de él decían.' Lucas 24:44-47: 'estas son las palabras que os hablé... es necesario que se cumplan todas las cosas escritas de mí en la ley de Moisés, en los profetas y en los salmos... el Cristo padecería, y resucitaría de los muertos al tercer día.'"
+    }
+  ]
+}

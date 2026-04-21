@@ -1,0 +1,512 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "1-10",
+    "dificultad": "Fácil",
+    "tema": "Preguntas Bíblicas Esenciales",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas esenciales del Antiguo y Nuevo Testamento para niveles iniciales"
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Quién fue el primer hombre?",
+      "opciones": { "A": "Adán", "B": "Noé", "C": "Abraham", "D": "Moisés" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 2:7 - Jehová Dios formó al hombre del polvo del suelo."
+    },
+    {
+      "id": 2,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Quién fue la primera mujer?",
+      "opciones": { "A": "Eva", "B": "Sara", "C": "Rebeca", "D": "Raquel" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 2:22 - De la costilla hizo una mujer."
+    },
+    {
+      "id": 3,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Noé",
+      "pregunta": "¿Quién construyó el arca?",
+      "opciones": { "A": "Noé", "B": "Moisés", "C": "David", "D": "Abraham" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 6:14 - Hazte un arca de madera resinosa."
+    },
+    {
+      "id": 4,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Cuántos días llovió en el Diluvio?",
+      "opciones": { "A": "40", "B": "7", "C": "100", "D": "30" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 7:12 - Llovió 40 días y 40 noches."
+    },
+    {
+      "id": 5,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Caín y Abel",
+      "pregunta": "¿Quién mató a Abel?",
+      "opciones": { "A": "Caín", "B": "Set", "C": "Noé", "D": "Abraham" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 4:8 - Caín atacó a su hermano."
+    },
+    {
+      "id": 6,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - José",
+      "pregunta": "¿Quién interpretó sueños en Egipto?",
+      "opciones": { "A": "José", "B": "Moisés", "C": "Daniel", "D": "David" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 41:15 - Dios dará respuesta."
+    },
+    {
+      "id": 7,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Quién guió a Israel fuera de Egipto?",
+      "opciones": { "A": "Moisés", "B": "Abraham", "C": "Isaac", "D": "Jacob" },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 3:10 - Saca a mi pueblo."
+    },
+    {
+      "id": 8,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Éxodo - Diez Mandamientos",
+      "pregunta": "¿Quién recibió los Diez Mandamientos?",
+      "opciones": { "A": "Moisés", "B": "David", "C": "Salomón", "D": "Abraham" },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 31:18 - Dios dio las tablas."
+    },
+    {
+      "id": 9,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Josué - Jericó",
+      "pregunta": "¿Quién derribó los muros de Jericó?",
+      "opciones": { "A": "Josué", "B": "Moisés", "C": "David", "D": "Sansón" },
+      "respuesta_correcta": "A",
+      "explicacion": "Josué 6:20 - El muro cayó."
+    },
+    {
+      "id": 10,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Quién venció a Goliat?",
+      "opciones": { "A": "David", "B": "Saúl", "C": "Samuel", "D": "Jonatán" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 17:50 - David venció."
+    },
+    {
+      "id": 11,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Matusalén",
+      "pregunta": "¿Cuántos años vivió Matusalén?",
+      "opciones": { "A": "969", "B": "777", "C": "900", "D": "800" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 5:27 - Matusalén vivió 969 años."
+    },
+    {
+      "id": 12,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Daniel - Foso de leones",
+      "pregunta": "¿Quién fue arrojado al foso de los leones?",
+      "opciones": { "A": "Daniel", "B": "Jonás", "C": "Pablo", "D": "Pedro" },
+      "respuesta_correcta": "A",
+      "explicacion": "Daniel 6:16 - Daniel fue arrojado."
+    },
+    {
+      "id": 13,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Jonás - El gran pez",
+      "pregunta": "¿Quién fue tragado por un gran pez?",
+      "opciones": { "A": "Jonás", "B": "Elías", "C": "Ezequiel", "D": "Isaías" },
+      "respuesta_correcta": "A",
+      "explicacion": "Jonás 1:17 - Un gran pez tragó a Jonás."
+    },
+    {
+      "id": 14,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Quién fue el rey más sabio de Israel?",
+      "opciones": { "A": "Salomón", "B": "David", "C": "Saúl", "D": "Ezequías" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 4:31 - Salomón fue el más sabio."
+    },
+    {
+      "id": 15,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Quién venció a los filisteos con quijada de asno?",
+      "opciones": { "A": "Sansón", "B": "David", "C": "Gedeón", "D": "Josué" },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 15:15 - Hirió a mil hombres."
+    },
+    {
+      "id": 16,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Quién construyó el templo de Jerusalén?",
+      "opciones": { "A": "Salomón", "B": "David", "C": "Ezequías", "D": "Josías" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 6:1 - Salomón edificó la casa."
+    },
+    {
+      "id": 17,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Éxodo - Plagas",
+      "pregunta": "¿Cuántas plagas envió Dios sobre Egipto?",
+      "opciones": { "A": "10", "B": "7", "C": "12", "D": "5" },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 7-12 - Diez plagas sobre Egipto."
+    },
+    {
+      "id": 18,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Quién era la madre de Moisés?",
+      "opciones": { "A": "Jocabed", "B": "Miriam", "C": "Séfora", "D": "Lea" },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 6:20 - Jocabed, hija de Leví."
+    },
+    {
+      "id": 19,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Números - Desierto",
+      "pregunta": "¿Cuántos años estuvo Israel en el desierto?",
+      "opciones": { "A": "40", "B": "20", "C": "50", "D": "30" },
+      "respuesta_correcta": "A",
+      "explicacion": "Números 14:33 - Cuarenta años en el desierto."
+    },
+    {
+      "id": 20,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "1 Samuel - Saúl",
+      "pregunta": "¿Quién fue el primer rey de Israel?",
+      "opciones": { "A": "Saúl", "B": "David", "C": "Samuel", "D": "Salomón" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 10:1 - Samuel ungió a Saúl."
+    },
+    {
+      "id": 21,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Quién ungió a David como rey?",
+      "opciones": { "A": "Samuel", "B": "Natán", "C": "Gad", "D": "Abimelec" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 16:13 - Samuel ungió a David."
+    },
+    {
+      "id": 22,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "1 Samuel - Goliat",
+      "pregunta": "¿Qué arma usó David contra Goliat?",
+      "opciones": { "A": "Honda", "B": "Espada", "C": "Lanza", "D": "Arco" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 17:49 - Tomó su honda y una piedra."
+    },
+    {
+      "id": 23,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Éxodo - Sinaí",
+      "pregunta": "¿En qué monte recibió Moisés los mandamientos?",
+      "opciones": { "A": "Sinaí", "B": "Carmelo", "C": "Sion", "D": "Nebo" },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 19:20 - Dios descendió al monte Sinaí."
+    },
+    {
+      "id": 24,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Éxodo - Aarón",
+      "pregunta": "¿Quién era el hermano de Moisés?",
+      "opciones": { "A": "Aarón", "B": "Josué", "C": "Caleb", "D": "Core" },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 4:14 - Aarón, el levita, es tu hermano."
+    },
+    {
+      "id": 25,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - Jacob",
+      "pregunta": "¿Cuántos hijos tuvo Jacob?",
+      "opciones": { "A": "12", "B": "10", "C": "7", "D": "13" },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 35:22 - Doce hijos tuvo Jacob."
+    },
+    {
+      "id": 26,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Rut - Boaz",
+      "pregunta": "¿Quién fue el esposo de Rut?",
+      "opciones": { "A": "Boaz", "B": "Elimelec", "C": "Quelión", "D": "Mahlon" },
+      "respuesta_correcta": "A",
+      "explicacion": "Rut 4:13 - Boaz tomó a Rut por esposa."
+    },
+    {
+      "id": 27,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Rut - Noemí",
+      "pregunta": "¿Quién era la suegra de Rut?",
+      "opciones": { "A": "Noemí", "B": "Débora", "C": "Ana", "D": "Jezabel" },
+      "respuesta_correcta": "A",
+      "explicacion": "Rut 1:4 - Noemí era su suegra."
+    },
+    {
+      "id": 28,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Jueces - Débora",
+      "pregunta": "¿Quién fue la primera jueza de Israel?",
+      "opciones": { "A": "Débora", "B": "Rut", "C": "Ester", "D": "Abigail" },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 4:4 - Débora, profetisa, juzgaba a Israel."
+    },
+    {
+      "id": 29,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Ester - Reina",
+      "pregunta": "¿Quién salvó a Israel siendo reina?",
+      "opciones": { "A": "Ester", "B": "Rut", "C": "Dalila", "D": "Débora" },
+      "respuesta_correcta": "A",
+      "explicacion": "Ester 4:14 - Ester salvó a su pueblo."
+    },
+    {
+      "id": 30,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Quién fue el profeta del fuego?",
+      "opciones": { "A": "Elías", "B": "Eliseo", "C": "Isaías", "D": "Jeremías" },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 18:38 - El fuego de Jehová cayó."
+    },
+    {
+      "id": 31,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Mateo - Nacimiento",
+      "pregunta": "¿Dónde nació Jesús?",
+      "opciones": { "A": "Belén", "B": "Nazaret", "C": "Jerusalén", "D": "Capernaum" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 2:1 - Jesús nació en Belén."
+    },
+    {
+      "id": 32,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Mateo - Bautismo",
+      "pregunta": "¿Quién bautizó a Jesús?",
+      "opciones": { "A": "Juan", "B": "Pedro", "C": "Pablo", "D": "Andrés" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 3:13 - Jesús fue bautizado."
+    },
+    {
+      "id": 33,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Mateo - Discípulos",
+      "pregunta": "¿Cuántos discípulos tuvo Jesús?",
+      "opciones": { "A": "12", "B": "10", "C": "7", "D": "70" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 10:1 - Llamó a doce discípulos."
+    },
+    {
+      "id": 34,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Lucas - Negación",
+      "pregunta": "¿Quién negó a Jesús tres veces?",
+      "opciones": { "A": "Pedro", "B": "Juan", "C": "Tomás", "D": "Andrés" },
+      "respuesta_correcta": "A",
+      "explicacion": "Lucas 22:61 - Pedro negó."
+    },
+    {
+      "id": 35,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Hechos - Muerte",
+      "pregunta": "¿En qué murió Jesús?",
+      "opciones": { "A": "En un madero", "B": "En cruz", "C": "A espada", "D": "En la horca" },
+      "respuesta_correcta": "A",
+      "explicacion": "Hechos 5:30 - Colgado en un madero."
+    },
+    {
+      "id": 36,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Apocalipsis - Juan",
+      "pregunta": "¿Quién escribió Apocalipsis?",
+      "opciones": { "A": "Juan", "B": "Pedro", "C": "Pablo", "D": "Mateo" },
+      "respuesta_correcta": "A",
+      "explicacion": "Apocalipsis 1:1 - Revelación dada a Juan."
+    },
+    {
+      "id": 37,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Traición",
+      "pregunta": "¿Quién traicionó a Jesús?",
+      "opciones": { "A": "Judas", "B": "Pedro", "C": "Tomás", "D": "Santiago" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 26:14 - Judas lo entregó."
+    },
+    {
+      "id": 38,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Pago",
+      "pregunta": "¿Cuánto recibió Judas por traicionar a Jesús?",
+      "opciones": { "A": "30 piezas de plata", "B": "10 monedas", "C": "50 denarios", "D": "100 dracmas" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 26:15 - Le pagaron 30 piezas de plata."
+    },
+    {
+      "id": 39,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Cruz",
+      "pregunta": "¿Quién llevó el madero de Jesús?",
+      "opciones": { "A": "Simón de Cirene", "B": "Juan", "C": "Pedro", "D": "María" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:32 - Obligaron a Simón a cargar el madero."
+    },
+    {
+      "id": 40,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Transfiguración",
+      "pregunta": "¿En qué monte se transfiguró Jesús?",
+      "opciones": { "A": "Monte alto", "B": "Carmelo", "C": "Sinaí", "D": "Tabor" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 17:1 - Subió a un monte alto."
+    },
+    {
+      "id": 41,
+      "nivel": 9,
+      "dificultad": 4,
+      "tema": "Mateo - Multiplicación",
+      "pregunta": "¿Cuántos panes multiplicó Jesús?",
+      "opciones": { "A": "5", "B": "7", "C": "12", "D": "2" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 14:17 - Cinco panes y dos peces."
+    },
+    {
+      "id": 42,
+      "nivel": 9,
+      "dificultad": 4,
+      "tema": "Hechos - Esteban",
+      "pregunta": "¿Quién fue el primer mártir cristiano?",
+      "opciones": { "A": "Esteban", "B": "Jacobo", "C": "Pablo", "D": "Santiago" },
+      "respuesta_correcta": "A",
+      "explicacion": "Hechos 7:59 - Esteban fue apedreado."
+    },
+    {
+      "id": 43,
+      "nivel": 9,
+      "dificultad": 4,
+      "tema": "Hechos - Cristianos",
+      "pregunta": "¿En qué ciudad se llamaron primero cristianos?",
+      "opciones": { "A": "Antioquía", "B": "Jerusalén", "C": "Roma", "D": "Corinto" },
+      "respuesta_correcta": "A",
+      "explicacion": "Hechos 11:26 - En Antioquía los llamaron cristianos."
+    },
+    {
+      "id": 44,
+      "nivel": 9,
+      "dificultad": 4,
+      "tema": "Romanos - Pablo",
+      "pregunta": "¿Quién escribió más cartas del Nuevo Testamento?",
+      "opciones": { "A": "Pablo", "B": "Juan", "C": "Pedro", "D": "Santiago" },
+      "respuesta_correcta": "A",
+      "explicacion": "Romanos 1:1 - Pablo escribió muchas cartas."
+    },
+    {
+      "id": 45,
+      "nivel": 9,
+      "dificultad": 4,
+      "tema": "Juan - Lázaro",
+      "pregunta": "¿Quién resucitó a Lázaro?",
+      "opciones": { "A": "Jesús", "B": "Pedro", "C": "Elías", "D": "Pablo" },
+      "respuesta_correcta": "A",
+      "explicacion": "Juan 11:43 - Jesús llamó a Lázaro."
+    },
+    {
+      "id": 46,
+      "nivel": 10,
+      "dificultad": 5,
+      "tema": "Mateo - Resurrección",
+      "pregunta": "¿Cuántos días estuvo Jesús en el sepulcro?",
+      "opciones": { "A": "3", "B": "2", "C": "7", "D": "1" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 12:40 - Tres días y tres noches."
+    },
+    {
+      "id": 47,
+      "nivel": 10,
+      "dificultad": 5,
+      "tema": "Juan - Resurrección",
+      "pregunta": "¿A quién se le apareció primero Jesús resucitado?",
+      "opciones": { "A": "María Magdalena", "B": "Pedro", "C": "Juan", "D": "Santiago" },
+      "respuesta_correcta": "A",
+      "explicacion": "Juan 20:16 - Jesús dijo: María."
+    },
+    {
+      "id": 48,
+      "nivel": 10,
+      "dificultad": 5,
+      "tema": "Mateo - Ayuno",
+      "pregunta": "¿Cuántos días duró el ayuno de Jesús?",
+      "opciones": { "A": "40", "B": "7", "C": "3", "D": "21" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 4:2 - Ayunó cuarenta días y cuarenta noches."
+    },
+    {
+      "id": 49,
+      "nivel": 10,
+      "dificultad": 5,
+      "tema": "Mateo - Pedro",
+      "pregunta": "¿Qué ocupación tenía Pedro antes de seguir a Jesús?",
+      "opciones": { "A": "Pescador", "B": "Carpintero", "C": "Recaudador", "D": "Levita" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 4:18 - Pedro era pescador."
+    },
+    {
+      "id": 50,
+      "nivel": 10,
+      "dificultad": 5,
+      "tema": "Mateo - José",
+      "pregunta": "¿Quién era el padre adoptivo de Jesús?",
+      "opciones": { "A": "José", "B": "Zacarías", "C": "Simeón", "D": "Juan" },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 1:16 - José, esposo de María."
+    }
+  ]
+}

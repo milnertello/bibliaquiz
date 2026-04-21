@@ -4754,3 +4754,543 @@
       color: var(--candy1);
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
     }
+
+    /* Estilos para mapa extendido con 100 niveles */
+    .map-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      background: linear-gradient(180deg, 
+        #87CEEB 0%, 
+        #98D8C8 15%, 
+        #90EE90 30%, 
+        #7CB342 45%,
+        #689F38 60%,
+        #558B2F 75%,
+        #33691E 90%,
+        #1B5E20 100%
+      );
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .map-path-content {
+      position: relative;
+      min-height: 800%;
+      padding-bottom: 100px;
+    }
+
+    /* === PARTÍCULAS FLOTANDO ALREDEDOR DE NIVELES DESBLOQUEADOS === */
+    
+    .level-particles-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 5;
+      overflow: visible;
+    }
+    
+    .level-particle {
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+      will-change: transform, opacity;
+    }
+    
+    /* Tipos de partículas */
+    .level-particle.star {
+      width: 8px;
+      height: 8px;
+      background: radial-gradient(circle, #FFD700 0%, #FFA000 50%, transparent 70%);
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #FFA000;
+    }
+    
+    .level-particle.sparkle {
+      width: 6px;
+      height: 6px;
+      background: radial-gradient(circle, #FFFFFF 0%, #E0E0E0 50%, transparent 70%);
+      box-shadow: 0 0 8px #FFFFFF, 0 0 15px #FFD700;
+    }
+    
+    .level-particle.glow {
+      width: 12px;
+      height: 12px;
+      background: radial-gradient(circle, rgba(255,215,0,0.6) 0%, rgba(255,160,0,0.3) 50%, transparent 70%);
+      filter: blur(2px);
+    }
+    
+    .level-particle.orb {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #87CEEB 0%, #E1F5FE 50%, #FFFFFF 100%);
+      box-shadow: 0 0 15px rgba(135,206,235,0.6), inset 0 0 10px rgba(255,255,255,0.8);
+    }
+    
+    /* Animaciones de partículas */
+    @keyframes particleOrbit {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(35px) rotate(0deg);
+        opacity: 0.8;
+      }
+      25% {
+        opacity: 1;
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(180deg) translateX(35px) rotate(-180deg);
+        opacity: 0.6;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(35px) rotate(-360deg);
+        opacity: 0.8;
+      }
+    }
+    
+    @keyframes particleFloat {
+      0%, 100% {
+        transform: translate(-50%, -50%) translateY(0) scale(1);
+        opacity: 0.7;
+      }
+      50% {
+        transform: translate(-50%, -50%) translateY(-20px) scale(1.2);
+        opacity: 1;
+      }
+    }
+    
+    @keyframes particlePulse {
+      0%, 100% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.5;
+      }
+      50% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 1;
+      }
+    }
+    
+    @keyframes particleDrift {
+      0% {
+        transform: translate(-50%, -50%) translate(0, 0);
+        opacity: 0;
+      }
+      20% {
+        opacity: 1;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        transform: translate(-50%, -50%) translate(30px, -40px);
+        opacity: 0;
+      }
+    }
+    
+    /* Aplicar animaciones */
+    .level-particle.orbit {
+      animation: particleOrbit 4s linear infinite;
+    }
+    
+    .level-particle.float {
+      animation: particleFloat 3s ease-in-out infinite;
+    }
+    
+    .level-particle.pulse {
+      animation: particlePulse 2s ease-in-out infinite;
+    }
+    
+    .level-particle.drift {
+      animation: particleDrift 5s ease-out infinite;
+    }
+    
+    /* Retrasos para crear efecto orgánico */
+    .level-particle:nth-child(1) { animation-delay: 0s; }
+    .level-particle:nth-child(2) { animation-delay: 0.5s; }
+    .level-particle:nth-child(3) { animation-delay: 1s; }
+    .level-particle:nth-child(4) { animation-delay: 1.5s; }
+    .level-particle:nth-child(5) { animation-delay: 2s; }
+    .level-particle:nth-child(6) { animation-delay: 2.5s; }
+    .level-particle:nth-child(7) { animation-delay: 3s; }
+    .level-particle:nth-child(8) { animation-delay: 3.5s; }
+    
+    /* Halo dorado alrededor de niveles desbloqueados */
+    .level-pin.unlocked .level::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 60px;
+      height: 60px;
+      transform: translate(-50%, -50%);
+      background: radial-gradient(circle, rgba(255,215,0,0.3) 0%, rgba(255,160,0,0.1) 40%, transparent 70%);
+      border-radius: 50%;
+      animation: haloPulse 3s ease-in-out infinite;
+      pointer-events: none;
+      z-index: -1;
+    }
+    
+    @keyframes haloPulse {
+      0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+      }
+      50% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 0.3;
+      }
+    }
+    
+    /* === EFECTO DE ONDAS CIRCULARES === */
+    
+    .level-waves-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 3;
+      overflow: visible;
+    }
+    
+    .level-wave {
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 215, 0, 0.6);
+      background: transparent;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+    }
+    
+    .level-wave.wave-1 {
+      animation: waveExpand 3s ease-out infinite;
+    }
+    
+    .level-wave.wave-2 {
+      animation: waveExpand 3s ease-out infinite;
+      animation-delay: 1s;
+    }
+    
+    .level-wave.wave-3 {
+      animation: waveExpand 3s ease-out infinite;
+      animation-delay: 2s;
+    }
+    
+    @keyframes waveExpand {
+      0% {
+        width: 40px;
+        height: 40px;
+        opacity: 0.8;
+        border-width: 3px;
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), inset 0 0 10px rgba(255, 215, 0, 0.3);
+      }
+      50% {
+        opacity: 0.4;
+        border-width: 2px;
+      }
+      100% {
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+        border-width: 1px;
+        box-shadow: 0 0 30px rgba(255, 215, 0, 0), inset 0 0 20px rgba(255, 215, 0, 0);
+      }
+    }
+    
+    /* Variantes de color por bloque */
+    .level-block-1 .level-wave { border-color: rgba(139, 195, 74, 0.6); box-shadow: 0 0 10px rgba(139, 195, 74, 0.5); }
+    .level-block-2 .level-wave { border-color: rgba(41, 182, 246, 0.6); box-shadow: 0 0 10px rgba(41, 182, 246, 0.5); }
+    .level-block-3 .level-wave { border-color: rgba(171, 71, 188, 0.6); box-shadow: 0 0 10px rgba(171, 71, 188, 0.5); }
+    .level-block-4 .level-wave { border-color: rgba(255, 167, 38, 0.6); box-shadow: 0 0 10px rgba(255, 167, 38, 0.5); }
+    .level-block-5 .level-wave { border-color: rgba(255, 64, 129, 0.6); box-shadow: 0 0 10px rgba(255, 64, 129, 0.5); }
+    .level-block-6 .level-wave { border-color: rgba(255, 238, 88, 0.6); box-shadow: 0 0 10px rgba(255, 238, 88, 0.5); }
+    .level-block-7 .level-wave { border-color: rgba(38, 198, 218, 0.6); box-shadow: 0 0 10px rgba(38, 198, 218, 0.5); }
+    .level-block-8 .level-wave { border-color: rgba(239, 83, 80, 0.6); box-shadow: 0 0 10px rgba(239, 83, 80, 0.5); }
+    .level-block-9 .level-wave { border-color: rgba(92, 107, 192, 0.6); box-shadow: 0 0 10px rgba(92, 107, 192, 0.5); }
+    .level-block-10 .level-wave { border-color: rgba(255, 215, 0, 0.8); box-shadow: 0 0 15px rgba(255, 215, 0, 0.6); }
+    .level-block-11 .level-wave { border-color: rgba(189, 189, 189, 0.6); box-shadow: 0 0 10px rgba(189, 189, 189, 0.5); }
+    .level-block-12 .level-wave { border-color: rgba(141, 110, 99, 0.6); box-shadow: 0 0 10px rgba(141, 110, 99, 0.5); }
+    .level-block-13 .level-wave { border-color: rgba(156, 204, 101, 0.6); box-shadow: 0 0 10px rgba(156, 204, 101, 0.5); }
+    .level-block-14 .level-wave { border-color: rgba(255, 112, 67, 0.6); box-shadow: 0 0 10px rgba(255, 112, 67, 0.5); }
+    .level-block-15 .level-wave { border-color: rgba(77, 208, 225, 0.6); box-shadow: 0 0 10px rgba(77, 208, 225, 0.5); }
+    .level-block-16 .level-wave { border-color: rgba(126, 87, 194, 0.6); box-shadow: 0 0 10px rgba(126, 87, 194, 0.5); }
+    .level-block-17 .level-wave { border-color: rgba(255, 202, 40, 0.6); box-shadow: 0 0 10px rgba(255, 202, 40, 0.5); }
+    .level-block-18 .level-wave { border-color: rgba(233, 30, 99, 0.6); box-shadow: 0 0 10px rgba(233, 30, 99, 0.5); }
+    .level-block-19 .level-wave { border-color: rgba(102, 187, 106, 0.6); box-shadow: 0 0 10px rgba(102, 187, 106, 0.5); }
+    .level-block-20 .level-wave { 
+      border-color: rgba(255, 215, 0, 0.9); 
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.4);
+      animation-duration: 2s;
+    }
+
+    /* Mejoras para el scroll del mapa */
+    .map-path-area {
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .map-path-area::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    .map-path-area::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.2);
+      border-radius: 5px;
+    }
+
+    .map-path-area::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg, #8BC34A, #4CAF50);
+      border-radius: 5px;
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+
+    /* Indicador de progreso en el mapa */
+    .level-pin:nth-child(5n) .level {
+      box-shadow: 0 0 0 3px rgba(255,215,0,0.4), 0 6px 0 rgba(0,0,0,0.2);
+    }
+
+    .level-pin:nth-child(10n) .level {
+      box-shadow: 0 0 0 4px rgba(255,215,0,0.6), 0 8px 0 rgba(0,0,0,0.25);
+      font-size: 1.1em;
+    }
+
+    /* Marcadores especiales para milestones */
+    .level-pin[data-level="25"] .level,
+    .level-pin[data-level="50"] .level,
+    .level-pin[data-level="75"] .level,
+    .level-pin[data-level="100"] .level {
+      background: linear-gradient(135deg, #FFD700, #FFA000);
+      color: #333;
+      font-weight: 900;
+      box-shadow: 0 0 0 5px rgba(255,215,0,0.5), 0 10px 0 rgba(0,0,0,0.3);
+    }
+
+    /* Animación suave al aparecer niveles */
+    .level-pin {
+      animation: levelAppear 0.4s ease-out;
+    }
+
+    @keyframes levelAppear {
+      from {
+        opacity: 0;
+        transform: translateY(-20px) scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* Mejoras para móviles con muchos niveles */
+    @media (max-width: 480px) {
+      .level-pin .level {
+        width: 38px;
+        height: 38px;
+        font-size: 0.9rem;
+      }
+      
+      .map-path-content {
+        min-height: 1000%;
+      }
+      
+      .scroll-hint {
+        font-size: 0.75rem;
+        padding: 4px 10px;
+      }
+    }
+
+    /* === DISEÑOS POR BLOQUES DE 5 NIVELES === */
+    
+    /* Bloque 1 (Niveles 1-5): Diseño Clásico Verde */
+    .level-block-1 .level {
+      background: linear-gradient(135deg, #8BC34A, #4CAF50);
+      border: 3px solid #2E7D32;
+      box-shadow: 0 5px 0 #2E7D32, 0 8px 15px rgba(0,0,0,0.2);
+    }
+    
+    /* Bloque 2 (Niveles 6-10): Diseño Azul Océano */
+    .level-block-2 .level {
+      background: linear-gradient(135deg, #29B6F6, #0277BD);
+      border: 3px solid #01579B;
+      box-shadow: 0 5px 0 #01579B, 0 8px 15px rgba(0,0,0,0.2);
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+    
+    /* Bloque 3 (Niveles 11-15): Diseño Púrpura Real */
+    .level-block-3 .level {
+      background: linear-gradient(135deg, #AB47BC, #7B1FA2);
+      border: 3px solid #4A148C;
+      box-shadow: 0 5px 0 #4A148C, 0 8px 15px rgba(0,0,0,0.2);
+      border-radius: 50%;
+    }
+    
+    /* Bloque 4 (Niveles 16-20): Diseño Naranja Fuego */
+    .level-block-4 .level {
+      background: linear-gradient(135deg, #FFA726, #EF6C00);
+      border: 3px solid #E65100;
+      box-shadow: 0 5px 0 #E65100, 0 8px 15px rgba(0,0,0,0.2), inset 0 2px 5px rgba(255,255,255,0.3);
+    }
+    
+    /* Bloque 5 (Niveles 21-25): Diseño Rosa Neón */
+    .level-block-5 .level {
+      background: linear-gradient(135deg, #FF4081, #C2185B);
+      border: 3px solid #880E4F;
+      box-shadow: 0 5px 0 #880E4F, 0 0 20px rgba(255,64,129,0.4);
+    }
+    
+    /* Bloque 6 (Niveles 26-30): Diseño Amarillo Sol */
+    .level-block-6 .level {
+      background: linear-gradient(135deg, #FFEB3B, #FBC02D);
+      border: 3px solid #F57F17;
+      box-shadow: 0 5px 0 #F57F17, 0 8px 15px rgba(0,0,0,0.2);
+      color: #333;
+      font-weight: 900;
+    }
+    
+    /* Bloque 7 (Niveles 31-35): Diseño Turquesa Cristal */
+    .level-block-7 .level {
+      background: linear-gradient(135deg, #00BCD4, #00838F);
+      border: 3px solid #006064;
+      box-shadow: 0 5px 0 #006064, inset 0 0 20px rgba(255,255,255,0.2);
+      clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    }
+    
+    /* Bloque 8 (Niveles 36-40): Diseño Rojo Rubí */
+    .level-block-8 .level {
+      background: linear-gradient(135deg, #E53935, #B71C1C);
+      border: 3px solid #7F0000;
+      box-shadow: 0 5px 0 #7F0000, 0 8px 15px rgba(0,0,0,0.3), inset 0 0 15px rgba(255,255,255,0.2);
+    }
+    
+    /* Bloque 9 (Niveles 41-45): Diseño Índigo Místico */
+    .level-block-9 .level {
+      background: linear-gradient(135deg, #5C6BC0, #1A237E);
+      border: 3px solid #0D1245;
+      box-shadow: 0 5px 0 #0D1245, 0 0 25px rgba(92,107,192,0.5);
+    }
+    
+    /* Bloque 10 (Niveles 46-50): Diseño Dorado Élite */
+    .level-block-10 .level {
+      background: linear-gradient(135deg, #FFD700, #FFA000);
+      border: 4px solid #FF6F00;
+      box-shadow: 0 6px 0 #FF6F00, 0 10px 30px rgba(255,215,0,0.4);
+      color: #333;
+      font-weight: 900;
+      transform: scale(1.05);
+    }
+    
+    /* Bloque 11 (Niveles 51-55): Diseño Plata Metálico */
+    .level-block-11 .level {
+      background: linear-gradient(135deg, #E0E0E0, #9E9E9E);
+      border: 3px solid #616161;
+      box-shadow: 0 5px 0 #616161, inset 0 1px 0 rgba(255,255,255,0.8);
+      color: #333;
+    }
+    
+    /* Bloque 12 (Niveles 56-60): Diseño Café Tierra */
+    .level-block-12 .level {
+      background: linear-gradient(135deg, #8D6E63, #4E342E);
+      border: 3px solid #3E2723;
+      box-shadow: 0 5px 0 #3E2723, 0 8px 15px rgba(0,0,0,0.3);
+    }
+    
+    /* Bloque 13 (Niveles 61-65): Diseño Lima Eléctrico */
+    .level-block-13 .level {
+      background: linear-gradient(135deg, #C6FF00, #64DD17);
+      border: 3px solid #33691E;
+      box-shadow: 0 5px 0 #33691E, 0 0 30px rgba(198,255,0,0.4);
+      color: #333;
+      font-weight: 900;
+    }
+    
+    /* Bloque 14 (Niveles 66-70): Diseño Coral Tropical */
+    .level-block-14 .level {
+      background: linear-gradient(135deg, #FF7043, #D84315);
+      border: 3px solid #BF360C;
+      box-shadow: 0 5px 0 #BF360C, 0 8px 15px rgba(0,0,0,0.2);
+      border-radius: 40% 60% 60% 40% / 60% 40% 60% 40%;
+    }
+    
+    /* Bloque 15 (Niveles 71-75): Diseño Cian Hielo */
+    .level-block-15 .level {
+      background: linear-gradient(135deg, #00E5FF, #00ACC1);
+      border: 3px solid #00838F;
+      box-shadow: 0 5px 0 #00838F, 0 0 25px rgba(0,229,255,0.4), inset 0 0 20px rgba(255,255,255,0.3);
+    }
+    
+    /* Bloque 16 (Niveles 76-80): Diseño Violeta Profundo */
+    .level-block-16 .level {
+      background: linear-gradient(135deg, #7C4DFF, #4527A0);
+      border: 3px solid #311B92;
+      box-shadow: 0 5px 0 #311B92, 0 0 30px rgba(124,77,255,0.4);
+    }
+    
+    /* Bloque 17 (Niveles 81-85): Diseño Ámbar Dorado */
+    .level-block-17 .level {
+      background: linear-gradient(135deg, #FFC107, #FF8F00);
+      border: 3px solid #E65100;
+      box-shadow: 0 5px 0 #E65100, 0 8px 20px rgba(255,193,7,0.4);
+      color: #333;
+    }
+    
+    /* Bloque 18 (Niveles 86-90): Diseño Magenta Brillante */
+    .level-block-18 .level {
+      background: linear-gradient(135deg, #E91E63, #AD1457);
+      border: 3px solid #880E4F;
+      box-shadow: 0 5px 0 #880E4F, 0 0 25px rgba(233,30,99,0.4);
+    }
+    
+    /* Bloque 19 (Niveles 91-95): Diseño Esmeralda Brillante */
+    .level-block-19 .level {
+      background: linear-gradient(135deg, #00E676, #00C853);
+      border: 3px solid #1B5E20;
+      box-shadow: 0 5px 0 #1B5E20, 0 0 30px rgba(0,230,118,0.4);
+    }
+    
+    /* Bloque 20 (Niveles 96-100): Diseño Diamante LEGENDARIO */
+    .level-block-20 .level {
+      background: linear-gradient(135deg, #FFD700, #FF6F00, #FFD700);
+      background-size: 200% 200%;
+      animation: diamondShine 2s ease-in-out infinite;
+      border: 5px solid #FFD700;
+      box-shadow: 0 8px 0 #FF6F00, 0 0 40px rgba(255,215,0,0.8), inset 0 0 30px rgba(255,255,255,0.5);
+      color: #333;
+      font-weight: 900;
+      font-size: 1.2rem;
+      transform: scale(1.1);
+    }
+    
+    @keyframes diamondShine {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    
+    /* Efectos hover especiales por bloque */
+    .level-block-20 .level:hover {
+      transform: scale(1.2) rotate(5deg);
+    }
+    
+    .level-block-1 .level:hover,
+    .level-block-2 .level:hover,
+    .level-block-3 .level:hover,
+    .level-block-4 .level:hover,
+    .level-block-5 .level:hover,
+    .level-block-6 .level:hover,
+    .level-block-7 .level:hover,
+    .level-block-8 .level:hover,
+    .level-block-9 .level:hover,
+    .level-block-10 .level:hover,
+    .level-block-11 .level:hover,
+    .level-block-12 .level:hover,
+    .level-block-13 .level:hover,
+    .level-block-14 .level:hover,
+    .level-block-15 .level:hover,
+    .level-block-16 .level:hover,
+    .level-block-17 .level:hover,
+    .level-block-18 .level:hover,
+    .level-block-19 .level:hover {
+      transform: translateY(-3px) scale(1.05);
+      filter: brightness(1.1);
+    }

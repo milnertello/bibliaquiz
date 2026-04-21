@@ -70,18 +70,18 @@
       
       <!-- Big Play Button -->
       <div class="beach-buttons">
-        <button class="wooden-btn wooden-classic" onclick="show('modes')">
+        <button id="homePlayBtn" class="wooden-btn wooden-classic" onclick="show('modes')">
           <span class="btn-shine"></span>
           🎮 ¡Jugar!
         </button>
-        <button class="wooden-btn wooden-extras-small" onclick="show('extras')">
+        <button id="homeExtrasBtn" class="wooden-btn wooden-extras-small" onclick="show('extras')">
           ✨ Extras
         </button>
       </div>
       
       <!-- Daily Text -->
       <div class="beach-daily-box" id="dailyTextContainer">
-        <p class="daily-label-beach">📜 Texto de Hoy</p>
+        <p id="homeDailyLabel" class="daily-label-beach">📜 Texto de Hoy</p>
         <p id="dailyTextBody" class="daily-body-beach">"No tengas miedo, porque estoy contigo..."</p>
         <p id="dailyTextRef" class="daily-ref-beach">- Isaías 41:10</p>
       </div>
@@ -207,39 +207,39 @@
       <div style="display:flex; justify-content:flex-start; margin-bottom:10px;">
         <button class="btn btn-ghost" onclick="show('modes')" style="padding:6px 12px; font-size:0.85rem;">⬅️ Volver</button>
       </div>
-      <h2>📚 Categorías</h2>
-      <p class="subtitle">Elige un tema bíblico</p>
-      <div class="divider">⭐ selecciona ⭐</div>
+      <h2 id="categoriesTitle">📚 Categorías</h2>
+      <p class="subtitle" id="categoriesSubtitle">Elige un tema bíblico</p>
+      <div class="divider" id="categoriesDivider">⭐ selecciona ⭐</div>
 
       <div class="categories-grid">
         <div class="category-card" onclick="startCategory('oldTestament')">
           <span class="category-icon">📜</span>
-          <h3 class="category-title">Antiguo Testamento</h3>
-          <p class="category-desc">Desde Génesis hasta Malaquías</p>
-          <span class="category-badge">40 preguntas</span>
+          <h3 class="category-title" id="catOldTitle">Antiguo Testamento</h3>
+          <p class="category-desc" id="catOldDesc">Desde Génesis hasta Malaquías</p>
+          <span class="category-badge" id="catOldBadge">40 preguntas</span>
         </div>
         <div class="category-card" onclick="startCategory('newTestament')">
           <span class="category-icon">📖</span>
-          <h3 class="category-title">Nuevo Testamento</h3>
-          <p class="category-desc">Desde Mateo hasta Apocalipsis</p>
-          <span class="category-badge">40 preguntas</span>
+          <h3 class="category-title" id="catNewTitle">Nuevo Testamento</h3>
+          <p class="category-desc" id="catNewDesc">Desde Mateo hasta Apocalipsis</p>
+          <span class="category-badge" id="catNewBadge">40 preguntas</span>
         </div>
         <div class="category-card" onclick="startCategory('characters')">
           <span class="category-icon">👑</span>
-          <h3 class="category-title">Personajes Bíblicos</h3>
-          <p class="category-desc">Conoce a los héroes de la fe</p>
-          <span class="category-badge">40 preguntas</span>
+          <h3 class="category-title" id="catCharTitle">Personajes Bíblicos</h3>
+          <p class="category-desc" id="catCharDesc">Conoce a los héroes de la fe</p>
+          <span class="category-badge" id="catCharBadge">40 preguntas</span>
         </div>
         <div class="category-card" onclick="startCategory('trueFalse')">
           <span class="category-icon">✅❌</span>
-          <h3 class="category-title">Verdadero o Falso</h3>
-          <p class="category-desc">¿Puedes distinguir la verdad?</p>
-          <span class="category-badge">30 preguntas</span>
+          <h3 class="category-title" id="catTFTitle">Verdadero o Falso</h3>
+          <p class="category-desc" id="catTFDesc">¿Puedes distinguir la verdad?</p>
+          <span class="category-badge" id="catTFBadge">30 preguntas</span>
         </div>
       </div>
 
       <div class="divider" style="margin-top:24px">—</div>
-      <button class="btn btn-ghost" onclick="show('home')">🏠 Regresar al menú principal</button>
+      <button class="btn btn-ghost" onclick="show('home')" id="categoriesBackBtn">🏠 Regresar al menú principal</button>
     </div>
   </section>
 
@@ -282,6 +282,7 @@
 
       <!-- Top Bar - Above landscape -->
       <div class="map-top-bar">
+        <h2 id="title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 1.1rem; margin: 0; position: absolute; left: 50%; transform: translateX(-50%); width: 100%; text-align: center; pointer-events: none; font-family: 'Fredoka One', cursive;">🗺️ Selecciona un Nivel</h2>
         <div class="map-coin-counter">
           <span class="coin-icon">🪙</span>
           <span id="mapCoins">0</span>
@@ -295,92 +296,81 @@
       <!-- Level Path Area -->
       <div class="map-path-area">
         <div class="map-path-content">
-          <!-- SVG Path - Extended for 15 levels -->
-          <svg class="path-svg" viewBox="0 0 300 1150" preserveAspectRatio="xMidYMid meet">
-            <path class="winding-path" d="M 150 100 C 150 130, 80 170, 60 220 C 40 270, 80 320, 150 370 C 220 420, 260 470, 240 520 C 220 570, 180 620, 120 670 C 60 720, 80 770, 150 820 C 220 870, 260 920, 240 970 C 220 1020, 180 1070, 120 1120" fill="none" stroke="url(#pathGradient)" stroke-width="12" stroke-linecap="round"/>
-            <defs>
-              <linearGradient id="pathGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" style="stop-color:#D4A574;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#B8956A;stop-opacity:1" />
-              </linearGradient>
-            </defs>
-          </svg>
-
           <!-- Scroll hint -->
           <div class="scroll-hint">⬇️ Desliza hacia abajo para ver más niveles</div>
 
           <!-- Level Buttons positioned along path - spread out more vertically -->
           <div class="level-path-buttons">
-          <div class="level-pin" id="lvlPin1" style="top:8.7%; left:50%; transform:translateX(-50%);">
+          <div class="level-pin level-block-1" id="lvlPin1" style="top:8.7%; left:50%; transform:translateX(-50%);">
             <div class="level" id="lvl1">1</div>
             <div class="stars-container" id="stars1"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin2" style="top:14.8%; left:26.7%;">
+          <div class="level-pin level-block-1" id="lvlPin2" style="top:14.8%; left:26.7%;">
             <div class="level locked" id="lvl2">2</div>
             <span class="lock-badge" id="lock2">🔒</span>
             <div class="stars-container" id="stars2"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin3" style="top:19.1%; left:20%;">
+          <div class="level-pin level-block-1" id="lvlPin3" style="top:19.1%; left:20%;">
             <div class="level locked" id="lvl3">3</div>
             <span class="lock-badge" id="lock3">🔒</span>
             <div class="stars-container" id="stars3"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin4" style="top:27.8%; left:26.7%;">
+          <div class="level-pin level-block-1" id="lvlPin4" style="top:27.8%; left:26.7%;">
             <div class="level locked" id="lvl4">4</div>
             <span class="lock-badge" id="lock4">🔒</span>
             <div class="stars-container" id="stars4"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin5" style="top:32.2%; left:50%;">
+          <div class="level-pin level-block-1" id="lvlPin5" style="top:32.2%; left:50%;">
             <div class="level locked" id="lvl5">5</div>
             <span class="lock-badge" id="lock5">🔒</span>
             <div class="stars-container" id="stars5"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin6" style="top:36.5%; left:73.3%;">
+          <div class="level-pin level-block-2" id="lvlPin6" style="top:36.5%; left:73.3%;">
             <div class="level locked" id="lvl6">6</div>
             <span class="lock-badge" id="lock6">🔒</span>
             <div class="stars-container" id="stars6"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin7" style="top:45.2%; left:80%;">
+          <div class="level-pin level-block-2" id="lvlPin7" style="top:45.2%; left:80%;">
             <div class="level locked" id="lvl7">7</div>
             <span class="lock-badge" id="lock7">🔒</span>
             <div class="stars-container" id="stars7"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin8" style="top:53.9%; left:60%;">
+          <div class="level-pin level-block-2" id="lvlPin8" style="top:53.9%; left:60%;">
             <div class="level locked" id="lvl8">8</div>
             <span class="lock-badge" id="lock8">🔒</span>
             <div class="stars-container" id="stars8"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin9" style="top:58.3%; left:40%;">
+          <div class="level-pin level-block-2" id="lvlPin9" style="top:58.3%; left:40%;">
             <div class="level locked" id="lvl9">9</div>
             <span class="lock-badge" id="lock9">🔒</span>
             <div class="stars-container" id="stars9"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin10" style="top:67%; left:26.7%;">
+          <div class="level-pin level-block-2" id="lvlPin10" style="top:67%; left:26.7%;">
             <div class="level locked" id="lvl10">10</div>
             <span class="lock-badge" id="lock10">🔒</span>
             <div class="stars-container" id="stars10"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin11" style="top:71.3%; left:50%;">
+          <div class="level-pin level-block-3" id="lvlPin11" style="top:71.3%; left:50%;">
             <div class="level locked" id="lvl11">11</div>
             <span class="lock-badge" id="lock11">🔒</span>
             <div class="stars-container" id="stars11"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin12" style="top:75.7%; left:73.3%;">
+          <div class="level-pin level-block-3" id="lvlPin12" style="top:75.7%; left:73.3%;">
             <div class="level locked" id="lvl12">12</div>
             <span class="lock-badge" id="lock12">🔒</span>
             <div class="stars-container" id="stars12"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin13" style="top:84.3%; left:80%;">
+          <div class="level-pin level-block-3" id="lvlPin13" style="top:84.3%; left:80%;">
             <div class="level locked" id="lvl13">13</div>
             <span class="lock-badge" id="lock13">🔒</span>
             <div class="stars-container" id="stars13"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin14" style="top:93%; left:60%;">
+          <div class="level-pin level-block-3" id="lvlPin14" style="top:93%; left:60%;">
             <div class="level locked" id="lvl14">14</div>
             <span class="lock-badge" id="lock14">🔒</span>
             <div class="stars-container" id="stars14"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin" id="lvlPin15" style="top:97.4%; left:40%;">
+          <div class="level-pin level-block-3" id="lvlPin15" style="top:97.4%; left:40%;">
             <div class="level locked" id="lvl15">15</div>
             <span class="lock-badge" id="lock15">🔒</span>
             <div class="stars-container" id="stars15"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
@@ -422,14 +412,14 @@
       <span class="bg-icon sheep1">🐑</span>
     </div>
     <div class="card" style="text-align:center">
-      <h2>🛍️ Tienda</h2>
-      <p class="subtitle">Usa tus monedas ahorradas</p>
+      <h2 id="shopTitle">🛍️ Tienda</h2>
+      <p class="subtitle" id="shopSubtitle">Usa tus monedas ahorradas</p>
       <div class="coin-badge" style="font-size:1.2rem; font-weight:bold; color:var(--gold); display:inline-block; margin-bottom:15px; background:rgba(255,179,0,0.1); border:2px solid var(--gold); padding:4px 12px; border-radius:20px;"><span id="shopCoins">0</span> 🪙</div>
       <div id="shopContainer" style="display:flex; flex-direction:column; gap:10px; text-align:left;">
         <!-- Inserted from JS -->
       </div>
       <div class="divider" style="margin-top:24px">—</div>
-      <button class="btn btn-ghost" onclick="show('home')">🏠 Volver</button>
+      <button class="btn btn-ghost" id="shopBackBtn" onclick="show('home')">🏠 Volver</button>
     </div>
   </section>
 
@@ -447,13 +437,13 @@
       <span class="bg-icon sheep1">🐑</span>
     </div>
     <div class="card" style="text-align:center">
-      <h2>🏅 Trofeos</h2>
-      <p class="subtitle">Demuestra tu habilidad</p>
+      <h2 id="achievementsTitle">🏅 Trofeos</h2>
+      <p class="subtitle" id="achievementsSubtitle">Demuestra tu habilidad</p>
       <div id="achievementsContainer" style="display:flex; flex-direction:column; gap:10px; margin-top:10px; max-height:50vh; overflow-y:auto; text-align:left; padding-right:5px;">
         <!-- Inserted from JS -->
       </div>
       <div class="divider" style="margin-top:24px">—</div>
-      <button class="btn btn-ghost" onclick="show('home')">🏠 Volver</button>
+      <button class="btn btn-ghost" id="achievementsBackBtn" onclick="show('home')">🏠 Volver</button>
     </div>
   </section>
 
@@ -471,13 +461,13 @@
       <span class="bg-icon sheep1">🐑</span>
     </div>
     <div class="card" style="text-align:center">
-      <h2>📊 Estadísticas</h2>
-      <p class="subtitle">Progreso General</p>
+      <h2 id="statsTitle">📊 Estadísticas</h2>
+      <p class="subtitle" id="statsSubtitle">Progreso General</p>
       <div id="statsContainer" style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:15px; text-align:left;">
         <!-- Inserted from JS -->
       </div>
       <div class="divider" style="margin-top:24px">—</div>
-      <button class="btn btn-ghost" onclick="show('home')">🏠 Volver</button>
+      <button class="btn btn-ghost" id="statsBackBtn" onclick="show('home')">🏠 Volver</button>
     </div>
   </section>
 
@@ -595,25 +585,25 @@
       <span class="bg-icon sheep1">🐑</span>
     </div>
     <div class="card">
-      <h2 style="text-align:center">⚙️ Ajustes</h2>
-      <div class="divider">🎵 opciones 🎵</div>
-      <label>🔊 Volumen de efectos</label>
+      <h2 style="text-align:center" id="settingsTitle">⚙️ Ajustes</h2>
+      <div class="divider" id="settingsDivider">🎵 opciones 🎵</div>
+      <label id="volumeLabel">🔊 Volumen de efectos</label>
       <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5" oninput="updateVolume(this.value)">
-      <label style="margin-top:18px;">🌐 Idioma</label>
+      <label style="margin-top:18px;" id="langLabel">🌐 Idioma</label>
       <div id="langMenu" style="display:flex; gap:8px; flex-wrap:wrap; justify-content:center;">
         <button class="btn btn-ghost" onclick="setLang('es')">🇪🇸 Español</button>
         <button class="btn btn-ghost" onclick="setLang('en')">🇺🇸 English</button>
         <button class="btn btn-ghost" onclick="setLang('qu')">🇵🇪 Quechua</button>
       </div>
-      <label style="margin-top:18px;">👧🧒 Dificultad por edades</label>
+      <label style="margin-top:18px;" id="ageLabel">👧🧒 Dificultad por edades</label>
       <select id="ageDifficulty" onchange="setAgeDifficulty(this.value)" style="width:100%; padding:10px 12px; border-radius:14px; border:2px solid var(--border2); background:rgba(255,255,255,0.85); font-weight:900; color:var(--text2);">
-        <option value="kids">Niños (más tiempo)</option>
-        <option value="teen">Jóvenes (normal)</option>
-        <option value="adult">Adultos (más difícil)</option>
+        <option value="kids" id="optKids">Niños (más tiempo)</option>
+        <option value="teen" id="optTeen">Jóvenes (normal)</option>
+        <option value="adult" id="optAdult">Adultos (más difícil)</option>
       </select>
       <div style="margin-top:28px;text-align:center;">
-        <button class="btn btn-crimson" onclick="resetProgress()">🗑️ Reiniciar Progreso</button><br>
-        <button class="btn btn-ghost" onclick="show('home')" style="margin-top:8px;">🏠 Volver</button>
+        <button class="btn btn-crimson" id="resetBtn" onclick="resetProgress()">🗑️ Reiniciar Progreso</button><br>
+        <button class="btn btn-ghost" id="settingsBackBtn" onclick="show('home')" style="margin-top:8px;">🏠 Volver</button>
       </div>
     </div>
   </section>

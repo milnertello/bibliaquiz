@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "31-35",
+    "dificultad": "Medio",
+    "tema": "Vida de Jesús (Evangelios)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre el nacimiento, infancia y ministerio temprano de Jesús"
+  },
+  "preguntas": [
+    {
+      "id": 301,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Genealogía",
+      "pregunta": "¿De qué tribu era descendiente Jesús según su genealogía?",
+      "opciones": {
+        "A": "Leví",
+        "B": "Benjamín",
+        "C": "Judá",
+        "D": "Efraín"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Mateo 1:2-3 y Lucas 3:33-34 muestran que Jesús descendía de la tribu de Judá a través de David."
+    },
+    {
+      "id": 302,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Nacimiento",
+      "pregunta": "¿Cuál era el nombre del ángel que anunció el nacimiento de Jesús a María?",
+      "opciones": {
+        "A": "Miguel",
+        "B": "Gabriel",
+        "C": "Rafael",
+        "D": "Serafín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 1:26-27 dice que el ángel Gabriel fue enviado por Dios a una ciudad de Galilea, llamada Nazaret, a una virgen desposada con un hombre llamado José."
+    },
+    {
+      "id": 303,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Lucas - Anunciación",
+      "pregunta": "¿Cómo se llamaba el pariente de María que también tuvo un hijo milagroso?",
+      "opciones": {
+        "A": "Ana",
+        "B": "Isabel",
+        "C": "Marta",
+        "D": "María Magdalena"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 1:36 dice que Isabel, pariente de María, también había concebido un hijo en su vejez, quien sería Juan el Bautista."
+    },
+    {
+      "id": 304,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Nacimiento",
+      "pregunta": "¿Por qué José y María fueron a Belén cuando nació Jesús?",
+      "opciones": {
+        "A": "Porque vivían allí",
+        "B": "Por un decreto de César Augusto para inscribirse",
+        "C": "Porque huían de Herodes",
+        "D": "Por un sueño de José"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:1-4 dice que salió un decreto de César Augusto para que toda la tierra fuese empadronada, y José subió de Galilea a Belén, ciudad de David."
+    },
+    {
+      "id": 305,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Nacimiento",
+      "pregunta": "¿Dónde nació Jesús?",
+      "opciones": {
+        "A": "En un palacio",
+        "B": "En un pesebre en Belén",
+        "C": "En el templo",
+        "D": "En una casa en Nazaret"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:7 dice que dio a luz a su hijo primogénito, lo envolvió en paños, y lo recostó en un pesebre, porque no había lugar para ellos en el albergue."
+    },
+    {
+      "id": 306,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Nacimiento",
+      "pregunta": "¿Quiénes visitaron a Jesús poco después de su nacimiento?",
+      "opciones": {
+        "A": "Los reyes magos solamente",
+        "B": "Los pastores de Belén",
+        "C": "Los sacerdotes del templo",
+        "D": "Los soldados romanos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:8-20 describe cómo los ángeles anunciaron el nacimiento a los pastores, quienes fueron a adorar al niño."
+    },
+    {
+      "id": 307,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo - Reyes magos",
+      "pregunta": "¿De dónde vinieron los sabios (magi) que buscaban al niño Jesús?",
+      "opciones": {
+        "A": "De Roma",
+        "B": "Del oriente",
+        "C": "De Egipto",
+        "D": "De Jerusalén"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 2:1 dice que cuando Jesús había nacido en Belén de Judea, vinieron del oriente a Jerusalén unos sabios."
+    },
+    {
+      "id": 308,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo - Reyes magos",
+      "pregunta": "¿Qué estrella vieron los sabios que los guió a Jesús?",
+      "opciones": {
+        "A": "La estrella polar",
+        "B": "Una estrella especial que habían visto en el oriente",
+        "C": "La estrella de Belén",
+        "D": "El cometa Halley"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 2:2 dice: '¿Dónde está el rey de los judíos que ha nacido? Porque su estrella hemos visto en el oriente, y venimos a adorarle.'"
+    },
+    {
+      "id": 309,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo - Herodes",
+      "pregunta": "¿Qué hizo Herodes cuando supo del nacimiento del rey de los judíos?",
+      "opciones": {
+        "A": "Fue a adorarlo",
+        "B": "Envió a matar a todos los niños de Belén menores de 2 años",
+        "C": "Organizó una fiesta",
+        "D": "Ignoró la noticia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 2:16 dice que Herodes mandó matar a todos los niños menores de dos años en Belén y en todos sus contornos."
+    },
+    {
+      "id": 310,
+      "nivel": 31,
+      "dificultad": 6,
+      "tema": "Mateo - Egipto",
+      "pregunta": "¿Adónde huyeron José, María y Jesús para escapar de Herodes?",
+      "opciones": {
+        "A": "A Nazaret",
+        "B": "A Egipto",
+        "C": "A Jerusalén",
+        "D": "A Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 2:13-14 describe cómo un ángel advirtió a José que huyera a Egipto con el niño y su madre."
+    },
+    {
+      "id": 311,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Lucas - Presentación",
+      "pregunta": "¿Quién reconoció a Jesús como el Mesías cuando lo presentaron en el templo?",
+      "opciones": {
+        "A": "El sumo sacerdote",
+        "B": "Simón (el justo y piadoso) y Ana",
+        "C": "Los fariseos",
+        "D": "Herodes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:25-38 describe cómo Simón y la profetisa Ana de 84 años reconocieron al niño como la salvación y redención."
+    },
+    {
+      "id": 312,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Lucas - Infancia",
+      "pregunta": "¿A qué edad Jesús quedó atrás en Jerusalén sin que sus padres lo supieran?",
+      "opciones": {
+        "A": "5 años",
+        "B": "12 años",
+        "C": "15 años",
+        "D": "20 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:42 dice que cuando Jesús cumplió doce años, subieron a Jerusalén conforme a la costumbre de la fiesta."
+    },
+    {
+      "id": 313,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Lucas - Infancia",
+      "pregunta": "¿Dónde encontraron sus padres a Jesús después de tres días de búsqueda?",
+      "opciones": {
+        "A": "En un mercado",
+        "B": "En el templo, sentado entre los maestros",
+        "C": "En casa de parientes",
+        "D": "En un jardín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:46 dice que lo hallaron en el templo, sentado en medio de los maestros, escuchándolos y haciéndoles preguntas."
+    },
+    {
+      "id": 314,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Lucas - Infancia",
+      "pregunta": "¿Qué dijo Jesús a sus padres cuando lo encontraron?",
+      "opciones": {
+        "A": "'¿Por qué me buscaban?'",
+        "B": "'¿Por qué me buscaban? ¿No sabían que en los negocios de mi Padre me conviene estar?'",
+        "C": "'Perdón por preocuparlos'",
+        "D": "'Me perdí'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 2:49 dice Jesús: '¿Por qué me buscaban? ¿No sabían que en los negocios de mi Padre me conviene estar?'"
+    },
+    {
+      "id": 315,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Juan el Bautista",
+      "pregunta": "¿Dónde predicaba Juan el Bautista?",
+      "opciones": {
+        "A": "En el templo de Jerusalén",
+        "B": "En el desierto de Judea, cerca del río Jordán",
+        "C": "En las sinagogas de Galilea",
+        "D": "En la casa de sus padres"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 3:1 dice que en aquellos días vino Juan el Bautista predicando en el desierto de Judea."
+    },
+    {
+      "id": 316,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Juan el Bautista",
+      "pregunta": "¿Qué mensaje predicaba Juan el Bautista?",
+      "opciones": {
+        "A": "'Arrepentíos, porque el reino de los cielos se ha acercado'",
+        "B": "'Amémonos unos a otros'",
+        "C": "'Construyan templos'",
+        "D": "'Huyan de Roma'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 3:2 dice: 'Arrepentíos, porque el reino de los cielos se ha acercado.'"
+    },
+    {
+      "id": 317,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Juan el Bautista",
+      "pregunta": "¿Qué vestía y qué comía Juan el Bautista?",
+      "opciones": {
+        "A": "Túnicas finas y pan delicado",
+        "B": "Vestido de pelo de camello y comía langostas y miel silvestre",
+        "C": "Ropa de lino y pescado",
+        "D": "Manto real y carne"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 3:4 dice que Juan estaba vestido de pelo de camello, con una correa de cuero alrededor de sus lomos, y su comida era langostas y miel silvestre."
+    },
+    {
+      "id": 318,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Juan el Bautista",
+      "pregunta": "¿Quién bautizó a Jesús?",
+      "opciones": {
+        "A": "Los discípulos",
+        "B": "Juan el Bautista",
+        "C": "Pedro",
+        "D": "Nadie, Jesús no se bautizó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 3:13-16 describe cómo Jesús vino de Galilea al Jordán para ser bautizado por Juan."
+    },
+    {
+      "id": 319,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Bautismo",
+      "pregunta": "¿Qué descendió sobre Jesús cuando salió del agua después de su bautismo?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "El Espíritu de Dios como paloma",
+        "C": "Fuego",
+        "D": "Lluvia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 3:16 dice que cuando Jesús fue bautizado, subió luego del agua; y he aquí, los cielos le fueron abiertos, y vio al Espíritu de Dios que descendía como paloma."
+    },
+    {
+      "id": 320,
+      "nivel": 32,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Bautismo",
+      "pregunta": "¿Qué voz se oyó desde los cielos durante el bautismo de Jesús?",
+      "opciones": {
+        "A": "'Este es mi Hijo amado, en quien tengo complacencia'",
+        "B": "'Arrepentíos'",
+        "C": "'Bienvenido'",
+        "D": "'Escuchen a Juan'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 3:17 dice que una voz de los cielos dijo: 'Este es mi Hijo amado, en quien tengo complacencia.'"
+    },
+    {
+      "id": 321,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Tentación",
+      "pregunta": "¿Dónde fue Jesús llevado por el espíritu después de su bautismo?",
+      "opciones": {
+        "A": "Al templo",
+        "B": "Al desierto para ser tentado por el Diablo",
+        "C": "A Nazaret",
+        "D": "A Jerusalén"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 4:1 dice que Jesús fue guiado por el Espíritu al desierto, para ser tentado por el diablo."
+    },
+    {
+      "id": 322,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Tentación",
+      "pregunta": "¿Cuánto tiempo ayunó Jesús en el desierto?",
+      "opciones": {
+        "A": "3 días",
+        "B": "7 días",
+        "C": "40 días y 40 noches",
+        "D": "1 año"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Mateo 4:2 dice que después de haber ayunado cuarenta días y cuarenta noches, tuvo hambre."
+    },
+    {
+      "id": 323,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Tentación",
+      "pregunta": "¿Cuántas tentaciones recibió Jesús según Mateo?",
+      "opciones": {
+        "A": "Una",
+        "B": "Dos",
+        "C": "Tres",
+        "D": "Cuatro"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Mateo 4:3-11 describe tres tentaciones: convertir piedras en panes, arrojarse del pináculo del templo, y adorar al diablo a cambio de reinos."
+    },
+    {
+      "id": 324,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Tentación",
+      "pregunta": "¿Qué respondió Jesús a la primera tentación de convertir piedras en panes?",
+      "opciones": {
+        "A": "'No tengo hambre'",
+        "B": "'No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios'",
+        "C": "'Está bien'",
+        "D": "'No puedo'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 4:4 cita Deuteronomio 8:3: 'No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios.'"
+    },
+    {
+      "id": 325,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Lucas - Tentación",
+      "pregunta": "¿Qué respondió Jesús a la tentación de adorar al diablo?",
+      "opciones": {
+        "A": "'Lo pensaré'",
+        "B": "'Al Señor tu Dios adorarás, y a él solo servirás'",
+        "C": "'No quiero reinos'",
+        "D": "'Está bien'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 4:10 cita Deuteronomio 6:13: 'Vete, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él solo servirás.'"
+    },
+    {
+      "id": 326,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos - Primeros discípulos",
+      "pregunta": "¿Cuáles fueron los primeros dos discípulos que llamó Jesús según Mateo?",
+      "opciones": {
+        "A": "Santiago y Juan",
+        "B": "Pedro y Andrés",
+        "C": "Felipe y Natanael",
+        "D": "Tomás y Mateo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 4:18 describe cómo Jesús vio a dos hermanos, Simón (Pedro) y Andrés, echando la red en el mar, y los llamó."
+    },
+    {
+      "id": 327,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos - Primeros discípulos",
+      "pregunta": "¿Qué hacían Pedro y Andrés cuando Jesús los llamó?",
+      "opciones": {
+        "A": "Pescando",
+        "B": "Echando la red en el mar",
+        "C": "Durmiendo",
+        "D": "Comiendo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 4:18 dice que estaban echando la red en el mar, porque eran pescadores."
+    },
+    {
+      "id": 328,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos - Llamamiento",
+      "pregunta": "¿Qué les prometió Jesús a Pedro y Andrés si lo seguían?",
+      "opciones": {
+        "A": "Riquezas",
+        "B": "'Os haré pescadores de hombres'",
+        "C": "Tronos en el cielo",
+        "D": "Inmortalidad"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 4:19 dice: 'Venid en pos de mí, y os haré pescadores de hombres.'"
+    },
+    {
+      "id": 329,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo - Sermón del monte",
+      "pregunta": "¿Dónde predicó Jesús el Sermón del Monte?",
+      "opciones": {
+        "A": "En el templo de Jerusalén",
+        "B": "En una montaña (monte de las Bienaventuranzas)",
+        "C": "En el lago de Galilea",
+        "D": "En la sinagoga de Nazaret"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 5:1 dice que viendo la multitud, subió al monte, y cuando se sentó, se le acercaron sus discípulos."
+    },
+    {
+      "id": 330,
+      "nivel": 33,
+      "dificultad": 6,
+      "tema": "Mateo - Bienaventuranzas",
+      "pregunta": "¿Cuántas bienaventuranzas hay en Mateo 5?",
+      "opciones": {
+        "A": "Tres",
+        "B": "Cinco",
+        "C": "Siete",
+        "D": "Ocho (o nueve si se cuenta de dos maneras)"
+      },
+      "respuesta_correcta": "D",
+      "explicacion": "Mateo 5:3-12 lista ocho o nueve bienaventuranzas, dependiendo de si se cuenta 'Bienaventurados los pobres en espíritu' y 'Bienaventurados los que padecen persecución' como separadas."
+    },
+    {
+      "id": 331,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Bienaventuranzas",
+      "pregunta": "¿Qué dice la primera bienaventuranza?",
+      "opciones": {
+        "A": "'Bienaventurados los ricos'",
+        "B": "'Bienaventurados los pobres en espíritu, porque de ellos es el reino de los cielos'",
+        "C": "'Bienaventurados los poderosos'",
+        "D": "'Bienaventurados los sabios'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 5:3 dice: 'Bienaventurados los pobres en espíritu, porque de ellos es el reino de los cielos.'"
+    },
+    {
+      "id": 332,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Sermón",
+      "pregunta": "¿Qué dijo Jesús sobre la ley y los profetas?",
+      "opciones": {
+        "A": "'Los abolí'",
+        "B": "'No penséis que vine para abolir la ley o los profetas; no vine para abolir, sino para cumplir'",
+        "C": "'Son sin valor'",
+        "D": "'Ya no aplican'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 5:17 dice: 'No penséis que vine para abolir la ley o los profetas; no vine para abolir, sino para cumplir.'"
+    },
+    {
+      "id": 333,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Oración",
+      "pregunta": "¿Qué enseñó Jesús acerca de la oración en el Sermón del Monte?",
+      "opciones": {
+        "A": "'Orad en público siempre'",
+        "B": "'Entra en tu cuarto, y cerrada la puerta, ora a tu Padre'",
+        "C": "'No oren'",
+        "D": "'Oren solo en el templo'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 6:6 dice: 'Mas tú, cuando ores, entra en tu cuarto, y cerrada la puerta, ora a tu Padre que está en secreto.'"
+    },
+    {
+      "id": 334,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Padrenuestro",
+      "pregunta": "¿Cómo comienza el Padrenuestro según Mateo 6?",
+      "opciones": {
+        "A": "'Dios nuestro'",
+        "B": "'Padre nuestro que estás en los cielos'",
+        "C": "'Señor nuestro'",
+        "D": "'Jehová nuestro'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 6:9 dice: 'Vosotros, pues, oraréis así: Padre nuestro que estás en los cielos, santificado sea tu nombre.'"
+    },
+    {
+      "id": 335,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Regla de oro",
+      "pregunta": "¿Qué es la regla de oro según Jesús?",
+      "opciones": {
+        "A": "'Quien tiene oro tiene poder'",
+        "B": "'Todo lo que queráis que los hombres hagan con vosotros, así haced vosotros con ellos'",
+        "C": "'Acumulad oro en el cielo'",
+        "D": "'No améis el oro'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 7:12 dice: 'Así que todas las cosas que queráis que los hombres hagan con vosotros, así haced vosotros con ellos.'"
+    },
+    {
+      "id": 336,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Juicio",
+      "pregunta": "¿Qué comparación usó Jesús para terminar el Sermón del Monte?",
+      "opciones": {
+        "A": "Dos hijos",
+        "B": "Dos casas: una sobre roca y otra sobre arena",
+        "C": "Dos ovejas",
+        "D": "Dos árboles"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 7:24-27 compara al que oye y hace las palabras de Jesús con un hombre prudente que edificó su casa sobre la roca."
+    },
+    {
+      "id": 337,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos - Milagros",
+      "pregunta": "¿Cuál fue el primer milagro que narran los evangelios sinópticos?",
+      "opciones": {
+        "A": "Sanar a un ciego",
+        "B": "Expulsar un demonio de un endemoniado en la sinagoga de Capernaum",
+        "C": "Convertir agua en vino",
+        "D": "Multiplicar panes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Marcos 1:21-28 describe la expulsión de un espíritu inmundo en la sinagoga de Capernaum como el primer milagro de Jesús en este evangelio."
+    },
+    {
+      "id": 338,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Leproso",
+      "pregunta": "¿Qué hizo Jesús para sanar a un leproso según Mateo 8?",
+      "opciones": {
+        "A": "Oró desde lejos",
+        "B": "Lo tocó y dijo 'Yo quiero; sé limpio'",
+        "C": "Le dio medicina",
+        "D": "Lo envió al sacerdote primero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 8:3 dice que extendió Jesús la mano y lo tocó, diciendo: 'Yo quiero; sé limpio.' Y al instante quedó limpio de su lepra."
+    },
+    {
+      "id": 339,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Paralítico",
+      "pregunta": "¿Qué dijo Jesús al paralítico que bajaron por el techo?",
+      "opciones": {
+        "A": "'Levántate y camina'",
+        "B": "'Ten ánimo, hijo; tus pecados te son perdonados'",
+        "C": "'Ve al templo'",
+        "D": "'No peques más'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 9:2 dice que Jesús, viendo la fe de ellos, dijo al paralítico: 'Ten ánimo, hijo; tus pecados te son perdonados.'"
+    },
+    {
+      "id": 340,
+      "nivel": 34,
+      "dificultad": 6,
+      "tema": "Mateo - Llamamiento",
+      "pregunta": "¿Qué publicano Jesús llamó para ser discípulo según Mateo 9?",
+      "opciones": {
+        "A": "Zaqueo",
+        "B": "Mateo (Leví)",
+        "C": "Simón el fariseo",
+        "D": "Lázaro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 9:9 dice que Jesús vio a un hombre llamado Mateo, sentado en el banco de los tributos públicos, y le dijo: 'Sígueme.' Y se levantó y le siguió."
+    },
+    {
+      "id": 341,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo - Doce apóstoles",
+      "pregunta": "¿Cuántos apóstoles escogió Jesús?",
+      "opciones": {
+        "A": "Diez",
+        "B": "Doce",
+        "C": "Setenta",
+        "D": "Ciento veinte"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 10:1 dice que llamando a sus doce discípulos, les dio autoridad sobre los espíritus inmundos."
+    },
+    {
+      "id": 342,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos/Lucas - Lista",
+      "pregunta": "¿Cuál de estos NO es uno de los doce apóstoles originales?",
+      "opciones": {
+        "A": "Simón Pedro",
+        "B": "Andrés",
+        "C": "Pablo",
+        "D": "Jacobo (Santiago)"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Pablo no fue uno de los doce apóstoles originales; fue llamado después de la resurrección de Jesús en el camino a Damasco."
+    },
+    {
+      "id": 343,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo - Doce apóstoles",
+      "pregunta": "¿Qué nombre tenía Simón, a quien Jesús llamó 'Pedro'?",
+      "opciones": {
+        "A": "Roca",
+        "B": "Cefas (que significa piedra o roca)",
+        "C": "Pescador",
+        "D": "Varón"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 1:42 dice que le puso por nombre Cefas, que quiere decir Piedra."
+    },
+    {
+      "id": 344,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo/Marcos - Traición",
+      "pregunta": "¿Quién era el tesorero del grupo de discípulos que robaba?",
+      "opciones": {
+        "A": "Mateo",
+        "B": "Judas Iscariote",
+        "C": "Tomás",
+        "D": "Felipe"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Juan 12:6 dice que como era ladrón, y teniendo la bolsa, sustraía de lo que se echaba en ella."
+    },
+    {
+      "id": 345,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo - Instrucciones",
+      "pregunta": "¿Qué dijo Jesús que haría a las ovejas entre los lobos?",
+      "opciones": {
+        "A": "'Seréis odiados'",
+        "B": "'He aquí yo os envío como a ovejas en medio de lobos'",
+        "C": "'No temáis'",
+        "D": "'Huid'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 10:16 dice: 'He aquí yo os envío como a ovejas en medio de lobos; sed, pues, prudentes como serpientes, y sencillos como palomas.'"
+    },
+    {
+      "id": 346,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo - Juan el Bautista",
+      "pregunta": "¿Qué preguntó Juan el Bautista desde la cárcel a Jesús?",
+      "opciones": {
+        "A": "'¿Cuándo vendrás?'",
+        "B": "'¿Eres tú el que había de venir, o esperaremos a otro?'",
+        "C": "'¿Por qué no me sacas?'",
+        "D": "'¿Dónde está tu reino?'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 11:3 dice que Juan, habiendo oído en la cárcel los hechos de Cristo, envió dos de sus discípulos para preguntar si era el esperado."
+    },
+    {
+      "id": 347,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Mateo - Juan el Bautista",
+      "pregunta": "¿Cómo describió Jesús a Juan el Bautista?",
+      "opciones": {
+        "A": "'Un profeta cualquiera'",
+        "B": "'Entre los nacidos de mujer no se ha levantado mayor que Juan el Bautista'",
+        "C": "'Un pecador'",
+        "D": "'Un hombre triste'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 11:11 dice: 'De cierto os digo, que entre los nacidos de mujer no se ha levantado mayor que Juan el Bautista.'"
+    },
+    {
+      "id": 348,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Lucas - Pecadores",
+      "pregunta": "¿A quién comparó Jesús con la generación de su tiempo?",
+      "opciones": {
+        "A": "'A niños sentados en la plaza'",
+        "B": "'A niños que se sientan en las plazas y dan voces unos a otros'",
+        "C": "'A viejos sabios'",
+        "D": "'A reyes'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 11:16-17 dice: '¿A qué compararé esta generación? Es semejante a los muchachos que se sientan en las plazas, y se dan voces unos a otros.'"
+    },
+    {
+      "id": 349,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Lucas/Mateo - Pecadores",
+      "pregunta": "¿Qué dijo Jesús sobre el hijo pródigo y las ovejas perdidas?",
+      "opciones": {
+        "A": "'No vale la pena buscarlos'",
+        "B": "'Hay más gozo en el cielo por un pecador que se arrepiente'",
+        "C": "'Dejadlos perder'",
+        "D": "'Son culpables'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lucas 15:7 y 10 dice que hay más gozo en el cielo por un pecador que se arrepiente que por noventa y nueve justos que no necesitan arrepentimiento."
+    },
+    {
+      "id": 350,
+      "nivel": 35,
+      "dificultad": 6,
+      "tema": "Lucas - Perdón",
+      "pregunta": "¿Cuántas veces dijo Jesús que se debe perdonar?",
+      "opciones": {
+        "A": "Siete veces",
+        "B": "Hasta setenta veces siete (es decir, sin límite)",
+        "C": "Una vez",
+        "D": "Nunca"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 18:22 dice que Jesús le dijo: 'No te digo hasta siete veces, sino hasta setenta veces siete.'"
+    }
+  ]
+}

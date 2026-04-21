@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "51-55",
+    "dificultad": "Difícil",
+    "tema": "Cartas de Pablo (Romanos, Corintios)",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre las epístolas de Pablo a las iglesias de Roma y Corinto"
+  },
+  "preguntas": [
+    {
+      "id": 501,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Introducción",
+      "pregunta": "¿Cuál es el tema central del libro de Romanos?",
+      "opciones": {
+        "A": "La ley de Moisés",
+        "B": "El evangelio: justificación por la fe",
+        "C": "El templo",
+        "D": "La comida"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 1:16-17 dice que el evangelio es poder de Dios para salvación, y revela la justicia de Dios por fe para el que cree."
+    },
+    {
+      "id": 502,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Justificación",
+      "pregunta": "¿Cómo se justifica el hombre ante Dios según Romanos?",
+      "opciones": {
+        "A": "Por las obras de la ley",
+        "B": "Por la fe en Jesucristo, aparte de las obras de la ley",
+        "C": "Por la circuncisión",
+        "D": "Por ser judío"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 3:28 dice que tenemos por sentado que el hombre es justificado por la fe, sin las obras de la ley."
+    },
+    {
+      "id": 503,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Pecado",
+      "pregunta": "¿Qué dice Romanos 3:23 sobre el pecado?",
+      "opciones": {
+        "A": "'Todos han pecado y están privados de la gloria de Dios'",
+        "B": "'Solo los gentiles pecan'",
+        "C": "'Los judíos no pecan'",
+        "D": "'El pecado no existe'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Romanos 3:23 dice: 'Por cuanto todos pecaron, y están privados de la gloria de Dios.'"
+    },
+    {
+      "id": 504,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Salvación",
+      "pregunta": "¿Qué es el don de Dios según Romanos 6:23?",
+      "opciones": {
+        "A": "La riqueza",
+        "B": "Vida eterna en Cristo Jesús nuestro Señor",
+        "C": "La salud",
+        "D": "El poder"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 6:23 dice: 'Porque la paga del pecado es muerte, mas la dádiva de Dios es vida eterna en Cristo Jesús Señor nuestro.'"
+    },
+    {
+      "id": 505,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Fe",
+      "pregunta": "¿Cómo recibe el justo la vida según Romanos 1:17?",
+      "opciones": {
+        "A": "Por las obras",
+        "B": "Por la fe",
+        "C": "Por la ley",
+        "D": "Por el bautismo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 1:17 dice: 'Porque en el evangelio la justicia de Dios se revela por fe y para fe, como está escrito: Mas el justo por la fe vivirá.' Citando a Habacuc 2:4."
+    },
+    {
+      "id": 506,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Abraham",
+      "pregunta": "¿Cuándo fue justificado Abraham según Romanos 4?",
+      "opciones": {
+        "A": "Cuando circuncidó a su hijo",
+        "B": "Cuando creyó a Dios (antes de la circuncisión)",
+        "C": "Cuando ofreció a Isaac",
+        "D": "Cuando construyó altares"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 4:9-10 dice que Abraham fue justificado antes de ser circuncidado, por su fe, mostrando que la justificación es por fe no por obras."
+    },
+    {
+      "id": 507,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Bautismo",
+      "pregunta": "¿Qué simboliza el bautismo según Romanos 6?",
+      "opciones": {
+        "A": "La riqueza",
+        "B": "La muerte, sepultura y resurrección con Cristo",
+        "C": "La comida",
+        "D": "La ropa"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 6:3-4 dice que somos bautizados en su muerte, sepultados con él en la muerte, para que como Cristo resucitó, así también nosotros."
+    },
+    {
+      "id": 508,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Ley",
+      "pregunta": "¿Por qué murimos a la ley según Romanos 7?",
+      "opciones": {
+        "A": "Porque es mala",
+        "B": "Para unirnos a Cristo y dar fruto para Dios",
+        "C": "Para ignorarla",
+        "D": "Para ser libres de pecado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 7:4 dice: 'Así también vosotros, hermanos míos, habéis muerto a la ley mediante el cuerpo de Cristo, para que seáis de otro, del que resucitó de los muertos, a fin de que demos fruto para Dios.'"
+    },
+    {
+      "id": 509,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Espíritu",
+      "pregunta": "¿Qué reciben los que son guiados por el Espíritu de Dios según Romanos 8?",
+      "opciones": {
+        "A": "Riqueza",
+        "B": "Son hijos de Dios y pueden llamarlo '¡Abba, Padre!'",
+        "C": "Salud perfecta",
+        "D": "Inmortalidad inmediata"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:14-16 dice que todos los que son guiados por el Espíritu de Dios, éstos son hijos de Dios, y el Espíritu da testimonio a nuestro espíritu de que somos hijos de Dios."
+    },
+    {
+      "id": 510,
+      "nivel": 51,
+      "dificultad": 9,
+      "tema": "Romanos - Esperanza",
+      "pregunta": "¿Qué dice Romanos 8:28 sobre los que aman a Dios?",
+      "opciones": {
+        "A": "'Todas las cosas les son adversas'",
+        "B": "'Todas las cosas ayudan al bien de los que aman a Dios'",
+        "C": "'Nunca sufrirán'",
+        "D": "'Serán ricos'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:28 dice: 'Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien, esto es, a los que conforme a su propósito son llamados.'"
+    },
+    {
+      "id": 511,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Predestinación",
+      "pregunta": "¿A qué predestinó Dios a los elegidos según Romanos 8?",
+      "opciones": {
+        "A": "A la riqueza",
+        "B": "A ser hechos conformes a la imagen de su Hijo",
+        "C": "Al poder",
+        "D": "A la fama"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:29 dice: 'Porque a los que antes conoció, también los predestinó para que fuesen hechos conformes a la imagen de su Hijo.'"
+    },
+    {
+      "id": 512,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Victoria",
+      "pregunta": "¿Quién nos separará del amor de Cristo según Romanos 8:35?",
+      "opciones": {
+        "A": "La tribulación, angustia, persecución",
+        "B": "Nada puede separarnos del amor de Dios en Cristo Jesús",
+        "C": "El pecado",
+        "D": "La muerte solamente"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 8:38-39 concluye que estamos seguros de que ni la muerte, ni la vida, ni ángeles, ni principados, ni potestades, ni lo presente, ni lo por venir... nos podrá separar del amor de Dios."
+    },
+    {
+      "id": 513,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Israel",
+      "pregunta": "¿Qué dice Pablo sobre Israel y el evangelio en Romanos 9-11?",
+      "opciones": {
+        "A": "Israel está completamente rechazado",
+        "B": "Ha habido un endurecimiento parcial de Israel hasta que entre la plenitud de los gentiles",
+        "C": "Los gentiles no pueden salvarse",
+        "D": "La ley es innecesaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 11:25 dice que ha habido un endurecimiento parcial en Israel, hasta que haya entrado la plenitud de los gentiles."
+    },
+    {
+      "id": 514,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Adoración",
+      "pregunta": "¿Cómo debemos presentar nuestros cuerpos según Romanos 12:1?",
+      "opciones": {
+        "A": "Como esclavos",
+        "B": "Como sacrificio vivo, santo, agradable a Dios",
+        "C": "Como muertos",
+        "D": "Como enfermos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 12:1 dice: 'Así que, hermanos, os ruego por las misericordias de Dios, que presentéis vuestros cuerpos en sacrificio vivo, santo, agradable a Dios.'"
+    },
+    {
+      "id": 515,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Transformación",
+      "pregunta": "¿En qué debemos ser transformados según Romanos 12:2?",
+      "opciones": {
+        "A": "En nuestra ropa",
+        "B": "Renovando nuestra mente para comprobar la buena voluntad de Dios",
+        "C": "En nuestra casa",
+        "D": "En nuestro trabajo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 12:2 dice: 'No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento, para que comprobéis cuál sea la buena voluntad de Dios.'"
+    },
+    {
+      "id": 516,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Autoridades",
+      "pregunta": "¿Qué dice Pablo sobre las autoridades en Romanos 13?",
+      "opciones": {
+        "A": "Que debemos rebelarnos",
+        "B": "Que debemos someternos porque están ordenadas por Dios",
+        "C": "Que son innecesarias",
+        "D": "Que debemos ignorarlas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 13:1 dice: 'Toda persona se someta a las autoridades superiores; porque no hay autoridad sino de parte de Dios.'"
+    },
+    {
+      "id": 517,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Amor",
+      "pregunta": "¿Qué deuda tenemos según Romanos 13:8?",
+      "opciones": {
+        "A": "Dinero",
+        "B": "Deuda de amarnos unos a otros",
+        "C": "Trabajo",
+        "D": "Respeto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 13:8 dice: 'No debáis a nadie nada, sino el amaros unos a otros.'"
+    },
+    {
+      "id": 518,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Esperanza",
+      "pregunta": "¿Cuándo vendrá la salvación según Romanos 13:11?",
+      "opciones": {
+        "A": "Nunca",
+        "B": "Ahora está más cerca que cuando creímos",
+        "C": "En mil años",
+        "D": "Mañana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 13:11 dice: 'Y esto, sabiendo el tiempo, que es ya hora de despertarnos del sueño; porque ahora está más cerca de nosotros nuestra salvación que cuando creímos.'"
+    },
+    {
+      "id": 519,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "Romanos - Débil",
+      "pregunta": "¿Qué debe hacer el fuerte según Romanos 14-15?",
+      "opciones": {
+        "A": "Imponer su voluntad",
+        "B": "Soportar las flaquezas del débil, no agradarse a sí mismo",
+        "C": "Ignorar al débil",
+        "D": "Reprender al débil"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Romanos 15:1 dice: 'Así que, los que somos fuertes debemos soportar las flaquezas de los débiles, y no agradarnos a nosotros mismos.'"
+    },
+    {
+      "id": 520,
+      "nivel": 52,
+      "dificultad": 9,
+      "tema": "1 Corintios - Introducción",
+      "pregunta": "¿Por qué escribió Pablo 1 Corintios?",
+      "opciones": {
+        "A": "Por divisiones, inmoralidad y abusos en la iglesia",
+        "B": "Por dinero",
+        "C": "Por comida",
+        "D": "Por fiestas"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Corintios trata múltiples problemas en la iglesia: divisiones (cap. 1-4), inmoralidad (cap. 5-6), abusos en la cena del Señor (cap. 11), desorden en las reuniones (cap. 14)."
+    },
+    {
+      "id": 521,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Divisiones",
+      "pregunta": "¿De quiénes decían ser seguidores los corintios divididos?",
+      "opciones": {
+        "A": "De Pablo, Apolos, Cefas (Pedro) y Cristo",
+        "B": "De Jesús solamente",
+        "C": "De los apóstoles",
+        "D": "De los profetas"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Corintios 1:12 dice que cada uno de vosotros dice: 'Yo soy de Pablo; y yo de Apolos; y yo de Cefas; y yo de Cristo.'"
+    },
+    {
+      "id": 522,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Sabiduría",
+      "pregunta": "¿Qué es lo que para los judíos es escándalo y para los gentiles locura?",
+      "opciones": {
+        "A": "La ley",
+        "B": "La predicación de la cruz",
+        "C": "El bautismo",
+        "D": "La circuncisión"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 1:23 dice que predicamos a Cristo crucificado, para los judíos ciertamente tropezadero, y para los gentiles locura."
+    },
+    {
+      "id": 523,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Sabiduría",
+      "pregunta": "¿Qué es para los llamados la cruz de Cristo?",
+      "opciones": {
+        "A": "Una maldición",
+        "B": "Poder de Dios y sabiduría de Dios",
+        "C": "Un error",
+        "D": "Un mito"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 1:24 dice que para los llamados, tanto judíos como griegos, Cristo es poder de Dios y sabiduría de Dios."
+    },
+    {
+      "id": 524,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Fundamento",
+      "pregunta": "¿Quién es el único fundamento según 1 Corintios 3:11?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Jesucristo",
+        "C": "Pablo",
+        "D": "Apolos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 3:11 dice: 'Porque nadie puede poner otro fundamento que el que está puesto, el cual es Jesucristo.'"
+    },
+    {
+      "id": 525,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Templo",
+      "pregunta": "¿Qué es la iglesia según 1 Corintios 3:16?",
+      "opciones": {
+        "A": "Un edificio",
+        "B": "Templo de Dios, y el Espíritu de Dios mora en ella",
+        "C": "Una organización política",
+        "D": "Un club social"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 3:16 dice: '¿O ignoráis que vosotros sois templo de Dios, y que el Espíritu de Dios mora en vosotros?'"
+    },
+    {
+      "id": 526,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Inmoralidad",
+      "pregunta": "¿Qué inmoralidad condenó Pablo en 1 Corintios 5?",
+      "opciones": {
+        "A": "Robo",
+        "B": "Un hombre que tenía la mujer de su padre",
+        "C": "Mentiras",
+        "D": "Envidia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 5:1 dice que se oye que hay entre vosotros fornicación, y tal fornicación cual ni aun se nombra entre los gentiles, tanto que alguno tiene la mujer de su padre."
+    },
+    {
+      "id": 527,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Levadura",
+      "pregunta": "¿Qué representa la levadura vieja según 1 Corintios 5:7-8?",
+      "opciones": {
+        "A": "El pecado y la maldad",
+        "B": "La comida",
+        "C": "La tradición",
+        "D": "La historia"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Corintios 5:7-8 dice que hay que limpiar la vieja levadura (pecado/maldad) para ser una masa nueva (sin pecado)."
+    },
+    {
+      "id": 528,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Litigios",
+      "pregunta": "¿Qué les aconsejó Pablo sobre los litigios entre hermanos?",
+      "opciones": {
+        "A": "Que vayan a los tribunales unbelievers",
+        "B": "Que sean juzgados por los santos, no ante los incrédulos",
+        "C": "Que ignoren los problemas",
+        "D": "Que peleen"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 6:1-6 reprende a los corintios por llevar sus pleitos ante jueces incrédulos en lugar de ante la iglesia."
+    },
+    {
+      "id": 529,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Cuerpo",
+      "pregunta": "¿Qué somos según 1 Corintios 6:19-20?",
+      "opciones": {
+        "A": "Dueños de nosotros mismos",
+        "B": "Templo del Espíritu Santo, comprados por precio",
+        "C": "Libres de toda obligación",
+        "D": "Esclavos del pecado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 6:19-20 dice: '¿O ignoráis que vuestro cuerpo es templo del Espíritu Santo... y que no sois vuestros? Porque habéis sido comprados por precio.'"
+    },
+    {
+      "id": 530,
+      "nivel": 53,
+      "dificultad": 9,
+      "tema": "1 Corintios - Matrimonio",
+      "pregunta": "¿Qué aconsejó Pablo sobre el matrimonio en 1 Corintios 7?",
+      "opciones": {
+        "A": "Que todos deben casarse",
+        "B": "Que es bueno permanecer como él (soltero) por causa de la persecución, pero cada uno tiene su propio don",
+        "C": "Que nadie debe casarse",
+        "D": "Que solo los apóstoles deben casarse"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 7:7-8 dice que quisiera que todos los hombres fuesen como él, pero cada uno tiene su propio don de Dios; uno a la verdad de un modo, y otro de otro."
+    },
+    {
+      "id": 531,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Consciencia",
+      "pregunta": "¿Qué principio dio Pablo sobre la comida sacrificada a ídolos?",
+      "opciones": {
+        "A": "Que nunca se debe comer",
+        "B": "Que los ídolos son nada, pero no se debe escandalizar al débil",
+        "C": "Que se debe comer siempre",
+        "D": "Que es pecado comer"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 8:4-13 dice que los ídolos son nada, pero si comer ofende al hermano débil, es mejor no comer."
+    },
+    {
+      "id": 532,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Evangelista",
+      "pregunta": "¿Qué derecho renunció Pablo según 1 Corintios 9?",
+      "opciones": {
+        "A": "Al matrimonio",
+        "B": "Al sostenimiento económico por predicar el evangelio",
+        "C": "Al descanso",
+        "D": "A viajar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 9:14-18 dice que aunque tenía derecho a ser mantenido por la iglesia, renunció a este derecho para no poner obstáculo al evangelio."
+    },
+    {
+      "id": 533,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Cautela",
+      "pregunta": "¿Qué ejemplo usó Pablo sobre la necesidad de cautela?",
+      "opciones": {
+        "A": "La torre de Babel",
+        "B": "Los israelitas en el desierto que cayeron por desobediencia",
+        "C": "Noé",
+        "D": "Moisés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 10:1-12 usa el ejemplo de los israelitas que cayeron en el desierto por tentar a Cristo, para advertir a los corintios."
+    },
+    {
+      "id": 534,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Tentación",
+      "pregunta": "¿Qué promesa hay sobre las tentaciones según 1 Corintios 10:13?",
+      "opciones": {
+        "A": "Que no habrá tentaciones",
+        "B": "Que Dios no permitirá que seamos tentados más de lo que podamos soportar, y dará la salida",
+        "C": "Que debemos evitarlas",
+        "D": "Que son castigo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 10:13 dice: 'No os ha sobrevenido tentación que no sea humana; pero fiel es Dios, que no os dejará ser tentados más de lo que podéis resistir.'"
+    },
+    {
+      "id": 535,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Cena",
+      "pregunta": "¿Qué problema había en la Cena del Señor en Corinto?",
+      "opciones": {
+        "A": "Que no comían",
+        "B": "Que unos comían antes y se emborrachaban, y otros se quedaban sin nada",
+        "C": "Que oraban demasiado",
+        "D": "Que cantaban mal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 11:21 dice que cada uno toma primero su propia cena; y uno tiene hambre, y otro se ha embriagado."
+    },
+    {
+      "id": 536,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Cuerpo y sangre",
+      "pregunta": "¿Qué representa el pan y la copa según 1 Corintios 11:24-25?",
+      "opciones": {
+        "A": "Comida normal",
+        "B": "El cuerpo y la sangre del Señor",
+        "C": "Solo símbolos sin significado",
+        "D": "El dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 11:24 dice: 'Esto es mi cuerpo, el cual por vosotros es partido.' Y 11:25 dice: 'Esta copa es el nuevo pacto en mi sangre.'"
+    },
+    {
+      "id": 537,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Dones",
+      "pregunta": "¿De dónde vienen los dones espirituales según 1 Corintios 12?",
+      "opciones": {
+        "A": "Del esfuerzo personal",
+        "B": "Del Espíritu Santo, distribuidos según su voluntad",
+        "C": "De los apóstoles",
+        "D": "De la iglesia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 12:11 dice: 'Pero todas estas cosas las hace uno y el mismo Espíritu, repartiendo a cada uno en particular según su voluntad.'"
+    },
+    {
+      "id": 538,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Dones",
+      "pregunta": "¿Cuántos dones enumera Pablo en 1 Corintios 12:8-10?",
+      "opciones": {
+        "A": "3",
+        "B": "9",
+        "C": "12",
+        "D": "7"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 12:8-10 enumera nueve dones: palabra de sabiduría, palabra de ciencia, fe, dones de sanidades, operación de milagros, profecía, discernimiento de espíritus, diversos géneros de lenguas, interpretación de lenguas."
+    },
+    {
+      "id": 539,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Cuerpo",
+      "pregunta": "¿Qué analogía usa Pablo para la iglesia en 1 Corintios 12?",
+      "opciones": {
+        "A": "Un edificio",
+        "B": "Un cuerpo con muchos miembros",
+        "C": "Un árbol",
+        "D": "Un río"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 12:12-27 compara la iglesia con un cuerpo que tiene muchos miembros, cada uno con función diferente pero todos necesarios."
+    },
+    {
+      "id": 540,
+      "nivel": 54,
+      "dificultad": 9,
+      "tema": "1 Corintios - Amor",
+      "pregunta": "¿Qué don es el más excelente según 1 Corintios 12:31?",
+      "opciones": {
+        "A": "La profecía",
+        "B": "El amor (caridad)",
+        "C": "Las lenguas",
+        "D": "La ciencia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 12:31 dice que os muestro un camino aún más excelente, y el capítulo 13 entero habla de la supremacía del amor."
+    },
+    {
+      "id": 541,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios 13 - Amor",
+      "pregunta": "¿Cuántas características del amor enumera 1 Corintios 13:4-8?",
+      "opciones": {
+        "A": "3",
+        "B": "15 (aproximadamente)",
+        "C": "7",
+        "D": "12"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 13:4-8 describe el amor con múltiples características: sufrido, benigno, no envidioso, no jactancioso, no envanecido, no indecente, no egoísta, no irritable, no pendenciero, no que se goza de la injusticia, sino de la verdad, sufre todo, cree todo, espera todo, lo todo suporta."
+    },
+    {
+      "id": 542,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios 13 - Amor",
+      "pregunta": "¿Qué permanece según 1 Corintios 13:13?",
+      "opciones": {
+        "A": "La fe, la esperanza y el amor, siendo el mayor el amor",
+        "B": "Solo el amor",
+        "C": "Solo la fe",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Corintios 13:13 dice: 'Y ahora permanecen la fe, la esperanza y el amor, estos tres; pero el mayor de ellos es el amor.'"
+    },
+    {
+      "id": 543,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Lenguas",
+      "pregunta": "¿Qué dijo Pablo sobre hablar en lenguas sin interpretación?",
+      "opciones": {
+        "A": "Que es bueno siempre",
+        "B": "Que edifica a la iglesia solo si hay interpretación; de lo contrario hablar en secreto",
+        "C": "Que debe prohibirse",
+        "D": "Que es el mejor don"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 14:5, 13, 27-28 enseña que hablar en lenguas sin interpretación no edifica a la iglesia, por lo que es mejor profetizar o hablar en lenguas con interpretación."
+    },
+    {
+      "id": 544,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Orden",
+      "pregunta": "¿Cuántos deben hablar en lenguas según 1 Corintios 14:27?",
+      "opciones": {
+        "A": "Todos a la vez",
+        "B": "A lo sumo tres, por turno, y uno que interprete",
+        "C": "Solo uno",
+        "D": "Cuantos quieran"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 14:27 dice: 'Si habla alguno en lengua extraña, sea esto por dos, o a lo más por tres, y por turno; y uno interprete.'"
+    },
+    {
+      "id": 545,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Profecía",
+      "pregunta": "¿Qué hace la profecía según 1 Corintios 14:3?",
+      "opciones": {
+        "A": "Confunde",
+        "B": "Edifica, exhorta y consuela",
+        "C": "Divierte",
+        "D": "Asusta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 14:3 dice: 'Pero el que profetiza, habla a los hombres para edificación, exhortación y consolación.'"
+    },
+    {
+      "id": 546,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Mujeres",
+      "pregunta": "¿Qué enseñó Pablo sobre las mujeres en las reuniones según 1 Corintios 14?",
+      "opciones": {
+        "A": "Que deben guardar silencio en las reuniones congregacionales",
+        "B": "Que deben enseñar a los hombres",
+        "C": "Que son superiores",
+        "D": "Que no importan"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Corintios 14:34-35 dice: 'Las mujeres guarden silencio en las congregaciones; porque no les es permitido hablar, sino que estén sujetas, como también la ley dice.' Los testigos de Jehová interpretan esto en el contexto de las reuniones congregacionales formales."
+    },
+    {
+      "id": 547,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Resurrección",
+      "pregunta": "¿Cómo resumió Pablo el evangelio en 1 Corintios 15:3-4?",
+      "opciones": {
+        "A": "'Cristo murió por nuestros pecados según las Escrituras, fue sepultado y resucitó al tercer día'",
+        "B": "'Cristo enseñó bien'",
+        "C": "'Cristo fue bueno'",
+        "D": "'Cristo sanó enfermos'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Corintios 15:3-4 dice que recibió lo que a su vez les enseñó: que Cristo murió por nuestros pecados según las Escrituras, que fue sepultado, y que resucitó al tercer día."
+    },
+    {
+      "id": 548,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Primicias",
+      "pregunta": "¿Quién es llamado 'primicias de los que durmieron' en 1 Corintios 15:20?",
+      "opciones": {
+        "A": "Adán",
+        "B": "Cristo",
+        "C": "Moisés",
+        "D": "Pablo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 15:20 dice: 'Mas ahora Cristo ha resucitado de los muertos, primicias de los que durmieron es hecho.'"
+    },
+    {
+      "id": 549,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "1 Corintios - Trompeta",
+      "pregunta": "¿Qué ocurrirá 'a la final trompeta' según 1 Corintios 15:52?",
+      "opciones": {
+        "A": "El fin del mundo",
+        "B": "Los muertos serán resucitados incorruptibles, y los vivos serán transformados",
+        "C": "Una guerra",
+        "D": "Un terremoto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Corintios 15:51-52 dice que en un momento, en un abrir y cerrar de ojos, a la final trompeta... los muertos serán resucitados incorruptibles, y nosotros seremos transformados."
+    },
+    {
+      "id": 550,
+      "nivel": 55,
+      "dificultad": 9,
+      "tema": "2 Corintios - Consolación",
+      "pregunta": "¿Quién consuela nuestras tribulaciones según 2 Corintios 1:3-4?",
+      "opciones": {
+        "A": "Los amigos",
+        "B": "El Dios de toda consolación",
+        "C": "Los médicos",
+        "D": "Nadie"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Corintios 1:3-4 dice: 'Bendito sea el Dios y Padre de nuestro Señor Jesucristo, Padre de misericordias y Dios de toda consolación, el cual nos consuela en todas nuestras tribulaciones.'"
+    }
+  ]
+}

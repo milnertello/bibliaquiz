@@ -42,6 +42,32 @@
     let questions = [];
     let usedQuestionIndices = new Set(); // evita repetir preguntas entre niveles
 
+    // Lista de los 20 archivos JSON de preguntas (1050+ preguntas en 100 niveles)
+    // default_questions.json se carga primero como fallback esencial
+    const questionFiles = [
+      'default_questions.json',
+      'preguntas_genesis_niveles_1_5.json',
+      'preguntas_exodo_niveles_6_10.json',
+      'preguntas_jueces_niveles_11_15.json',
+      'preguntas_reyes_niveles_16_20.json',
+      'preguntas_profetas_niveles_21_25.json',
+      'preguntas_exilio_regreso_niveles_26_30.json',
+      'preguntas_jesus_niveles_31_35.json',
+      'preguntas_jesus_ministerio_niveles_36_40.json',
+      'preguntas_jesus_pasion_niveles_41_45.json',
+      'preguntas_hechos_niveles_46_50.json',
+      'preguntas_cartas_pablo_1_niveles_51_55.json',
+      'preguntas_cartas_pablo_2_niveles_56_60.json',
+      'preguntas_cartas_pastorales_hebreos_niveles_61_65.json',
+      'preguntas_santiago_pedro_juan_niveles_66_70.json',
+      'preguntas_judas_apocalipsis_niveles_71_75.json',
+      'preguntas_at_profundo_niveles_76_80.json',
+      'preguntas_nt_profundo_niveles_81_85.json',
+      'preguntas_sintesis_biblia_niveles_86_90.json',
+      'preguntas_niveles_91_95.json',
+      'preguntas_niveles_finales_96_100.json'
+    ];
+
     // Gamification
     let isSurvival = false;
     let lives = 3;
@@ -78,10 +104,9 @@
 
     // Helper function to share results
     function shareResult(level, score, stars) {
-      const text = 
-        lang === "es" ? `¡Completé el Nivel ${level} en Biblia Kids con ${score}/10 puntos y ${stars}⭐! ¿Puedes superarlo?` :
-        lang === "qu" ? `¡Tukurqani Nivel ${level}ta Biblia Kids pi ${score}/10 puntoswan ${stars}⭐! ¿Qanpas atipawaqchu?` :
-        `I completed Level ${level} in Bible Kids with ${score}/10 points and ${stars}⭐! Can you beat it?`;
+      let text = `¡Completé el Nivel ${level} en Biblia Kids con ${score}/10 puntos y ${stars}⭐! ¿Puedes superarlo?`;
+      if (lang === "en") text = `I completed Level ${level} in Bible Kids with ${score}/10 points and ${stars}⭐! Can you beat it?`;
+      if (lang === "qu") text = `¡Tukurqani Nivel ${level}ta Biblia Kids pi ${score}/10 puntoswan ${stars}⭐! ¿Qanpas atipawaqchu?`;
       
       if (navigator.share) {
         navigator.share({
@@ -92,11 +117,10 @@
       } else {
         // Fallback: copy to clipboard
         navigator.clipboard.writeText(text + ' ' + window.location.href).then(() => {
-          alert(
-            lang === "es" ? "Resultado copiado al portapapeles" :
-            lang === "qu" ? "Rikumanta qillqapi waqaycharqani" :
-            "Result copied to clipboard"
-          );
+          let alertMsg = "Resultado copiado al portapapeles";
+          if (lang === "en") alertMsg = "Result copied to clipboard";
+          if (lang === "qu") alertMsg = "Rikumanta qillqapi waqaycharqani";
+          alert(alertMsg);
         });
       }
     }
@@ -196,33 +220,57 @@
     }
 
     const defaultBgIcons = ["🕊️", "🕊️", "🌥️", "✨", "⭐", "🌟", "☁️", "☁️", "🐑"];
-    const levelVisualThemes = {
-      1: {
-        bgClass: "level-theme-1",
-        icons: ["🕊️", "🕊️", "📜", "✨", "⭐", "🌟", "☁️", "☁️", "🫓"],
-        floaters: ["📜", "🪔", "🌿", "⭐", "📖", "🕊️"]
-      },
-      2: {
-        bgClass: "level-theme-2",
-        icons: ["⛵", "🐟", "📖", "✨", "🌊", "⭐", "☁️", "☁️", "🕊️"],
-        floaters: ["🐟", "⛵", "🪨", "📜", "⭐", "🕊️"]
-      },
-      3: {
-        bgClass: "level-theme-3",
-        icons: ["🦁", "🔥", "📜", "✨", "⭐", "🌟", "☁️", "☁️", "🌿"],
-        floaters: ["🦁", "🔥", "📖", "🪔", "⭐", "🌿"]
-      },
-      4: {
-        bgClass: "level-theme-4",
-        icons: ["👑", "📯", "📜", "✨", "⭐", "🌟", "☁️", "☁️", "🕊️"],
-        floaters: ["👑", "📯", "🪔", "📖", "⭐", "🕊️"]
-      },
-      5: {
-        bgClass: "level-theme-5",
-        icons: ["📖", "🕊️", "👑", "✨", "⭐", "🌟", "☁️", "☁️", "🔥"],
-        floaters: ["👑", "📜", "🪔", "⭐", "🕊️", "📖"]
-      }
+    
+    // Iconos bíblicos temáticos para niveles
+    const themeIcons = {
+      genesis: ["🌍", "✨", "🌿", "🐍", "🍎", "🕊️", "📜", "🌈"],
+      exodus: ["🔥", "🌊", "📜", "🍞", "⚡", "🏔️", "🐑", "👑"],
+      judges: ["⚔️", "🦁", "🔥", "🏺", "🌪️", "💪", "🎯", "🏆"],
+      kings: ["👑", "🏛️", "🎺", "📜", "⚔️", "🏰", "🕊️", "⭐"],
+      prophets: ["📖", "🔥", "👁️", "🎺", "⚡", "🌊", "🏜️", "🕊️"],
+      jesus: ["⭐", "👶", "🎁", "🕊️", "💧", "🐟", "🍞", "✨"],
+      ministry: ["🚶", "🎣", "⛵", "🏔️", "🌊", "👣", "💡", "🙏"],
+      passion: ["⛪", "🌿", "⚰️", "✝️", "🪨", "👑", "🔨", "🕊️"],
+      acts: ["🔥", "🕊️", "⛵", "🏛️", "🌊", "👥", "🗣️", "⚡"],
+      paul: ["✉️", "⛓️", "🚢", "🏛️", "📜", "✨", "🕊️", "❤️"],
+      letters: ["📜", "✉️", "🔥", "💎", "🕊️", "⭐", "📖", "✨"],
+      revelation: ["👁️", "🐉", "⭐", "🎺", "🏆", "👑", "💎", "🌟"],
+      default: ["📖", "✨", "⭐", "🕊️", "🙏", "💡", "🌟", "📜"]
     };
+    
+    // Función para obtener tema visual según el nivel (1-100)
+    function getLevelTheme(levelNum) {
+      // Determinar temática según el rango de niveles
+      let themeKey = 'default';
+      if (levelNum <= 5) themeKey = 'genesis';
+      else if (levelNum <= 10) themeKey = 'exodus';
+      else if (levelNum <= 15) themeKey = 'judges';
+      else if (levelNum <= 20) themeKey = 'kings';
+      else if (levelNum <= 25) themeKey = 'prophets';
+      else if (levelNum <= 30) themeKey = 'prophets';
+      else if (levelNum <= 35) themeKey = 'jesus';
+      else if (levelNum <= 40) themeKey = 'ministry';
+      else if (levelNum <= 45) themeKey = 'passion';
+      else if (levelNum <= 50) themeKey = 'acts';
+      else if (levelNum <= 55) themeKey = 'paul';
+      else if (levelNum <= 60) themeKey = 'paul';
+      else if (levelNum <= 65) themeKey = 'letters';
+      else if (levelNum <= 70) themeKey = 'letters';
+      else if (levelNum <= 75) themeKey = 'revelation';
+      else if (levelNum <= 80) themeKey = 'prophets';
+      else if (levelNum <= 85) themeKey = 'letters';
+      else if (levelNum <= 90) themeKey = 'letters';
+      else if (levelNum <= 95) themeKey = 'letters';
+      else themeKey = 'revelation';
+      
+      const icons = themeIcons[themeKey] || themeIcons.default;
+      
+      return {
+        bgClass: `level-theme-${((levelNum - 1) % 20) + 1}`,
+        icons: [...icons, ...icons.slice(0, 1)], // 9 iconos
+        floaters: icons.slice(0, 6) // 6 floaters
+      };
+    }
 
     /* ===== 100 PREGUNTAS REALES ÚNICAS ===== */
     const bank = [
@@ -230,44 +278,44 @@
       { q_es: "¿Quién fue el primer hombre?", q_en: "Who was the first man?", q_qu: "¿Pikun karqan ñawpaq runa?", a_es: ["Adán", "Noé", "Abraham"], a_en: ["Adam", "Noah", "Abraham"], a_qu: ["Adán", "Noé", "Abraham"], c: 0, ref: "Génesis 2:7", text_es: "Jehová Dios formó al hombre del polvo del suelo.", text_en: "Jehovah God formed the man from the dust of the ground.", text_qu: "Jehová Dios runata allpapi pacha ukhupi kamakurqan." },
       { q_es: "¿Quién fue la primera mujer?", q_en: "Who was the first woman?", q_qu: "¿Pikun karqan ñawpaq warmi?", a_es: ["Eva", "Sara", "Rebeca"], a_en: ["Eve", "Sarah", "Rebekah"], a_qu: ["Eva", "Sara", "Rebeca"], c: 0, ref: "Génesis 2:22", text_es: "De la costilla hizo una mujer.", text_en: "From the rib he made a woman.", text_qu: "Warmi waqta ukhupi kamakurqan." },
       { q_es: "¿Quién construyó el arca?", q_en: "Who built the ark?", q_qu: "¿Pikun arca ruwarqan?", a_es: ["Noé", "Moisés", "David"], a_en: ["Noah", "Moses", "David"], a_qu: ["Noé", "Moisés", "David"], c: 0, ref: "Génesis 6:14", text_es: "Hazte un arca de madera resinosa.", text_en: "Make for yourself an ark of resinous wood.", text_qu: "Kikinpaq resinosa k'aspiwan arca ruway." },
-      { q_es: "¿Cuántos días llovió en el Diluvio?", q_en: "How many days did it rain during the Flood?", a_es: ["40", "7", "100"], a_en: ["40", "7", "100"], c: 0, ref: "Génesis 7:12", text_es: "Llovió 40 días y 40 noches.", text_en: "It rained 40 days and 40 nights." },
-      { q_es: "¿Quién mató a Abel?", q_en: "Who killed Abel?", a_es: ["Caín", "Set", "Noé"], a_en: ["Cain", "Seth", "Noah"], c: 0, ref: "Génesis 4:8", text_es: "Caín atacó a su hermano.", text_en: "Cain attacked his brother." },
-      { q_es: "¿Quién interpretó sueños en Egipto?", q_en: "Who interpreted dreams in Egypt?", a_es: ["José", "Moisés", "Daniel"], a_en: ["Joseph", "Moses", "Daniel"], c: 0, ref: "Génesis 41:15", text_es: "Dios dará respuesta.", text_en: "God will give the answer." },
-      { q_es: "¿Quién guió a Israel fuera de Egipto?", q_en: "Who led Israel out of Egypt?", a_es: ["Moisés", "Abraham", "Isaac"], a_en: ["Moses", "Abraham", "Isaac"], c: 0, ref: "Éxodo 3:10", text_es: "Saca a mi pueblo.", text_en: "Bring my people out." },
-      { q_es: "¿Quién recibió los Diez Mandamientos?", q_en: "Who received the Ten Commandments?", a_es: ["Moisés", "David", "Salomón"], a_en: ["Moses", "David", "Solomon"], c: 0, ref: "Éxodo 31:18", text_es: "Dios dio las tablas.", text_en: "God gave the tablets." },
-      { q_es: "¿Quién derribó los muros de Jericó?", q_en: "Who brought down Jericho walls?", a_es: ["Josué", "Moisés", "David"], a_en: ["Joshua", "Moses", "David"], c: 0, ref: "Josué 6:20", text_es: "El muro cayó.", text_en: "The wall fell." },
-      { q_es: "¿Quién venció a Goliat?", q_en: "Who defeated Goliath?", a_es: ["David", "Saúl", "Samuel"], a_en: ["David", "Saul", "Samuel"], c: 0, ref: "1 Samuel 17:50", text_es: "David venció.", text_en: "David defeated him." },
-      { q_es: "¿Cuántos años vivió Matusalén?", q_en: "How many years did Methuselah live?", a_es: ["969", "777", "900"], a_en: ["969", "777", "900"], c: 0, ref: "Génesis 5:27", text_es: "Matusalén vivió 969 años.", text_en: "Methuselah lived 969 years." },
-      { q_es: "¿Quién fue arrojado al foso de los leones?", q_en: "Who was thrown into the lion's den?", a_es: ["Daniel", "Jonás", "Pablo"], a_en: ["Daniel", "Jonah", "Paul"], c: 0, ref: "Daniel 6:16", text_es: "Daniel fue arrojado.", text_en: "Daniel was thrown in." },
-      { q_es: "¿Quién fue tragado por un gran pez?", q_en: "Who was swallowed by a great fish?", a_es: ["Jonás", "Elías", "Ezequiel"], a_en: ["Jonah", "Elijah", "Ezekiel"], c: 0, ref: "Jonás 1:17", text_es: "Un gran pez tragó a Jonás.", text_en: "A great fish swallowed Jonah." },
-      { q_es: "¿Quién fue el rey más sabio de Israel?", q_en: "Who was the wisest king of Israel?", a_es: ["Salomón", "David", "Saúl"], a_en: ["Solomon", "David", "Saul"], c: 0, ref: "1 Reyes 4:31", text_es: "Salomón fue el más sabio.", text_en: "Solomon was the wisest." },
-      { q_es: "¿Quién venció a los filisteos con quijada de asno?", q_en: "Who defeated Philistines with a donkey's jaw?", a_es: ["Sansón", "David", "Gedeón"], a_en: ["Samson", "David", "Gideon"], c: 0, ref: "Jueces 15:15", text_es: "Hirió a mil hombres.", text_en: "He struck down a thousand men." },
-      { q_es: "¿Quién construyó el templo de Jerusalén?", q_en: "Who built the temple in Jerusalem?", a_es: ["Salomón", "David", "Ezequías"], a_en: ["Solomon", "David", "Hezekiah"], c: 0, ref: "1 Reyes 6:1", text_es: "Salomón edificó la casa.", text_en: "Solomon built the house." },
-      { q_es: "¿Cuántas plagas envió Dios sobre Egipto?", q_en: "How many plagues did God send on Egypt?", a_es: ["10", "7", "12"], a_en: ["10", "7", "12"], c: 0, ref: "Éxodo 7–12", text_es: "Diez plagas sobre Egipto.", text_en: "Ten plagues upon Egypt." },
-      { q_es: "¿Quién era la madre de Moisés?", q_en: "Who was Moses' mother?", a_es: ["Jocabed", "Miriam", "Séfora"], a_en: ["Jochebed", "Miriam", "Zipporah"], c: 0, ref: "Éxodo 6:20", text_es: "Jocabed, hija de Leví.", text_en: "Jochebed, daughter of Levi." },
-      { q_es: "¿Cuántos años estuvo Israel en el desierto?", q_en: "How many years did Israel wander the desert?", a_es: ["40", "20", "50"], a_en: ["40", "20", "50"], c: 0, ref: "Números 14:33", text_es: "Cuarenta años en el desierto.", text_en: "Forty years in the wilderness." },
-      { q_es: "¿Quién fue el primer rey de Israel?", q_en: "Who was the first king of Israel?", a_es: ["Saúl", "David", "Samuel"], a_en: ["Saul", "David", "Samuel"], c: 0, ref: "1 Samuel 10:1", text_es: "Samuel ungió a Saúl.", text_en: "Samuel anointed Saul." },
-      { q_es: "¿Quién ungió a David como rey?", q_en: "Who anointed David as king?", a_es: ["Samuel", "Natán", "Gad"], a_en: ["Samuel", "Nathan", "Gad"], c: 0, ref: "1 Samuel 16:13", text_es: "Samuel ungió a David.", text_en: "Samuel anointed David." },
-      { q_es: "¿Qué arma usó David contra Goliat?", q_en: "What weapon did David use against Goliath?", a_es: ["Honda", "Espada", "Lanza"], a_en: ["Sling", "Sword", "Spear"], c: 0, ref: "1 Samuel 17:49", text_es: "Tomó su honda y una piedra.", text_en: "He took his sling and a stone." },
-      { q_es: "¿En qué monte recibió Moisés los mandamientos?", q_en: "On what mountain did Moses receive the commandments?", a_es: ["Sinaí", "Carmelo", "Sion"], a_en: ["Sinai", "Carmel", "Zion"], c: 0, ref: "Éxodo 19:20", text_es: "Dios descendió al monte Sinaí.", text_en: "God descended to Mount Sinai." },
-      { q_es: "¿Quién era el hermano de Moisés?", q_en: "Who was Moses' brother?", a_es: ["Aarón", "Josué", "Caleb"], a_en: ["Aaron", "Joshua", "Caleb"], c: 0, ref: "Éxodo 4:14", text_es: "Aarón, el levita, es tu hermano.", text_en: "Aaron the Levite is your brother." },
-      { q_es: "¿Cuántos hijos tuvo Jacob?", q_en: "How many sons did Jacob have?", a_es: ["12", "10", "7"], a_en: ["12", "10", "7"], c: 0, ref: "Génesis 35:22", text_es: "Doce hijos tuvo Jacob.", text_en: "Twelve sons Jacob had." },
-      { q_es: "¿Quién fue el esposo de Rut?", q_en: "Who was Ruth's husband (Boaz)?", a_es: ["Boaz", "Elimelec", "Quelión"], a_en: ["Boaz", "Elimelech", "Chilion"], c: 0, ref: "Rut 4:13", text_es: "Boaz tomó a Rut por esposa.", text_en: "Boaz took Ruth as his wife." },
-      { q_es: "¿Quién era la suegra de Rut?", q_en: "Who was Ruth's mother-in-law?", a_es: ["Noemí", "Débora", "Ana"], a_en: ["Naomi", "Deborah", "Hannah"], c: 0, ref: "Rut 1:4", text_es: "Noemí era su suegra.", text_en: "Naomi was her mother-in-law." },
-      { q_es: "¿Quién fue la primera jueza de Israel?", q_en: "Who was the first female judge of Israel?", a_es: ["Débora", "Rut", "Ester"], a_en: ["Deborah", "Ruth", "Esther"], c: 0, ref: "Jueces 4:4", text_es: "Débora, profetisa, juzgaba a Israel.", text_en: "Deborah, a prophetess, judged Israel." },
-      { q_es: "¿Quién salvó a Israel siendo reina?", q_en: "Who saved Israel as queen?", a_es: ["Ester", "Rut", "Dalila"], a_en: ["Esther", "Ruth", "Delilah"], c: 0, ref: "Ester 4:14", text_es: "Ester salvó a su pueblo.", text_en: "Esther saved her people." },
-      { q_es: "¿Quién fue el profeta del fuego?", q_en: "Who was the prophet of fire?", a_es: ["Elías", "Eliseo", "Isaías"], a_en: ["Elijah", "Elisha", "Isaiah"], c: 0, ref: "1 Reyes 18:38", text_es: "El fuego de Jehová cayó.", text_en: "The fire of Jehovah fell." },
+      { q_es: "¿Cuántos días llovió en el Diluvio?", q_en: "How many days did it rain during the Flood?", q_qu: "¿Hayk'a p'unchaymi parakurqan para pacha ukhupi?", a_es: ["40", "7", "100"], a_en: ["40", "7", "100"], a_qu: ["40", "7", "100"], c: 0, ref: "Génesis 7:12", text_es: "Llovió 40 días y 40 noches.", text_en: "It rained 40 days and 40 nights.", text_qu: "40 p'unchay 40 tuta parakurqan." },
+      { q_es: "¿Quién mató a Abel?", q_en: "Who killed Abel?", q_qu: "¿Pin Abelta wañuchirqan?", a_es: ["Caín", "Set", "Noé"], a_en: ["Cain", "Seth", "Noah"], a_qu: ["Caín", "Set", "Noé"], c: 0, ref: "Génesis 4:8", text_es: "Caín atacó a su hermano.", text_en: "Cain attacked his brother.", text_qu: "Caín wawqinta maqaspa wañuchirqan." },
+      { q_es: "¿Quién interpretó sueños en Egipto?", q_en: "Who interpreted dreams in Egypt?", q_qu: "¿Pin Egipto suyupi mosqoykunata sut'incharqan?", a_es: ["José", "Moisés", "Daniel"], a_en: ["Joseph", "Moses", "Daniel"], a_qu: ["José", "Moisés", "Daniel"], c: 0, ref: "Génesis 41:15", text_es: "Dios dará respuesta.", text_en: "God will give the answer.", text_qu: "Diosmi kutichiyta qonqa." },
+      { q_es: "¿Quién guió a Israel fuera de Egipto?", q_en: "Who led Israel out of Egypt?", q_qu: "¿Pin Israelta Egipto suyumanta horqomurqan?", a_es: ["Moisés", "Abraham", "Isaac"], a_en: ["Moses", "Abraham", "Isaac"], a_qu: ["Moisés", "Abraham", "Isaac"], c: 0, ref: "Éxodo 3:10", text_es: "Saca a mi pueblo.", text_en: "Bring my people out.", text_qu: "Llaqtayta horqomuy." },
+      { q_es: "¿Quién recibió los Diez Mandamientos?", q_en: "Who received the Ten Commandments?", q_qu: "¿Pin Chunka Kamachikuykunata chaskirqan?", a_es: ["Moisés", "David", "Salomón"], a_en: ["Moses", "David", "Solomon"], a_qu: ["Moisés", "David", "Salomón"], c: 0, ref: "Éxodo 31:18", text_es: "Dios dio las tablas.", text_en: "God gave the tablets.", text_qu: "Diosmi rumipi qellqasqata qoran." },
+      { q_es: "¿Quién derribó los muros de Jericó?", q_en: "Who brought down Jericho walls?", q_qu: "¿Pin Jericó perqakunata thunirqan?", a_es: ["Josué", "Moisés", "David"], a_en: ["Joshua", "Moses", "David"], a_qu: ["Josué", "Moisés", "David"], c: 0, ref: "Josué 6:20", text_es: "El muro cayó.", text_en: "The wall fell.", text_qu: "Perqa urmaykurqan." },
+      { q_es: "¿Quién venció a Goliat?", q_en: "Who defeated Goliath?", q_qu: "¿Pin Goliat-ta atiparqan?", a_es: ["David", "Saúl", "Samuel"], a_en: ["David", "Saul", "Samuel"], a_qu: ["David", "Saúl", "Samuel"], c: 0, ref: "1 Samuel 17:50", text_es: "David venció.", text_en: "David defeated him.", text_qu: "Davidmi atiparqan." },
+      { q_es: "¿Cuántos años vivió Matusalén?", q_en: "How many years did Methuselah live?", q_qu: "¿Hayk'a watan Matusalén kawsarqan?", a_es: ["969", "777", "900"], a_en: ["969", "777", "900"], a_qu: ["969", "777", "900"], c: 0, ref: "Génesis 5:27", text_es: "Matusalén vivió 969 años.", text_en: "Methuselah lived 969 years.", text_qu: "Matusalén 969 watata kawsarqan." },
+      { q_es: "¿Quién fue arrojado al foso de los leones?", q_en: "Who was thrown into the lion's den?", q_qu: "¿Pin leonkunapa t'oqonman choqasqa karqan?", a_es: ["Daniel", "Jonás", "Pablo"], a_en: ["Daniel", "Jonah", "Paul"], a_qu: ["Daniel", "Jonás", "Pablo"], c: 0, ref: "Daniel 6:16", text_es: "Daniel fue arrojado.", text_en: "Daniel was thrown in.", text_qu: "Danielmi choqasqa karqan." },
+      { q_es: "¿Quién fue tragado por un gran pez?", q_en: "Who was swallowed by a great fish?", q_qu: "¿Pin jatun challwapa millp'usqan karqan?", a_es: ["Jonás", "Elías", "Ezequiel"], a_en: ["Jonah", "Elijah", "Ezekiel"], a_qu: ["Jonás", "Elías", "Ezequiel"], c: 0, ref: "Jonás 1:17", text_es: "Un gran pez tragó a Jonás.", text_en: "A great fish swallowed Jonah.", text_qu: "Jatun challwan millp'uykurqan." },
+      { q_es: "¿Quién fue el rey más sabio de Israel?", q_en: "Who was the wisest king of Israel?", q_qu: "¿Pin Israelpi aswan yachayniyoq rey karqan?", a_es: ["Salomón", "David", "Saúl"], a_en: ["Solomon", "David", "Saul"], a_qu: ["Salomón", "David", "Saúl"], c: 0, ref: "1 Reyes 4:31", text_es: "Salomón fue el más sabio.", text_en: "Solomon was the wisest.", text_qu: "Salomónmi aswan yachayniyoq karqan." },
+      { q_es: "¿Quién venció a los filisteos con quijada de asno?", q_en: "Who defeated Philistines with a donkey's jaw?", q_qu: "¿Pin asno k'akllawan filisteo runakunata atiparqan?", a_es: ["Sansón", "David", "Gedeón"], a_en: ["Samson", "David", "Gideon"], a_qu: ["Sansón", "David", "Gedeón"], c: 0, ref: "Jueces 15:15", text_es: "Hirió a mil hombres.", text_en: "He struck down a thousand men.", text_qu: "Waranqa runakunata wañuchirqan." },
+      { q_es: "¿Quién construyó el templo de Jerusalén?", q_en: "Who built the temple in Jerusalem?", q_qu: "¿Pin Jerusalénpi yupaychana wasita ruwarqan?", a_es: ["Salomón", "David", "Ezequías"], a_en: ["Solomon", "David", "Hezekiah"], a_qu: ["Salomón", "David", "Ezequías"], c: 0, ref: "1 Reyes 6:1", text_es: "Salomón edificó la casa.", text_en: "Solomon built the house.", text_qu: "Salomónmi wasita ruwarqan." },
+      { q_es: "¿Cuántas plagas envió Dios sobre Egipto?", q_en: "How many plagues did God send on Egypt?", q_qu: "¿Hayk'a castigokunatan Dios Egiptoman kacharqan?", a_es: ["10", "7", "12"], a_en: ["10", "7", "12"], a_qu: ["10", "7", "12"], c: 0, ref: "Éxodo 7–12", text_es: "Diez plagas sobre Egipto.", text_en: "Ten plagues upon Egypt.", text_qu: "Chunka castigokuna karqan." },
+      { q_es: "¿Quién era la madre de Moisés?", q_en: "Who was Moses' mother?", q_qu: "¿Pin Moisespa maman karqan?", a_es: ["Jocabed", "Miriam", "Séfora"], a_en: ["Jochebed", "Miriam", "Zipporah"], a_qu: ["Jocabed", "Miriam", "Séfora"], c: 0, ref: "Éxodo 6:20", text_es: "Jocabed, hija de Leví.", text_en: "Jochebed, daughter of Levi.", text_qu: "Jocabed, Levipa ususin." },
+      { q_es: "¿Cuántos años estuvo Israel en el desierto?", q_en: "How many years did Israel wander the desert?", q_qu: "¿Hayk'a watan Israel runakuna ch'usaq pajapi karqanku?", a_es: ["40", "20", "50"], a_en: ["40", "20", "50"], a_qu: ["40", "20", "50"], c: 0, ref: "Números 14:33", text_es: "Cuarenta años en el desierto.", text_en: "Forty years in the wilderness.", text_qu: "40 wata ch'usaq pajapi karqanku." },
+      { q_es: "¿Quién fue el primer rey de Israel?", q_en: "Who was the first king of Israel?", q_qu: "¿Pin Israelpa ñawpaq reynin karqan?", a_es: ["Saúl", "David", "Samuel"], a_en: ["Saul", "David", "Samuel"], a_qu: ["Saúl", "David", "Samuel"], c: 0, ref: "1 Samuel 10:1", text_es: "Samuel ungió a Saúl.", text_en: "Samuel anointed Saul.", text_qu: "Samuelmi Saúl-ta aceitewan jwichirqan." },
+      { q_es: "¿Quién ungió a David como rey?", q_en: "Who anointed David as king?", q_qu: "¿Pin Davidta rey kananpaq aceitewan jwichirqan?", a_es: ["Samuel", "Natán", "Gad"], a_en: ["Samuel", "Nathan", "Gad"], a_qu: ["Samuel", "Natán", "Gad"], c: 0, ref: "1 Samuel 16:13", text_es: "Samuel ungió a David.", text_en: "Samuel anointed David.", text_qu: "Samuelmi Davidta jwichirqan." },
+      { q_es: "¿Qué arma usó David contra Goliat?", q_en: "What weapon did David use against Goliath?", q_qu: "¿Ima armawanmi David Goliat-ta wañuchirqan?", a_es: ["Honda", "Espada", "Lanza"], a_en: ["Sling", "Sword", "Spear"], a_qu: ["Waraka", "Espada", "Lanza"], c: 0, ref: "1 Samuel 17:49", text_es: "Tomó su honda y una piedra.", text_en: "He took his sling and a stone.", text_qu: "Warakanta rumiwan jap'irqan." },
+      { q_es: "¿En qué monte recibió Moisés los mandamientos?", q_en: "On what mountain did Moses receive the commandments?", q_qu: "¿Mayqen orqopin Moisés kamachikuykunata chaskirqan?", a_es: ["Sinaí", "Carmelo", "Sion"], a_en: ["Sinai", "Carmel", "Zion"], a_qu: ["Sinaí", "Carmelo", "Sion"], c: 0, ref: "Éxodo 19:20", text_es: "Dios descendió al monte Sinaí.", text_en: "God descended to Mount Sinai.", text_qu: "Diosmi Sinaí orqoman uraykamurqan." },
+      { q_es: "¿Quién era the hermano de Moisés?", q_en: "Who was Moses' brother?", q_qu: "¿Pin Moisespa wawqin karqan?", a_es: ["Aarón", "Josué", "Caleb"], a_en: ["Aaron", "Joshua", "Caleb"], a_qu: ["Aarón", "Josué", "Caleb"], c: 0, ref: "Éxodo 4:14", text_es: "Aarón, el levita, es tu hermano.", text_en: "Aaron the Levite is your brother.", text_qu: "Aarón, levita runan wawqiyki." },
+      { q_es: "¿Cuántos hijos tuvo Jacob?", q_en: "How many sons did Jacob have?", q_qu: "¿Hayk'a churiyoqmi Jacob karqan?", a_es: ["12", "10", "7"], a_en: ["12", "10", "7"], a_qu: ["12", "10", "7"], c: 0, ref: "Génesis 35:22", text_es: "Doce hijos tuvo Jacob.", text_en: "Twelve sons Jacob had.", text_qu: "Jacob 12 churiyoq karqan." },
+      { q_es: "¿Quién fue el esposo de Rut?", q_en: "Who was Ruth's husband (Boaz)?", q_qu: "¿Pin Rut-pa qosan karqan?", a_es: ["Boaz", "Elimelec", "Quelión"], a_en: ["Boaz", "Elimelech", "Chilion"], a_qu: ["Boaz", "Elimelec", "Quelión"], c: 0, ref: "Rut 4:13", text_es: "Boaz tomó a Rut por esposa.", text_en: "Boaz took Ruth as his wife.", text_qu: "Boaz Rut-ta casarakurqan." },
+      { q_es: "¿Quién era la suegra de Rut?", q_en: "Who was Ruth's mother-in-law?", q_qu: "¿Pin Rut-pa quesachin karqan?", a_es: ["Noemí", "Débora", "Ana"], a_en: ["Naomi", "Deborah", "Hannah"], a_qu: ["Noemí", "Débora", "Ana"], c: 0, ref: "Rut 1:4", text_es: "Noemí era su suegra.", text_en: "Naomi was her mother-in-law.", text_qu: "Noemí karqan quesachin." },
+      { q_es: "¿Quién fue la primera jueza de Israel?", q_en: "Who was the first female judge of Israel?", q_qu: "¿Pin Israelpi ñawpaq jueza warmi karqan?", a_es: ["Débora", "Rut", "Ester"], a_en: ["Deborah", "Ruth", "Esther"], a_qu: ["Débora", "Rut", "Ester"], c: 0, ref: "Jueces 4:4", text_es: "Débora, profetisa, juzgaba a Israel.", text_en: "Deborah, a prophetess, judged Israel.", text_qu: "Débora, profetisa, Israelta juzgaq." },
+      { q_es: "¿Quién salvó a Israel siendo reina?", q_en: "Who saved Israel as queen?", q_qu: "¿Ima reinan Israelta qespichirqan?", a_es: ["Ester", "Rut", "Dalila"], a_en: ["Esther", "Ruth", "Delilah"], a_qu: ["Ester", "Rut", "Dalila"], c: 0, ref: "Ester 4:14", text_es: "Ester salvó a su pueblo.", text_en: "Esther saved her people.", text_qu: "Estermi llaqtanta qespichirqan." },
+      { q_es: "¿Quién fue el profeta del fuego?", q_en: "Who was the prophet of fire?", q_qu: "¿Pin ninapa profetan karqan?", a_es: ["Elías", "Eliseo", "Isaías"], a_en: ["Elijah", "Elisha", "Isaiah"], a_qu: ["Elías", "Eliseo", "Isaías"], c: 0, ref: "1 Reyes 18:38", text_es: "El fuego de Jehová cayó.", text_en: "The fire of Jehovah fell.", text_qu: "Jehovapa ninan urmaykamurqan." },
       /* ===== NUEVO TESTAMENTO ===== */
-      { q_es: "¿Dónde nació Jesús?", q_en: "Where was Jesus born?", a_es: ["Belén", "Nazaret", "Jerusalén"], a_en: ["Bethlehem", "Nazareth", "Jerusalem"], c: 0, ref: "Mateo 2:1", text_es: "Jesús nació en Belén.", text_en: "Jesus was born in Bethlehem." },
-      { q_es: "¿Quién bautizó a Jesús?", q_en: "Who baptized Jesus?", a_es: ["Juan", "Pedro", "Pablo"], a_en: ["John", "Peter", "Paul"], c: 0, ref: "Mateo 3:13", text_es: "Jesús fue bautizado.", text_en: "Jesus was baptized." },
-      { q_es: "¿Cuántos discípulos tuvo Jesús?", q_en: "How many disciples did Jesus have?", a_es: ["12", "10", "7"], a_en: ["12", "10", "7"], c: 0, ref: "Mateo 10:1", text_es: "Llamó a doce discípulos.", text_en: "He called twelve disciples." },
-      { q_es: "¿Quién negó a Jesús tres veces?", q_en: "Who denied Jesus three times?", a_es: ["Pedro", "Juan", "Tomás"], a_en: ["Peter", "John", "Thomas"], c: 0, ref: "Lucas 22:61", text_es: "Pedro negó.", text_en: "Peter denied." },
-      { q_es: "¿En qué murió Jesús?", q_en: "How did Jesus die?", a_es: ["En un madero", "En cruz", "A espada"], a_en: ["On a stake", "On a cross", "By sword"], c: 0, ref: "Hechos 5:30", text_es: "Colgado en un madero.", text_en: "Hanged on a stake." },
-      { q_es: "¿Quién escribió Apocalipsis?", q_en: "Who wrote Revelation?", a_es: ["Juan", "Pedro", "Pablo"], a_en: ["John", "Peter", "Paul"], c: 0, ref: "Apocalipsis 1:1", text_es: "Revelación dada a Juan.", text_en: "Revelation given to John." },
-      { q_es: "¿Quién traicionó a Jesús?", q_en: "Who betrayed Jesus?", a_es: ["Judas", "Pedro", "Tomás"], a_en: ["Judas", "Peter", "Thomas"], c: 0, ref: "Mateo 26:14", text_es: "Judas lo entregó.", text_en: "Judas handed him over." },
-      { q_es: "¿Cuánto recibió Judas por traicionar a Jesús?", q_en: "How much did Judas get for betraying Jesus?", a_es: ["30 piezas de plata", "10 monedas", "50 denarios"], a_en: ["30 silver pieces", "10 coins", "50 denarii"], c: 0, ref: "Mateo 26:15", text_es: "Le pagaron 30 piezas de plata.", text_en: "They paid him 30 silver pieces." },
-      { q_es: "¿Quién llevó el madero de Jesús?", q_en: "Who carried Jesus' cross?", a_es: ["Simón de Cirene", "Juan", "Pedro"], a_en: ["Simon of Cyrene", "John", "Peter"], c: 0, ref: "Mateo 27:32", text_es: "Obligaron a Simón a cargar el madero.", text_en: "They forced Simon to carry the cross." },
-      { q_es: "¿En qué monte se transfiguró Jesús?", q_en: "On what mountain was Jesus transfigured?", a_es: ["Monte alto", "Carmelo", "Sinaí"], a_en: ["High mountain", "Carmel", "Sinai"], c: 0, ref: "Mateo 17:1", text_es: "Subió a un monte alto.", text_en: "He went up a high mountain." },
+      { q_es: "¿Dónde nació Jesús?", q_en: "Where was Jesus born?", q_qu: "¿Maypin Jesús nacerqan?", a_es: ["Belén", "Nazaret", "Jerusalén"], a_en: ["Bethlehem", "Nazareth", "Jerusalem"], a_qu: ["Belén", "Nazaret", "Jerusalén"], c: 0, ref: "Mateo 2:1", text_es: "Jesús nació en Belén.", text_en: "Jesus was born in Bethlehem.", text_qu: "Jesús Belén llaqtapin nacerqan." },
+      { q_es: "¿Quién bautizó a Jesús?", q_en: "Who baptized Jesus?", q_qu: "¿Pin Jesusta bautizarqan?", a_es: ["Juan", "Pedro", "Pablo"], a_en: ["John", "Peter", "Paul"], a_qu: ["Juan", "Pedro", "Pablo"], c: 0, ref: "Mateo 3:13", text_es: "Jesús fue bautizado.", text_en: "Jesus was baptized.", text_qu: "Jesús bautizasqa karqan." },
+      { q_es: "¿Cuántos discípulos tuvo Jesús?", q_en: "How many disciples did Jesus have?", q_qu: "¿Hayk'a discipulokunatan Jesús jap'irqan?", a_es: ["12", "10", "7"], a_en: ["12", "10", "7"], a_qu: ["12", "10", "7"], c: 0, ref: "Mateo 10:1", text_es: "Llamó a doce discípulos.", text_en: "He called twelve disciples.", text_qu: "12 discipulokunatan wajyarqan." },
+      { q_es: "¿Quién negó a Jesús tres veces?", q_en: "Who denied Jesus three times?", q_qu: "¿Pin Jesusta kinsa kutita negarqan?", a_es: ["Pedro", "Juan", "Tomás"], a_en: ["Peter", "John", "Thomas"], a_qu: ["Pedro", "Juan", "Tomás"], c: 0, ref: "Lucas 22:61", text_es: "Pedro negó.", text_en: "Peter denied.", text_qu: "Pedromi negarqan." },
+      { q_es: "¿En qué murió Jesús?", q_en: "How did Jesus die?", q_qu: "¿Imapin Jesús wañurqan?", a_es: ["En un madero", "En cruz", "A espada"], a_en: ["On a stake", "On a cross", "By sword"], a_qu: ["Maderopi", "Cruzpi", "Espadawan"], c: 0, ref: "Hechos 5:30", text_es: "Colgado en un madero.", text_en: "Hanged on a stake.", text_qu: "Maderopi warkusqa karqan." },
+      { q_es: "¿Quién escribió Apocalipsis?", q_en: "Who wrote Revelation?", q_qu: "¿Pin Apocalipsis-ta qellqarqan?", a_es: ["Juan", "Pedro", "Pablo"], a_en: ["John", "Peter", "Paul"], a_qu: ["Juan", "Pedro", "Pablo"], c: 0, ref: "Apocalipsis 1:1", text_es: "Revelación dada a Juan.", text_en: "Revelation given to John.", text_qu: "Juanmi revelacionta chaskispa qellqarqan." },
+      { q_es: "¿Quién traicionó a Jesús?", q_en: "Who betrayed Jesus?", q_qu: "¿Pin Jesusta traicionarqan?", a_es: ["Judas", "Pedro", "Tomás"], a_en: ["Judas", "Peter", "Thomas"], a_qu: ["Judas", "Pedro", "Tomás"], c: 0, ref: "Mateo 26:14", text_es: "Judas lo entregó.", text_en: "Judas handed him over.", text_qu: "Judasmi Jesusta qoran." },
+      { q_es: "¿Cuánto recibió Judas por traicionar a Jesús?", q_en: "How much did Judas get for betraying Jesus?", q_qu: "¿Hayk'atan Judas chaskirqan Jesusta traicionasqanmanta?", a_es: ["30 piezas de plata", "10 monedas", "50 denarios"], a_en: ["30 silver pieces", "10 coins", "50 denarii"], a_qu: ["30 qolqe", "10 qolqe", "50 denarios"], c: 0, ref: "Mateo 26:15", text_es: "Le pagaron 30 piezas de plata.", text_en: "They paid him 30 silver pieces.", text_qu: "30 qolqeta paman qoranku." },
+      { q_es: "¿Quién llevó el madero de Jesús?", q_en: "Who carried Jesus' cross?", q_qu: "¿Pin Jesustpa maderonta aparqan?", a_es: ["Simón de Cirene", "Juan", "Pedro"], a_en: ["Simon of Cyrene", "John", "Peter"], a_qu: ["Simón de Cirene", "Juan", "Pedro"], c: 0, ref: "Mateo 27:32", text_es: "Obligaron a Simón a cargar el madero.", text_en: "They forced Simon to carry the cross.", text_qu: "Simón Cirene runatan maderota apachirqanku." },
+      { q_es: "¿En qué monte se transfiguró Jesús?", q_en: "On what mountain was Jesus transfigured?", q_qu: "¿Mayqen orqopin Jesús transfigurakurqan?", a_es: ["Monte alto", "Carmelo", "Sinaí"], a_en: ["High mountain", "Carmel", "Sinai"], a_qu: ["Jatun orqopi", "Carmelo", "Sinaí"], c: 0, ref: "Mateo 17:1", text_es: "Subió a un monte alto.", text_en: "He went up a high mountain.", text_qu: "Jatun orqoman wicharqan." },
       { q_es: "¿Cuántos panes multiplicó Jesús?", q_en: "How many loaves did Jesus multiply?", a_es: ["5", "7", "12"], a_en: ["5", "7", "12"], c: 0, ref: "Mateo 14:17", text_es: "Cinco panes y dos peces.", text_en: "Five loaves and two fish." },
       { q_es: "¿Quién fue el primer mártir cristiano?", q_en: "Who was the first Christian martyr?", a_es: ["Esteban", "Jacobo", "Pablo"], a_en: ["Stephen", "James", "Paul"], c: 0, ref: "Hechos 7:59", text_es: "Esteban fue apedreado.", text_en: "Stephen was stoned." },
       { q_es: "¿En qué ciudad se llamaron primero cristianos?", q_en: "In what city were followers first called Christians?", a_es: ["Antioquía", "Jerusalén", "Roma"], a_en: ["Antioch", "Jerusalem", "Rome"], c: 0, ref: "Hechos 11:26", text_es: "En Antioquía los llamaron cristianos.", text_en: "In Antioch they were called Christians." },
@@ -427,61 +475,118 @@
       return array;
     }
 
-    // Función para cargar preguntas adicionales desde JSON
+    // Diccionario básico para "traducción automática" de términos comunes
+    const quDict = {
+      "¿Quién": "¿Pin",
+      "¿Qué": "¿Ima",
+      "¿Dónde": "¿Maypin",
+      "¿Cuántos": "¿Hayk'a",
+      "¿Cómo": "¿Imayna",
+      "hijo": "churi",
+      "mujer": "warmi",
+      "hombre": "runa",
+      "rey": "rey",
+      "Dios": "Dios",
+      "Jesús": "Jesús",
+      "Biblia": "Biblia",
+      "fue": "karqan",
+      "padre": "tata",
+      "madre": "mama"
+    };
+
+    function translateToQuechua(text) {
+      if (!text) return text;
+      let translated = text;
+      // Esta es una traducción muy básica para asegurar que nada quede en blanco
+      for (const [key, value] of Object.entries(quDict)) {
+        const regex = new RegExp(key, "gi");
+        translated = translated.replace(regex, value);
+      }
+      return translated;
+    }
+
+    // Función para cargar preguntas desde los 19 archivos JSON nuevos (1000 preguntas)
     async function loadExtraQuestions() {
       try {
-        const response = await fetch('preguntas_tjw.json');
-        if (response.ok) {
-          const data = await response.json();
-          // Transformar formato JSON al formato del bank
-          extraQuestions = data.map(q => ({
-            q_es: q.q,
-            q_en: q.q,
-            a_es: q.a,
-            a_en: q.a,
-            c: q.c,
-            ref: q.ref,
-            text_es: `Respuesta: ${q.a[q.c]}`,
-            text_en: `Answer: ${q.a[q.c]}`,
-            lvl: 1 // Se asignará después aleatoriamente
-          }));
-          console.log(`Cargadas ${extraQuestions.length} preguntas adicionales de Testigos de Jehová`);
-          
-          // Combinar y mezclar todas las preguntas
+        extraQuestions = [];
+        
+        // Cargar todos los archivos JSON en paralelo
+        const promises = questionFiles.map(async (file) => {
+          try {
+            const response = await fetch(file);
+            if (response.ok) {
+              const data = await response.json();
+              // Transformar formato nuevo al formato del bank
+              const questions = data.preguntas.map(q => ({
+                q_es: q.pregunta,
+                q_en: q.pregunta, // Usar español como fallback para inglés
+                q_qu: translateToQuechua(q.pregunta),
+                a_es: [q.opciones.A, q.opciones.B, q.opciones.C, q.opciones.D],
+                a_en: [q.opciones.A, q.opciones.B, q.opciones.C, q.opciones.D],
+                a_qu: [
+                  translateToQuechua(q.opciones.A),
+                  translateToQuechua(q.opciones.B),
+                  translateToQuechua(q.opciones.C),
+                  translateToQuechua(q.opciones.D)
+                ],
+                c: q.respuesta_correcta.charCodeAt(0) - 65, // Convertir A/B/C/D a 0/1/2/3
+                ref: q.explicacion.split(' ')[0] || 'Referencia bíblica',
+                text_es: q.explicacion,
+                text_en: q.explicacion,
+                text_qu: translateToQuechua(q.explicacion),
+                lvl: q.nivel // Usar el nivel específico de cada pregunta
+              }));
+              return questions;
+            }
+          } catch (err) {
+            console.log(`Error cargando ${file}:`, err);
+            return [];
+          }
+        });
+        
+        const results = await Promise.all(promises);
+        extraQuestions = results.flat(); // Combinar todas las preguntas
+        
+        console.log(`Cargadas ${extraQuestions.length} preguntas de ${questionFiles.length} archivos`);
+        
+        if (extraQuestions.length > 0) {
           combineAndDistributeQuestions();
+        } else {
+          // Fallback: usar array vacío si no se cargaron preguntas (default_questions.json siempre debería cargar)
+          allQuestions = [];
+          console.warn('No se cargaron preguntas de los archivos JSON');
         }
       } catch (error) {
-        console.log('No se pudieron cargar preguntas adicionales:', error);
-        // Usar solo las preguntas del bank si falla la carga
-        allQuestions = [...bank];
-        distributeQuestionsByLevel();
+        console.log('Error cargando preguntas:', error);
+        allQuestions = [];
       }
     }
 
-    // Función para combinar y distribuir preguntas en todos los niveles
+    // Función para combinar y distribuir preguntas en 100 niveles
     function combineAndDistributeQuestions() {
-      // Combinar preguntas originales con extras
-      allQuestions = [...bank, ...extraQuestions];
+      // Usar solo las preguntas de los archivos JSON (1000 preguntas)
+      // Si no hay preguntas extras, usar el bank como fallback
+      if (extraQuestions.length > 0) {
+        allQuestions = [...extraQuestions];
+      } else {
+        allQuestions = [...bank];
+      }
       
-      console.log(`Combinando ${bank.length} preguntas base + ${extraQuestions.length} extras = ${allQuestions.length} total`);
+      console.log(`Total de preguntas cargadas: ${allQuestions.length}`);
       
-      // Distribuir en 5 niveles equilibrados
-      const questionsPerLevel = Math.ceil(allQuestions.length / 5);
-      allQuestions.forEach((q, idx) => {
-        q.lvl = Math.min(Math.floor(idx / questionsPerLevel) + 1, 5);
-      });
+      // Verificar distribución por niveles (usando los niveles ya asignados en los JSON)
+      let distribution = {};
+      for (let i = 1; i <= 100; i++) distribution[i] = 0;
       
-      // Verificar distribución
-      let distribution = {1:0, 2:0, 3:0, 4:0, 5:0};
       allQuestions.forEach(q => {
-        if (q.lvl >= 1 && q.lvl <= 5) distribution[q.lvl]++;
+        const lvl = q.lvl || 1;
+        if (lvl >= 1 && lvl <= 100) {
+          distribution[lvl] = (distribution[lvl] || 0) + 1;
+        }
       });
-      console.log('Distribución de preguntas:', distribution);
       
-      // Mezclar todas las preguntas aleatoriamente (manteniendo sus niveles asignados)
-      allQuestions = shuffleArray(allQuestions);
-      
-      console.log(`Total de preguntas: ${allQuestions.length} distribuidas en 5 niveles`);
+      console.log('Distribución de preguntas por nivel:', distribution);
+      console.log(`Total: ${allQuestions.length} preguntas en 100 niveles`);
     }
 
     // Función para distribuir preguntas por nivel (solo bank original)
@@ -583,7 +688,12 @@
 
     function preloadCoreAssets() {
       const preloadText = document.getElementById("preloadText");
-      if (preloadText) preloadText.innerText = lang === "es" ? "Cargando recursos..." : "Loading assets...";
+      if (preloadText) {
+        let text = "Cargando recursos...";
+        if (lang === "en") text = "Loading assets...";
+        if (lang === "qu") text = "Recursokunata cargashan...";
+        preloadText.innerText = text;
+      }
 
       const audioIds = ["bgMusic", "correctAudio", "wrongAudio", "victoryAudio", "cueteAudio", "birdsAudio", "clockAudio", "popAudio"];
       const preloadPromises = audioIds.map((id) => new Promise((resolve) => {
@@ -630,9 +740,20 @@
       document.querySelectorAll(".onboarding-dot").forEach((dot, idx) => {
         dot.classList.toggle("active", idx === onboardingStep);
       });
-      document.getElementById("onboardingNextBtn").innerText =
-        onboardingStep === steps.length - 1 ? (lang === "es" ? "Empezar" : "Start") : (lang === "es" ? "Siguiente" : "Next");
-      document.getElementById("onboardingSkipBtn").innerText = lang === "es" ? "Saltar" : "Skip";
+      let nextText = "Siguiente";
+      if (lang === "en") nextText = "Next";
+      if (lang === "qu") nextText = "Qatiq";
+
+      let startText = "Empezar";
+      if (lang === "en") startText = "Start";
+      if (lang === "qu") startText = "Qallariy";
+
+      let skipText = "Saltar";
+      if (lang === "en") skipText = "Skip";
+      if (lang === "qu") skipText = "Pawsay";
+
+      document.getElementById("onboardingNextBtn").innerText = onboardingStep === steps.length - 1 ? startText : nextText;
+      document.getElementById("onboardingSkipBtn").innerText = skipText;
     }
 
     function closeOnboarding() {
@@ -666,10 +787,13 @@
     function setLang(l) {
       lang = l;
       localStorage.setItem('lang', l);
-      document.getElementById("title").innerText = 
-        lang === "es" ? "🗺️ Selecciona un Nivel" : 
-        lang === "en" ? "🗺️ Select a Level" :
-        "🗺️ Nivelta akllay";
+      const titleEl = document.getElementById("title");
+      if (titleEl) {
+        titleEl.innerText = 
+          lang === "es" ? "🗺️ Selecciona un Nivel" : 
+          lang === "en" ? "🗺️ Select a Level" :
+          "🗺️ Nivelta akllay";
+      }
       updateHomeTexts();
       updateLevelPreviewText();
       updateLifelineLabels();
@@ -677,13 +801,13 @@
     }
 
     function updateHomeTexts() {
-      const subtitle = document.getElementById("homeSubtitleText");
+      // Home elements
       const playBtn = document.getElementById("homePlayBtn");
       const extrasBtn = document.getElementById("homeExtrasBtn");
-      const settingsBtn = document.getElementById("homeSettingsBtn");
-      const levelLabel = document.getElementById("homeLevelLabel");
-      const coinsLabel = document.getElementById("homeCoinsLabel");
-      const accuracyLabel = document.getElementById("homeAccuracyLabel");
+      const dailyLabel = document.getElementById("homeDailyLabel");
+      const homeGiftQuickBtn = document.getElementById("homeGiftQuickBtn");
+
+      // Extras elements
       const extrasTitle = document.getElementById("extrasTitle");
       const extrasSubtitle = document.getElementById("extrasSubtitle");
       const extrasDivider = document.getElementById("extrasDivider");
@@ -691,36 +815,72 @@
       const extrasAchievementsBtn = document.getElementById("extrasAchievementsBtn");
       const extrasStatsBtn = document.getElementById("extrasStatsBtn");
       const extrasBackBtn = document.getElementById("extrasBackBtn");
-      const homeGiftQuickBtn = document.getElementById("homeGiftQuickBtn");
+      const giftButton = document.getElementById("giftButton");
 
-      if (subtitle) subtitle.innerText = 
-        lang === "es" ? "Aprende jugando y completa cada nivel." :
-        lang === "en" ? "Learn by playing and complete every level." :
-        "Pukllashwan yachay, sapa nivelta tukuy.";
+      // Settings elements
+      const settingsTitle = document.getElementById("settingsTitle");
+      const settingsDivider = document.getElementById("settingsDivider");
+      const volumeLabel = document.getElementById("volumeLabel");
+      const langLabel = document.getElementById("langLabel");
+      const ageLabel = document.getElementById("ageLabel");
+      const optKids = document.getElementById("optKids");
+      const optTeen = document.getElementById("optTeen");
+      const optAdult = document.getElementById("optAdult");
+      const resetBtn = document.getElementById("resetBtn");
+      const settingsBackBtn = document.getElementById("settingsBackBtn");
+
+      // Categories elements
+      const categoriesTitle = document.getElementById("categoriesTitle");
+      const categoriesSubtitle = document.getElementById("categoriesSubtitle");
+      const categoriesDivider = document.getElementById("categoriesDivider");
+      const catOldTitle = document.getElementById("catOldTitle");
+      const catOldDesc = document.getElementById("catOldDesc");
+      const catOldBadge = document.getElementById("catOldBadge");
+      const catNewTitle = document.getElementById("catNewTitle");
+      const catNewDesc = document.getElementById("catNewDesc");
+      const catNewBadge = document.getElementById("catNewBadge");
+      const catCharTitle = document.getElementById("catCharTitle");
+      const catCharDesc = document.getElementById("catCharDesc");
+      const catCharBadge = document.getElementById("catCharBadge");
+      const catTFTitle = document.getElementById("catTFTitle");
+      const catTFDesc = document.getElementById("catTFDesc");
+      const catTFBadge = document.getElementById("catTFBadge");
+      const categoriesBackBtn = document.getElementById("categoriesBackBtn");
+
+      // Shop elements
+      const shopTitle = document.getElementById("shopTitle");
+      const shopSubtitle = document.getElementById("shopSubtitle");
+      const shopBackBtn = document.getElementById("shopBackBtn");
+
+      // Achievements elements
+      const achievementsTitle = document.getElementById("achievementsTitle");
+      const achievementsSubtitle = document.getElementById("achievementsSubtitle");
+      const achievementsBackBtn = document.getElementById("achievementsBackBtn");
+
+      // Stats elements
+      const statsTitle = document.getElementById("statsTitle");
+      const statsSubtitle = document.getElementById("statsSubtitle");
+      const statsBackBtn = document.getElementById("statsBackBtn");
+
+      // Update Home
       if (playBtn) playBtn.innerText = 
-        lang === "es" ? "🎮 Jugar ahora" :
-        lang === "en" ? "🎮 Play now" :
-        "🎮 Kunan pukllay";
+        lang === "es" ? "🎮 ¡Jugar!" :
+        lang === "en" ? "🎮 Play!" :
+        "🎮 Pukllay!";
       if (extrasBtn) extrasBtn.innerText = 
         lang === "es" ? "✨ Extras" :
         lang === "en" ? "✨ Extras" :
         "✨ Yapamanta";
-      if (settingsBtn) settingsBtn.innerText = 
-        lang === "es" ? "⚙️ Ajustes" :
-        lang === "en" ? "⚙️ Settings" :
-        "⚙️ Allichay";
-      if (levelLabel) levelLabel.innerText = 
-        lang === "es" ? "Nivel" :
-        lang === "en" ? "Level" :
-        "Nivel";
-      if (coinsLabel) coinsLabel.innerText = 
-        lang === "es" ? "Monedas" :
-        lang === "en" ? "Coins" :
-        "Qullqi";
-      if (accuracyLabel) accuracyLabel.innerText = 
-        lang === "es" ? "Precisión" :
-        lang === "en" ? "Accuracy" :
-        "Chiqap allin kay";
+      if (dailyLabel) dailyLabel.innerText = 
+        lang === "es" ? "📜 Texto de Hoy" :
+        lang === "en" ? "📜 Today's Text" :
+        "📜 P'unchaypa Qillqan";
+      if (homeGiftQuickBtn) homeGiftQuickBtn.title = 
+        lang === "es" ? "Abrir regalo" : 
+        lang === "en" ? "Open gift" :
+        "Regaluta kichay";
+
+      // Update Extras
       if (extrasTitle) extrasTitle.innerText = 
         lang === "es" ? "✨ Extras" :
         lang === "en" ? "✨ Extras" :
@@ -740,7 +900,7 @@
       if (extrasAchievementsBtn) extrasAchievementsBtn.innerText = 
         lang === "es" ? "🏅 Trofeos" :
         lang === "en" ? "🏅 Trophies" :
-        "🏅 Atipay";
+        "🏅 Atipaykuna";
       if (extrasStatsBtn) extrasStatsBtn.innerText = 
         lang === "es" ? "📊 Datos" :
         lang === "en" ? "📊 Stats" :
@@ -749,10 +909,156 @@
         lang === "es" ? "🏠 Volver" :
         lang === "en" ? "🏠 Back" :
         "🏠 Kutiy";
-      if (homeGiftQuickBtn) homeGiftQuickBtn.title = 
-        lang === "es" ? "Abrir regalo" :
-        lang === "en" ? "Open gift" :
-        "Regaluta kichay";
+
+      // Update Settings
+      if (settingsTitle) settingsTitle.innerText = 
+        lang === "es" ? "⚙️ Ajustes" :
+        lang === "en" ? "⚙️ Settings" :
+        "⚙️ Allichay";
+      if (settingsDivider) settingsDivider.innerText = 
+        lang === "es" ? "🎵 opciones 🎵" :
+        lang === "en" ? "🎵 options 🎵" :
+        "🎵 akllanakuna 🎵";
+      if (volumeLabel) volumeLabel.innerText = 
+        lang === "es" ? "🔊 Volumen de efectos" :
+        lang === "en" ? "🔊 Effects volume" :
+        "🔊 Kunka uyarikuna";
+      if (langLabel) langLabel.innerText = 
+        lang === "es" ? "🌐 Idioma" :
+        lang === "en" ? "🌐 Language" :
+        "🌐 Rimay";
+      if (ageLabel) ageLabel.innerText = 
+        lang === "es" ? "👧🧒 Dificultad por edades" :
+        lang === "en" ? "👧🧒 Age difficulty" :
+        "👧🧒 Watakunaman sasa kay";
+      if (optKids) optKids.innerText = 
+        lang === "es" ? "Niños (más tiempo)" :
+        lang === "en" ? "Kids (more time)" :
+        "Erqekuna (aswan pacha)";
+      if (optTeen) optTeen.innerText = 
+        lang === "es" ? "Jóvenes (normal)" :
+        lang === "en" ? "Teens (normal)" :
+        "Waynakuna (normal)";
+      if (optAdult) optAdult.innerText = 
+        lang === "es" ? "Adultos (más difícil)" :
+        lang === "en" ? "Adults (harder)" :
+        "Kuraq runakuna (aswan sasa)";
+      if (resetBtn) resetBtn.innerText = 
+        lang === "es" ? "🗑️ Reiniciar Progreso" :
+        lang === "en" ? "🗑️ Reset Progress" :
+        "🗑️ Tukuyta qallariy";
+      if (settingsBackBtn) settingsBackBtn.innerText = 
+        lang === "es" ? "🏠 Volver" :
+        lang === "en" ? "🏠 Back" :
+        "🏠 Kutiy";
+
+      // Update Categories
+      if (categoriesTitle) categoriesTitle.innerText = 
+        lang === "es" ? "📚 Categorías" :
+        lang === "en" ? "📚 Categories" :
+        "📚 Categoríakunawan";
+      if (categoriesSubtitle) categoriesSubtitle.innerText = 
+        lang === "es" ? "Elige un tema bíblico" :
+        lang === "en" ? "Choose a Bible topic" :
+        "Bibliamanta temata akllay";
+      if (categoriesDivider) categoriesDivider.innerText = 
+        lang === "es" ? "⭐ selecciona ⭐" :
+        lang === "en" ? "⭐ select ⭐" :
+        "⭐ akllay ⭐";
+      if (catOldTitle) catOldTitle.innerText = 
+        lang === "es" ? "Antiguo Testamento" :
+        lang === "en" ? "Old Testament" :
+        "Ñawpaq Testamento";
+      if (catOldDesc) catOldDesc.innerText = 
+        lang === "es" ? "Desde Génesis hasta Malaquías" :
+        lang === "en" ? "From Genesis to Malachi" :
+        "Génesismanta Malaquías-kama";
+      if (catOldBadge) catOldBadge.innerText = 
+        lang === "es" ? "40 preguntas" :
+        lang === "en" ? "40 questions" :
+        "40 tapukuykuna";
+      if (catNewTitle) catNewTitle.innerText = 
+        lang === "es" ? "Nuevo Testamento" :
+        lang === "en" ? "New Testament" :
+        "Musuq Testamento";
+      if (catNewDesc) catNewDesc.innerText = 
+        lang === "es" ? "Desde Mateo hasta Apocalipsis" :
+        lang === "en" ? "From Matthew to Revelation" :
+        "Mateomanta Apocalipsis-kama";
+      if (catNewBadge) catNewBadge.innerText = 
+        lang === "es" ? "40 preguntas" :
+        lang === "en" ? "40 questions" :
+        "40 tapukuykuna";
+      if (catCharTitle) catCharTitle.innerText = 
+        lang === "es" ? "Personajes Bíblicos" :
+        lang === "en" ? "Bible Characters" :
+        "Bibliamanta Runakuna";
+      if (catCharDesc) catCharDesc.innerText = 
+        lang === "es" ? "Conoce a los héroes de la fe" :
+        lang === "en" ? "Meet the heroes of faith" :
+        "Iñiypa héroenkuna reqsiy";
+      if (catCharBadge) catCharBadge.innerText = 
+        lang === "es" ? "40 preguntas" :
+        lang === "en" ? "40 questions" :
+        "40 tapukuykuna";
+      if (catTFTitle) catTFTitle.innerText = 
+        lang === "es" ? "Verdadero o Falso" :
+        lang === "en" ? "True or False" :
+        "Chiqap o Llullap";
+      if (catTFDesc) catTFDesc.innerText = 
+        lang === "es" ? "¿Puedes distinguir la verdad?" :
+        lang === "en" ? "Can you tell the truth?" :
+        "¿Chiqapta yachawaqchu?";
+      if (catTFBadge) catTFBadge.innerText = 
+        lang === "es" ? "30 preguntas" :
+        lang === "en" ? "30 questions" :
+        "30 tapukuykuna";
+      if (categoriesBackBtn) categoriesBackBtn.innerText = 
+        lang === "es" ? "🏠 Regresar al menú principal" :
+        lang === "en" ? "🏠 Back to main menu" :
+        "🏠 Ñawpaq menuman kutiy";
+
+      // Update Shop
+      if (shopTitle) shopTitle.innerText = 
+        lang === "es" ? "🛍️ Tienda" :
+        lang === "en" ? "🛍️ Shop" :
+        "🛍️ Qhatu";
+      if (shopSubtitle) shopSubtitle.innerText = 
+        lang === "es" ? "Usa tus monedas ahorradas" :
+        lang === "en" ? "Use your saved coins" :
+        "Qollqiykiwan rantiy";
+      if (shopBackBtn) shopBackBtn.innerText = 
+        lang === "es" ? "🏠 Volver" :
+        lang === "en" ? "🏠 Back" :
+        "🏠 Kutiy";
+
+      // Update Achievements
+      if (achievementsTitle) achievementsTitle.innerText = 
+        lang === "es" ? "🏅 Trofeos" :
+        lang === "en" ? "🏅 Trophies" :
+        "🏅 Atipaykuna";
+      if (achievementsSubtitle) achievementsSubtitle.innerText = 
+        lang === "es" ? "Demuestra tu habilidad" :
+        lang === "en" ? "Show your skill" :
+        "Yachayniykita qawachiy";
+      if (achievementsBackBtn) achievementsBackBtn.innerText = 
+        lang === "es" ? "🏠 Volver" :
+        lang === "en" ? "🏠 Back" :
+        "🏠 Kutiy";
+
+      // Update Stats
+      if (statsTitle) statsTitle.innerText = 
+        lang === "es" ? "📊 Estadísticas" :
+        lang === "en" ? "📊 Stats" :
+        "📊 Willaykuna";
+      if (statsSubtitle) statsSubtitle.innerText = 
+        lang === "es" ? "Progreso General" :
+        lang === "en" ? "Overall Progress" :
+        "Tukuy puriy";
+      if (statsBackBtn) statsBackBtn.innerText = 
+        lang === "es" ? "🏠 Volver" :
+        lang === "en" ? "🏠 Back" :
+        "🏠 Kutiy";
     }
 
     function setAgeDifficulty(val) {
@@ -875,6 +1181,11 @@
           title: "📖 Story Mode",
           body: "Advance through levels. You need 7/10 to unlock the next level.",
           tips: ["🗺️ Pick a level on the map", "⭐ Answer 10 questions", "🪙 Earn coins for correct answers"]
+        },
+        qu: {
+          title: "📖 Ñawpaq Willay",
+          body: "Niveltakama puriy. 7/10 necesitanki qatiq nivelta kichanapaq.",
+          tips: ["🗺️ Mapapi nivelta akllay", "⭐ 10 tapukuykunata kutichiy", "🪙 Allin kutichisqaykimanta qullqita chaskinki"]
         }
       },
       survival: {
@@ -887,6 +1198,11 @@
           title: "🔥 Survival",
           body: "Play nonstop until you run out of lives. Build the best streak you can!",
           tips: ["❤️ You have 3 lives", "🔥 Score points for every correct answer", "🏆 Try to beat your record"]
+        },
+        qu: {
+          title: "🔥 Kawsay",
+          body: "Pukllay mana saykuspa kawsayniyki tukunankama. ¡Aswan allin rachata ruway!",
+          tips: ["❤️ 3 kawsayniyuq kanki", "🔥 Sapa allin kutichisqaykimanta puntukunata chaskinki", "🏆 Récordniykita atipayta munay"]
         }
       },
       categories: {
@@ -899,6 +1215,11 @@
           title: "📚 By Categories",
           body: "Play by Bible topics. Choose your favorite category and show what you know!",
           tips: ["📜 Old Testament", "📖 New Testament", "👑 Biblical Characters", "✅❌ True or False"]
+        },
+        qu: {
+          title: "📚 Categoríakunawan",
+          body: "Bibliamanta temakunawan pukllay. ¡Aswan munasqayki categoriata akllay hinaspa yachasqaykita qawachiy!",
+          tips: ["📜 Ñawpaq Testamento", "📖 Musuq Testamento", "👑 Bibliamanta Runakuna", "✅❌ Chiqap o Llullap"]
         }
       }
     };
@@ -911,13 +1232,18 @@
       const playBtn = document.getElementById("modePlayBtn");
 
       const mode = modeTutorialContent[modeKey] || modeTutorialContent.story;
-      const t = (lang === "en" ? mode.en : mode.es);
+      let t = mode.es;
+      if (lang === "en") t = mode.en;
+      if (lang === "qu") t = mode.qu;
 
       titleEl.innerText = t.title;
       bodyEl.innerText = t.body;
       tipsEl.innerHTML = t.tips.map(x => `<div style="margin:4px 0;">${x}</div>`).join("");
 
-      playBtn.innerText = lang === "en" ? "✅ Start" : "✅ Empezar";
+      if (lang === "en") playBtn.innerText = "✅ Start";
+      else if (lang === "qu") playBtn.innerText = "✅ Qallariy";
+      else playBtn.innerText = "✅ Empezar";
+
       playBtn.onclick = () => {
         closeModeTutorial();
         if (modeKey === "survival") startSurvival();
@@ -954,12 +1280,19 @@
       if (remaining <= 0) {
         if (giftElements.btn) {
           giftElements.btn.disabled = false;
-          giftElements.btn.innerText = lang === "es" ? "🎁 Regalo listo" : "🎁 Gift ready";
+          giftElements.btn.innerText = 
+            lang === "es" ? "🎁 Regalo listo" : 
+            lang === "en" ? "🎁 Gift ready" :
+            "🎁 Regalun listo";
         }
         if (giftElements.txt) {
-          giftElements.txt.innerText = lang === "es"
-            ? `Listo para reclamar${survivalBonusLives > 0 ? ` · ❤️ extra: ${survivalBonusLives}` : ""}`
-            : `Ready to claim${survivalBonusLives > 0 ? ` · Extra ❤️: ${survivalBonusLives}` : ""}`;
+          if (lang === "es") {
+            giftElements.txt.innerText = `Listo para reclamar${survivalBonusLives > 0 ? ` · ❤️ extra: ${survivalBonusLives}` : ""}`;
+          } else if (lang === "en") {
+            giftElements.txt.innerText = `Ready to claim${survivalBonusLives > 0 ? ` · Extra ❤️: ${survivalBonusLives}` : ""}`;
+          } else {
+            giftElements.txt.innerText = `Reclamanapaq listo${survivalBonusLives > 0 ? ` · ❤️ yapamanta: ${survivalBonusLives}` : ""}`;
+          }
         }
         if (giftElements.quickBtn) {
           giftElements.quickBtn.classList.add("ready");
@@ -968,11 +1301,18 @@
       } else {
         if (giftElements.btn) {
           giftElements.btn.disabled = true;
-          giftElements.btn.innerText = lang === "es" ? "🎁 Regalo" : "🎁 Gift";
+          giftElements.btn.innerText = 
+            lang === "es" ? "🎁 Regalo" : 
+            lang === "en" ? "🎁 Gift" :
+            "🎁 Regalu";
         }
         if (giftElements.txt) {
-          giftElements.txt.innerText = (lang === "es" ? `Próximo regalo en ${formatGiftTime(remaining)}` : `Next gift in ${formatGiftTime(remaining)}`)
-            + (survivalBonusLives > 0 ? ` · ❤️ ${survivalBonusLives}` : "");
+          let t = "";
+          if (lang === "es") t = `Próximo regalo en ${formatGiftTime(remaining)}`;
+          else if (lang === "en") t = `Next gift in ${formatGiftTime(remaining)}`;
+          else t = `Qatiq regalu ${formatGiftTime(remaining)} ukhupi`;
+          
+          giftElements.txt.innerText = t + (survivalBonusLives > 0 ? ` · ❤️ ${survivalBonusLives}` : "");
         }
         if (giftElements.quickBtn) {
           giftElements.quickBtn.classList.remove("ready");
@@ -990,9 +1330,11 @@
       if (remaining <= 0) {
         claimTimedGift();
       } else {
-        const waitMsg = lang === "es"
-          ? `⏳ Próximo regalo en ${formatGiftTime(remaining)}`
-          : `⏳ Next gift in ${formatGiftTime(remaining)}`;
+        let waitMsg = "";
+        if (lang === "es") waitMsg = `⏳ Próximo regalo en ${formatGiftTime(remaining)}`;
+        else if (lang === "en") waitMsg = `⏳ Next gift in ${formatGiftTime(remaining)}`;
+        else waitMsg = `⏳ Qatiq regalu ${formatGiftTime(remaining)} ukhupi`;
+        
         showGiftRewardToast(waitMsg);
         showConfetti(50, 38);
       }
@@ -1004,9 +1346,11 @@
       console.log("Remaining time:", remaining);
       if (remaining > 0) {
         console.log("Gift not ready yet, remaining:", remaining);
-        const waitMsg = lang === "es"
-          ? `⏳ Próximo regalo en ${formatGiftTime(remaining)}`
-          : `⏳ Next gift in ${formatGiftTime(remaining)}`;
+        let waitMsg = "";
+        if (lang === "es") waitMsg = `⏳ Próximo regalo en ${formatGiftTime(remaining)}`;
+        else if (lang === "en") waitMsg = `⏳ Next gift in ${formatGiftTime(remaining)}`;
+        else waitMsg = `⏳ Qatiq regalu ${formatGiftTime(remaining)} ukhupi`;
+        
         showGiftRewardToast(waitMsg);
         return;
       }
@@ -1016,13 +1360,15 @@
         const rewardCoins = Math.floor(Math.random() * 13) + 8; // 8-20
         coins += rewardCoins;
         localStorage.setItem('coins', coins);
-        rewardMessage = lang === "es" ? `🎉 Recibiste +${rewardCoins} monedas` : `🎉 You got +${rewardCoins} coins`;
+        if (lang === "es") rewardMessage = `🎉 Recibiste +${rewardCoins} monedas`;
+        else if (lang === "en") rewardMessage = `🎉 You got +${rewardCoins} coins`;
+        else rewardMessage = `🎉 Chaskinki +${rewardCoins} qullqita`;
       } else {
         survivalBonusLives += 1;
         localStorage.setItem('survivalBonusLives', survivalBonusLives);
-        rewardMessage = lang === "es"
-          ? "❤️ Ganaste +1 corazón para tu próxima supervivencia"
-          : "❤️ You got +1 heart for your next survival run";
+        if (lang === "es") rewardMessage = "❤️ Ganaste +1 corazón para tu próxima supervivencia";
+        else if (lang === "en") rewardMessage = "❤️ You got +1 heart for your next survival run";
+        else rewardMessage = "❤️ Chaskinki +1 sunquuta qatiq kawsaypaq";
       }
 
       lastGiftClaimTs = Date.now();
@@ -1164,11 +1510,19 @@
 
       let categoryIndices;
       if (category === 'oldTestament') {
-        categoryIndices = [...oldTestamentIndices];
+        const currentBank = getQuestionBank();
+        categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl <= 30);
       } else if (category === 'newTestament') {
-        categoryIndices = [...newTestamentIndices];
+        const currentBank = getQuestionBank();
+        categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl >= 31 && currentBank[i].lvl <= 100);
       } else if (category === 'characters') {
-        categoryIndices = [...charactersIndices];
+        const currentBank = getQuestionBank();
+        // Búsqueda simple de palabras clave relacionadas con personajes
+        const keywords = ['quién', 'quien', 'quiénes', 'quienes', 'hijo', 'esposa', 'madre', 'padre', 'rey', 'reina', 'profeta', 'juez', 'apóstol', 'discípulo'];
+        categoryIndices = currentBank.map((q, i) => i).filter(i => {
+          const text = (currentBank[i].q_es || "").toLowerCase();
+          return keywords.some(k => text.includes(k));
+        });
       } else if (category === 'trueFalse') {
         // For true/false, use special bank
         questions = shuffle([...trueFalseBank]);
@@ -1263,22 +1617,70 @@
       }
     }
 
+    // Función para generar datos de preview de cualquier nivel (1-100)
+    function getLevelPreviewData(levelNumber) {
+      const themes = [
+        { range: [1, 5], emoji: "🌱", diff: "Fácil", diffEn: "Easy", diffQu: "Pisi" },
+        { range: [6, 10], emoji: "📜", diff: "Fácil-Medio", diffEn: "Easy-Medium", diffQu: "Pisi-Chawpi" },
+        { range: [11, 15], emoji: "⚔️", diff: "Medio", diffEn: "Medium", diffQu: "Chawpi" },
+        { range: [16, 20], emoji: "👑", diff: "Medio", diffEn: "Medium", diffQu: "Chawpi" },
+        { range: [21, 25], emoji: "📖", diff: "Medio-Alto", diffEn: "Medium-High", diffQu: "Chawpi-Hanaq" },
+        { range: [26, 30], emoji: "🏛️", diff: "Medio-Alto", diffEn: "Medium-High", diffQu: "Chawpi-Hanaq" },
+        { range: [31, 35], emoji: "⭐", diff: "Alto", diffEn: "Hard", diffQu: "Sasa" },
+        { range: [36, 40], emoji: "🚶", diff: "Alto", diffEn: "Hard", diffQu: "Sasa" },
+        { range: [41, 45], emoji: "✝️", diff: "Alto", diffEn: "Hard", diffQu: "Sasa" },
+        { range: [46, 50], emoji: "🔥", diff: "Alto", diffEn: "Hard", diffQu: "Sasa" },
+        { range: [51, 55], emoji: "✉️", diff: "Experto", diffEn: "Expert", diffQu: "Yachaq" },
+        { range: [56, 60], emoji: "⛓️", diff: "Experto", diffEn: "Expert", diffQu: "Yachaq" },
+        { range: [61, 65], emoji: "📜", diff: "Experto", diffEn: "Expert", diffQu: "Yachaq" },
+        { range: [66, 70], emoji: "💎", diff: "Experto", diffEn: "Expert", diffQu: "Yachaq" },
+        { range: [71, 75], emoji: "👁️", diff: "Maestro", diffEn: "Master", diffQu: "Yachachiq" },
+        { range: [76, 80], emoji: "🔮", diff: "Maestro", diffEn: "Master", diffQu: "Yachachiq" },
+        { range: [81, 85], emoji: "⚡", diff: "Maestro", diffEn: "Master", diffQu: "Yachachiq" },
+        { range: [86, 90], emoji: "🌟", diff: "Maestro", diffEn: "Master", diffQu: "Yachachiq" },
+        { range: [91, 95], emoji: "🏆", diff: "Leyenda", diffEn: "Legend", diffQu: "Kusikusqa" },
+        { range: [96, 100], emoji: "👑", diff: "Divino", diffEn: "Divine", diffQu: "Diosniyuq" }
+      ];
+      
+      const theme = themes.find(t => levelNumber >= t.range[0] && levelNumber <= t.range[1]) || themes[0];
+      
+      return {
+        emoji: theme.emoji,
+        es: { 
+          title: `Nivel ${levelNumber}`, 
+          desc: `Trivia bíblica nivel ${levelNumber}. Domina la Palabra de Dios.`, 
+          diff: `Dificultad: ${theme.diff}` 
+        },
+        en: { 
+          title: `Level ${levelNumber}`, 
+          desc: `Bible trivia level ${levelNumber}. Master God's Word.`, 
+          diff: `Difficulty: ${theme.diffEn}` 
+        },
+        qu: { 
+          title: `Nivel ${levelNumber}`, 
+          desc: `Bibliamanta tapukuy nivel ${levelNumber}. Diospa rimasqanta yachay.`, 
+          diff: `Sasa kay: ${theme.diffQu}` 
+        }
+      };
+    }
+    
+    // Mantener compatibilidad con código existente
     const levelPreviewData = {
-      1: { emoji: "🌱", es: { title: "Nivel 1", desc: "Aprende lo basico con preguntas sencillas.", diff: "Dificultad: Facil" }, en: { title: "Level 1", desc: "Start with easy Bible questions.", diff: "Difficulty: Easy" }, qu: { title: "Nivel 1", desc: "Pisi pisi tapukuykunawan yachay.", diff: "Sasa kay: Pisi" } },
-      2: { emoji: "🌊", es: { title: "Nivel 2", desc: "Mas reto y nuevas historias biblicas.", diff: "Dificultad: Media" }, en: { title: "Level 2", desc: "More challenge with new Bible stories.", diff: "Difficulty: Medium" }, qu: { title: "Nivel 2", desc: "Aswan sasa, mushuq Bibliamanta willaykuna.", diff: "Sasa kay: Chawpi" } },
-      3: { emoji: "⚡", es: { title: "Nivel 3", desc: "Preguntas mas rapidas y de mayor memoria.", diff: "Dificultad: Media-Alta" }, en: { title: "Level 3", desc: "Faster questions and stronger memory challenge.", diff: "Difficulty: Medium-High" }, qu: { title: "Nivel 3", desc: "Usqhay tapukuykuna, aswan yuyayniywan.", diff: "Sasa kay: Chawpi-Hanaq" } },
-      4: { emoji: "🔥", es: { title: "Nivel 4", desc: "Nivel avanzado para verdaderos expertos.", diff: "Dificultad: Alta" }, en: { title: "Level 4", desc: "Advanced level for true experts.", diff: "Difficulty: Hard" }, qu: { title: "Nivel 4", desc: "Ñaupaq nivel chiqap yachaqkunaq.", diff: "Sasa kay: Sasa" } },
-      5: { emoji: "👑", es: { title: "Nivel 5", desc: "Gran final: demuestra tu dominio biblico.", diff: "Dificultad: Extrema" }, en: { title: "Level 5", desc: "Final challenge: prove your Bible mastery.", diff: "Difficulty: Extreme" }, qu: { title: "Nivel 5", desc: "Tukuy: qawachiy Bibliamanta yachayniykita.", diff: "Sasa kay: Ancha sasa" } }
+      1: getLevelPreviewData(1),
+      2: getLevelPreviewData(2),
+      3: getLevelPreviewData(3),
+      4: getLevelPreviewData(4),
+      5: getLevelPreviewData(5)
     };
 
     function updateLevelPreviewText() {
       const box = document.getElementById("levelPreview");
       if (!box || box.style.display === "none") return;
-      showLevelPreview(Math.min(unlocked, 5));
+      showLevelPreview(Math.min(unlocked, 100));
     }
 
     function showLevelPreview(levelNumber) {
-      const data = levelPreviewData[levelNumber] || levelPreviewData[1];
+      const data = getLevelPreviewData(levelNumber);
       const t = 
         lang === "es" ? data.es :
         lang === "en" ? data.en :
@@ -1293,7 +1695,7 @@
 
     function highlightCurrentLevel() {
       document.querySelectorAll(".level-container").forEach(el => el.classList.remove("level-current"));
-      const current = Math.min(unlocked, 5);
+      const current = Math.min(unlocked, 100);
       const currentContainer = document.querySelector(`.level-container[data-level="${current}"]`);
       if (currentContainer) currentContainer.classList.add("level-current");
     }
@@ -1575,7 +1977,10 @@
         
         if (combo >= 3) {
           let cb = document.getElementById("comboBadge");
-          cb.innerText = "🔥 Racha x" + combo;
+          let rachaText = "🔥 Racha x";
+          if (lang === "en") rachaText = "🔥 Streak x";
+          if (lang === "qu") rachaText = "🔥 Atipay x";
+          cb.innerText = rachaText + combo;
           cb.style.display = "block";
           cb.style.animation = 'none';
           cb.offsetHeight; 
@@ -1707,7 +2112,7 @@
         renderStars(sc, 3, earnedStars);
 
         let nextBtn = document.getElementById("nextBtn");
-        nextBtn.innerText = level < 5
+        nextBtn.innerText = level < 100
           ? (
               lang === "es" ? "Siguiente nivel 🚀" :
               lang === "qu" ? "Qatiq nivel 🚀" :
@@ -1718,12 +2123,12 @@
               lang === "qu" ? "🗺️ Mapaman kutiy" :
               "Back to map 🗺️"
             );
-        nextBtn.style.display = level < 5 ? "inline-flex" : "none";
+        nextBtn.style.display = level < 100 ? "inline-flex" : "none";
         nextBtn.onclick = nextLevel;
         
         show("congrats");
         startContinuousConfetti();
-        if (level < 5) {
+        if (level < 100) {
           unlocked = Math.max(unlocked, level + 1);
           localStorage.setItem('unlocked', unlocked);
         }
@@ -1791,10 +2196,73 @@
       const unlockedEl = document.getElementById("homeUnlockedText");
       const coinsEl = document.getElementById("homeCoinsText");
       const accEl = document.getElementById("homeAccuracyText");
-      if (unlockedEl) unlockedEl.innerText = `${Math.min(unlocked, 15)}/15`;
+      if (unlockedEl) unlockedEl.innerText = `${Math.min(unlocked, 100)}/100`;
       if (coinsEl) coinsEl.innerText = String(coins);
       const accuracy = stats.answered > 0 ? Math.round((stats.correct / stats.answered) * 100) : 0;
       if (accEl) accEl.innerText = `${accuracy}%`;
+    }
+
+    // Función para generar niveles 16-100 dinámicamente con patrón zigzag
+    function generateDynamicLevels() {
+      const container = document.querySelector('.level-path-buttons');
+      if (!container) return;
+      
+      // Verificar si ya se generaron los niveles dinámicos
+      if (container.dataset.generated === 'full') return;
+      
+      // Posiciones de los niveles 1-15 para continuar el patrón:
+      // 1:50%, 2:26.7%, 3:20%, 4:26.7%, 5:50%, 6:73.3%, 7:80%, 8:60%, 9:40%, 10:26.7%, 11:50%, 12:73.3%, 13:80%, 14:60%, 15:40%
+      // El patrón es: Centro -> Izq -> IzqExt -> Izq -> Centro -> Der -> DerExt -> Der -> Izq -> Izq -> Centro -> Der -> DerExt -> Der -> Izq
+      const leftPositions = [50, 26.7, 20, 26.7, 50, 73.3, 80, 60, 40, 26.7, 50, 73.3, 80, 60, 40];
+      
+      // El nivel 15 está en top:97.4%, espaciado de ~6-9% entre niveles
+      // Para 85 niveles más (16-100), necesitamos extender significativamente
+      const baseTop = 97.4;
+      const spacing = 8.5; // Espaciado mayor para mejor visualización
+      
+      for (let i = 16; i <= 100; i++) {
+        // Verificar si ya existe
+        if (document.getElementById('lvlPin' + i)) continue;
+        
+        // Calcular posición siguiendo el patrón cíclico
+        const patternIndex = (i - 1) % 15;
+        const left = leftPositions[patternIndex];
+        const top = baseTop + (i - 15) * spacing;
+        
+        const pin = document.createElement('div');
+        // Determinar clase de diseño según bloque de 5 niveles
+        const blockClass = `level-block-${Math.ceil(i / 5)}`;
+        pin.className = `level-pin ${blockClass}`;
+        pin.id = 'lvlPin' + i;
+        pin.style.cssText = `top:${top}%; left:${left}%;`;
+        pin.dataset.level = i;
+        pin.innerHTML = `
+          <div class="level locked" id="lvl${i}">${i}</div>
+          <span class="lock-badge" id="lock${i}">🔒</span>
+          <div class="stars-container" id="stars${i}">
+            <span class="star-gray">⭐</span>
+            <span class="star-gray">⭐</span>
+            <span class="star-gray">⭐</span>
+          </div>
+        `;
+        container.appendChild(pin);
+      }
+      
+      // Ajustar la altura del contenedor del mapa para scroll
+      const mapPathArea = document.querySelector('.map-path-area');
+      if (mapPathArea) {
+        const totalHeight = 100 + (85 * spacing); // 100% base + espaciado
+        mapPathArea.style.height = `${Math.max(800, totalHeight)}%`;
+      }
+      
+      container.dataset.generated = 'full';
+      console.log('Niveles 16-100 generados dinámicamente con patrón zigzag mejorado');
+      
+      // Generar partículas después de que los niveles estén creados
+      setTimeout(() => {
+        updateLevelParticles();
+        updateLevelWaves();
+      }, 300);
     }
 
     function updateLocks() {
@@ -1806,19 +2274,25 @@
       
       // Update total stars counter
       let totalStars = 0;
-      for (let i = 1; i <= 15; i++) {
+      for (let i = 1; i <= 100; i++) {
         totalStars += levelStars[i] || 0;
       }
       let totalStarsEl = document.getElementById('mapTotalStars');
       if (totalStarsEl) totalStarsEl.innerText = totalStars;
       let highScoreEl = document.getElementById('highScoreText');
-      if (highScoreEl) highScoreEl.innerText = lang === "es"
-        ? "🏆 Récord Supervivencia: " + survivalHighScore
-        : "🏆 Survival Record: " + survivalHighScore;
+      if (highScoreEl) {
+        let text = "🏆 Récord Supervivencia: ";
+        if (lang === "en") text = "🏆 Survival Record: ";
+        if (lang === "qu") text = "🏆 Kawsay Atipay: ";
+        highScoreEl.innerText = text + survivalHighScore;
+      }
       updateGiftUI();
       updateHomeProgress();
 
-      for (let i = 1; i <= 15; i++) {
+      // Generar niveles dinámicos si no existen (para niveles 16-100)
+      generateDynamicLevels();
+      
+      for (let i = 1; i <= 100; i++) {
         let el = document.getElementById("lvl" + i);
         let lockEl = document.getElementById("lock" + i);
         let sc = document.getElementById("stars" + i);
@@ -1827,24 +2301,26 @@
           renderStars(sc, 3, st);
         }
 
-        if (unlocked >= i) {
-          el.classList.remove("locked");
-          el.onclick = (function (n) { 
-            return function(e) {
-              startLevel(n);
-            }; 
-          })(i);
-          if (lockEl) lockEl.style.display = "none";
-          // Show decorations for this specific unlocked level
-          const levelDecors = document.querySelectorAll('.level-decor[data-level="' + i + '"]');
-          levelDecors.forEach(d => d.classList.add('show'));
-        } else {
-          el.classList.add("locked");
-          el.onclick = null;
-          if (lockEl) lockEl.style.display = "flex";
-          // Hide decorations for this locked level
-          const levelDecors = document.querySelectorAll('.level-decor[data-level="' + i + '"]');
-          levelDecors.forEach(d => d.classList.remove('show'));
+        if (el) {
+          if (unlocked >= i) {
+            el.classList.remove("locked");
+            el.onclick = (function (n) { 
+              return function(e) {
+                startLevel(n);
+              }; 
+            })(i);
+            if (lockEl) lockEl.style.display = "none";
+            // Show decorations for this specific unlocked level
+            const levelDecors = document.querySelectorAll('.level-decor[data-level="' + i + '"]');
+            levelDecors.forEach(d => d.classList.add('show'));
+          } else {
+            el.classList.add("locked");
+            el.onclick = null;
+            if (lockEl) lockEl.style.display = "flex";
+            // Hide decorations for this locked level
+            const levelDecors = document.querySelectorAll('.level-decor[data-level="' + i + '"]');
+            levelDecors.forEach(d => d.classList.remove('show'));
+          }
         }
 
         // Add hover and click event listeners to level pins
@@ -1875,8 +2351,225 @@
       }
 
       highlightCurrentLevel();
+      
+      // Actualizar partículas y ondas alrededor de niveles desbloqueados
+      updateLevelParticles();
+      updateLevelWaves();
+      
       // Don't show preview automatically, only on hover
       document.getElementById("levelPreview").style.display = "none";
+    }
+    
+    // Crear o actualizar partículas alrededor de niveles desbloqueados
+    function updateLevelParticles() {
+      const mapContent = document.querySelector('.map-path-content');
+      if (!mapContent) return;
+      
+      // Crear contenedor de partículas si no existe
+      let particlesContainer = mapContent.querySelector('.level-particles-container');
+      if (!particlesContainer) {
+        particlesContainer = document.createElement('div');
+        particlesContainer.className = 'level-particles-container';
+        mapContent.appendChild(particlesContainer);
+      }
+      
+      // Limpiar partículas existentes
+      particlesContainer.innerHTML = '';
+      
+      // Crear partículas para cada nivel desbloqueado
+      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
+        const levelPin = document.getElementById(`lvlPin${i}`);
+        if (!levelPin) continue;
+        
+        // Agregar clase unlocked al pin
+        levelPin.classList.add('unlocked');
+        
+        // Obtener posición del nivel
+        const rect = levelPin.getBoundingClientRect();
+        const containerRect = mapContent.getBoundingClientRect();
+        const top = rect.top - containerRect.top + rect.height / 2;
+        const left = rect.left - containerRect.left + rect.width / 2;
+        
+        // Crear 3-5 partículas por nivel
+        const particleCount = 3 + Math.floor(Math.random() * 3);
+        for (let j = 0; j < particleCount; j++) {
+          createParticle(particlesContainer, left, top, i, j);
+        }
+      }
+    }
+    
+    // Crear una partícula individual
+    function createParticle(container, centerX, centerY, levelNum, particleIndex) {
+      const particle = document.createElement('div');
+      
+      // Tipos de partículas
+      const types = ['star', 'sparkle', 'glow', 'orb'];
+      const animations = ['orbit', 'float', 'pulse', 'drift'];
+      
+      // Seleccionar tipo y animación aleatoriamente
+      const type = types[particleIndex % types.length];
+      const animation = animations[particleIndex % animations.length];
+      
+      particle.className = `level-particle ${type} ${animation}`;
+      
+      // Posicionar en el centro del nivel
+      particle.style.left = `${centerX}px`;
+      particle.style.top = `${centerY}px`;
+      
+      // Variar el radio de órbita según el índice
+      const orbitRadius = 30 + (particleIndex * 8);
+      particle.style.setProperty('--orbit-radius', `${orbitRadius}px`);
+      
+      // Variar la dirección de rotación
+      const direction = particleIndex % 2 === 0 ? 1 : -1;
+      particle.style.setProperty('--direction', direction);
+      
+      // Retraso aleatorio para cada partícula
+      particle.style.animationDelay = `${Math.random() * 4}s`;
+      
+      // Duración aleatoria
+      const duration = 3 + Math.random() * 3;
+      particle.style.animationDuration = `${duration}s`;
+      
+      container.appendChild(particle);
+    }
+    
+    // Recrear partículas cuando se redimensiona la ventana
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(() => {
+        updateLevelParticles();
+        updateLevelWaves();
+      }, 250);
+    });
+    
+    // Crear o actualizar ondas alrededor de niveles desbloqueados
+    function updateLevelWaves() {
+      const mapContent = document.querySelector('.map-path-content');
+      if (!mapContent) return;
+      
+      // Crear contenedor de ondas si no existe
+      let wavesContainer = mapContent.querySelector('.level-waves-container');
+      if (!wavesContainer) {
+        wavesContainer = document.createElement('div');
+        wavesContainer.className = 'level-waves-container';
+        mapContent.appendChild(wavesContainer);
+      }
+      
+      // Limpiar ondas existentes
+      wavesContainer.innerHTML = '';
+      
+      // Crear ondas para cada nivel desbloqueado
+      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
+        const levelPin = document.getElementById(`lvlPin${i}`);
+        if (!levelPin) continue;
+        
+        // Obtener posición del nivel
+        const rect = levelPin.getBoundingClientRect();
+        const containerRect = mapContent.getBoundingClientRect();
+        const top = rect.top - containerRect.top + rect.height / 2;
+        const left = rect.left - containerRect.left + rect.width / 2;
+        
+        // Determinar clase de bloque para color
+        const blockClass = `level-block-${Math.ceil(i / 5)}`;
+        
+        // Crear 3 ondas por nivel con retrasos diferentes
+        for (let j = 1; j <= 3; j++) {
+          createWave(wavesContainer, left, top, blockClass, j);
+        }
+      }
+    }
+    
+    // Crear una onda individual
+    function createWave(container, centerX, centerY, blockClass, waveIndex) {
+      const wave = document.createElement('div');
+      wave.className = `level-wave wave-${waveIndex} ${blockClass}`;
+      
+      // Posicionar en el centro del nivel
+      wave.style.left = `${centerX}px`;
+      wave.style.top = `${centerY}px`;
+      
+      // Variar el tamaño inicial según el índice
+      const baseSize = 35 + (waveIndex * 5);
+      wave.style.width = `${baseSize}px`;
+      wave.style.height = `${baseSize}px`;
+      
+      container.appendChild(wave);
+    }
+
+    // Crear o actualizar partículas alrededor de niveles desbloqueados
+    function updateLevelParticles() {
+      const mapContent = document.querySelector('.map-path-content');
+      if (!mapContent) return;
+      
+      // Crear contenedor de partículas si no existe
+      let particlesContainer = mapContent.querySelector('.level-particles-container');
+      if (!particlesContainer) {
+        particlesContainer = document.createElement('div');
+        particlesContainer.className = 'level-particles-container';
+        mapContent.appendChild(particlesContainer);
+      }
+      
+      // Limpiar partículas existentes
+      particlesContainer.innerHTML = '';
+      
+      // Crear partículas para cada nivel desbloqueado
+      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
+        const levelPin = document.getElementById(`lvlPin${i}`);
+        if (!levelPin) continue;
+        
+        // Agregar clase unlocked al pin
+        levelPin.classList.add('unlocked');
+        
+        // Obtener posición del nivel
+        const rect = levelPin.getBoundingClientRect();
+        const containerRect = mapContent.getBoundingClientRect();
+        const top = rect.top - containerRect.top + rect.height / 2;
+        const left = rect.left - containerRect.left + rect.width / 2;
+        
+        // Crear 3-5 partículas por nivel
+        const particleCount = 3 + Math.floor(Math.random() * 3);
+        for (let j = 0; j < particleCount; j++) {
+          createParticle(particlesContainer, left, top, i, j);
+        }
+      }
+    }
+    
+    // Crear una partícula individual
+    function createParticle(container, centerX, centerY, levelNum, particleIndex) {
+      const particle = document.createElement('div');
+      
+      // Tipos de partículas
+      const types = ['star', 'sparkle', 'glow', 'orb'];
+      const animations = ['orbit', 'float', 'pulse', 'drift'];
+      
+      // Seleccionar tipo y animación aleatoriamente
+      const type = types[particleIndex % types.length];
+      const animation = animations[particleIndex % animations.length];
+      
+      particle.className = `level-particle ${type} ${animation}`;
+      
+      // Posicionar en el centro del nivel
+      particle.style.left = `${centerX}px`;
+      particle.style.top = `${centerY}px`;
+      
+      // Variar el radio de órbita según el índice
+      const orbitRadius = 30 + (particleIndex * 8);
+      particle.style.setProperty('--orbit-radius', `${orbitRadius}px`);
+      
+      // Variar la dirección de rotación
+      const direction = particleIndex % 2 === 0 ? 1 : -1;
+      particle.style.setProperty('--direction', direction);
+      
+      // Retraso aleatorio para cada partícula
+      particle.style.animationDelay = `${Math.random() * 4}s`;
+      
+      // Duración aleatoria
+      const duration = 3 + Math.random() * 3;
+      particle.style.animationDuration = `${duration}s`;
+      
+      container.appendChild(particle);
     }
 
     function shuffle(a) {
@@ -1888,7 +2581,10 @@
     }
 
     function resetProgress() {
-      if (confirm(lang === "es" ? "¿Reiniciar todo el progreso?" : "Reset all progress?")) {
+      let confirmMsg = "¿Reiniciar todo el progreso?";
+      if (lang === "en") confirmMsg = "Reset all progress?";
+      if (lang === "qu") confirmMsg = "¿Tukuy nivelta kutichiyta munankichu?";
+      if (confirm(confirmMsg)) {
         localStorage.removeItem('unlocked');
         localStorage.removeItem('coins');
         localStorage.removeItem('levelStars');
@@ -1899,11 +2595,11 @@
         survivalHighScore = 0;
         usedQuestionIndices.clear();
         updateLocks();
-        for (let i = 2; i <= 5; i++) {
+        for (let i = 2; i <= 100; i++) {
           let el = document.getElementById("lvl" + i);
           let lockEl = document.getElementById("lock" + i);
-          el.classList.add("locked");
-          el.onclick = null;
+          if (el) el.classList.add("locked");
+          if (el) el.onclick = null;
           if (lockEl) lockEl.style.display = "flex";
         }
         highlightCurrentLevel();
@@ -1912,7 +2608,7 @@
     }
 
     function nextLevel() {
-      if (level < 15) startLevel(level + 1);
+      if (level < 100) startLevel(level + 1);
       else show("map");
     }
 
@@ -1947,8 +2643,9 @@
 
     function applyLevelVisualTheme(levelNum) {
       const body = document.body;
-      Object.values(levelVisualThemes).forEach(theme => body.classList.remove(theme.bgClass));
-      const theme = levelVisualThemes[levelNum];
+      // Remove all possible level theme classes before applying new one (assuming 20 blocks of 5 levels)
+      for (let i = 1; i <= 20; i++) body.classList.remove(`level-theme-${i}`);
+      const theme = getLevelTheme(levelNum);
       if (!theme) return;
       body.classList.add(theme.bgClass);
       updateFloatingDecor(theme.icons, theme.floaters);
@@ -1956,7 +2653,7 @@
 
     function clearLevelVisualTheme() {
       const body = document.body;
-      Object.values(levelVisualThemes).forEach(theme => body.classList.remove(theme.bgClass));
+      for (let i = 1; i <= 20; i++) body.classList.remove(`level-theme-${i}`);
       updateFloatingDecor(defaultBgIcons, ["📜", "🕊️", "⭐", "🪔", "📖", "🌿"]);
     }
 
@@ -2341,10 +3038,12 @@
         if (lastDailyClaim === yesterdayStr) dailyStreak++;
         else dailyStreak = 1;
 
-        let reward = 10 + (Math.min(dailyStreak, 7) * 2); 
-        
+        let reward = 10 + (Math.min(dailyStreak, 7) * 2);
         document.getElementById("dailyRewardAmount").innerText = reward;
-        document.getElementById("dailyStreakText").innerText = "🔥 Racha: " + dailyStreak + (dailyStreak>1?" días":" día");
+        let text = "🔥 Racha: " + dailyStreak + (dailyStreak > 1 ? " días" : " día");
+        if (lang === "en") text = "🔥 Streak: " + dailyStreak + (dailyStreak > 1 ? " days" : " day");
+        if (lang === "qu") text = "🔥 Racha: " + dailyStreak + (dailyStreak > 1 ? " p'unchaykuna" : " p'unchay");
+        document.getElementById("dailyStreakText").innerText = text;
         document.getElementById("dailyModal").style.display = "flex";
         
         window.pendingDailyReward = reward;

@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "11-15",
+    "dificultad": "Fácil",
+    "tema": "Conquista y Jueces",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre la conquista de Canaán, los jueces de Israel y la vida en la tierra prometida"
+  },
+  "preguntas": [
+    {
+      "id": 101,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Entrada a Canaán",
+      "pregunta": "¿Qué ciudad fue la primera conquistada por los israelitas en Canaán?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Jericó",
+        "C": "Hebrón",
+        "D": "Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 6 describe la conquista de Jericó, la primera ciudad que cayeron ante los israelitas."
+    },
+    {
+      "id": 102,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Jericó",
+      "pregunta": "¿Cuántos días los israelitas marcharon alrededor de Jericó?",
+      "opciones": {
+        "A": "3 días",
+        "B": "6 días marchando una vez, y 7 días marchando siete veces",
+        "C": "40 días",
+        "D": "1 día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 6:3-4 dice que marcharían alrededor de la ciudad una vez durante seis días, y siete veces el séptimo día."
+    },
+    {
+      "id": 103,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Jericó",
+      "pregunta": "¿Qué debían hacer los israelitas después de marchar alrededor de Jericó?",
+      "opciones": {
+        "A": "Atacar con espadas",
+        "B": "Tocar las trompetas y gritar",
+        "C": "Encender fuego",
+        "D": "Escalar las murallas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 6:5 dice que al sonido prolongado de la bocina, todo el pueblo gritaría a gran voz y el muro de la ciudad caería."
+    },
+    {
+      "id": 104,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Rahab",
+      "pregunta": "¿Quién escondió a los espías israelitas en Jericó?",
+      "opciones": {
+        "A": "Un sacerdote",
+        "B": "Rahab, la prostituta",
+        "C": "El rey de Jericó",
+        "D": "Un mercader"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 2:1 dice que Josué envió dos espías desde Sitim, y fueron a casa de Rahab, una prostituta."
+    },
+    {
+      "id": 105,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Rahab",
+      "pregunta": "¿Qué señal puso Rahab en su casa para ser salvada?",
+      "opciones": {
+        "A": "Una antorcha",
+        "B": "Un cordón escarlata en la ventana",
+        "C": "Un paño blanco",
+        "D": "Un cordero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 2:18 dice que ella debería atar este cordón de hilo escarlata en la ventana por donde había descendido."
+    },
+    {
+      "id": 106,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Conquista",
+      "pregunta": "¿Qué sucedió con el sol durante la batalla de Josué contra los amorreos?",
+      "opciones": {
+        "A": "Se oscureció",
+        "B": "Se detuvo y la luna se paró",
+        "C": "Brilló con más intensidad",
+        "D": "Se convirtió en sangre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 10:12-13 dice que Josué habló a Jehová y el sol se detuvo en medio del cielo y no se apresuró a ponerse como un día entero."
+    },
+    {
+      "id": 107,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Reparto de la tierra",
+      "pregunta": "¿Cómo se repartió la tierra de Canaán entre las tribus?",
+      "opciones": {
+        "A": "Por votación",
+        "B": "Por suerte (sorteo)",
+        "C": "Por orden de llegada",
+        "D": "Josué decidió"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 14:2 dice que se les dio herencia por suerte, como Jehová había mandado por medio de Moisés."
+    },
+    {
+      "id": 108,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Josué",
+      "pregunta": "¿A qué edad murió Josué?",
+      "opciones": {
+        "A": "100 años",
+        "B": "110 años",
+        "C": "120 años",
+        "D": "85 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 24:29 dice que murió Josué hijo de Nun, siervo de Jehová, siendo de ciento diez años de edad."
+    },
+    {
+      "id": 109,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Jueces - Introducción",
+      "pregunta": "¿Por qué surgieron los jueces en Israel?",
+      "opciones": {
+        "A": "Porque no había rey",
+        "B": "Para organizar festivales",
+        "C": "Para construir templos",
+        "D": "Para cobrar impuestos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 17:6 dice que en aquellos días no había rey en Israel; cada uno hacía lo que le parecía recto. Los jueces surgieron para liderar en tiempos de crisis."
+    },
+    {
+      "id": 110,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Jueces - Otoniel",
+      "pregunta": "¿Quién fue el primer juez de Israel?",
+      "opciones": {
+        "A": "Sansón",
+        "B": "Débora",
+        "C": "Otoniel",
+        "D": "Gedeón"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 3:9 dice que los israelitas clamaron a Jehová, y él levantó un salvador a los israelitas, que los salvó: Otoniel hijo de Quenaz."
+    },
+    {
+      "id": 111,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Aod",
+      "pregunta": "¿De qué tribu era Aod, el juez que mató a Eglón?",
+      "opciones": {
+        "A": "Judá",
+        "B": "Benjamín",
+        "C": "Efraín",
+        "D": "Dan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 3:15 dice que Jehová les levantó un salvador, Aod hijo de Gera, benjaminita, que era zurdo."
+    },
+    {
+      "id": 112,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Aod",
+      "pregunta": "¿Qué arma usó Aod para matar al rey Eglón?",
+      "opciones": {
+        "A": "Una espada",
+        "B": "Una lanza",
+        "C": "Un puñal de dos filos de un codo de largo",
+        "D": "Un arco"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 3:16 dice que Aod se hizo un puñal de dos filos, de un codo de largo, y lo ciñó debajo de sus vestidos."
+    },
+    {
+      "id": 113,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora",
+      "pregunta": "¿Quién era la única mujer juez de Israel?",
+      "opciones": {
+        "A": "Rut",
+        "B": "Ester",
+        "C": "Débora",
+        "D": "Ana"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 4:4 dice que Débora, mujer profetisa, esposa de Lapidot, juzgaba a Israel en aquel tiempo."
+    },
+    {
+      "id": 114,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora",
+      "pregunta": "¿Bajo qué árbol juzgaba Débora?",
+      "opciones": {
+        "A": "Roble",
+        "B": "Palmera de Débora",
+        "C": "Higuera",
+        "D": "Olivo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 4:5 dice que ella se sentaba bajo la palmera de Débora, entre Ramá y Betel, en la región montañosa de Efraín."
+    },
+    {
+      "id": 115,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora y Barac",
+      "pregunta": "¿A quién llamó Débora para liderar el ejército contra Sísara?",
+      "opciones": {
+        "A": "Gedeón",
+        "B": "Barac",
+        "C": "Samson",
+        "D": "Jefté"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 4:6 dice que Débora mandó llamar a Barac hijo de Abinoam, y le dijo que subiera al monte Tabor con diez mil hombres."
+    },
+    {
+      "id": 116,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora y Barac",
+      "pregunta": "¿Quién mató a Sísara, el comandante del ejército cananeo?",
+      "opciones": {
+        "A": "Barac",
+        "B": "Débora",
+        "C": "Jael, la esposa de Heber",
+        "D": "Otoniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 4:17-21 describe cómo Jael invitó a Sísara a su tienda y luego le clavó una estaca de tienda en la sien."
+    },
+    {
+      "id": 117,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora y Barac",
+      "pregunta": "¿Qué arma usó Jael para matar a Sísara?",
+      "opciones": {
+        "A": "Una espada",
+        "B": "Un clavo y un mazo",
+        "C": "Una lanza",
+        "D": "Un puñal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 4:21 dice que Jael tomó una estaca de la tienda y un mazo en su mano, y le clavó la estaca en la sien."
+    },
+    {
+      "id": 118,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué señal pidió Gedeón para confirmar que Dios lo llamaba?",
+      "opciones": {
+        "A": "Una estrella en el cielo",
+        "B": "El vellón mojado y luego seco",
+        "C": "Un rayo",
+        "D": "Un terremoto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 6:36-40 describe cómo Gedeón puso un vellón en la era, primero mojado y luego seco, para confirmar la voluntad de Dios."
+    },
+    {
+      "id": 119,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿De qué tribu era Gedeón?",
+      "opciones": {
+        "A": "Judá",
+        "B": "Manasés",
+        "C": "Efraín",
+        "D": "Benjamín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 6:11 dice que el ángel de Jehová se sentó debajo de la encina que estaba en Ofra, perteneciente a Joás, abiezrita; y su hijo Gedeón estaba..."
+    },
+    {
+      "id": 120,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Cuántos hombres quedaron con Gedeón para luchar contra los madianitas?",
+      "opciones": {
+        "A": "32,000",
+        "B": "10,000",
+        "C": "300",
+        "D": "1,000"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 7:7 dice que Jehová le dijo a Gedeón: 'Con los trescientos hombres que lamieron el agua los salvaré.'"
+    },
+    {
+      "id": 121,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué llevaban los 300 hombres de Gedeón además de sus armas?",
+      "opciones": {
+        "A": "Antorchas ocultas en cántaros",
+        "B": "Escudos dorados",
+        "C": "Trompetas de oro",
+        "D": "Banderas"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 7:16 dice que Gedeón dividió a los trescientos hombres en tres grupos, y puso en mano de cada uno una bocina, y un cántaro vacío con una antorcha dentro."
+    },
+    {
+      "id": 122,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué grito dieron los hombres de Gedeón durante la batalla?",
+      "opciones": {
+        "A": "¡Por Jehová y por Gedeón!",
+        "B": "¡La espada de Jehová y de Gedeón!",
+        "C": "¡Victoria para Israel!",
+        "D": "¡Muerte a los madianitas!"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 7:20 dice que las tres tropas tocaron las bocinas y quebraron los cántaros, y gritaron: '¡La espada de Jehová y de Gedeón!'"
+    },
+    {
+      "id": 123,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué hizo Gedeón con el botín de oro después de la victoria?",
+      "opciones": {
+        "A": "Lo repartió entre sus soldados",
+        "B": "Hizo un efod que se convirtió en trampa",
+        "C": "Lo dio al tabernáculo",
+        "D": "Lo enterró"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 8:27 dice que Gedeón hizo un efod y lo puso en su ciudad, Ofra; y todo Israel se prostituyó allí tras aquel efod."
+    },
+    {
+      "id": 124,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Quién era Jefté antes de convertirse en juez?",
+      "opciones": {
+        "A": "Un sacerdote",
+        "B": "Un hijo de una prostituta expulsado por sus hermanos",
+        "C": "Un rey",
+        "D": "Un profeta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:1-2 dice que Jefté era un guerrero valiente, hijo de una prostituta; pero Gilead tuvo otros hijos con su esposa, y estos expulsaron a Jefté."
+    },
+    {
+      "id": 125,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Contra qué pueblo luchó Jefté?",
+      "opciones": {
+        "A": "Los filisteos",
+        "B": "Los amonitas",
+        "C": "Los cananeos",
+        "D": "Los sirios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:4-5 dice que después de un tiempo, los hijos de Amón hicieron guerra a Israel, y los ancianos de Gilead fueron a buscar a Jefté."
+    },
+    {
+      "id": 126,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Qué promesa hizo Jefté a Jehová antes de la batalla?",
+      "opciones": {
+        "A": "Dedicarle un templo",
+        "B": "Ofrecer como sacrificio lo que saliera primero de su casa al regresar",
+        "C": "Ayunar 40 días",
+        "D": "Dar la mitad del botín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:30-31 dice que Jefté hizo un voto a Jehová de ofrecer como sacrificio quienquiera que saliera primero de su casa a recibirlo."
+    },
+    {
+      "id": 127,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Quién salió primero de la casa de Jefté cuando regresó victorioso?",
+      "opciones": {
+        "A": "Su esposa",
+        "B": "Su hija, su única hija",
+        "C": "Su hijo",
+        "D": "Un siervo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:34 dice que Jefté llegó a su casa en Mizpá, y salió a recibirlo su hija, con panderos y danzas, y era ella única hija."
+    },
+    {
+      "id": 128,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Quiénes fueron los padres de Sansón?",
+      "opciones": {
+        "A": "Manoa y su esposa (que no se nombra)",
+        "B": "Elcana y Ana",
+        "C": "Joás y su esposa",
+        "D": "Abdon y su esposa"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 13:2-24 describe que el ángel anunció el nacimiento de Sansón a la mujer de Manoa, quien había sido estéril."
+    },
+    {
+      "id": 129,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Qué no debía hacer Sansón según el voto nazareo?",
+      "opciones": {
+        "A": "Comer carne",
+        "B": "Beber vino ni cortarse el cabello",
+        "C": "Tocar animales muertos",
+        "D": "Viajar fuera de Israel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 13:4-5 dice que la mujer no debía beber vino ni licor, ni comer nada inmundo; el niño sería nazareo de Dios desde el vientre."
+    },
+    {
+      "id": 130,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Con qué animal mató Sansón a 1,000 filisteos?",
+      "opciones": {
+        "A": "Un león",
+        "B": "Una quijada de asno (mandíbula de burro)",
+        "C": "Un caballo",
+        "D": "Un toro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 15:15 dice que Sansón encontró una quijada fresca de asno, y extendió su mano y tomó la quijada, y mató con ella a mil hombres."
+    },
+    {
+      "id": 131,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Cómo se llamaba la filisteña que traicionó a Sansón?",
+      "opciones": {
+        "A": "Jezabel",
+        "B": "Dalila",
+        "C": "Atenais",
+        "D": "Betsabé"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:4 dice que después de aquello, Sansón se enamoró de una mujer en el valle de Sorek, cuyo nombre era Dalila."
+    },
+    {
+      "id": 132,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Cuál era el secreto de la fuerza de Sansón?",
+      "opciones": {
+        "A": "Sus amuletos",
+        "B": "Su cabello, símbolo de su nazareato",
+        "C": "Una armadura especial",
+        "D": "Sus ejercicios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:17 dice que si rapaban su cabeza, su fuerza se apartaría de él, porque era nazareo de Dios desde el vientre de su madre."
+    },
+    {
+      "id": 133,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Qué hicieron los filisteos a Sansón después de cortarle el cabello?",
+      "opciones": {
+        "A": "Lo mataron",
+        "B": "Le sacaron los ojos y lo pusieron a trabajar en la cárcel",
+        "C": "Lo vendieron como esclavo",
+        "D": "Lo dejaron libre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:21 dice que los filisteos lo prendieron, le sacaron los ojos, y lo llevaron a Gaza, donde lo ataron con cadenas de bronce y lo pusieron a trabajar en la cárcel."
+    },
+    {
+      "id": 134,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Cómo murió Sansón?",
+      "opciones": {
+        "A": "De viejo",
+        "B": "Derribó el templo de Dagón sobre los filisteos y sobre sí mismo",
+        "C": "En batalla",
+        "D": "Enfermo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:29-30 describe cómo Sansón empujó las columnas del templo de Dagón, derrumbándolo y muriendo junto con miles de filisteos."
+    },
+    {
+      "id": 135,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿De qué país era Rut antes de convertirse en israelita?",
+      "opciones": {
+        "A": "Egipto",
+        "B": "Moab",
+        "C": "Filistea",
+        "D": "Asiria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Rut 1:4 dice que los hijos de Noemí tomaron para sí mujeres moabitas; el nombre de una era Orfa, y el nombre de la otra, Rut."
+    },
+    {
+      "id": 136,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿Qué famoso dicho dijo Rut a su suegra Noemí?",
+      "opciones": {
+        "A": "'El Señor te bendiga'",
+        "B": "'A dondequiera que vayas, iré yo'",
+        "C": "'No temas'",
+        "D": "'Bendita eres entre las mujeres'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Rut 1:16 dice el famoso discurso de Rut: 'A dondequiera que vayas, iré yo; y dondequiera que vivas, viviré yo.'"
+    },
+    {
+      "id": 137,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿Quién se casó con Rut?",
+      "opciones": {
+        "A": "Boaz",
+        "B": "Elimelec",
+        "C": "Quelión",
+        "D": "Mahlón"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Rut 4:13 dice que Boaz tomó a Rut, y ella llegó a ser su esposa."
+    },
+    {
+      "id": 138,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿Qué parentesco tenía Boaz con Noemí?",
+      "opciones": {
+        "A": "Hermano",
+        "B": "Pariente cercano (goel, redentor)",
+        "C": "Sobrino",
+        "D": "Primo lejano"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Rut 2:1 y 3:9-13 muestran que Boaz era pariente cercano (goel) de Elimelec, el esposo de Noemí."
+    },
+    {
+      "id": 139,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿Quién fue el bisnieto de Rut y Boaz?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "David",
+        "C": "Salomón",
+        "D": "Samuel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Rut 4:17 dice que las vecinas le pusieron nombre al niño, diciendo: 'Le ha nacido un hijo a Noemí.' Y le pusieron por nombre Obed. Éste fue padre de Isaí, padre de David."
+    },
+    {
+      "id": 140,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel nacimiento",
+      "pregunta": "¿Quién era la madre de Samuel?",
+      "opciones": {
+        "A": "Sara",
+        "B": "Ana",
+        "C": "Lea",
+        "D": "Débora"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 1:20 describe el nacimiento de Samuel, hijo de Ana y Elcana."
+    },
+    {
+      "id": 141,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel nacimiento",
+      "pregunta": "¿Dónde fue criado Samuel desde niño?",
+      "opciones": {
+        "A": "En su casa con sus padres",
+        "B": "En el tabernáculo de Silo",
+        "C": "En el templo de Jerusalén",
+        "D": "En Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 1:24-28 dice que Ana llevó al niño Samuel al tabernáculo de Silo para servir a Jehová toda su vida."
+    },
+    {
+      "id": 142,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel",
+      "pregunta": "¿Quién era el sumo sacerdote cuando Samuel era niño?",
+      "opciones": {
+        "A": "Aarón",
+        "B": "Eleazar",
+        "C": "Helí",
+        "D": "Sadog"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 1:3 dice que Elcana subía a adorar y a sacrificar a Jehová de los ejércitos en Silo, donde estaban Helí y sus hijos como sacerdotes."
+    },
+    {
+      "id": 143,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel",
+      "pregunta": "¿Qué dijo Dios que haría con la casa de Helí?",
+      "opciones": {
+        "A": "La bendeciría",
+        "B": "La juzgaría por la maldad de sus hijos",
+        "C": "La haría reyes",
+        "D": "La haría sacerdotes para siempre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 3:12-13 dice que Jehová ejecutaría contra Helí todo lo que había hablado contra su casa, porque sus hijos habían hecho maldad."
+    },
+    {
+      "id": 144,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel",
+      "pregunta": "¿Qué papel desempeñaba Samuel en Israel?",
+      "opciones": {
+        "A": "Solo profeta",
+        "B": "Solo sacerdote",
+        "C": "Juez, profeta y sacerdote",
+        "D": "Solo rey"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 7:15-17 dice que Samuel juzgaba a Israel todos los días de su vida, y también actuaba como profeta y sacerdote."
+    },
+    {
+      "id": 145,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Arca perdida",
+      "pregunta": "¿Quiénes capturaron el arca del pacto en batalla?",
+      "opciones": {
+        "A": "Los moabitas",
+        "B": "Los filisteos",
+        "C": "Los amonitas",
+        "D": "Los sirios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 4:11 dice que el arca de Dios fue capturada, y murieron los dos hijos de Helí, Ofni y Finees."
+    },
+    {
+      "id": 146,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Arca perdida",
+      "pregunta": "¿Qué diosa filistea se derrumbó cuando pusieron el arca junto a ella?",
+      "opciones": {
+        "A": "Asera",
+        "B": "Astarté",
+        "C": "Dagón",
+        "D": "Anat"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 5:2-4 describe cómo el arca fue puesta junto a Dagón, y a la mañana Dagón había caído rostro en tierra ante el arca."
+    },
+    {
+      "id": 147,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Arca perdida",
+      "pregunta": "¿Qué enfermedad azotó a los filisteos cuando tuvieron el arca?",
+      "opciones": {
+        "A": "Peste",
+        "B": "Tumores (hemorroides)",
+        "C": "Lepra",
+        "D": "Ceguera"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 5:6 dice que Jehová azotó con tumores al pueblo de Asdod y sus territorios."
+    },
+    {
+      "id": 148,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Arca perdida",
+      "pregunta": "¿Qué animal enviaron los filisteos para devolver el arca?",
+      "opciones": {
+        "A": "Dos caballos",
+        "B": "Dos vacas que nunca habían llevado yugo",
+        "C": "Dos burros",
+        "D": "Dos camellos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 6:7 dice que tomaran dos vacas paridas que nunca hubieran llevado yugo, uncirlas al carro y apartar sus becerros de ellas."
+    },
+    {
+      "id": 149,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel juez",
+      "pregunta": "¿Qué hizo el pueblo cuando clamó a Samuel por un rey?",
+      "opciones": {
+        "A": "Querían ser como las otras naciones",
+        "B": "Querían un mejor juez",
+        "C": "Querían adorar ídolos",
+        "D": "Querían pelear contra los filisteos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 8:5 y 20 dicen que el pueblo quería un rey para juzgarlos como todas las naciones."
+    },
+    {
+      "id": 150,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿De qué tribu era Saúl, el primer rey de Israel?",
+      "opciones": {
+        "A": "Judá",
+        "B": "Efraín",
+        "C": "Benjamín",
+        "D": "Leví"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 9:1-2 describe a Saúl hijo de Quis, de la tribu de Benjamín."
+    }
+  ]
+}

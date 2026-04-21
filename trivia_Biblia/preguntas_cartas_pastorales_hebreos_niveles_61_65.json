@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "61-65",
+    "dificultad": "Difícil",
+    "tema": "Cartas Pastorales (1 y 2 Timoteo, Tito) y Hebreos",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre las cartas pastorales de Pablo y la carta a los Hebreos"
+  },
+  "preguntas": [
+    {
+      "id": 601,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Oración",
+      "pregunta": "¿Por quiénes debemos orar según 1 Timoteo 2:1-2?",
+      "opciones": {
+        "A": "Solo por los cristianos",
+        "B": "Por todos, por reyes y autoridades, para vivir quieta y reposadamente",
+        "C": "Solo por nosotros mismos",
+        "D": "Solo por los pobres"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 2:1-2 dice que se hagan súplicas, oraciones, intercesiones y acciones de gracias por todos, por reyes y por todos los que están en eminencia, para que vivamos quieta y reposadamente."
+    },
+    {
+      "id": 602,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Mediador",
+      "pregunta": "¿Quién es el único mediador entre Dios y los hombres según 1 Timoteo 2:5?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "Jesucristo, hombre",
+        "C": "Los ángeles",
+        "D": "Los apóstoles"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 2:5 dice: 'Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre.'"
+    },
+    {
+      "id": 603,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Rescate",
+      "pregunta": "¿Qué dio Jesús como rescate según 1 Timoteo 2:6?",
+      "opciones": {
+        "A": "Dinero",
+        "B": "Sí mismo como rescate por todos",
+        "C": "El templo",
+        "D": "Las riquezas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 2:6 dice: 'El cual se dio a sí mismo en rescate por todos, de lo cual se dio testimonio a su debido tiempo.'"
+    },
+    {
+      "id": 604,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Obispo",
+      "pregunta": "¿Cuáles son requisitos para un obispo (superintendente) según 1 Timoteo 3:1-7?",
+      "opciones": {
+        "A": "Riqueza y poder",
+        "B": "Irrepreensible, marido de una sola mujer, sobrio, prudente, decoroso, hospitalario, enseñador, no dado al vino, no pendenciero, no codicioso de ganancias deshonestas",
+        "C": "Solo ser mayor de edad",
+        "D": "Saber leer y escribir"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 3:1-7 enumera cualidades como irrepreensible, marido de una sola mujer, sobrio, prudente, decoroso, hospitalario, apto para enseñar, no dado al vino, no pendenciero, no codicioso de ganancias deshonestas, que gobierne bien su casa."
+    },
+    {
+      "id": 605,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Diáconos",
+      "pregunta": "¿Cuáles son requisitos para los diáconos según 1 Timoteo 3:8-13?",
+      "opciones": {
+        "A": "Riqueza",
+        "B": "Graves, no de doble lengua, no dados a mucho vino, no codiciosos de ganancias deshonestas, que tengan el misterio de la fe con limpia conciencia",
+        "C": "Solo juventud",
+        "D": "Origen noble"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 3:8-13 dice que los diáconos deben ser graves, no de doble lengua, no dados a mucho vino, no codiciosos de ganancias deshonestas, que tengan el misterio de la fe con limpia conciencia."
+    },
+    {
+      "id": 606,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Gran misterio",
+      "pregunta": "¿Qué es el gran misterio de la piedad según 1 Timoteo 3:16?",
+      "opciones": {
+        "A": "La ley de Moisés",
+        "B": "Dios se manifestó en carne, fue justificado en el Espíritu, visto de los ángeles, predicado a los gentiles, creído en el mundo, recibido arriba en gloria",
+        "C": "Los sacrificios",
+        "D": "El templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 3:16 dice: 'Y sin contradicción, grande es el misterio de la piedad: Dios fue manifestado en carne, justificado en el Espíritu, visto de los ángeles, predicado a los gentiles, creído en el mundo, recibido arriba en gloria.'"
+    },
+    {
+      "id": 607,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Apostasía",
+      "pregunta": "¿Qué enseñó Pablo sobre los tiempos postreros en 1 Timoteo 4:1-3?",
+      "opciones": {
+        "A": "Que todos serán salvos",
+        "B": "Algunos apostatarán, escuchando espíritus engañadores, prohibiendo casarse y mandando abstenerse de alimentos",
+        "C": "Que no habrá problemas",
+        "D": "Que el mundo será perfecto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 4:1-3 dice que en los postreros tiempos algunos apostatarán de la fe, escuchando espíritus engañadores, prohibiendo casarse y mandando abstenerse de alimentos."
+    },
+    {
+      "id": 608,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Ejercicio",
+      "pregunta": "¿Qué dice Pablo sobre el ejercicio físico y espiritual en 1 Timoteo 4:8?",
+      "opciones": {
+        "A": "El ejercicio físico es lo más importante",
+        "B": "El ejercicio corporal para poco aprovecha, mas la piedad para todo aprovecha",
+        "C": "No hay que ejercitarse",
+        "D": "Solo hay que ejercitar el cuerpo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 4:8 dice: 'Porque el ejercicio corporal para poco aprovecha, mas la piedad para todo aprovecha, pues tiene promesa de esta vida presente, y de la venidera.'"
+    },
+    {
+      "id": 609,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Trato",
+      "pregunta": "¿Cómo debe tratarse a los ancianos según 1 Timoteo 5:1-2?",
+      "opciones": {
+        "A": "Con severidad",
+        "B": "A los ancianos como a padre, a las ancianas como a madres, a las jóvenes como a hermanas",
+        "C": "Con indiferencia",
+        "D": "Con desprecio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 5:1-2 dice: 'A los ancianos reprende como a padre, a los jóvenes como a hermanos, a las ancianas como a madres, a las jóvenes como a hermanas.'"
+    },
+    {
+      "id": 610,
+      "nivel": 61,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Viudas",
+      "pregunta": "¿Qué viuda debe ser honrada según 1 Timoteo 5:3-16?",
+      "opciones": {
+        "A": "Cualquiera",
+        "B": "La viuda verdaderamente desamparada, que tiene esperanza puesta en Dios y permanece en súplicas y oraciones",
+        "C": "Solo las jóvenes",
+        "D": "Solo las ricas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 5:5 dice: 'Pero la viuda verdaderamente desamparada, la que ha quedado sola, tiene puesta su esperanza en Dios, y permanece en súplicas y oraciones noche y día.'"
+    },
+    {
+      "id": 611,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Amor al dinero",
+      "pregunta": "¿Qué dice Pablo sobre el amor al dinero en 1 Timoteo 6:10?",
+      "opciones": {
+        "A": "'El dinero es bueno'",
+        "B": "'La raíz de todos los males es el amor al dinero'",
+        "C": "'Hay que acumular riquezas'",
+        "D": "'El dinero no importa'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 6:10 dice: 'Porque raíz de todos los males es el amor al dinero, el cual codiciando algunos, se extraviaron de la fe.'"
+    },
+    {
+      "id": 612,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "1 Timoteo - Buena confesión",
+      "pregunta": "¿Qué confesión hizo Jesús ante Pilato según 1 Timoteo 6:13?",
+      "opciones": {
+        "A": "Que era rey",
+        "B": "La buena confesión",
+        "C": "Que era profeta",
+        "D": "Que era sacerdote"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Timoteo 6:13 dice que Jesús dio testimonio ante Poncio Pilato la buena confesión."
+    },
+    {
+      "id": 613,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Poder",
+      "pregunta": "¿Qué espíritu no nos dio Dios según 2 Timoteo 1:7?",
+      "opciones": {
+        "A": "De amor",
+        "B": "De cobardía, sino de poder, de amor y de dominio propio",
+        "C": "De sabiduría",
+        "D": "De fe"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 1:7 dice: 'Porque no nos ha dado Dios espíritu de cobardía, sino de poder, de amor y de dominio propio.'"
+    },
+    {
+      "id": 614,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Palabra",
+      "pregunta": "¿Por qué sufrió Pablo según 2 Timoteo 1:11-12?",
+      "opciones": {
+        "A": "Por crímenes",
+        "B": "Por el evangelio, pero no se avergüenza porque sabe a quién ha creído",
+        "C": "Por robos",
+        "D": "Por mentiras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 1:11-12 dice que Pablo fue puesto por predicador, apóstol y maestro de los gentiles, y por esta causa padece, pero no se avergüenza, porque sabe a quién ha creído."
+    },
+    {
+      "id": 615,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Fiel",
+      "pregunta": "¿Qué promesa es fiel según 2 Timoteo 2:11-13?",
+      "opciones": {
+        "A": "'Si somos infieles, él permanece fiel'",
+        "B": "'Si morimos con él, viviremos con él; si perseveramos, reinaremos con él'",
+        "C": "'Si pecamos, nos castiga'",
+        "D": "'Si nos alejamos, nos olvida'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 2:11-13 dice: 'Cierta es esta palabra: Si somos muertos con él, también viviremos con él; si perseveramos, también reinaremos con él.'"
+    },
+    {
+      "id": 616,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Obrero",
+      "pregunta": "¿Qué debe hacer el obrero según 2 Timoteo 2:15?",
+      "opciones": {
+        "A": "Trabajar poco",
+        "B": "Procurar aprobarse a Dios, un obrero que no tiene de qué avergonzarse",
+        "C": "Buscar dinero",
+        "D": "Descansar mucho"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 2:15 dice: 'Procura con diligencia presentarte a Dios aprobado, como obrero que no tiene de qué avergonzarse.'"
+    },
+    {
+      "id": 617,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Vasos",
+      "pregunta": "¿Qué tipos de vasos hay en una gran casa según 2 Timoteo 2:20-21?",
+      "opciones": {
+        "A": "De oro y plata solamente",
+        "B": "De oro y plata, y de madera y barro; unos para honra y otros para deshonra",
+        "C": "Todos iguales",
+        "D": "Solo de cristal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 2:20-21 dice que en una gran casa no solo hay vasos de oro y de plata, sino también de madera y de barro; unos para honra y otros para deshonra."
+    },
+    {
+      "id": 618,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Escrituras",
+      "pregunta": "¿De qué son útiles las Escrituras según 2 Timoteo 3:16-17?",
+      "opciones": {
+        "A": "Solo para leer",
+        "B": "Toda Escritura es inspirada por Dios y útil para enseñar, para redargüir, para corregir, para instruir en justicia",
+        "C": "Para entretenimiento",
+        "D": "Para historia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 3:16-17 dice: 'Toda Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia, a fin de que el hombre de Dios sea perfecto, enteramente preparado para toda buena obra.'"
+    },
+    {
+      "id": 619,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Persecución",
+      "pregunta": "¿Qué padecerán los cristianos según 2 Timoteo 3:12?",
+      "opciones": {
+        "A": "Riquezas",
+        "B": "Persecución",
+        "C": "Salud perfecta",
+        "D": "Fama"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 3:12 dice: 'Y todos los que quieren vivir piadosamente en Cristo Jesús, padecerán persecución.'"
+    },
+    {
+      "id": 620,
+      "nivel": 62,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Predicación",
+      "pregunta": "¿Qué debe hacer el predicador según 2 Timoteo 4:2?",
+      "opciones": {
+        "A": "Predicar solo cuando sea popular",
+        "B": "Predica la palabra, insta a tiempo y fuera de tiempo, redarguye, reprende, exhorta",
+        "C": "Callar",
+        "D": "Solo predicar en el templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 4:2 dice: 'Predica la palabra; insta a tiempo y fuera de tiempo; redarguye, reprende, exhorta con toda paciencia y doctrina.'"
+    },
+    {
+      "id": 621,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "2 Timoteo - Corona",
+      "pregunta": "¿Qué corona le espera a Pablo según 2 Timoteo 4:8?",
+      "opciones": {
+        "A": "De oro",
+        "B": "La corona de justicia que le dará el Señor en aquel día",
+        "C": "De plata",
+        "D": "De diamantes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Timoteo 4:8 dice: 'Por lo demás, me está guardada la corona de justicia, la cual me dará el Señor, juez justo, en aquel día; y no solo a mí, sino también a todos los que aman su venida.'"
+    },
+    {
+      "id": 622,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Tito - Ancianos",
+      "pregunta": "¿Por qué dejó Pablo a Tito en Creta según Tito 1:5?",
+      "opciones": {
+        "A": "Para predicar",
+        "B": "Para que corrigiese lo deficiente y ordenase ancianos en cada ciudad",
+        "C": "Para recoger dinero",
+        "D": "Para descansar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tito 1:5 dice: 'Por esta causa te dejé en Creta, para que corrigieses lo que falta, y pusieses ancianos en cada ciudad.'"
+    },
+    {
+      "id": 623,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Tito - Cretenses",
+      "pregunta": "¿Qué dijo Pablo sobre los cretenses citando a un profeta propio?",
+      "opciones": {
+        "A": "Que son buenos",
+        "B": "'Cretenses siempre mentirosos, malas bestias, glotones ociosos'",
+        "C": "Que son honestos",
+        "D": "Que trabajan mucho"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tito 1:12-13 cita a un profeta propio de ellos: 'Cretenses, siempre mentirosos, malas bestias, glotones ociosos.' Esta testimonio es verdadero."
+    },
+    {
+      "id": 624,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Tito - Salvación",
+      "pregunta": "¿Cómo apareció la gracia de Dios según Tito 2:11?",
+      "opciones": {
+        "A": "Solo para los judíos",
+        "B": "Ha aparecido para salvación a todos los hombres, enseñándonos a renunciar a la impiedad",
+        "C": "Solo para los ricos",
+        "D": "Solo para los sabios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tito 2:11 dice: 'Porque la gracia de Dios se ha manifestado para salvación a todos los hombres, enseñándonos que, renunciando a la impiedad y a los deseos mundanos, vivamos en este siglo sobria, justa y piadosamente.'"
+    },
+    {
+      "id": 625,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Tito - Esperanza",
+      "pregunta": "¿Qué esperanza aguardamos según Tito 2:13?",
+      "opciones": {
+        "A": "Riqueza",
+        "B": "La esperanza bienaventurada y la manifestación gloriosa de nuestro gran Dios y Salvador Jesucristo",
+        "C": "Poder terrenal",
+        "D": "Fama"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tito 2:13 dice: 'Aguardando la esperanza bienaventurada y la manifestación gloriosa de nuestro gran Dios y Salvador Jesucristo.'"
+    },
+    {
+      "id": 626,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Tito - Regeneración",
+      "pregunta": "¿Qué es el lavamiento de la regeneración según Tito 3:5?",
+      "opciones": {
+        "A": "El bautismo en agua",
+        "B": "Nos salvó por el lavamiento de la regeneración y la renovación en el Espíritu Santo",
+        "C": "Un baño físico",
+        "D": "Ropa nueva"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tito 3:5 dice: 'Nos salvó, no por obras de justicia que nosotros hubiéramos hecho, sino por su misericordia, por el lavamiento de la regeneración y la renovación del Espíritu Santo.'"
+    },
+    {
+      "id": 627,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Tito - Herencia",
+      "pregunta": "¿Qué somos según la esperanza de la vida eterna en Tito 3:7?",
+      "opciones": {
+        "A": "Esclavos",
+        "B": "Justificados por su gracia, seamos hechos herederos conforme a la esperanza de la vida eterna",
+        "C": "Extranjeros",
+        "D": "Enemigos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Tito 3:7 dice: 'Para que, justificados por su gracia, seamos hechos herederos conforme a la esperanza de la vida eterna.'"
+    },
+    {
+      "id": 628,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Hebreos - Dios habla",
+      "pregunta": "¿Cómo habló Dios en estos últimos días según Hebreos 1:1-2?",
+      "opciones": {
+        "A": "Solo por profetas",
+        "B": "Nos ha hablado por el Hijo, a quien constituyó heredero de todo",
+        "C": "Por ángeles",
+        "D": "Por escribas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 1:1-2 dice que habiendo hablado Dios en otro tiempo a los padres por los profetas, en estos últimos días nos ha hablado por el Hijo, a quien constituyó heredero de todo."
+    },
+    {
+      "id": 629,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Hebreos - Hijo",
+      "pregunta": "¿Qué es el Hijo según Hebreos 1:3?",
+      "opciones": {
+        "A": "Un ángel",
+        "B": "El resplandor de su gloria, la imagen de su sustancia, quien sustenta todas las cosas con la palabra de su poder",
+        "C": "Un profeta",
+        "D": "Un rey terrenal"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 1:3 dice: 'El cual, siendo el resplandor de su gloria, y la imagen misma de su sustancia, y el que sustenta todas las cosas con la palabra de su poder.'"
+    },
+    {
+      "id": 630,
+      "nivel": 63,
+      "dificultad": 11,
+      "tema": "Hebreos - Superior",
+      "pregunta": "¿A quiénes es superior Jesús según Hebreos 1:4-14?",
+      "opciones": {
+        "A": "A los hombres solamente",
+        "B": "A los ángeles, habiendo heredado un nombre más excelente que ellos",
+        "C": "A los animales",
+        "D": "A las plantas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 1:4 dice que habiendo venido a ser tanto superior a los ángeles, cuanto heredó más excelente nombre que ellos."
+    },
+    {
+      "id": 631,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Descanso",
+      "pregunta": "¿Qué día de descanso queda para el pueblo de Dios según Hebreos 4:9?",
+      "opciones": {
+        "A": "El sábado del séptimo día",
+        "B": "El reposo del séptimo día (sábado) y el reposo espiritual en Cristo",
+        "C": "Domingo",
+        "D": "Ningún día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 4:9 dice que queda un reposo para el pueblo de Dios. El contexto habla del reposo espiritual en Cristo, aunque también se refiere al sábado como sombra."
+    },
+    {
+      "id": 632,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Palabra",
+      "pregunta": "¿Qué es la palabra de Dios según Hebreos 4:12?",
+      "opciones": {
+        "A": "Como un libro común",
+        "B": "Viva y eficaz, más cortante que toda espada de dos filos, que penetra hasta partir el alma y el espíritu",
+        "C": "Muerta",
+        "D": "Ineficaz"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 4:12 dice: 'Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu, las coyunturas y los tuétanos.'"
+    },
+    {
+      "id": 633,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Sumo sacerdote",
+      "pregunta": "¿Por qué Jesús puede simpatizar con nuestras debilidades según Hebreos 4:15?",
+      "opciones": {
+        "A": "Porque es Dios",
+        "B": "Porque fue tentado en todo como nosotros, pero sin pecado",
+        "C": "Porque es perfecto",
+        "D": "Porque no entiende"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 4:15 dice: 'Porque no tenemos un sumo sacerdote que no pueda compadecerse de nuestras debilidades, sino uno que fue tentado en todo según nuestra semejanza, pero sin pecado.'"
+    },
+    {
+      "id": 634,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Orden de Melquisedec",
+      "pregunta": "¿En qué orden de sacerdocio es Jesús según Hebreos 5:6, 10?",
+      "opciones": {
+        "A": "Orden de Aarón",
+        "B": "Orden de Melquisedec",
+        "C": "Orden de Leví",
+        "D": "Orden de Moisés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 5:6, 10 dice que Jesús es sacerdote según el orden de Melquisedec, no según el orden de Aarón."
+    },
+    {
+      "id": 635,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Leche y carne",
+      "pregunta": "¿Qué representa la leche y la carne según Hebreos 5:12-14?",
+      "opciones": {
+        "A": "Alimentos físicos",
+        "B": "La leche es la enseñanza elemental, la carne sólida es para los maduros que pueden discernir",
+        "C": "Bebidas",
+        "D": "Animales"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 5:12-14 dice que la leche es para los niños, pero la carne sólida es para los perfectos (maduros), que por el uso tienen los sentidos ejercitados para discernir."
+    },
+    {
+      "id": 636,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Fundamentos",
+      "pregunta": "¿Cuáles son los fundamentos de la doctrina de Cristo según Hebreos 6:1-2?",
+      "opciones": {
+        "A": "Uno solo",
+        "B": "Seis: arrepentimiento de obras muertas, fe en Dios, bautismos, imposición de manos, resurrección de los muertos, juicio eterno",
+        "C": "Doce",
+        "D": "Cien"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 6:1-2 enumera: arrepentimiento de obras muertas, fe en Dios, la doctrina de los bautismos, la imposición de manos, la resurrección de los muertos, y el juicio eterno."
+    },
+    {
+      "id": 637,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Imposible",
+      "pregunta": "¿Qué es imposible según Hebreos 6:4-6?",
+      "opciones": {
+        "A": "Salvarse",
+        "B": "Que los que una vez fueron iluminados, si caen, sean renovados otra vez para arrepentimiento",
+        "C": "Orar",
+        "D": "Creer"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 6:4-6 dice que es imposible que los que una vez fueron iluminados, y gustaron el don celestial, y fueron hechos partícipes del Espíritu Santo, si caen, sean otra vez renovados para arrepentimiento."
+    },
+    {
+      "id": 638,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Melquisedec",
+      "pregunta": "¿Quién era Melquisedec según Hebreos 7:1-3?",
+      "opciones": {
+        "A": "Un levita",
+        "B": "Rey de Salem, sacerdote del Dios Altísimo, sin padre, sin madre, sin genealogía, hecho semejante al Hijo de Dios",
+        "C": "Un profeta",
+        "D": "Un rey de Israel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 7:1-3 describe a Melquisedec como rey de Salem, sacerdote del Dios Altísimo, sin padre, sin madre, sin genealogía, sin principio de días ni fin de vida, hecho semejante al Hijo de Dios."
+    },
+    {
+      "id": 639,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Perfección",
+      "pregunta": "¿Qué no podía hacer la ley según Hebreos 7:19?",
+      "opciones": {
+        "A": "Enseñar",
+        "B": "Perfeccionar nada, pero la venida de Jesús trae una mejor esperanza",
+        "C": "Castigar",
+        "D": "Gobernar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 7:19 dice: 'Porque la ley nada perfeccionó, pero lo hace la venida de una mejor esperanza, mediante la cual nos acercamos a Dios.'"
+    },
+    {
+      "id": 640,
+      "nivel": 64,
+      "dificultad": 11,
+      "tema": "Hebreos - Sacrificio",
+      "pregunta": "¿Dónde entró Cristo según Hebreos 9:12?",
+      "opciones": {
+        "A": "En el templo terrenal",
+        "B": "En el santuario una vez para siempre, habiendo obtenido redención eterna",
+        "C": "En un palacio",
+        "D": "En la tierra"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 9:12 dice: 'Y no por sangre de machos cabríos ni de becerros, pero por su propia sangre, entró una vez para siempre en el santuario, habiendo obtenido redención eterna.'"
+    },
+    {
+      "id": 641,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Sangre",
+      "pregunta": "¿Qué purifica la sangre de Cristo según Hebreos 9:14?",
+      "opciones": {
+        "A": "Solo el cuerpo",
+        "B": "La conciencia de las obras muertas para que sirváis al Dios vivo",
+        "C": "Las casas",
+        "D": "La ropa"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 9:14 dice que la sangre de Cristo purificará vuestras conciencias de obras muertas, para que sirváis al Dios vivo."
+    },
+    {
+      "id": 642,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Testamento",
+      "pregunta": "¿Cuándo es válido un testamento según Hebreos 9:16-17?",
+      "opciones": {
+        "A": "Cuando se escribe",
+        "B": "Después de muerto el testador",
+        "C": "Inmediatamente",
+        "D": "Nunca"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 9:16-17 dice que donde hay testamento, es necesario que conste la muerte del testador, porque el testamento es válido en caso de muerte."
+    },
+    {
+      "id": 643,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Una vez",
+      "pregunta": "¿Cuántas veces se ofreció Cristo según Hebreos 9:28?",
+      "opciones": {
+        "A": "Muchas veces",
+        "B": "Una sola vez para siempre, aparecerá segunda vez para salvación",
+        "C": "Todos los años",
+        "D": "Cada día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 9:28 dice: 'Así también Cristo fue ofrecido una sola vez para llevar los pecados de muchos; y aparecerá por segunda vez, sin relación con el pecado, para salvar a los que le esperan.'"
+    },
+    {
+      "id": 644,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Sacrificio continuo",
+      "pregunta": "¿Cuál es la voluntad de Dios según Hebreos 10:10?",
+      "opciones": {
+        "A": "Muchos sacrificios",
+        "B": "Por la cual voluntad somos santificados mediante la ofrenda del cuerpo de Jesucristo hecha una vez para siempre",
+        "C": "Sacrificios diarios",
+        "D": "Circuncisión"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 10:10 dice: 'En la cual voluntad somos santificados mediante la ofrenda del cuerpo de Jesucristo hecha una vez para siempre.'"
+    },
+    {
+      "id": 645,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Pecado voluntario",
+      "pregunta": "¿Qué sigue al pecado voluntario después de recibir el conocimiento de la verdad según Hebreos 10:26-27?",
+      "opciones": {
+        "A": "Perdón fácil",
+        "B": "Ya no queda sacrificio por los pecados, sino una expectación horrenda de juicio",
+        "C": "Otra oportunidad",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 10:26-27 dice: 'Porque si pecaremos voluntariamente después de haber recibido el conocimiento de la verdad, ya no queda sacrificio por los pecados, sino una expectación horrenda de juicio.'"
+    },
+    {
+      "id": 646,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Fe",
+      "pregunta": "¿Qué es la fe según Hebreos 11:1?",
+      "opciones": {
+        "A": "Creencia ciega",
+        "B": "La certeza de lo que se espera, la convicción de lo que no se ve",
+        "C": "Ignorancia",
+        "D": "Dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 11:1 dice: 'Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.'"
+    },
+    {
+      "id": 647,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Fe",
+      "pregunta": "¿Sin qué es imposible agradar a Dios según Hebreos 11:6?",
+      "opciones": {
+        "A": "Sin obras",
+        "B": "Sin fe, porque es necesario que el que se acerca a Dios crea que le hay",
+        "C": "Sin dinero",
+        "D": "Sin poder"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 11:6 dice: 'Pero sin fe es imposible agradar a Dios; porque es necesario que el que se acerca a Dios crea que le hay, y que es galardonador de los que le buscan.'"
+    },
+    {
+      "id": 648,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Nube de testigos",
+      "pregunta": "¿Qué nos rodea según Hebreos 12:1?",
+      "opciones": {
+        "A": "Ángeles",
+        "B": "Una gran nube de testigos",
+        "C": "Enemigos",
+        "D": "Bestias"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 12:1 dice: 'Por tanto, nosotros también, teniendo en derredor nuestro una tan gran nube de testigos, despojémonos de todo peso y del pecado que nos asedia.'"
+    },
+    {
+      "id": 649,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Escarnio",
+      "pregunta": "¿Por qué soportó Jesús la cruz según Hebreos 12:2?",
+      "opciones": {
+        "A": "Por obligación",
+        "B": "Despreciando el escarnio, por el gozo puesto delante de él",
+        "C": "Por miedo",
+        "D": "Por dinero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 12:2 dice: 'Puestos los ojos en Jesús, el autor y consumador de la fe, el cual por el gozo puesto delante de él sufrió la cruz, menospreciando el escarnio.'"
+    },
+    {
+      "id": 650,
+      "nivel": 65,
+      "dificultad": 11,
+      "tema": "Hebreos - Varón perfecto",
+      "pregunta": "¿Qué hace Dios con los hijos a quien ama según Hebreos 12:6?",
+      "opciones": {
+        "A": "Los bendice siempre",
+        "B": "Los castiga, azota a todo hijo a quien recibe",
+        "C": "Los ignora",
+        "D": "Los rechaza"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hebreos 12:6 dice: 'Porque el Señor al que ama castiga, y azota a todo hijo que recibe.' Citando Proverbios 3:11-12."
+    }
+  ]
+}

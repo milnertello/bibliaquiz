@@ -1,0 +1,762 @@
+{
+  "metadata": {
+    "total_preguntas": 50,
+    "niveles_generados": "26-30",
+    "dificultad": "Fácil-Medio",
+    "tema": "Exilio y regreso",
+    "traduccion": "Traducción del Nuevo Mundo",
+    "descripcion": "Preguntas sobre el exilio en Babilonia, el regreso a Jerusalén y la reconstrucción"
+  },
+  "preguntas": [
+    {
+      "id": 251,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Reyes - Exilio",
+      "pregunta": "¿En qué año del rey Sedequías fue destruido Jerusalén?",
+      "opciones": {
+        "A": "607 a.E.C.",
+        "B": "587 a.E.C.",
+        "C": "537 a.E.C.",
+        "D": "537 a.E.C."
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "2 Reyes 25:1-10 describe la destrucción de Jerusalén en el año 607 a.E.C. (interpretación basada en las publicaciones de los testigos de Jehová)."
+    },
+    {
+      "id": 252,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Reyes - Exilio",
+      "pregunta": "¿Quién destruyó el templo de Jerusalén?",
+      "opciones": {
+        "A": "Los asirios",
+        "B": "Los egipcios",
+        "C": "Nabucodonosor, rey de Babilonia",
+        "D": "Los persas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 25:9 dice que Nabuzaradán, capitán de la guardia, quemó la casa de Jehová, la casa del rey y todas las casas de Jerusalén."
+    },
+    {
+      "id": 253,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Reyes - Exilio",
+      "pregunta": "¿Qué pasó con Sedequías, el último rey de Judá?",
+      "opciones": {
+        "A": "Fue asesinado",
+        "B": "Le sacaron los ojos y lo llevaron a Babilonia",
+        "C": "Escapó a Egipto",
+        "D": "Se suicidó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Reyes 25:7 dice que le sacaron los ojos a Sedequías, y lo ataron con cadenas de bronce, y lo llevaron a Babilonia."
+    },
+    {
+      "id": 254,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Jeremías - Exilio",
+      "pregunta": "¿Qué hizo Jeremías cuando los judíos fueron llevados a Babilonia?",
+      "opciones": {
+        "A": "Fue con ellos voluntariamente",
+        "B": "Se quedó en Jerusalén con Gedalías",
+        "C": "Huyó a Egipto",
+        "D": "Fue asesinado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 39:14 y 40:6 dice que Nabucodonosor dejó a Jeremías con Gedalías, hijo de Ahicam, hijo de Safán."
+    },
+    {
+      "id": 255,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Jeremías - Exilio",
+      "pregunta": "¿Qué carta envió Jeremías a los exiliados en Babilonia?",
+      "opciones": {
+        "A": "Que se rebelaran",
+        "B": "Que edifiquen casas, planten jardines, busquen la paz de la ciudad",
+        "C": "Que ayunen constantemente",
+        "D": "Que no trabajen"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 29:4-7 dice que debían edificar casas y habitarlas, plantar huertos y comer su fruto, y buscar la paz de la ciudad."
+    },
+    {
+      "id": 256,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Ezequiel - Exilio",
+      "pregunta": "¿Qué profeta fue llevado cautivo a Babilonia antes de la caída de Jerusalén?",
+      "opciones": {
+        "A": "Isaías",
+        "B": "Jeremías",
+        "C": "Ezequiel",
+        "D": "Daniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Ezequiel 1:1-3 y 33:21 indica que Ezequiel estaba en Babilonia cuando recibió noticias de la caída de Jerusalén."
+    },
+    {
+      "id": 257,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Ezequiel - Exilio",
+      "pregunta": "¿Qué esperanza dio Ezequiel a los exiliados sobre el futuro?",
+      "opciones": {
+        "A": "Que nunca regresarían",
+        "B": "Que Dios les daría un corazón nuevo y un espíritu nuevo",
+        "C": "Que se convertirían en babilonios",
+        "D": "Que morirían en el exilio"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 36:26 dice: 'Y les daré corazón nuevo, y pondré espíritu nuevo dentro de ustedes; y quitaré el corazón de piedra de su carne.'"
+    },
+    {
+      "id": 258,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Daniel - Exilio",
+      "pregunta": "¿En qué reinos profetizó Daniel durante el exilio?",
+      "opciones": {
+        "A": "Babilonia y Persia",
+        "B": "Solo Babilonia",
+        "C": "Solo Persia",
+        "D": "Egipto"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Daniel sirvió durante el reino de Babilonia y continuó durante el reino medo-persa después de que Ciro conquistó Babilonia."
+    },
+    {
+      "id": 259,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Daniel - Persia",
+      "pregunta": "¿Quién conquistó Babilonia según Daniel?",
+      "opciones": {
+        "A": "Alejandro Magno",
+        "B": "Darío el medo y Ciro el persa",
+        "C": "Los egipcios",
+        "D": "Los griegos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 5:31 dice que Darío el medo recibió el reino, siendo de unos sesenta y dos años de edad. Daniel también menciona a Ciro."
+    },
+    {
+      "id": 260,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Crónicas - Regreso",
+      "pregunta": "¿Quién proclamó que los judíos podían regresar a Jerusalén?",
+      "opciones": {
+        "A": "Darío",
+        "B": "Ciro rey de Persia",
+        "C": "Asuero",
+        "D": "Nabucodonosor"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Crónicas 36:23 y Esdras 1:1-4 contienen el decreto de Ciro permitiendo a los judíos regresar y reconstruir el templo."
+    },
+    {
+      "id": 261,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Regreso",
+      "pregunta": "¿En qué año comenzó el regreso de los judíos a Jerusalén?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "607 a.E.C.",
+        "C": "455 a.E.C.",
+        "D": "444 a.E.C."
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Esdras 1:1 dice que en el primer año de Ciro rey de Persia, para que se cumpliera la palabra de Jehová, Jehová despertó el espíritu de Ciro."
+    },
+    {
+      "id": 262,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Regreso",
+      "pregunta": "¿Quién lideró el primer grupo de regreso a Jerusalén?",
+      "opciones": {
+        "A": "Nehemías",
+        "B": "Esdras",
+        "C": "Zorobabel y Josué",
+        "D": "Jeremías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Esdras 2:2 dice que vinieron con Zorobabel, Jesúa (Josué), Nehemías, Seraías, Reelaías, Mardoqueo..."
+    },
+    {
+      "id": 263,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Reconstrucción",
+      "pregunta": "¿Qué edificio comenzaron a reconstruir primero los judíos al regresar?",
+      "opciones": {
+        "A": "La muralla de la ciudad",
+        "B": "El altar y el templo",
+        "C": "El palacio del rey",
+        "D": "Sus propias casas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 3:2-6 describe cómo Josué y Zorobabel edificaron el altar del Dios de Israel para ofrecer holocaustos, y luego comenzaron la reconstrucción del templo."
+    },
+    {
+      "id": 264,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Opposición",
+      "pregunta": "¿Quiénes se opusieron a la reconstrucción del templo?",
+      "opciones": {
+        "A": "Los persas",
+        "B": "Los enemigos de Judá y Benjamín (samariatanos y otros)",
+        "C": "Los egipcios",
+        "D": "Los babilonios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 4:1-5 dice que cuando los enemigos de Judá y Benjamín oyeron que los repatriados edificaban un templo a Jehová, se acercaron a Zorobabel y se opusieron."
+    },
+    {
+      "id": 265,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Reinicio",
+      "pregunta": "¿Qué profetas animaron a reanudar la obra del templo después de detenerse?",
+      "opciones": {
+        "A": "Isaías y Jeremías",
+        "B": "Hageo y Zacarías",
+        "C": "Ezequiel y Daniel",
+        "D": "Malaquías y Joel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 5:1 y 6:14 mencionan a Hageo y Zacarías los profetas que profetizaban a los judíos en Judá y Jerusalén."
+    },
+    {
+      "id": 266,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Finalización",
+      "pregunta": "¿En qué año fue terminado el segundo templo?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "515 a.E.C.",
+        "C": "455 a.E.C.",
+        "D": "444 a.E.C."
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 6:15 dice que este templo fue terminado el día tercero del mes de Adar, en el sexto año del reinado de Darío (515 a.E.C.)."
+    },
+    {
+      "id": 267,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Esdras",
+      "pregunta": "¿Cuál era la profesión de Esdras?",
+      "opciones": {
+        "A": "Militar",
+        "B": "Escriba (sacerdote y experto en la ley de Moisés)",
+        "C": "Agricultor",
+        "D": "Comerciante"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 7:6 dice que era un escriba diligente en la ley de Moisés, y 7:11 dice que era sacerdote y escriba."
+    },
+    {
+      "id": 268,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Esdras",
+      "pregunta": "¿En qué año llegó Esdras a Jerusalén?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "468 a.E.C.",
+        "C": "455 a.E.C.",
+        "D": "444 a.E.C."
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Esdras 7:7-8 dice que subieron a Jerusalén en el séptimo año del rey Artajerjes (455 a.E.C.)."
+    },
+    {
+      "id": 269,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Reforma",
+      "pregunta": "¿Qué problema descubrió Esdras en Jerusalén que le causó angustia?",
+      "opciones": {
+        "A": "Robos",
+        "B": "Casamientos mixtos con mujeres de los pueblos vecinos",
+        "C": "Idolatría con imágenes",
+        "D": "Guerras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 9:1-2 y 10:1-3 describe cómo los israelitas se habían casado con mujeres de los cananeos, hititas, etc., y Esdras rasgó su manto y ropas."
+    },
+    {
+      "id": 270,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Reforma",
+      "pregunta": "¿Qué ordenó Esdras para resolver el problema de los matrimonios mixtos?",
+      "opciones": {
+        "A": "Que se divorciaran de esas mujeres",
+        "B": "Que aceptaran a los hijos como israelitas",
+        "C": "Que pagaran multa",
+        "D": "Que se mudaran de la ciudad"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Esdras 10:3 dice que se hizo un pacto de despedir a todas las esposas extranjeras y a los nacidos de ellas."
+    },
+    {
+      "id": 271,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Llegada",
+      "pregunta": "¿Qué cargo tenía Nehemías en la corte persa antes de ir a Jerusalén?",
+      "opciones": {
+        "A": "General del ejército",
+        "B": "Copero del rey",
+        "C": "Sumo sacerdote",
+        "D": "Escriba"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 1:11 dice que Nehemías era copero del rey."
+    },
+    {
+      "id": 272,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Llegada",
+      "pregunta": "¿En qué año llegó Nehemías a Jerusalén?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "455 a.E.C.",
+        "C": "444 a.E.C.",
+        "D": "515 a.E.C."
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Nehemías 2:1 dice que en el mes de Nisán, en el año vigésimo del rey Artajerjes (444 a.E.C.), cuando vino el vino ante él..."
+    },
+    {
+      "id": 273,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Misión",
+      "pregunta": "¿Qué misión principal tenía Nehemías en Jerusalén?",
+      "opciones": {
+        "A": "Construir el templo",
+        "B": "Reconstruir las murallas de Jerusalén",
+        "C": "Escribir la ley",
+        "D": "Hacer la guerra"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 2:5 dice que Nehemías pidió permiso al rey para ir a reconstruir la ciudad donde estaban enterrados sus padres."
+    },
+    {
+      "id": 274,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Reconstrucción",
+      "pregunta": "¿Cuánto tiempo tardó Nehemías en reconstruir las murallas?",
+      "opciones": {
+        "A": "40 días",
+        "B": "52 días",
+        "C": "3 meses",
+        "D": "1 año"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 6:15 dice que el muro fue terminado el día veinticinco del mes de Elul, en cincuenta y dos días."
+    },
+    {
+      "id": 275,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Oposición",
+      "pregunta": "¿Quiénes se burlaron de los judíos mientras reconstruían la muralla?",
+      "opciones": {
+        "A": "Los persas",
+        "B": "Sambalat el horonita, Tobías el amonita y Gesem el árabe",
+        "C": "Los babilonios",
+        "D": "Los egipcios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 2:19 y 4:1-3 describen la oposición de Sambalat, Tobías y Gesem que se burlaban y conspiraban contra la obra."
+    },
+    {
+      "id": 276,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Trabajo",
+      "pregunta": "¿Cómo trabajaron los judíos durante la reconstrucción de la muralla?",
+      "opciones": {
+        "A": "Con herramientas solamente",
+        "B": "Con una mano en la obra y otra en el arma",
+        "C": "Descansando mucho",
+        "D": "Contratando extranjeros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 4:17 dice que los que edificaban la muralla y los que llevaban cargas trabajaban con una mano en la obra y otra sosteniendo el arma."
+    },
+    {
+      "id": 277,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Reforma social",
+      "pregunta": "¿Qué problema social resolvió Nehemías?",
+      "opciones": {
+        "A": "La pobreza y la usura de los nobles contra los pobres",
+        "B": "La sequía",
+        "C": "La guerra",
+        "D": "Las epidemias"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Nehemías 5 describe cómo Nehemías reprendió a los nobles y gobernantes que cobraban interés a sus hermanos pobres."
+    },
+    {
+      "id": 278,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Lectura de la ley",
+      "pregunta": "¿Quién leyó la ley al pueblo reunido en la plaza?",
+      "opciones": {
+        "A": "Nehemías",
+        "B": "Esdras",
+        "C": "Esdras el escriba",
+        "D": "Los levitas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Nehemías 8:1-8 describe cómo Esdras el escriba trajo el libro de la ley de Moisés y la leyó desde la mañana hasta el mediodía."
+    },
+    {
+      "id": 279,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Fiesta",
+      "pregunta": "¿Qué fiesta celebraron los judíos después de oír la ley?",
+      "opciones": {
+        "A": "Pascua",
+        "B": "Fiesta de los tabernáculos (tiendas)",
+        "C": "Pentecostés",
+        "D": "Año nuevo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 8:14-18 describe la celebración de la fiesta de las tiendas (tabernáculos) que no se había celebrado así desde los días de Josué."
+    },
+    {
+      "id": 280,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Confesión",
+      "pregunta": "¿Qué hizo el pueblo el día 24 del mes séptimo?",
+      "opciones": {
+        "A": "Fiesta de baile",
+        "C": "Ayuno, confesión de pecados y separación de extranjeros",
+        "B": "Guerra",
+        "D": "Boda masiva"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Nehemías 9:1-2 describe el ayuno, el vestirse de saco y poner tierra sobre la cabeza, y confesar sus pecados y los de sus padres."
+    },
+    {
+      "id": 281,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Historia",
+      "pregunta": "¿Quién era Ester antes de convertirse en reina de Persia?",
+      "opciones": {
+        "A": "Princesa de Judá",
+        "B": "Huérfana judía criada por su primo Mardoqueo",
+        "C": "Sacerdotisa",
+        "D": "Guerrera"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 2:5-7 dice que Mardoqueo crió a Hadasa (que es Ester), hija de su tío, porque no tenía padre ni madre."
+    },
+    {
+      "id": 282,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Historia",
+      "pregunta": "¿Quién era el rey de Persia cuando Ester se convirtió en reina?",
+      "opciones": {
+        "A": "Darío",
+        "B": "Asuero (Jerjes)",
+        "C": "Ciro",
+        "D": "Artajerjes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 1:1 dice que sucedió en los días de Asuero (también llamado Jerjes), el Asuero que reinó desde la India hasta Etiopía."
+    },
+    {
+      "id": 283,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Conflicto",
+      "pregunta": "¿Quién planeó exterminar a todos los judíos del imperio persa?",
+      "opciones": {
+        "A": "El rey Asuero",
+        "B": "Amán el agagueo",
+        "C": "Mardoqueo",
+        "D": "Zorobabel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 3:6 describe cómo Amán buscó destruir a todos los judíos que estaban en todo el reino de Asuero."
+    },
+    {
+      "id": 284,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Conflicto",
+      "pregunta": "¿Por qué Mardoqueo no se inclinaba ni se postraba ante Amán?",
+      "opciones": {
+        "A": "Porque era orgulloso",
+        "B": "Porque era judío y solo adoraba a Dios",
+        "C": "Porque era más alto",
+        "D": "Porque no lo conocía"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 3:4 dice que Mardoqueo les había declarado que era judío, por lo que no podía postrarse ante Amán."
+    },
+    {
+      "id": 285,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Valor",
+      "pregunta": "¿Qué dijo Ester cuando Mardoqueo le pidió interceder?",
+      "opciones": {
+        "A": "'No puedo hacer nada'",
+        "B": "'Vayan y reúnan a todos los judíos... ayunen por mí; yo también ayunaré... y si perezco, que perezca'",
+        "C": "'Huiré'",
+        "D": "'Pelearé'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 4:16 dice la famosa frase de Ester: 'Vayan y reúnan a todos los judíos... ayunen por mí... y si perezco, que perezca.'"
+    },
+    {
+      "id": 286,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Salvación",
+      "pregunta": "¿Qué hizo el rey cuando Ester se presentó sin ser llamada?",
+      "opciones": {
+        "A": "La ejecutó",
+        "B": "Extendió el cetro de oro hacia ella",
+        "C": "La ignoró",
+        "D": "La encarceló"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 4:11 y 5:2 dice que el rey extendió a Ester el cetro de oro, mostrando que le concedía su favor y su vida."
+    },
+    {
+      "id": 287,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Justicia",
+      "pregunta": "¿Qué sucedió con Amán al final?",
+      "opciones": {
+        "A": "Fue perdonado",
+        "B": "Fue colgado en la horca que había preparado para Mardoqueo",
+        "C": "Fue desterrado",
+        "D": "Fue encarcelado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 7:9-10 describe cómo Amán fue colgado en la horca que había preparado para Mardoqueo."
+    },
+    {
+      "id": 288,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Purim",
+      "pregunta": "¿Qué fiesta judía se instituyó por la victoria sobre Amán?",
+      "opciones": {
+        "A": "Pascua",
+        "B": "Purim",
+        "C": "Pentecostés",
+        "D": "Hanukkah"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 9:20-32 describe la institución de la fiesta de Purim, celebrada en el mes de Adar."
+    },
+    {
+      "id": 289,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Purim",
+      "pregunta": "¿Qué significa 'Purim'?",
+      "opciones": {
+        "A": "'Victoria'",
+        "B": "'Suerte', porque Amán echó suertes para determinar el día",
+        "C": "'Libertad'",
+        "D": "'Alegria'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 3:7 dice que Amán echó 'pur' (suerte) ante Amán, desde un día a otro y de un mes a otro, hasta el mes duodécimo, que es el mes de Adar."
+    },
+    {
+      "id": 290,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Cronología - Exilio",
+      "pregunta": "¿Cuántos años duró el exilio babilónico según 2 Crónicas 36:21?",
+      "opciones": {
+        "A": "50 años",
+        "B": "70 años",
+        "C": "100 años",
+        "D": "40 años"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Crónicas 36:21 dice que para que se cumpliera la palabra de Jehová por boca de Jeremías, hasta que la tierra hubo disfrutado sus sábados; todo el tiempo de su desolación reposó, hasta que se cumplieron setenta años."
+    },
+    {
+      "id": 291,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Cronología - 70 semanas",
+      "pregunta": "¿Desde qué evento Daniel profetizó las 'setenta semanas'?",
+      "opciones": {
+        "A": "La destrucción del templo",
+        "B": "La palabra para restaurar y edificar Jerusalén",
+        "C": "El nacimiento de Cristo",
+        "D": "La crucifixión"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 9:25 dice: 'Desde la salida de la palabra para restaurar y edificar a Jerusalén hasta el Mesías Príncipe, habrá siete semanas y sesenta y dos semanas.'"
+    },
+    {
+      "id": 292,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Cronología - 70 semanas",
+      "pregunta": "¿Qué sucedería después de las 69 semanas según Daniel 9:26?",
+      "opciones": {
+        "A": "Se destruiría el templo",
+        "B": "Se quitará la vida al Mesías",
+        "C": "Vendría un profeta",
+        "D": "Se acabaría el mundo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 9:26 dice: 'Y después de las sesenta y dos semanas se quitará la vida al Mesías.'"
+    },
+    {
+      "id": 293,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Malaquías - Final del AT",
+      "pregunta": "¿Cuál es el último libro del canon hebreo (Antiguo Testamento)?",
+      "opciones": {
+        "A": "Zacarías",
+        "B": "Malaquías",
+        "C": "Daniel",
+        "D": "2 Crónicas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías es el último libro del canon hebreo, que concluye con la profecía de Elías y la promesa de restauración."
+    },
+    {
+      "id": 294,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Malaquías - Profecía",
+      "pregunta": "¿Qué promesa de bendición termina el libro de Malaquías?",
+      "opciones": {
+        "A": "Riquezas",
+        "B": "No dejará de haber un varón de tu familia ante mi rostro",
+        "C": "Victoria militar",
+        "D": "Larga vida"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías 4:5-6 termina con la promesa de enviar a Elías y restaurar el corazón de los padres a los hijos, y de los hijos a los padres."
+    },
+    {
+      "id": 295,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Historia intertestamentaria",
+      "pregunta": "¿Cuánto tiempo aproximadamente pasó entre Malaquías y Juan el Bautista?",
+      "opciones": {
+        "A": "100 años",
+        "B": "200 años",
+        "C": "400 años (el periodo de silencio)",
+        "D": "50 años"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Tradicionalmente se considera que hubo aproximadamente 400 años de silencio profético entre el Antiguo Testamento y el Nuevo Testamento, hasta la llegada de Juan el Bautista."
+    },
+    {
+      "id": 296,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Intertestamentaria",
+      "pregunta": "¿Qué imperio conquistó a Persia antes de la llegada de Jesús?",
+      "opciones": {
+        "A": "Roma",
+        "B": "Grecia (Alejandro Magno)",
+        "C": "Asiria",
+        "D": "Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Alejandro Magno conquistó el imperio persa en el siglo IV a.E.C., y luego el imperio seléucida gobernó Palestina hasta los macabeos."
+    },
+    {
+      "id": 297,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Intertestamentaria",
+      "pregunta": "¿Qué fiesta se instituyó durante el tiempo de los macabeos?",
+      "opciones": {
+        "A": "Purim",
+        "B": "Hanukkah (fiesta de las luces, dedicación)",
+        "C": "Pascua",
+        "D": "Pentecostés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "La fiesta de Hanukkah (Juan 10:22) fue instituida para conmemorar la rededicación del templo después de la victoria de Judas Macabeo sobre los seléucidas."
+    },
+    {
+      "id": 298,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Intertestamentaria",
+      "pregunta": "¿Qué imperio controlaba Judea cuando nació Jesús?",
+      "opciones": {
+        "A": "Grecia",
+        "B": "Persia",
+        "C": "Roma",
+        "D": "Egipto"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Roma había conquistado Judea y la convertido en provincia romana antes del nacimiento de Jesús."
+    },
+    {
+      "id": 299,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Intertestamentaria",
+      "pregunta": "¿Quién era el rey de Judea designado por Roma cuando nació Jesús?",
+      "opciones": {
+        "A": "Poncio Pilatos",
+        "B": "Herodes el Grande",
+        "C": "Arquelao",
+        "D": "Caifás"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 2:1 dice que Jesús nació en Belén de Judea en los días del rey Herodes."
+    },
+    {
+      "id": 300,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Transición",
+      "pregunta": "¿Quién fue el último profeta del Antiguo Testamento que aparece en el Nuevo Testamento?",
+      "opciones": {
+        "A": "Isaías",
+        "B": "Elías (en la persona de Juan el Bautista)",
+        "C": "Jeremías",
+        "D": "Ezequiel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Mateo 11:13-14 dice que Juan es el que había de venir, 'Elías que había de venir', cumpliendo Malaquías 4:5."
+    }
+  ]
+}
