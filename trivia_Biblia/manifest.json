@@ -1,8 +1,8 @@
 // © 2026 Milner Tello Guzman. Todos los derechos reservados.
 
 {
-  "name": "Biblia Kids Challenge",
-  "short_name": "BibliaKids",
+  "name": "Trivia Bíblica: Aprende Jugando Challenge",
+  "short_name": "TriviaBiblica",
   "description": "Juego educativo bíblico para niños",
   "start_url": "/index.html",
   "display": "standalone",

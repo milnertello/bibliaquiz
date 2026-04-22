@@ -64,7 +64,7 @@
           <span class="gift-timer" id="homeGiftBadge">--:--</span>
         </div>
         <div class="beach-logo">
-          <h1 class="beach-title">Biblia<span>Kids</span></h1>
+          <h1 class="beach-title">Trivia Bíblica: Aprende Jugando</h1>
         </div>
       </div>
       
@@ -90,30 +90,62 @@
 
   <!-- EXTRAS -->
   <section id="extras">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
     </div>
-    <div class="card" style="text-align:center">
-      <h2 id="extrasTitle">✨ Extras</h2>
-      <p class="subtitle" id="extrasSubtitle">Accesos especiales</p>
-      <div class="divider" id="extrasDivider">⭐ contenido extra ⭐</div>
-      <button class="btn btn-ghost" id="extrasShopBtn" onclick="show('shop'); renderShop();">🛍️ Tienda</button><br>
-      <button class="btn btn-ghost" id="extrasAchievementsBtn" onclick="show('achievements'); renderAchievements();">🏅 Trofeos</button>
-      <button class="btn btn-ghost" id="extrasStatsBtn" onclick="show('stats'); renderStats();">📊 Datos</button>
-      <div class="gift-box" style="margin-top:14px;">
-        <button id="giftButton" class="btn btn-ghost" onclick="claimTimedGift()">🎁 Regalo</button>
-        <p id="giftTimerText">Próximo regalo en --:--</p>
-      </div>
+    <div class="modes-menu-card">
+      <h2 class="modes-title" style="color: #FF1493; text-shadow: 2px 2px 0 #FFA500;">✨🚀 Extras 🚀✨</h2>
+      <p class="modes-subtitle" style="color: #00FF00; text-shadow: 1px 1px 0 #000;">Accesos especiales y más</p>
+      <div class="divider" id="extrasDivider" style="color: #FFD700; text-shadow: 1px 1px 0 #FF4500;">⭐🌟 Contenido Extra Explosivo 🌟⭐</div>
+      <button class="mode-btn mode-achievements" id="extrasAchievementsBtn" onclick="show('achievements'); renderAchievements();" style="background: linear-gradient(180deg, #FFD700 0%, #FFA500 50%, #FF4500 100%); border: 4px solid #B22222; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3);">🏅✨ Trofeos Brillantes</button><br>
+      <button class="mode-btn mode-stats" id="extrasStatsBtn" onclick="show('stats'); renderStats();" style="background: linear-gradient(180deg, #00BFFF 0%, #1E90FF 50%, #0000FF 100%); border: 4px solid #00008B; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3);">📊🔥 Datos Explosivos</button>
       <div class="divider" style="margin-top:24px">—</div>
-      <button class="btn btn-ghost" id="extrasBackBtn" onclick="show('home')">🏠 Volver</button>
+      <button class="mode-btn-back" id="extrasBackBtn" onclick="show('home')" style="background: linear-gradient(180deg, #FF69B4 0%, #DC143C 50%, #8B0000 100%); border: 4px solid #4B0082; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3); font-size: 1.1rem; padding: 10px 20px;">🏠🏃‍♂️ ¡Volver a Casa!</button>
     </div>
   </section>
 
@@ -192,17 +224,6 @@
 
   <!-- CATEGORIES -->
   <section id="categories">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card" style="text-align:center">
       <div style="display:flex; justify-content:flex-start; margin-bottom:10px;">
         <button class="btn btn-ghost" onclick="show('modes')" style="padding:6px 12px; font-size:0.85rem;">⬅️ Volver</button>
@@ -400,17 +421,6 @@
 
   <!-- TIENDA -->
   <section id="shop">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card" style="text-align:center">
       <h2 id="shopTitle">🛍️ Tienda</h2>
       <p class="subtitle" id="shopSubtitle">Usa tus monedas ahorradas</p>
@@ -425,17 +435,6 @@
 
   <!-- LOGROS -->
   <section id="achievements">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card" style="text-align:center">
       <h2 id="achievementsTitle">🏅 Trofeos</h2>
       <p class="subtitle" id="achievementsSubtitle">Demuestra tu habilidad</p>
@@ -449,17 +448,6 @@
 
   <!-- ESTADÍSTICAS -->
   <section id="stats">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card" style="text-align:center">
       <h2 id="statsTitle">📊 Estadísticas</h2>
       <p class="subtitle" id="statsSubtitle">Progreso General</p>
@@ -473,17 +461,6 @@
 
   <!-- QUIZ -->
   <section id="quiz">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card">
       <div class="quiz-top-bar" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; font-weight:bold;">
         <div class="coin-badge" style="color:var(--gold);"><span id="quizCoins">0</span> 🪙</div>
@@ -517,17 +494,6 @@
 
   <!-- CONGRATS -->
   <section id="congrats">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card" style="text-align:center">
       <span class="result-icon">🏆</span>
       <h2 id="congratsTitle">¡Felicidades!</h2>
@@ -546,17 +512,6 @@
 
   <!-- TRY AGAIN -->
   <section id="tryagain">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card" style="text-align:center">
       <span class="result-icon" id="tryIcon">💪</span>
       <h2 id="tryTitle">¡Inténtalo de nuevo!</h2>
@@ -573,17 +528,6 @@
 
   <!-- SETTINGS -->
   <section id="settings">
-    <div class="global-bg-icons">
-      <span class="bg-icon dove1">🕊️</span>
-      <span class="bg-icon dove2">🕊️</span>
-      <span class="bg-icon angel1">🌥️</span>
-      <span class="bg-icon holy2">✨</span>
-      <span class="bg-icon star1">⭐</span>
-      <span class="bg-icon star2">🌟</span>
-      <span class="bg-icon cloud1">☁️</span>
-      <span class="bg-icon cloud2">☁️</span>
-      <span class="bg-icon sheep1">🐑</span>
-    </div>
     <div class="card">
       <h2 style="text-align:center" id="settingsTitle">⚙️ Ajustes</h2>
       <div class="divider" id="settingsDivider">🎵 opciones 🎵</div>

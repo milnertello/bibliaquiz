@@ -104,13 +104,13 @@
 
     // Helper function to share results
     function shareResult(level, score, stars) {
-      let text = `¡Completé el Nivel ${level} en Biblia Kids con ${score}/10 puntos y ${stars}⭐! ¿Puedes superarlo?`;
-      if (lang === "en") text = `I completed Level ${level} in Bible Kids with ${score}/10 points and ${stars}⭐! Can you beat it?`;
-      if (lang === "qu") text = `¡Tukurqani Nivel ${level}ta Biblia Kids pi ${score}/10 puntoswan ${stars}⭐! ¿Qanpas atipawaqchu?`;
+      let text = `¡Completé el Nivel ${level} en Trivia Bíblica: Aprende Jugando con ${score}/10 puntos y ${stars}⭐! ¿Puedes superarlo?`;
+      if (lang === "en") text = `I completed Level ${level} in Trivia Bíblica: Aprende Jugando with ${score}/10 points and ${stars}⭐! Can you beat it?`;
+      if (lang === "qu") text = `¡Tukurqani Nivel ${level}ta Trivia Bíblica: Aprende Jugando pi ${score}/10 puntoswan ${stars}⭐! ¿Qanpas atipawaqchu?`;
       
       if (navigator.share) {
         navigator.share({
-          title: 'Biblia Kids Challenge',
+          title: 'Trivia Bíblica: Aprende Jugando Challenge',
           text: text,
           url: window.location.href
         });
@@ -131,9 +131,9 @@
       
       const tutorialSteps = [
         { title: 
-            lang === "es" ? "¡Bienvenido a Biblia Kids!" :
-            lang === "qu" ? "¡Bienvenido a Biblia Kids!" :
-            "Welcome to Bible Kids!", 
+            lang === "es" ? "¡Bienvenido a Trivia Bíblica: Aprende Jugando!" :
+            lang === "qu" ? "¡Bienvenido a Trivia Bíblica: Aprende Jugando!" :
+            "Welcome to Trivia Bíblica: Aprende Jugando!", 
           content: 
             lang === "es" ? "Responde preguntas bíblicas para ganar estrellas y monedas." :
             lang === "qu" ? "Bibliamanta tapukuykunata kutichiy ch'askiy estrellaswan qullqita." :
@@ -721,12 +721,12 @@
 
     const onboardingContent = {
       es: [
-        { title: "Bienvenido a Biblia Kids", body: "Responde preguntas biblicas y gana monedas en cada partida." },
+        { title: "Bienvenido a Trivia Bíblica: Aprende Jugando", body: "Responde preguntas biblicas y gana monedas en cada partida." },
         { title: "Sube de nivel", body: "Necesitas 7/10 para avanzar. Completa niveles para desbloquear nuevos retos." },
         { title: "Haz rachas y premios", body: "Acierta seguido para sumar mas monedas y mejorar tu record en supervivencia." }
       ],
       en: [
-        { title: "Welcome to Biblia Kids", body: "Answer Bible questions and earn coins in every match." },
+        { title: "Welcome to Trivia Bíblica: Aprende Jugando", body: "Answer Bible questions and earn coins in every match." },
         { title: "Level up", body: "You need 7/10 to advance. Clear levels to unlock new challenges." },
         { title: "Build streaks and rewards", body: "Get consecutive correct answers for more coins and a better survival record." }
       ]

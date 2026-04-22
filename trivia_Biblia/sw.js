@@ -1,7 +1,7 @@
 // © 2026 Milner Tello Guzman. Todos los derechos reservados.
 
 // Service Worker para cacheo offline y PWA
-const CACHE_NAME = 'biblia-kids-v1.0';
+const CACHE_NAME = 'trivia-biblica-v1.0';
 const urlsToCache = [
   '/',
   '/index.html',
