@@ -3,8 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia Bíblica JW - Bienvenida</title>
+    
+    <!-- SEO Básico -->
+    <title>Sabiduría Bíblica Quiz - El Mejor Juego de Trivia Cristiana</title>
+    <meta name="description" content="Desafía tu conocimiento con Sabiduría Bíblica Quiz. 100 niveles de preguntas bíblicas, trivias cristianas y desafíos para toda la familia. ¡Juega gratis ahora!">
+    <meta name="keywords" content="trivia biblica, juego biblico, preguntas biblicas, biblia quiz, cristianismo, juego cristiano, jw trivia, sabiduria biblica, quechua biblia">
+    <meta name="author" content="Milner Tello Guzmán">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tusitio.com/"> <!-- Reemplaza con tu URL final -->
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tusitio.com/">
+    <meta property="og:title" content="Sabiduría Bíblica Quiz - Desafío Cristiano">
+    <meta property="og:description" content="¿Cuánto sabes de la Biblia? Supera 100 niveles en este increíble juego de trivia.">
+    <meta property="og:image" content="https://tusitio.com/img/og-image.jpg"> <!-- Reemplaza con una imagen real -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tusitio.com/">
+    <meta property="twitter:title" content="Sabiduría Bíblica Quiz">
+    <meta property="twitter:description" content="Juego interactivo de preguntas y respuestas sobre la Biblia.">
+    <meta property="twitter:image" content="https://tusitio.com/img/og-image.jpg">
+
+    <!-- PWA y Favicon -->
+    <meta name="theme-color" content="#1a3a52">
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png">
+    
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
     
     <style>
@@ -518,11 +544,33 @@
 
             <!-- Botones secundarios -->
             <div class="botones-contenedor">
+                <button class="btn btn-secundario" onclick="abrirModalIdioma()">
+                    🌐 Idioma
+                </button>
                 <button class="btn btn-secundario" onclick="abrirModal()">
                     ℹ️ Acerca de
                 </button>
                 <button class="btn btn-secundario" onclick="abrirModalContacto()">
                     📧 Contacto
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Idioma -->
+    <div id="modalIdioma" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal" onclick="cerrarModalIdioma()">&times;</span>
+            <h2 class="modal-titulo">🌐 Selecciona Idioma</h2>
+            <div class="modal-texto" style="display: flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+                <button class="btn btn-secundario" onclick="cambiarIdioma('es')" style="width: 100%; justify-content: flex-start; padding: 15px; font-size: 1.1rem;">
+                    <span>🇪🇸</span> Español
+                </button>
+                <button class="btn btn-secundario" onclick="cambiarIdioma('qu')" style="width: 100%; justify-content: flex-start; padding: 15px; font-size: 1.1rem;">
+                    <span>🇵🇪</span> Quechua (Runasimi)
+                </button>
+                <button class="btn btn-secundario" onclick="cambiarIdioma('en')" style="width: 100%; justify-content: flex-start; padding: 15px; font-size: 1.1rem;">
+                    <span>🇺🇸</span> English
                 </button>
             </div>
         </div>
@@ -605,6 +653,29 @@
             window.location.href = 'juego.html';
         }
 
+        // Funciones del modal idioma
+        function abrirModalIdioma() {
+            document.getElementById('modalIdioma').style.display = 'block';
+        }
+
+        function cerrarModalIdioma() {
+            document.getElementById('modalIdioma').style.display = 'none';
+        }
+
+        function cambiarIdioma(lang) {
+            localStorage.setItem('lang', lang);
+            cerrarModalIdioma();
+            // Mostrar un pequeño feedback visual antes de cerrar o recargar si fuera necesario
+            const btn = event.currentTarget;
+            const originalText = btn.innerHTML;
+            btn.innerHTML = "✅ Seleccionado";
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                // Opcional: Recargar o actualizar textos de la página actual
+                location.reload(); 
+            }, 500);
+        }
+
         // Funciones del modal
         function abrirModal() {
             document.getElementById('modalAcerca').style.display = 'block';
@@ -626,16 +697,214 @@
         window.onclick = function(event) {
             const modalAcerca = document.getElementById('modalAcerca');
             const modalContacto = document.getElementById('modalContacto');
+            const modalIdioma = document.getElementById('modalIdioma');
             if (event.target === modalAcerca) {
                 modalAcerca.style.display = 'none';
             }
             if (event.target === modalContacto) {
                 modalContacto.style.display = 'none';
             }
+            if (event.target === modalIdioma) {
+                modalIdioma.style.display = 'none';
+            }
         }
 
         // Ejecutar al cargar
-        document.addEventListener('DOMContentLoaded', crearPartículas);
+        document.addEventListener('DOMContentLoaded', () => {
+            crearPartículas();
+            actualizarTextosSegunIdioma();
+        });
+
+        function actualizarTextosSegunIdioma() {
+            const currentLang = localStorage.getItem('lang') || 'es';
+            const dict = {
+                es: {
+                    tituloMain: "✨ Sabiduría Bíblica Quiz ✨",
+                    subtitulo: "Desafía tu conocimiento de las Sagradas Escrituras",
+                    jugar: "🎮 Jugar Ahora",
+                    bienvenida: "Bienvenido a <strong>Sabiduría Bíblica Quiz</strong>, el juego interactivo donde pondrás a prueba tu conocimiento de la Biblia.",
+                    desc2: "Con preguntas desde el Génesis hasta el Apocalipsis, este desafío te llevará en un viaje por toda la Palabra de Dios.",
+                    desc3: "¡Demuestra cuánto sabes y sube de nivel en cada acierto!",
+                    cita: "\"Tu palabra es una lámpara a mis pies y una luz en mi sendero.\"",
+                    ref: "Salmos 119:105",
+                    instrucciones: "¿Cómo Jugar?",
+                    paso1: "Haz clic en \"Jugar Ahora\" para comenzar",
+                    paso2: "Responde las preguntas bíblicas correctamente",
+                    paso3: "Avanza de niveles y sube tu puntuación",
+                    idioma: "🌐 Idioma",
+                    acerca: "ℹ️ Acerca de",
+                    contacto: "📧 Contacto",
+                    modalIdioma: "🌐 Selecciona Idioma",
+                    modalAcercaTitle: "Acerca de Sabiduría Bíblica Quiz",
+                    modalAcercaText: `<p><strong>Sabiduría Bíblica Quiz</strong> es una aplicación educativa diseñada para ayudarte a explorar y profundizar en el conocimiento de las Sagradas Escrituras de forma divertida e interactiva.</p>
+                        <p><strong>Características:</strong></p>
+                        <ul style="margin-left: 20px; margin-bottom: 15px;">
+                            <li>100 niveles progresivos de dificultad</li>
+                            <li>Preguntas sobre todos los libros de la Biblia</li>
+                            <li>Modo offline - juega sin conexión a internet</li>
+                            <li>Diseño responsivo para celulares y PC</li>
+                            <li>Guardado automático de progreso</li>
+                        </ul>
+                        <p><strong>Creador:</strong> Milner Tello Guzmán</p>
+                        <p><strong>Año:</strong> 2026 Sabiduría Bíblica Quiz</p>
+                        <p><strong>Propósito:</strong> Acercar las enseñanzas bíblicas de manera lúdica y educativa.</p>
+                        <p style="margin-top: 20px; font-size: 0.85rem; color: #666; font-style: italic; border-top: 1px solid #eee; padding-top: 10px;">
+                            Proyecto independiente. No es un sitio oficial de los Testigos de Jehová. Las citas bíblicas son de la Traducción del Nuevo Mundo de las Santas Escrituras (revisión de 2019).
+                        </p>`,
+                    modalContactoTitle: "📧 Contacto",
+                    modalContactoText: `<p>¿Tienes alguna sugerencia, error que reportar o simplemente quieres saludar? ¡Me encantaría escucharte!</p>
+                        <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 15px;">
+                            <a href="mailto:gumitell@gmail.com" style="display: flex; align-items: center; gap: 10px; color: var(--color-azul-profundo); text-decoration: none; background: var(--color-gris-claro); padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                                <span>✉️</span>
+                                <strong>gumitell@gmail.com</strong>
+                            </a>
+                        </div>
+                        <p style="font-size: 0.9rem; color: #666;">Responderé a tu mensaje lo antes posible. ¡Gracias por ser parte de Sabiduría Bíblica Quiz!</p>`,
+                    footer: "&copy; 2026 Sabiduría Bíblica Quiz | Todos los derechos reservados | Creado con <span style=\"color: var(--color-dorado);\">❤️</span> para amantes de la Palabra"
+                },
+                qu: {
+                    tituloMain: "✨ Biblia Yachay Quiz ✨",
+                    subtitulo: "Diospa Palabranmanta yachayniykita sut'inchay",
+                    jugar: "🎮 Pukllay kunan",
+                    bienvenida: "Allin hamusqa kachun <strong>Biblia Yachay Quizman</strong>, kaypiqa Bibliamanta yachayniykita sut'inchanki.",
+                    desc2: "Génesismantapacha Apocalipsiskama tapukuykuna kachkan, tukuy Diospa Palabranmantam yachanki.",
+                    desc3: "¡Yachasqaykita rikuchiy hinaspa sapa allin kutichisqaykiwan aswan yachayman chayay!",
+                    cita: "\"Palabraykiqa chakiypaq k'anchaymi, ñanniypaqpas k'anchaymi.\"",
+                    ref: "Salmos 119:105",
+                    instrucciones: "¿Imaynatam pukllana?",
+                    paso1: "\"Pukllay kunan\" ñitiypi ñitiy qallarinaykipaq",
+                    paso2: "Biblia tapukuykunata allinta kutichiy",
+                    paso3: "Nivelesman ñawpay hinaspa puntuacionniykita hoqariy",
+                    idioma: "🌐 Rimay",
+                    acerca: "ℹ️ Kaymanta",
+                    contacto: "📧 Willay",
+                    modalIdioma: "🌐 Rimayta akllay",
+                    modalAcercaTitle: "Biblia Yachay Quizmanta",
+                    modalAcercaText: `<p><strong>Biblia Yachay Quiz</strong> nisqaqa huk yachachiy yanapakuykunam, Bibliamanta yachasqaykita aswan sumaq pukllaywan yachanaykipaq.</p>
+                        <p><strong>Imakunayuqmi:</strong></p>
+                        <ul style="margin-left: 20px; margin-bottom: 15px;">
+                            <li>100 niveles sapa kutin sasa kaqkuna</li>
+                            <li>Lliw Biblia librokunamanta tapukuykuna</li>
+                            <li>Internet mana kachkaptinpas pukllawaqmi</li>
+                            <li>Celularpaq PC-paqpas allin qawasqam</li>
+                            <li>Yachasqaykiqa kikillanmi waqaychakun</li>
+                        </ul>
+                        <p><strong>Ruwaq:</strong> Milner Tello Guzmán</p>
+                        <p><strong>Wata:</strong> 2026 Biblia Yachay Quiz</p>
+                        <p><strong>Imapaq:</strong> Biblia yachachikuykunata pukllaspa yachanapaq.</p>
+                        <p style="margin-top: 20px; font-size: 0.85rem; color: #666; font-style: italic; border-top: 1px solid #eee; padding-top: 10px;">
+                            Kayqa kikillan ruwasqam. Manam Jehová Diospa testigonkunapa oficial sitionchu. Bibliamanta rimaykunaqa Musuq Pachapaq Bibliamantam (2019 revisionmanta).
+                        </p>`,
+                    modalContactoTitle: "📧 Willay",
+                    modalContactoText: `<p>¿Imatapas niyta munankichu, pantaykunatapas willayta munankichu? ¡Uyariyta munaykiku!</p>
+                        <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 15px;">
+                            <a href="mailto:gumitell@gmail.com" style="display: flex; align-items: center; gap: 10px; color: var(--color-azul-profundo); text-decoration: none; background: var(--color-gris-claro); padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                                <span>✉️</span>
+                                <strong>gumitell@gmail.com</strong>
+                            </a>
+                        </div>
+                        <p style="font-size: 0.9rem; color: #666;">Utqayllaman kutichimusqaykiku. ¡Añaychayku Biblia Yachay Quizpi kasqaykimanta!</p>`,
+                    footer: "&copy; 2026 Biblia Yachay Quiz | Tukuy hayñikuna waqaychasqa | Ruwasqa <span style=\"color: var(--color-dorado);\">❤️</span> Diospa Palabranta munakuqkunapaq"
+                },
+                en: {
+                    tituloMain: "✨ Bible Wisdom Quiz ✨",
+                    subtitulo: "Challenge your knowledge of the Holy Scriptures",
+                    jugar: "🎮 Play Now",
+                    bienvenida: "Welcome to <strong>Bible Wisdom Quiz</strong>, the interactive game where you'll test your knowledge of the Bible.",
+                    desc2: "With questions from Genesis to Revelation, this challenge will take you on a journey through the entire Word of God.",
+                    desc3: "Show how much you know and level up with every correct answer!",
+                    cita: "\"Your word is a lamp to my feet and a light for my path.\"",
+                    ref: "Psalms 119:105",
+                    instrucciones: "How to Play?",
+                    paso1: "Click \"Play Now\" to begin",
+                    paso2: "Answer the biblical questions correctly",
+                    paso3: "Advance through levels and increase your score",
+                    idioma: "🌐 Language",
+                    acerca: "ℹ️ About",
+                    contacto: "📧 Contact",
+                    modalIdioma: "🌐 Select Language",
+                    modalAcercaTitle: "About Bible Wisdom Quiz",
+                    modalAcercaText: `<p><strong>Bible Wisdom Quiz</strong> is an educational application designed to help you explore and deepen your knowledge of the Holy Scriptures in a fun and interactive way.</p>
+                        <p><strong>Features:</strong></p>
+                        <ul style="margin-left: 20px; margin-bottom: 15px;">
+                            <li>100 progressive levels of difficulty</li>
+                            <li>Questions about all the books of the Bible</li>
+                            <li>Offline mode - play without internet connection</li>
+                            <li>Responsive design for mobile and PC</li>
+                            <li>Automatic progress saving</li>
+                        </ul>
+                        <p><strong>Creator:</strong> Milner Tello Guzmán</p>
+                        <p><strong>Year:</strong> 2026 Bible Wisdom Quiz</p>
+                        <p><strong>Purpose:</strong> Bringing biblical teachings closer in a playful and educational way.</p>
+                        <p style="margin-top: 20px; font-size: 0.85rem; color: #666; font-style: italic; border-top: 1px solid #eee; padding-top: 10px;">
+                            Independent project. Not an official site of Jehovah's Witnesses. Biblical quotes are from the New World Translation of the Holy Scriptures (2019 revision).
+                        </p>`,
+                    modalContactoTitle: "📧 Contact",
+                    modalContactoText: `<p>Do you have any suggestions, a bug to report, or just want to say hello? I'd love to hear from you!</p>
+                        <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 15px;">
+                            <a href="mailto:gumitell@gmail.com" style="display: flex; align-items: center; gap: 10px; color: var(--color-azul-profundo); text-decoration: none; background: var(--color-gris-claro); padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                                <span>✉️</span>
+                                <strong>gumitell@gmail.com</strong>
+                            </a>
+                        </div>
+                        <p style="font-size: 0.9rem; color: #666;">I will respond to your message as soon as possible. Thanks for being part of Bible Wisdom Quiz!</p>`,
+                    footer: "&copy; 2026 Bible Wisdom Quiz | All rights reserved | Created with <span style=\"color: var(--color-dorado);\">❤️</span> for Word lovers"
+                }
+            };
+
+            const t = dict[currentLang] || dict.es;
+            
+            // Header
+            document.querySelector('.titulo-principal').innerText = t.tituloMain;
+            document.querySelector('.subtitulo').innerText = t.subtitulo;
+
+            // Botón principal
+            document.querySelector('.btn-principal').innerText = t.jugar;
+            
+            // Descripción
+            const descPs = document.querySelectorAll('.descripcion p');
+            if (descPs.length >= 3) {
+                descPs[0].innerHTML = t.bienvenida;
+                descPs[1].innerText = t.desc2;
+                descPs[2].innerText = t.desc3;
+            }
+
+            // Versículo
+            document.querySelector('.versiculo-destacado p').innerText = t.cita;
+            document.querySelector('.versiculo-referencia').innerText = t.ref;
+
+            // Instrucciones
+            document.querySelector('.instrucciones-titulo').innerText = t.instrucciones;
+            const pasosTextos = document.querySelectorAll('.paso-texto');
+            if (pasosTextos.length >= 3) {
+                pasosTextos[0].innerText = t.paso1;
+                pasosTextos[1].innerText = t.paso2;
+                pasosTextos[2].innerText = t.paso3;
+            }
+
+            // Botones secundarios
+            const secondaryBtns = document.querySelectorAll('.btn-secundario');
+            secondaryBtns.forEach(btn => {
+                if (btn.innerText.includes('Idioma') || btn.innerText.includes('Language') || btn.innerText.includes('Rimay')) {
+                    btn.innerHTML = t.idioma;
+                } else if (btn.innerText.includes('Acerca') || btn.innerText.includes('About') || btn.innerText.includes('Kaymanta')) {
+                    btn.innerHTML = t.acerca;
+                } else if (btn.innerText.includes('Contacto') || btn.innerText.includes('Contact') || btn.innerText.includes('Willay')) {
+                    btn.innerHTML = t.contacto;
+                }
+            });
+
+            // Modales
+            document.querySelector('#modalIdioma .modal-titulo').innerText = t.modalIdioma;
+            document.querySelector('#modalAcerca .modal-titulo').innerText = t.modalAcercaTitle;
+            document.querySelector('#modalAcerca .modal-texto').innerHTML = t.modalAcercaText;
+            document.querySelector('#modalContacto .modal-titulo').innerText = t.modalContactoTitle;
+            document.querySelector('#modalContacto .modal-texto').innerHTML = t.modalContactoText;
+
+            // Footer
+            const footerP = document.querySelector('footer p');
+            if (footerP) footerP.innerHTML = t.footer;
+        }
     </script>
 </body>
 </html>

@@ -1694,10 +1694,10 @@
     }
 
     function highlightCurrentLevel() {
-      document.querySelectorAll(".level-container").forEach(el => el.classList.remove("level-current"));
+      document.querySelectorAll(".level-pin").forEach(el => el.classList.remove("level-current"));
       const current = Math.min(unlocked, 100);
-      const currentContainer = document.querySelector(`.level-container[data-level="${current}"]`);
-      if (currentContainer) currentContainer.classList.add("level-current");
+      const currentPin = document.getElementById(`lvlPin${current}`);
+      if (currentPin) currentPin.classList.add("level-current");
     }
 
     function startSurvival() {
@@ -2341,6 +2341,14 @@
         if (el) {
           if (unlocked >= i) {
             el.classList.remove("locked");
+            
+            // Marcar como completado si tiene estrellas
+            if (levelStars[i] > 0) {
+              el.classList.add("completed");
+            } else {
+              el.classList.remove("completed");
+            }
+
             el.onclick = (function (n) { 
               return function(e) {
                 startLevel(n);

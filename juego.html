@@ -4,9 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🌟 Sabiduría Bíblica Challenge 🌟</title>
+  <title>Jugar Sabiduría Bíblica Quiz - 100 Niveles de Trivia</title>
+  <meta name="description" content="Supera los 100 niveles del desafío bíblico. Preguntas interactivas sobre la Biblia en Español, Quechua e Inglés.">
+  <meta name="robots" content="index, follow">
   <!-- © 2026 Milner Tello Guzman. Todos los derechos reservados. -->
   <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192x192.png">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap"
     rel="stylesheet">
 
@@ -14,15 +17,7 @@
 </head>
 
 <body>
-  <!-- Floating stars background -->
-  <span class="star-bg" style="top:8%;left:7%;animation-delay:0s">⭐</span>
-  <span class="star-bg" style="top:15%;right:9%;animation-delay:.7s">🌟</span>
-  <span class="star-bg" style="top:78%;left:5%;animation-delay:1.2s">✨</span>
-  <span class="star-bg" style="top:85%;right:6%;animation-delay:.4s">⭐</span>
-  <span class="star-bg" style="top:45%;left:3%;animation-delay:1.8s;font-size:.9rem">🌈</span>
-  <span class="star-bg" style="top:55%;right:4%;animation-delay:2.1s;font-size:.9rem">💫</span>
-
-  <!-- (Modo oscuro desactivado) -->
+  <!-- Floating background decorations removed -->
   <div id="confetti"></div>
 
   <!-- HOME -->
@@ -363,9 +358,9 @@
       <span class="balloon bal3">🎈</span>
     </div>
     <div class="map-container">
+      <h2 id="title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 1.1rem; margin: 0; position: absolute; top: 25px; left: 50%; transform: translateX(-50%); white-space: nowrap; pointer-events: none; font-family: 'Fredoka One', cursive; z-index: 100;">🗺️ Selecciona un Nivel</h2>
       <!-- Top Bar - Above landscape -->
       <div class="map-top-bar">
-        <h2 id="title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 1.1rem; margin: 0; position: absolute; left: 50%; transform: translateX(-50%); width: 100%; text-align: center; pointer-events: none; font-family: 'Fredoka One', cursive;">🗺️ Selecciona un Nivel</h2>
         <div class="map-coin-counter">
           <span class="coin-icon">🪙</span>
           <span id="mapCoins">0</span>
@@ -380,7 +375,7 @@
       <div class="map-decorations">
         <span class="decoration flower1" style="position: absolute; bottom: 10%; left: 5%; font-size: 2rem; animation: floatSlow 4s ease-in-out infinite;">🌸</span>
         <span class="decoration flower2" style="position: absolute; bottom: 15%; left: 20%; font-size: 1.8rem; animation: floatSlow 5s ease-in-out infinite 1s;">🌼</span>
-        <span class="decoration flower3" style="position: absolute; bottom: 12%; right: 15%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🌻</span>
+        <span class="decoration flower3" style="position: absolute; bottom: 12%; right: 15%; font-size: 1.5rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🌻</span>
         <span class="decoration flower4" style="position: absolute; bottom: 8%; right: 5%; font-size: 1.9rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🌺</span>
         <span class="decoration butterfly1" style="position: absolute; top: 30%; left: 10%; font-size: 1.5rem; animation: flyAround 6s ease-in-out infinite;">🦋</span>
         <span class="decoration butterfly2" style="position: absolute; top: 50%; right: 10%; font-size: 1.4rem; animation: flyAround 7s ease-in-out infinite 1s;">🦋</span>
@@ -395,97 +390,108 @@
           <div class="scroll-hint">⬇️ Desliza hacia abajo para ver más niveles</div>
 
           <div class="level-path-buttons">
-          <div class="level-pin level-block-1" id="lvlPin1" style="top:2%; left:50%; transform:translateX(-50%);">
+          <div class="level-pin level-block-1" id="lvlPin1" style="top:1%; left:50%; transform:translateX(-50%);">
             <div class="level" id="lvl1">1</div>
             <div class="stars-container" id="stars1"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-1" id="lvlPin2" style="top:4%; left:26.7%;">
+          <div class="level-pin level-block-1" id="lvlPin2" style="top:2.5%; left:26.7%;">
             <div class="level locked" id="lvl2">2</div>
             <span class="lock-badge" id="lock2">🔒</span>
             <div class="stars-container" id="stars2"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-1" id="lvlPin3" style="top:6%; left:20%;">
+          <div class="level-pin level-block-1" id="lvlPin3" style="top:4%; left:20%;">
             <div class="level locked" id="lvl3">3</div>
             <span class="lock-badge" id="lock3">🔒</span>
             <div class="stars-container" id="stars3"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-1" id="lvlPin4" style="top:8%; left:26.7%;">
+          <div class="level-pin level-block-1" id="lvlPin4" style="top:5.5%; left:26.7%;">
             <div class="level locked" id="lvl4">4</div>
             <span class="lock-badge" id="lock4">🔒</span>
             <div class="stars-container" id="stars4"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-1" id="lvlPin5" style="top:10%; left:50%;">
+          <div class="level-pin level-block-1" id="lvlPin5" style="top:7%; left:50%;">
             <div class="level locked" id="lvl5">5</div>
             <span class="lock-badge" id="lock5">🔒</span>
             <div class="stars-container" id="stars5"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-2" id="lvlPin6" style="top:12%; left:73.3%;">
+          <div class="level-pin level-block-2" id="lvlPin6" style="top:8.5%; left:73.3%;">
             <div class="level locked" id="lvl6">6</div>
             <span class="lock-badge" id="lock6">🔒</span>
             <div class="stars-container" id="stars6"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-2" id="lvlPin7" style="top:14%; left:80%;">
+          <div class="level-pin level-block-2" id="lvlPin7" style="top:10%; left:80%;">
             <div class="level locked" id="lvl7">7</div>
             <span class="lock-badge" id="lock7">🔒</span>
             <div class="stars-container" id="stars7"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-2" id="lvlPin8" style="top:16%; left:60%;">
+          <div class="level-pin level-block-2" id="lvlPin8" style="top:11.5%; left:60%;">
             <div class="level locked" id="lvl8">8</div>
             <span class="lock-badge" id="lock8">🔒</span>
             <div class="stars-container" id="stars8"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-2" id="lvlPin9" style="top:18%; left:40%;">
+          <div class="level-pin level-block-2" id="lvlPin9" style="top:13%; left:40%;">
             <div class="level locked" id="lvl9">9</div>
             <span class="lock-badge" id="lock9">🔒</span>
             <div class="stars-container" id="stars9"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-2" id="lvlPin10" style="top:20%; left:26.7%;">
+          <div class="level-pin level-block-2" id="lvlPin10" style="top:14.5%; left:26.7%;">
             <div class="level locked" id="lvl10">10</div>
             <span class="lock-badge" id="lock10">🔒</span>
             <div class="stars-container" id="stars10"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-3" id="lvlPin11" style="top:22%; left:50%;">
+          <div class="level-pin level-block-3" id="lvlPin11" style="top:16%; left:50%;">
             <div class="level locked" id="lvl11">11</div>
             <span class="lock-badge" id="lock11">🔒</span>
             <div class="stars-container" id="stars11"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-3" id="lvlPin12" style="top:24%; left:73.3%;">
+          <div class="level-pin level-block-3" id="lvlPin12" style="top:17.5%; left:73.3%;">
             <div class="level locked" id="lvl12">12</div>
             <span class="lock-badge" id="lock12">🔒</span>
             <div class="stars-container" id="stars12"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-3" id="lvlPin13" style="top:26%; left:80%;">
+          <div class="level-pin level-block-3" id="lvlPin13" style="top:19%; left:80%;">
             <div class="level locked" id="lvl13">13</div>
             <span class="lock-badge" id="lock13">🔒</span>
             <div class="stars-container" id="stars13"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-3" id="lvlPin14" style="top:28%; left:60%;">
+          <div class="level-pin level-block-3" id="lvlPin14" style="top:20.5%; left:60%;">
             <div class="level locked" id="lvl14">14</div>
             <span class="lock-badge" id="lock14">🔒</span>
             <div class="stars-container" id="stars14"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
-          <div class="level-pin level-block-3" id="lvlPin15" style="top:30%; left:40%;">
+          <div class="level-pin level-block-3" id="lvlPin15" style="top:22%; left:40%;">
             <div class="level locked" id="lvl15">15</div>
             <span class="lock-badge" id="lock15">🔒</span>
             <div class="stars-container" id="stars15"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
           </div>
 
           <!-- Houses near each level -->
-          <span class="house-decoration" style="position: absolute; top: 2%; left: 65%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 4%; left: 10%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 6%; left: 5%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 8%; left: 10%; font-size: 2.2rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 10%; left: 65%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 12%; left: 85%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 14%; left: 90%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 16%; left: 75%; font-size: 2.2rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 18%; left: 20%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 20%; left: 5%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 22%; left: 65%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 24%; left: 85%; font-size: 2.2rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 26%; left: 90%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
-          <span class="house-decoration" style="position: absolute; top: 28%; left: 75%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
-          <span class="house-decoration" style="position: absolute; top: 30%; left: 20%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 1%; left: 65%; font-size: 1.5rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 2.5%; left: 10%; font-size: 1.5rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 4%; left: 5%; font-size: 1.5rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 5.5%; left: 10%; font-size: 1.5rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 7%; left: 65%; font-size: 1.5rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 8.5%; left: 85%; font-size: 1.5rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 10%; left: 90%; font-size: 1.5rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 11.5%; left: 75%; font-size: 1.5rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 13%; left: 20%; font-size: 1.5rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 14.5%; left: 5%; font-size: 1.5rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 16%; left: 65%; font-size: 1.5rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 17.5%; left: 85%; font-size: 1.5rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 19%; left: 90%; font-size: 1.5rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 20.5%; left: 75%; font-size: 1.5rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 22%; left: 20%; font-size: 1.5rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          
+          <!-- Trees for decoration -->
+          <span class="tree-decoration" style="position: absolute; top: 1.5%; left: 35%; font-size: 3.6rem; animation: floatSlow 4s ease-in-out infinite;">🌳</span>
+          <span class="tree-decoration" style="position: absolute; top: 3.5%; left: 75%; font-size: 4rem; animation: floatSlow 5s ease-in-out infinite 0.5s;">🌲</span>
+          <span class="tree-decoration" style="position: absolute; top: 6%; left: 30%; font-size: 3.4rem; animation: floatSlow 4.5s ease-in-out infinite 1s;">🌳</span>
+          <span class="tree-decoration" style="position: absolute; top: 9%; left: 15%; font-size: 3.8rem; animation: floatSlow 5.5s ease-in-out infinite 1.5s;">🌲</span>
+          <span class="tree-decoration" style="position: absolute; top: 11%; left: 45%; font-size: 3.6rem; animation: floatSlow 4s ease-in-out infinite 2s;">🌳</span>
+          <span class="tree-decoration" style="position: absolute; top: 14%; left: 85%; font-size: 4rem; animation: floatSlow 5s ease-in-out infinite 0.5s;">🌲</span>
+          <span class="tree-decoration" style="position: absolute; top: 17%; left: 10%; font-size: 3.4rem; animation: floatSlow 4.5s ease-in-out infinite 1s;">🌳</span>
+          <span class="tree-decoration" style="position: absolute; top: 20%; left: 90%; font-size: 3.8rem; animation: floatSlow 5.5s ease-in-out infinite 1.5s;">🌲</span>
+          <span class="tree-decoration" style="position: absolute; top: 23%; left: 55%; font-size: 3.6rem; animation: floatSlow 4s ease-in-out infinite 2s;">🌳</span>
         </div>
       </div>
       </div>
@@ -505,7 +511,7 @@
       </div>
 
       <!-- Back Button -->
-      <button class="map-back-btn" onclick="show('modes')" title="Atrás">←</button>
+      <button class="map-back-btn" onclick="show('modes')" title="Atrás">⬅️ Volver</button>
     </div>
   </section>
 
