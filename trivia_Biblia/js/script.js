@@ -2261,8 +2261,6 @@
           <span class="house-decoration ${extraClass}" style="position: absolute; top: -10px; left: ${houseLeftOffset}%; animation: houseSway 6s ease-in-out infinite;">
             ${houseEmoji}
             ${i === 100 ? `
-              <span class="tower-flag" style="top: -20%; left: -10%;">🚩</span>
-              <span class="tower-flag" style="top: -20%; right: -10%;">🚩</span>
               <div class="tower-sparkles-container"></div>
             ` : ''}
           </span>

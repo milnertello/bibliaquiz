@@ -74,9 +74,14 @@
           <span class="btn-shine"></span>
           🎮 ¡Jugar!
         </button>
-        <button id="homeExtrasBtn" class="wooden-btn wooden-extras-small" onclick="show('extras')">
-          ✨ Extras
-        </button>
+        <div style="display: flex; gap: 10px; width: 100%; max-width: 400px; justify-content: center;">
+          <button id="homeExtrasBtn" class="wooden-btn wooden-extras-small" onclick="show('extras')" style="flex: 1;">
+            ✨ Extras
+          </button>
+          <button id="homeWelcomeBtn" class="wooden-btn wooden-extras-small" onclick="window.location.href='index.html'" style="flex: 1; background: linear-gradient(135deg, #4caf50, #2e7d32);">
+            🏠 Salir
+          </button>
+        </div>
       </div>
       
       <!-- Daily Text -->

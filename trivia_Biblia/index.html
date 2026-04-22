@@ -77,18 +77,20 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 20px;
             max-width: 900px;
             margin: 0 auto;
             width: 100%;
+            min-height: 100vh;
         }
 
         /* Header - Título principal */
         .header {
             text-align: center;
-            margin-top: 30px;
+            margin-top: 0;
+            margin-bottom: 20px;
             animation: deslizar-arriba 0.8s ease-out;
         }
 
@@ -129,6 +131,11 @@
             margin: 30px 0;
             animation: aparecer 0.8s ease-out 0.2s both;
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 400px;
         }
 
         @keyframes aparecer {
@@ -264,12 +271,25 @@
         .btn-principal {
             background: linear-gradient(135deg, var(--color-dorado), #c9a227);
             color: var(--color-azul-profundo);
-            min-width: 250px;
+            min-width: 320px;
+            font-size: 1.6rem;
+            padding: 22px 60px;
+            animation: pulse-glow 2s infinite;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            margin: 20px 0 35px 0; /* Espacio arriba y abajo */
+            order: -1; /* Mover arriba en flexbox si es necesario, pero mejor reordenar HTML */
+        }
+
+        @keyframes pulse-glow {
+            0% { transform: scale(1); box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4); }
+            50% { transform: scale(1.05); box-shadow: 0 15px 40px rgba(212, 175, 55, 0.7); }
+            100% { transform: scale(1); box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4); }
         }
 
         .btn-principal:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 30px rgba(212, 175, 55, 0.4);
+            transform: translateY(-5px) scale(1.08);
+            box-shadow: 0 20px 50px rgba(212, 175, 55, 0.6);
+            background: linear-gradient(135deg, #ffeb3b, var(--color-dorado));
         }
 
         .btn-principal:active {
@@ -311,13 +331,16 @@
 
         .modal-contenido {
             background: var(--color-blanco);
-            margin: 50px auto;
-            padding: 40px;
+            margin: 30px auto;
+            padding: 30px;
             border-radius: 20px;
             width: 90%;
             max-width: 600px;
+            max-height: 85vh;
+            overflow-y: auto;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             animation: deslizar-abajo 0.3s ease;
+            position: relative;
         }
 
         @keyframes deslizar-abajo {
@@ -450,15 +473,20 @@
     <div class="contenedor">
         <!-- Header -->
         <div class="header">
-            <h1 class="titulo-principal">✨ Trivia Bíblica JW ✨</h1>
+            <h1 class="titulo-principal">✨ Sabiduría Bíblica Quiz ✨</h1>
             <p class="subtitulo">Desafía tu conocimiento de las Sagradas Escrituras</p>
         </div>
 
         <!-- Contenido principal -->
         <div class="contenido-principal">
+            <!-- Botón Jugar Ahora en el centro -->
+            <button class="btn btn-principal" onclick="irAlJuego()">
+                🎮 JUGAR AHORA
+            </button>
+
             <!-- Descripción -->
             <div class="descripcion">
-                <p>Bienvenido a <strong>Trivia Bíblica JW</strong>, el juego interactivo donde pondrás a prueba tu conocimiento de la Biblia.</p>
+                <p>Bienvenido a <strong>Sabiduría Bíblica Quiz</strong>, el juego interactivo donde pondrás a prueba tu conocimiento de la Biblia.</p>
                 <p>Con preguntas desde el Génesis hasta el Apocalipsis, este desafío te llevará en un viaje por toda la Palabra de Dios.</p>
                 <p>¡Demuestra cuánto sabes y sube de nivel en cada acierto!</p>
             </div>
@@ -488,13 +516,13 @@
                 </div>
             </div>
 
-            <!-- Botones -->
+            <!-- Botones secundarios -->
             <div class="botones-contenedor">
-                <button class="btn btn-principal" onclick="irAlJuego()">
-                    🎮 JUGAR AHORA
-                </button>
                 <button class="btn btn-secundario" onclick="abrirModal()">
                     ℹ️ Acerca de
+                </button>
+                <button class="btn btn-secundario" onclick="abrirModalContacto()">
+                    📧 Contacto
                 </button>
             </div>
         </div>
@@ -504,9 +532,9 @@
     <div id="modalAcerca" class="modal">
         <div class="modal-contenido">
             <span class="cerrar-modal" onclick="cerrarModal()">&times;</span>
-            <h2 class="modal-titulo">Acerca de Trivia Bíblica JW</h2>
+            <h2 class="modal-titulo">Acerca de Sabiduría Bíblica Quiz</h2>
             <div class="modal-texto">
-                <p><strong>Trivia Bíblica JW</strong> es una aplicación educativa diseñada para ayudarte a explorar y profundizar en el conocimiento de las Sagradas Escrituras de forma divertida e interactiva.</p>
+                <p><strong>Sabiduría Bíblica Quiz</strong> es una aplicación educativa diseñada para ayudarte a explorar y profundizar en el conocimiento de las Sagradas Escrituras de forma divertida e interactiva.</p>
                 
                 <p><strong>Características:</strong></p>
                 <ul style="margin-left: 20px; margin-bottom: 15px;">
@@ -518,22 +546,45 @@
                 </ul>
 
                 <p><strong>Creador:</strong> Milner Tello Guzmán</p>
-                <p><strong>Año:</strong> © 2026 Trivia Bíblica JW</p>
+                <p><strong>Año:</strong> 2026 Sabiduría Bíblica Quiz</p>
                 <p><strong>Propósito:</strong> Acercar las enseñanzas bíblicas de manera lúdica y educativa.</p>
+                <p style="margin-top: 20px; font-size: 0.85rem; color: #666; font-style: italic; border-top: 1px solid #eee; padding-top: 10px;">
+                    Proyecto independiente. No es un sitio oficial de los Testigos de Jehová. Las citas bíblicas son de la Traducción del Nuevo Mundo de las Santas Escrituras (revisión de 2019).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Contacto -->
+    <div id="modalContacto" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal" onclick="cerrarModalContacto()">&times;</span>
+            <h2 class="modal-titulo">📧 Contacto</h2>
+            <div class="modal-texto">
+                <p>¿Tienes alguna sugerencia, error que reportar o simplemente quieres saludar? ¡Me encantaría escucharte!</p>
+                
+                <div style="margin: 20px 0; display: flex; flex-direction: column; gap: 15px;">
+                    <a href="mailto:gumitell@gmail.com" style="display: flex; align-items: center; gap: 10px; color: var(--color-azul-profundo); text-decoration: none; background: var(--color-gris-claro); padding: 15px; border-radius: 10px; border: 1px solid #ddd;">
+                        <span>✉️</span>
+                        <strong>gumitell@gmail.com</strong>
+                    </a>
+                </div>
+
+                <p style="font-size: 0.9rem; color: #666;">Responderé a tu mensaje lo antes posible. ¡Gracias por ser parte de Sabiduría Bíblica Quiz!</p>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Trivia Bíblica JW | Todos los derechos reservados | Creado con <span style="color: var(--color-dorado);">❤️</span> para amantes de la Palabra</p>
+        <p>&copy; 2026 Sabiduría Bíblica Quiz | Todos los derechos reservados | Creado con <span style="color: var(--color-dorado);">❤️</span> para amantes de la Palabra</p>
     </footer>
 
     <script>
         // Crear partículas flotantes animadas
         function crearPartículas() {
             const contenedor = document.getElementById('fondoPartículas');
-            const símbolos = ['✨', '⭐', '🌟', '💫', '✝️', '📖', '🙏'];
+            const símbolos = ['✨', '⭐', '🌟', '💫', '📖', '🙏'];
             const fragmento = document.createDocumentFragment();
 
             for (let i = 0; i < 20; i++) {
@@ -563,11 +614,23 @@
             document.getElementById('modalAcerca').style.display = 'none';
         }
 
+        function abrirModalContacto() {
+            document.getElementById('modalContacto').style.display = 'block';
+        }
+
+        function cerrarModalContacto() {
+            document.getElementById('modalContacto').style.display = 'none';
+        }
+
         // Cerrar modal al hacer clic fuera
         window.onclick = function(event) {
-            const modal = document.getElementById('modalAcerca');
-            if (event.target === modal) {
-                modal.style.display = 'none';
+            const modalAcerca = document.getElementById('modalAcerca');
+            const modalContacto = document.getElementById('modalContacto');
+            if (event.target === modalAcerca) {
+                modalAcerca.style.display = 'none';
+            }
+            if (event.target === modalContacto) {
+                modalContacto.style.display = 'none';
             }
         }
 

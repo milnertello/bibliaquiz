@@ -4186,19 +4186,6 @@
       100% { transform: translateY(-150px) translateX(var(--drift)) scale(1.5); opacity: 0; }
     }
 
-    /* 3. Banderas Animadas */
-    .tower-flag {
-      position: absolute;
-      font-size: 2.5rem;
-      z-index: 21;
-      animation: flagWave 2s ease-in-out infinite;
-    }
-
-    @keyframes flagWave {
-      0%, 100% { transform: rotate(-5deg) skewY(2deg); }
-      50% { transform: rotate(10deg) skewY(-2deg); }
-    }
-
     .bg-gardens .garden {
       font-size: 1.8rem;
       animation: floatGarden 3s ease-in-out infinite;
