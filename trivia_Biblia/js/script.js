@@ -2236,6 +2236,20 @@
         pin.id = 'lvlPin' + i;
         pin.style.cssText = `top:${top}%; left:${left}%;`;
         pin.dataset.level = i;
+
+        // Determinar emoji de casa según el nivel
+        let houseEmoji = i % 2 === 0 ? '🏘️' : '🏠';
+        let extraClass = '';
+        
+        // Especial para nivel 100: Atalaya
+        if (i === 100) {
+          houseEmoji = '🏰';
+          extraClass = 'legendary-tower';
+        }
+
+        // Determinar posición relativa de la casa (más alejada del nivel)
+        const houseLeftOffset = left > 50 ? -85 : 85;
+
         pin.innerHTML = `
           <div class="level locked" id="lvl${i}">${i}</div>
           <span class="lock-badge" id="lock${i}">🔒</span>
@@ -2244,8 +2258,32 @@
             <span class="star-gray">⭐</span>
             <span class="star-gray">⭐</span>
           </div>
+          <span class="house-decoration ${extraClass}" style="position: absolute; top: -10px; left: ${houseLeftOffset}%; animation: houseSway 6s ease-in-out infinite;">
+            ${houseEmoji}
+            ${i === 100 ? `
+              <span class="tower-flag" style="top: -20%; left: -10%;">🚩</span>
+              <span class="tower-flag" style="top: -20%; right: -10%;">🚩</span>
+              <div class="tower-sparkles-container"></div>
+            ` : ''}
+          </span>
         `;
+
         container.appendChild(pin);
+
+        // Generar chispas para el nivel 100
+        if (i === 100) {
+          const sparklesContainer = pin.querySelector('.tower-sparkles-container');
+          setInterval(() => {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'tower-sparkle';
+            sparkle.style.left = Math.random() * 100 + '%';
+            sparkle.style.bottom = '0';
+            sparkle.style.setProperty('--drift', (Math.random() * 100 - 50) + 'px');
+            sparkle.style.animationDelay = Math.random() * 2 + 's';
+            sparklesContainer.appendChild(sparkle);
+            setTimeout(() => sparkle.remove(), 2000);
+          }, 200);
+        }
       }
       
       // Ajustar la altura del contenedor del mapa para scroll
@@ -2262,6 +2300,7 @@
       setTimeout(() => {
         updateLevelParticles();
         updateLevelWaves();
+        updateLevelPath();
       }, 300);
     }
 
@@ -2355,9 +2394,60 @@
       // Actualizar partículas y ondas alrededor de niveles desbloqueados
       updateLevelParticles();
       updateLevelWaves();
+      updateLevelPath();
       
       // Don't show preview automatically, only on hover
       document.getElementById("levelPreview").style.display = "none";
+    }
+
+    // Función para dibujar el camino de puntos entre niveles
+    function updateLevelPath() {
+      const mapContent = document.querySelector('.map-path-content');
+      if (!mapContent) return;
+
+      // Crear contenedor de camino si no existe
+      let pathContainer = mapContent.querySelector('.level-path-container');
+      if (!pathContainer) {
+        pathContainer = document.createElement('div');
+        pathContainer.className = 'level-path-container';
+        pathContainer.style.cssText = 'position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:1;';
+        mapContent.appendChild(pathContainer);
+      }
+      
+      pathContainer.innerHTML = '';
+
+      for (let i = 1; i < 100; i++) {
+        const currentPin = document.getElementById(`lvlPin${i}`);
+        const nextPin = document.getElementById(`lvlPin${i+1}`);
+        
+        if (!currentPin || !nextPin) continue;
+
+        const rect1 = currentPin.getBoundingClientRect();
+        const rect2 = nextPin.getBoundingClientRect();
+        const containerRect = mapContent.getBoundingClientRect();
+
+        const x1 = rect1.left - containerRect.left + rect1.width / 2;
+        const y1 = rect1.top - containerRect.top + rect1.height / 2;
+        const x2 = rect2.left - containerRect.left + rect2.width / 2;
+        const y2 = rect2.top - containerRect.top + rect2.height / 2;
+
+        const dist = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        const dotsCount = Math.floor(dist / 20); // Un punto cada 20px
+
+        for (let j = 1; j < dotsCount; j++) {
+          const dot = document.createElement('div');
+          dot.className = 'map-path-dot';
+          if (i < unlocked) dot.classList.add('active');
+          
+          const t = j / dotsCount;
+          const dx = x1 + (x2 - x1) * t;
+          const dy = y1 + (y2 - y1) * t;
+          
+          dot.style.left = `${dx}px`;
+          dot.style.top = `${dy}px`;
+          pathContainer.appendChild(dot);
+        }
+      }
     }
     
     // Crear o actualizar partículas alrededor de niveles desbloqueados
@@ -2441,6 +2531,7 @@
       resizeTimeout = setTimeout(() => {
         updateLevelParticles();
         updateLevelWaves();
+        updateLevelPath();
       }, 250);
     });
     
