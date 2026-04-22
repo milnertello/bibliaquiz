@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌟 Sabiduría Bíblica Challenge 🌟</title>
+  <!-- © 2026 Milner Tello Guzman. Todos los derechos reservados. -->
+  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@700;800;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Floating stars background -->
+  <span class="star-bg" style="top:8%;left:7%;animation-delay:0s">⭐</span>
+  <span class="star-bg" style="top:15%;right:9%;animation-delay:.7s">🌟</span>
+  <span class="star-bg" style="top:78%;left:5%;animation-delay:1.2s">✨</span>
+  <span class="star-bg" style="top:85%;right:6%;animation-delay:.4s">⭐</span>
+  <span class="star-bg" style="top:45%;left:3%;animation-delay:1.8s;font-size:.9rem">🌈</span>
+  <span class="star-bg" style="top:55%;right:4%;animation-delay:2.1s;font-size:.9rem">💫</span>
+
+  <!-- (Modo oscuro desactivado) -->
+  <div id="confetti"></div>
+
+  <!-- HOME -->
+  <section id="home">
+    <div class="beach-menu-container">
+      <!-- Beach Background -->
+      <div class="beach-sky-bg"></div>
+      <div class="beach-ocean-bg">
+        <div class="ocean-wave wave1"></div>
+        <div class="ocean-wave wave2"></div>
+      </div>
+      <div class="beach-sand-bg"></div>
+      
+      <!-- Decorative Elements -->
+      <div class="beach-deco palm-tree">🌴</div>
+      <div class="beach-deco surfboard">🏄</div>
+      <div class="beach-deco crab">🦀</div>
+      <div class="beach-deco shell">🐚</div>
+      <div class="beach-deco starfish">⭐</div>
+      <div class="sun-radiant">☀️</div>
+      <div class="sun-beams">☀️</div>
+      <div class="beach-clouds">☁️</div>
+
+      <!-- New Beach Animals -->
+      <div class="beach-animal parrot-beach">🦜</div>
+      <div class="beach-animal turtle-beach">🐢</div>
+      <div class="beach-animal flamingo-beach">🦩</div>
+      <div class="beach-animal sailboat-beach">⛵</div>
+      <div class="beach-animal dolphin-beach">🐬</div>
+      <div class="beach-animal dolphin-beach2">🐬</div>
+      
+      <!-- Settings Button -->
+      <button class="beach-settings-btn" onclick="showSettings()" title="Ajustes">⚙️</button>
+
+      <!-- Logo with Gift Button -->
+      <div class="beach-logo-with-gift">
+        <div class="beach-gift-box-top">
+          <button class="beach-gift" id="homeGiftQuickBtn" onclick="openGiftFromHome()" title="Regalo">🎁</button>
+          <span class="gift-timer" id="homeGiftBadge">--:--</span>
+        </div>
+        <div class="beach-logo">
+          <h1 class="beach-title">Trivia Bíblica: Aprende Jugando</h1>
+        </div>
+      </div>
+      
+      <!-- Big Play Button -->
+      <div class="beach-buttons">
+        <button id="homePlayBtn" class="wooden-btn wooden-classic" onclick="show('modes')">
+          <span class="btn-shine"></span>
+          🎮 ¡Jugar!
+        </button>
+        <button id="homeExtrasBtn" class="wooden-btn wooden-extras-small" onclick="show('extras')">
+          ✨ Extras
+        </button>
+      </div>
+      
+      <!-- Daily Text -->
+      <div class="beach-daily-box" id="dailyTextContainer">
+        <p id="homeDailyLabel" class="daily-label-beach">📜 Texto de Hoy</p>
+        <p id="dailyTextBody" class="daily-body-beach">"No tengas miedo, porque estoy contigo..."</p>
+        <p id="dailyTextRef" class="daily-ref-beach">- Isaías 41:10</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXTRAS -->
+  <section id="extras">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="modes-menu-card">
+      <h2 class="modes-title" style="color: #FF1493; text-shadow: 2px 2px 0 #FFA500;">✨🚀 Extras 🚀✨</h2>
+      <p class="modes-subtitle" style="color: #00FF00; text-shadow: 1px 1px 0 #000;">Accesos especiales y más</p>
+      <div class="divider" id="extrasDivider" style="color: #FFD700; text-shadow: 1px 1px 0 #FF4500;">⭐🌟 Contenido Extra Explosivo 🌟⭐</div>
+      <button class="mode-btn mode-achievements" id="extrasAchievementsBtn" onclick="show('achievements'); renderAchievements();" style="background: linear-gradient(180deg, #FFD700 0%, #FFA500 50%, #FF4500 100%); border: 4px solid #B22222; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3);">🏅✨ Trofeos Brillantes</button><br>
+      <button class="mode-btn mode-stats" id="extrasStatsBtn" onclick="show('stats'); renderStats();" style="background: linear-gradient(180deg, #00BFFF 0%, #1E90FF 50%, #0000FF 100%); border: 4px solid #00008B; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3);">📊🔥 Datos Explosivos</button>
+      <div class="divider" style="margin-top:24px">—</div>
+      <button class="mode-btn-back" id="extrasBackBtn" onclick="show('home')" style="background: linear-gradient(180deg, #FF69B4 0%, #DC143C 50%, #8B0000 100%); border: 4px solid #4B0082; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3); font-size: 1.1rem; padding: 10px 20px;">🏠🏃‍♂️ ¡Volver a Casa!</button>
+    </div>
+  </section>
+
+  <!-- MODES -->
+  <section id="modes">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="modes-menu-card">
+      <h2 class="modes-title">🎮 Modos de juego</h2>
+      <p class="modes-subtitle">Elige cómo quieres jugar</p>
+
+      <button class="mode-btn mode-story" onclick="openModeTutorial('story')">
+        <span class="mode-icon">⭐</span>
+        <span class="mode-text">MODO<br>HISTORIA</span>
+      </button>
+
+      <button class="mode-btn mode-survival" onclick="openModeTutorial('survival')">
+        <span class="mode-icon">⏱️</span>
+        <span class="mode-text">SUPERVIVENCIA</span>
+      </button>
+
+      <button class="mode-btn-back" onclick="show('home')" style="background: linear-gradient(180deg, #32CD32 0%, #228B22 50%, #006400 100%); border: 4px solid #8B4513; color: #fff; text-shadow: 2px 2px 0 rgba(0,0,0,0.3); font-size: 1.2rem; padding: 12px 22px;">🏠 Volver</button>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="categories">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card" style="text-align:center">
+      <div style="display:flex; justify-content:flex-start; margin-bottom:10px;">
+        <button class="btn btn-ghost" onclick="show('modes')" style="padding:6px 12px; font-size:0.85rem;">⬅️ Volver</button>
+      </div>
+      <h2 id="categoriesTitle">📚 Categorías</h2>
+      <p class="subtitle" id="categoriesSubtitle">Elige un tema bíblico</p>
+      <div class="divider" id="categoriesDivider">⭐ selecciona ⭐</div>
+
+      <div class="categories-grid">
+        <div class="category-card" onclick="startCategory('oldTestament')">
+          <span class="category-icon">📜</span>
+          <h3 class="category-title" id="catOldTitle">Antiguo Testamento</h3>
+          <p class="category-desc" id="catOldDesc">Desde Génesis hasta Malaquías</p>
+          <span class="category-badge" id="catOldBadge">40 preguntas</span>
+        </div>
+        <div class="category-card" onclick="startCategory('newTestament')">
+          <span class="category-icon">📖</span>
+          <h3 class="category-title" id="catNewTitle">Nuevo Testamento</h3>
+          <p class="category-desc" id="catNewDesc">Desde Mateo hasta Apocalipsis</p>
+          <span class="category-badge" id="catNewBadge">40 preguntas</span>
+        </div>
+        <div class="category-card" onclick="startCategory('characters')">
+          <span class="category-icon">👑</span>
+          <h3 class="category-title" id="catCharTitle">Personajes Bíblicos</h3>
+          <p class="category-desc" id="catCharDesc">Conoce a los héroes de la fe</p>
+          <span class="category-badge" id="catCharBadge">40 preguntas</span>
+        </div>
+        <div class="category-card" onclick="startCategory('trueFalse')">
+          <span class="category-icon">✅❌</span>
+          <h3 class="category-title" id="catTFTitle">Verdadero o Falso</h3>
+          <p class="category-desc" id="catTFDesc">¿Puedes distinguir la verdad?</p>
+          <span class="category-badge" id="catTFBadge">30 preguntas</span>
+        </div>
+      </div>
+
+      <div class="divider" style="margin-top:24px">—</div>
+      <button class="btn btn-ghost" onclick="show('home')" id="categoriesBackBtn">🏠 Regresar al menú principal</button>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section id="map">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="map-container">
+      <!-- Top Bar - Above landscape -->
+      <div class="map-top-bar">
+        <h2 id="title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 1.1rem; margin: 0; position: absolute; left: 50%; transform: translateX(-50%); width: 100%; text-align: center; pointer-events: none; font-family: 'Fredoka One', cursive;">🗺️ Selecciona un Nivel</h2>
+        <div class="map-coin-counter">
+          <span class="coin-icon">🪙</span>
+          <span id="mapCoins">0</span>
+        </div>
+        <div class="map-star-counter">
+          <span class="star-icon">⭐</span>
+          <span id="mapTotalStars">0</span>
+        </div>
+      </div>
+
+      <!-- Additional Decorations for Map Container -->
+      <div class="map-decorations">
+        <span class="decoration flower1" style="position: absolute; bottom: 10%; left: 5%; font-size: 2rem; animation: floatSlow 4s ease-in-out infinite;">🌸</span>
+        <span class="decoration flower2" style="position: absolute; bottom: 15%; left: 20%; font-size: 1.8rem; animation: floatSlow 5s ease-in-out infinite 1s;">🌼</span>
+        <span class="decoration flower3" style="position: absolute; bottom: 12%; right: 15%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🌻</span>
+        <span class="decoration flower4" style="position: absolute; bottom: 8%; right: 5%; font-size: 1.9rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🌺</span>
+        <span class="decoration butterfly1" style="position: absolute; top: 30%; left: 10%; font-size: 1.5rem; animation: flyAround 6s ease-in-out infinite;">🦋</span>
+        <span class="decoration butterfly2" style="position: absolute; top: 50%; right: 10%; font-size: 1.4rem; animation: flyAround 7s ease-in-out infinite 1s;">🦋</span>
+        <span class="decoration gem1" style="position: absolute; bottom: 20%; left: 50%; font-size: 1.6rem; animation: sparkle 3s ease-in-out infinite;">💎</span>
+        <span class="decoration star1" style="position: absolute; top: 20%; left: 70%; font-size: 1.3rem; animation: twinkle 4s ease-in-out infinite;">⭐</span>
+      </div>
+
+      <!-- Level Path Area -->
+      <div class="map-path-area">
+        <div class="map-path-content">
+          <!-- Scroll hint -->
+          <div class="scroll-hint">⬇️ Desliza hacia abajo para ver más niveles</div>
+
+          <div class="level-path-buttons">
+          <div class="level-pin level-block-1" id="lvlPin1" style="top:2%; left:50%; transform:translateX(-50%);">
+            <div class="level" id="lvl1">1</div>
+            <div class="stars-container" id="stars1"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-1" id="lvlPin2" style="top:4%; left:26.7%;">
+            <div class="level locked" id="lvl2">2</div>
+            <span class="lock-badge" id="lock2">🔒</span>
+            <div class="stars-container" id="stars2"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-1" id="lvlPin3" style="top:6%; left:20%;">
+            <div class="level locked" id="lvl3">3</div>
+            <span class="lock-badge" id="lock3">🔒</span>
+            <div class="stars-container" id="stars3"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-1" id="lvlPin4" style="top:8%; left:26.7%;">
+            <div class="level locked" id="lvl4">4</div>
+            <span class="lock-badge" id="lock4">🔒</span>
+            <div class="stars-container" id="stars4"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-1" id="lvlPin5" style="top:10%; left:50%;">
+            <div class="level locked" id="lvl5">5</div>
+            <span class="lock-badge" id="lock5">🔒</span>
+            <div class="stars-container" id="stars5"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-2" id="lvlPin6" style="top:12%; left:73.3%;">
+            <div class="level locked" id="lvl6">6</div>
+            <span class="lock-badge" id="lock6">🔒</span>
+            <div class="stars-container" id="stars6"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-2" id="lvlPin7" style="top:14%; left:80%;">
+            <div class="level locked" id="lvl7">7</div>
+            <span class="lock-badge" id="lock7">🔒</span>
+            <div class="stars-container" id="stars7"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-2" id="lvlPin8" style="top:16%; left:60%;">
+            <div class="level locked" id="lvl8">8</div>
+            <span class="lock-badge" id="lock8">🔒</span>
+            <div class="stars-container" id="stars8"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-2" id="lvlPin9" style="top:18%; left:40%;">
+            <div class="level locked" id="lvl9">9</div>
+            <span class="lock-badge" id="lock9">🔒</span>
+            <div class="stars-container" id="stars9"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-2" id="lvlPin10" style="top:20%; left:26.7%;">
+            <div class="level locked" id="lvl10">10</div>
+            <span class="lock-badge" id="lock10">🔒</span>
+            <div class="stars-container" id="stars10"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-3" id="lvlPin11" style="top:22%; left:50%;">
+            <div class="level locked" id="lvl11">11</div>
+            <span class="lock-badge" id="lock11">🔒</span>
+            <div class="stars-container" id="stars11"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-3" id="lvlPin12" style="top:24%; left:73.3%;">
+            <div class="level locked" id="lvl12">12</div>
+            <span class="lock-badge" id="lock12">🔒</span>
+            <div class="stars-container" id="stars12"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-3" id="lvlPin13" style="top:26%; left:80%;">
+            <div class="level locked" id="lvl13">13</div>
+            <span class="lock-badge" id="lock13">🔒</span>
+            <div class="stars-container" id="stars13"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-3" id="lvlPin14" style="top:28%; left:60%;">
+            <div class="level locked" id="lvl14">14</div>
+            <span class="lock-badge" id="lock14">🔒</span>
+            <div class="stars-container" id="stars14"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+          <div class="level-pin level-block-3" id="lvlPin15" style="top:30%; left:40%;">
+            <div class="level locked" id="lvl15">15</div>
+            <span class="lock-badge" id="lock15">🔒</span>
+            <div class="stars-container" id="stars15"><span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span></div>
+          </div>
+
+          <!-- Houses near each level -->
+          <span class="house-decoration" style="position: absolute; top: 2%; left: 65%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 4%; left: 10%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 6%; left: 5%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 8%; left: 10%; font-size: 2.2rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 10%; left: 65%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 12%; left: 85%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 14%; left: 90%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 16%; left: 75%; font-size: 2.2rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 18%; left: 20%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 20%; left: 5%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 22%; left: 65%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 24%; left: 85%; font-size: 2.2rem; animation: floatSlow 5.5s ease-in-out infinite 2s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 26%; left: 90%; font-size: 2.2rem; animation: floatSlow 4s ease-in-out infinite;">🏠</span>
+          <span class="house-decoration" style="position: absolute; top: 28%; left: 75%; font-size: 2.2rem; animation: floatSlow 5s ease-in-out infinite 1s;">🏘️</span>
+          <span class="house-decoration" style="position: absolute; top: 30%; left: 20%; font-size: 2.2rem; animation: floatSlow 4.5s ease-in-out infinite 0.5s;">🏠</span>
+        </div>
+      </div>
+      </div>
+
+      <!-- Level Preview Panel -->
+      <div id="levelPreview" class="level-preview" style="display:none;">
+        <div class="preview-top">
+          <span id="previewEmoji">🌟</span>
+          <strong id="previewTitle">Nivel 1</strong>
+        </div>
+        <p id="previewDesc">Preguntas bíblicas para comenzar.</p>
+        <div class="preview-meta">
+          <span id="previewDifficulty">Dificultad: Fácil</span>
+          <span id="previewReward">+20 🪙</span>
+        </div>
+        <button class="btn btn-ghost" onclick="show('home')" style="margin-top:10px; padding:6px 12px; font-size:0.8rem;">🏠 Volver</button>
+      </div>
+
+      <!-- Back Button -->
+      <button class="map-back-btn" onclick="show('modes')" title="Atrás">←</button>
+    </div>
+  </section>
+
+  <!-- TIENDA -->
+  <section id="shop">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card" style="text-align:center">
+      <h2 id="shopTitle">🛍️ Tienda</h2>
+      <p class="subtitle" id="shopSubtitle">Usa tus monedas ahorradas</p>
+      <div class="coin-badge" style="font-size:1.2rem; font-weight:bold; color:var(--gold); display:inline-block; margin-bottom:15px; background:rgba(255,179,0,0.1); border:2px solid var(--gold); padding:4px 12px; border-radius:20px;"><span id="shopCoins">0</span> 🪙</div>
+      <div id="shopContainer" style="display:flex; flex-direction:column; gap:10px; text-align:left;">
+        <!-- Inserted from JS -->
+      </div>
+      <div class="divider" style="margin-top:24px">—</div>
+      <button class="btn btn-ghost" id="shopBackBtn" onclick="show('home')">🏠 Volver</button>
+    </div>
+  </section>
+
+  <!-- LOGROS -->
+  <section id="achievements">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card" style="text-align:center">
+      <h2 id="achievementsTitle">🏅 Trofeos</h2>
+      <p class="subtitle" id="achievementsSubtitle">Demuestra tu habilidad</p>
+      <div id="achievementsContainer" style="display:flex; flex-direction:column; gap:10px; margin-top:10px; max-height:50vh; overflow-y:auto; text-align:left; padding-right:5px;">
+        <!-- Inserted from JS -->
+      </div>
+      <div class="divider" style="margin-top:24px">—</div>
+      <button class="btn btn-ghost" id="achievementsBackBtn" onclick="show('home')">🏠 Volver</button>
+    </div>
+  </section>
+
+  <!-- ESTADÍSTICAS -->
+  <section id="stats">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card" style="text-align:center">
+      <h2 id="statsTitle">📊 Estadísticas</h2>
+      <p class="subtitle" id="statsSubtitle">Progreso General</p>
+      <div id="statsContainer" style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:15px; text-align:left;">
+        <!-- Inserted from JS -->
+      </div>
+      <div class="divider" style="margin-top:24px">—</div>
+      <button class="btn btn-ghost" id="statsBackBtn" onclick="show('home')">🏠 Volver</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card">
+      <div class="quiz-top-bar" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; font-weight:bold;">
+        <div class="coin-badge" style="color:var(--gold);"><span id="quizCoins">0</span> 🪙</div>
+        <div id="comboBadge" style="color:var(--candy1); display:none; animation: popIn 0.3s forwards;">🔥 Racha x3</div>
+        <div id="lives-container" style="color:#FF3D6B; display:none; letter-spacing:2px;">❤️❤️❤️</div>
+      </div>
+      <div class="quiz-header">
+        <span class="quiz-badge" id="quiz-label">⭐ Nivel 1 · Pregunta 1/10</span>
+        <button class="exit-btn" onclick="exitQuiz()">✕</button>
+      </div>
+      <div class="timer-container">
+        <div class="clock-wrapper">
+          <span class="clock-icon">⏰</span>
+          <span class="clock-number" id="clockNumber">10</span>
+        </div>
+        <div id="timer-track">
+          <div id="timer"></div>
+        </div>
+      </div>
+      <h2 id="q"></h2>
+      <div id="a"></div>
+      <div id="verse"></div>
+      <div id="lifelines" style="display:flex; gap:10px; justify-content:center; margin-top:20px;">
+        <button class="btn btn-ghost" id="fiftyBtn" onclick="useFiftyFifty()" style="font-size:0.9rem; padding:8px 12px; width:100%;">50/50 (20🪙)</button>
+        <button class="btn btn-ghost" id="timeBtn" onclick="useExtraTime()" style="font-size:0.9rem; padding:8px 12px; width:100%;">+10s (10🪙)</button>
+        <button class="btn btn-ghost" id="hintBtn" onclick="useHint()" style="font-size:0.9rem; padding:8px 12px; width:100%;">💡 Pista (8🪙)</button>
+        <button class="btn btn-ghost" id="skipBtn" onclick="useSkip()" style="font-size:0.9rem; padding:8px 12px; width:100%;">⏭️ Saltar (12🪙)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONGRATS -->
+  <section id="congrats">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card" style="text-align:center">
+      <span class="result-icon">🏆</span>
+      <h2 id="congratsTitle">¡Felicidades!</h2>
+      <div class="score-ring">
+        <span class="score-num" id="congrats-score-num">10</span>
+        <span class="score-den">/10</span>
+      </div>
+      <div class="stars-result" id="congratsStars" style="font-size:2rem; margin:10px 0;"></div>
+      <p id="congratsMsg"></p>
+      <div class="divider">🎉 ¡genial! 🎉</div>
+      <button class="btn btn-gold" id="nextBtn" onclick="nextLevel()">Siguiente nivel 🚀</button>
+      <button class="btn btn-share" id="shareBtn" onclick="shareResult(currentLevel, score, earnedStars)">📤 Compartir</button>
+      <button class="btn btn-ghost" onclick="show('map')">🗺️ Mapa</button>
+    </div>
+  </section>
+
+  <!-- TRY AGAIN -->
+  <section id="tryagain">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card" style="text-align:center">
+      <span class="result-icon" id="tryIcon">💪</span>
+      <h2 id="tryTitle">¡Inténtalo de nuevo!</h2>
+      <div class="score-ring" id="tryScoreRing">
+        <span class="score-num" id="try-score-num">0</span>
+        <span class="score-den" id="try-score-den">/10</span>
+      </div>
+      <p id="tryMsg"></p>
+      <div class="divider">— ¡tú puedes! —</div>
+      <button class="btn btn-crimson" id="retryBtn" onclick="retryLevel()">🔄 ¡Intentar de nuevo!</button>
+      <button class="btn btn-ghost" onclick="show('map')">🗺️ Mapa</button>
+    </div>
+  </section>
+
+  <!-- SETTINGS -->
+  <section id="settings">
+    <!-- Jungle Background Elements - Full Screen -->
+    <div class="modes-jungle-bg">
+      <!-- Sky elements -->
+      <span class="sun">☀️</span>
+      <span class="rainbow">🌈</span>
+      <span class="cloud cloud1">☁️</span>
+      <span class="cloud cloud2">☁️</span>
+      <span class="cloud cloud3">☁️</span>
+
+      <!-- Trees and ground elements -->
+      <span class="tree-left">🌳</span>
+      <span class="tree-right">🌲</span>
+      <span class="flowers">🌺 🌸 🌼 🌻 🌷</span>
+      <span class="mushroom-left">🍄</span>
+      <span class="mushroom-right">🍄</span>
+
+      <!-- Animals -->
+      <span class="monkey">🐒</span>
+      <span class="parrot">🦜</span>
+      <span class="tiger">🐯</span>
+      <span class="elephant">🐘</span>
+      <span class="toucan">🐦</span>
+      <span class="snake">🐍</span>
+      <span class="frog">🐸</span>
+      <span class="turtle">🐢</span>
+
+      <!-- Water element -->
+      <span class="waterfall">💦</span>
+
+      <!-- Flying decorations -->
+      <span class="butterfly b1">🦋</span>
+      <span class="butterfly b2">🦋</span>
+      <span class="butterfly b3">🦋</span>
+      <span class="music-note m1">🎵</span>
+      <span class="music-note m2">🎶</span>
+      <span class="music-note m3">🎵</span>
+
+      <!-- Gems and treasures -->
+      <span class="gem g1">💎</span>
+      <span class="gem g2">✨</span>
+      <span class="gem g3">💎</span>
+      <span class="gem g4">⭐</span>
+
+      <!-- Balloons -->
+      <span class="balloon bal1">🎈</span>
+      <span class="balloon bal2">🎈</span>
+      <span class="balloon bal3">🎈</span>
+    </div>
+    <div class="card">
+      <h2 style="text-align:center" id="settingsTitle">⚙️ Ajustes</h2>
+      <div class="divider" id="settingsDivider">🎵 opciones 🎵</div>
+      <label id="volumeLabel">🔊 Volumen de efectos</label>
+      <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5" oninput="updateVolume(this.value)">
+      <label style="margin-top:18px;" id="langLabel">🌐 Idioma</label>
+      <div id="langMenu" style="display:flex; gap:8px; flex-wrap:wrap; justify-content:center;">
+        <button class="btn btn-ghost" onclick="setLang('es')">🇪🇸 Español</button>
+        <button class="btn btn-ghost" onclick="setLang('en')">🇺🇸 English</button>
+        <button class="btn btn-ghost" onclick="setLang('qu')">🇵🇪 Quechua</button>
+      </div>
+      <label style="margin-top:18px;" id="ageLabel">👧🧒 Dificultad por edades</label>
+      <select id="ageDifficulty" onchange="setAgeDifficulty(this.value)" style="width:100%; padding:10px 12px; border-radius:14px; border:2px solid var(--border2); background:rgba(255,255,255,0.85); font-weight:900; color:var(--text2);">
+        <option value="kids" id="optKids">Niños (más tiempo)</option>
+        <option value="teen" id="optTeen">Jóvenes (normal)</option>
+        <option value="adult" id="optAdult">Adultos (más difícil)</option>
+      </select>
+      <div style="margin-top:28px;text-align:center;">
+        <button class="btn btn-crimson" id="resetBtn" onclick="resetProgress()">🗑️ Reiniciar Progreso</button><br>
+        <button class="btn btn-ghost" id="settingsBackBtn" onclick="show('home')" style="margin-top:8px;">🏠 Volver</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIO ENLACES -->
+  <audio id="bgMusic" src="musica/fondomusical.mp3" preload="none"></audio>
+  <audio id="correctAudio" src="musica/acertar.mp3" preload="auto"></audio>
+  <audio id="wrongAudio" src="musica/error1.mp3" preload="auto"></audio>
+  <audio id="victoryAudio" src="musica/victoria.mp3" loop preload="auto"></audio>
+  <audio id="cueteAudio" src="musica/cuete.mp3" preload="auto"></audio>
+  <audio id="birdsAudio" src="musica/pajaritos.mp3" loop preload="auto"></audio>
+  <audio id="clockAudio" src="musica/reloj.mp3" loop preload="auto"></audio>
+  <audio id="popAudio" src="musica/pop.mp3" preload="auto"></audio>
+
+  <!-- MODAL DIARIO -->
+  <div id="dailyModal" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
+    <div class="card" style="text-align:center; animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; width:80%; max-width:350px;">
+      <h2 style="font-size:1.8rem; margin-bottom:5px;">🎁 ¡Premio Diario!</h2>
+      <p style="margin:10px 0; font-size:1.05rem;">¡Gracias por estudiar la Biblia hoy!</p>
+      <div style="font-size:3.5rem; margin:15px 0; animation: pulseText 2s infinite;">🪙</div>
+      <h3 style="color:var(--gold); font-size:1.5rem;">+<span id="dailyRewardAmount">10</span> Monedas</h3>
+      <p id="dailyStreakText" style="font-size:0.95rem; color:var(--candy1); margin-top:5px; font-weight:bold;">🔥 Racha: 1 día</p>
+      <button class="btn btn-gold" onclick="claimDailyReward()" style="margin-top:20px; font-size:1.1rem; padding:12px 25px;">¡Reclamar!</button>
+    </div>
+  </div>
+
+  <div id="onboardingModal" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
+    <div class="card onboarding-card" style="text-align:center; width:85%; max-width:360px;">
+      <h2 id="onboardingTitle">Bienvenido</h2>
+      <p id="onboardingBody" style="margin-top:8px; font-weight:700;">Aprende jugando con preguntas biblicas.</p>
+      <div style="display:flex; justify-content:center; gap:6px; margin-top:10px;">
+        <span class="onboarding-dot" id="onboardDot1"></span>
+        <span class="onboarding-dot" id="onboardDot2"></span>
+        <span class="onboarding-dot" id="onboardDot3"></span>
+      </div>
+      <div style="display:flex; gap:8px; margin-top:16px;">
+        <button class="btn btn-ghost" id="onboardingSkipBtn" style="flex:1;">Saltar</button>
+        <button class="btn btn-gold" id="onboardingNextBtn" style="flex:1;">Siguiente</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL TUTORIAL MODOS -->
+  <div id="modeModal" class="modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;">
+    <div class="card" style="text-align:center; animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; width:85%; max-width:380px;">
+      <h2 id="modeTitle">Modo</h2>
+      <p id="modeBody" style="margin-top:8px; font-weight:800; color:var(--text2); line-height:1.35;">Descripción...</p>
+      <div id="modeTips" style="margin-top:10px; text-align:left; font-weight:800; color:var(--text2); background:rgba(255,255,255,0.7); border:2px dashed rgba(30,136,229,0.25); padding:10px 12px; border-radius:16px;"></div>
+      <div style="display:flex; gap:10px; margin-top:16px;">
+        <button class="btn btn-ghost" onclick="closeModeTutorial()" style="flex:1;">⬅️ Volver</button>
+        <button class="btn btn-gold" id="modePlayBtn" style="flex:1; position:relative; z-index:10000;" onclick="console.log('Empezar clickeado (HTML)'); closeModeTutorial(); startGame();">✅ Empezar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="giftToast" class="gift-toast" aria-live="polite"></div>
+  <button id="soundToggle" onclick="toggleSound()" title="Activar o desactivar sonido">🔊</button>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
