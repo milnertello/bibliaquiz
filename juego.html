@@ -49,9 +49,6 @@
       <div class="beach-animal dolphin-beach">🐬</div>
       <div class="beach-animal dolphin-beach2">🐬</div>
       
-      <!-- Settings Button -->
-      <button class="beach-settings-btn" onclick="showSettings()" title="Ajustes">⚙️</button>
-
       <!-- Logo with Gift Button -->
       <div class="beach-logo-with-gift">
         <div class="beach-gift-box-top">
@@ -65,18 +62,10 @@
       
       <!-- Big Play Button -->
       <div class="beach-buttons">
-        <button id="homePlayBtn" class="wooden-btn wooden-classic" onclick="show('modes')">
+        <button id="homePlayBtn" class="wooden-btn wooden-classic" onclick="startGame()">
           <span class="btn-shine"></span>
           🎮 ¡Jugar!
         </button>
-        <div style="display: flex; gap: 10px; width: 100%; max-width: 400px; justify-content: center;">
-          <button id="homeExtrasBtn" class="wooden-btn wooden-extras-small" onclick="show('extras')" style="flex: 1;">
-            ✨ Extras
-          </button>
-          <button id="homeWelcomeBtn" class="wooden-btn wooden-extras-small" onclick="window.location.href='index.html'" style="flex: 1; background: linear-gradient(135deg, #4caf50, #2e7d32);">
-            🏠 Salir
-          </button>
-        </div>
       </div>
       
       <!-- Daily Text -->
@@ -84,6 +73,12 @@
         <p id="homeDailyLabel" class="daily-label-beach">📜 Texto de Hoy</p>
         <p id="dailyTextBody" class="daily-body-beach">"No tengas miedo, porque estoy contigo..."</p>
         <p id="dailyTextRef" class="daily-ref-beach">- Isaías 41:10</p>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin-top: 10px; position: relative; z-index: 201;">
+        <button id="homeWelcomeBtn" class="wooden-btn-exit" onclick="window.location.href='index.html'">
+          🏠 Salir
+        </button>
       </div>
     </div>
   </section>
@@ -355,20 +350,14 @@
       <!-- Balloons -->
       <span class="balloon bal1">🎈</span>
       <span class="balloon bal2">🎈</span>
-      <span class="balloon bal3">🎈</span>
     </div>
     <div class="map-container">
       <h2 id="title" style="color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); font-size: 1.1rem; margin: 0; position: absolute; top: 25px; left: 50%; transform: translateX(-50%); white-space: nowrap; pointer-events: none; font-family: 'Fredoka One', cursive; z-index: 100;">🗺️ Selecciona un Nivel</h2>
       <!-- Top Bar - Above landscape -->
-      <div class="map-top-bar">
-        <div class="map-coin-counter">
-          <span class="coin-icon">🪙</span>
-          <span id="mapCoins">0</span>
-        </div>
-        <div class="map-star-counter">
-          <span class="star-icon">⭐</span>
-          <span id="mapTotalStars">0</span>
-        </div>
+      <!-- Barra de Progreso Minimalista -->
+      <div class="map-minimal-progress">
+        <div id="progressBarFill" class="progress-fill"></div>
+        <span id="progressText" class="progress-percentage">0%</span>
       </div>
 
       <!-- Additional Decorations for Map Container -->
@@ -386,9 +375,6 @@
       <!-- Level Path Area -->
       <div class="map-path-area">
         <div class="map-path-content">
-          <!-- Scroll hint -->
-          <div class="scroll-hint">⬇️ Desliza hacia abajo para ver más niveles</div>
-
           <div class="level-path-buttons">
           <div class="level-pin level-block-1" id="lvlPin1" style="top:1%; left:50%; transform:translateX(-50%);">
             <div class="level" id="lvl1">1</div>
@@ -511,7 +497,7 @@
       </div>
 
       <!-- Back Button -->
-      <button class="map-back-btn" onclick="show('modes')" title="Atrás">⬅️ Volver</button>
+      <button class="map-back-btn" onclick="show('home')" title="Atrás">⬅️ Volver</button>
     </div>
   </section>
 
@@ -837,12 +823,9 @@
         <span class="score-num" id="congrats-score-num">10</span>
         <span class="score-den">/10</span>
       </div>
-      <div class="stars-result" id="congratsStars" style="font-size:2rem; margin:10px 0;"></div>
-      <p id="congratsMsg"></p>
-      <div class="divider">🎉 ¡genial! 🎉</div>
+      <div class="stars-result" id="congratsStars" style="font-size:1.8rem; margin:5px 0;"></div>
       <button class="btn btn-gold" id="nextBtn" onclick="nextLevel()">Siguiente nivel 🚀</button>
-      <button class="btn btn-share" id="shareBtn" onclick="shareResult(currentLevel, score, earnedStars)">📤 Compartir</button>
-      <button class="btn btn-ghost" onclick="show('map')">🗺️ Mapa</button>
+      <button class="btn btn-ghost" onclick="show('map')" style="margin-top: 5px;">🗺️ Mapa</button>
     </div>
   </section>
 
@@ -986,6 +969,7 @@
 
   <!-- AUDIO ENLACES -->
   <audio id="bgMusic" src="musica/fondomusical.mp3" preload="none"></audio>
+  <audio id="wavesAudio" src="musica/olas.mp3" loop preload="none"></audio>
   <audio id="correctAudio" src="musica/acertar.mp3" preload="auto"></audio>
   <audio id="wrongAudio" src="musica/error1.mp3" preload="auto"></audio>
   <audio id="victoryAudio" src="musica/victoria.mp3" loop preload="auto"></audio>

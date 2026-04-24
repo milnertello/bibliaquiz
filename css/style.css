@@ -831,7 +831,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 15px 20px 100px;
+      padding: 15px 20px 40px;
     }
 
     /* Beach Background Layers */
@@ -2202,6 +2202,35 @@
       transform: translateY(-2px);
     }
 
+    /* Botón Salir Estilo Playa (Más discreto) */
+    .wooden-btn-exit {
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(5px);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      color: white;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-family: 'Fredoka One', cursive;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+
+    .wooden-btn-exit:hover {
+      background: rgba(255, 255, 255, 0.4);
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+    }
+
+    .wooden-btn-exit:active {
+      transform: scale(0.95);
+    }
+
     #modes .card {
       background: rgba(255, 255, 255, 0.85);
       backdrop-filter: blur(8px);
@@ -2978,7 +3007,23 @@
       position: relative;
     }
 
+    #congrats .result-icon {
+      font-size: 3.5rem;
+      margin-bottom: 5px;
+    }
+
+    #congrats .score-ring {
+      width: 90px;
+      height: 90px;
+      margin: 10px auto;
+    }
+
+    #congrats .score-ring .score-num {
+      font-size: 2rem;
+    }
+
     #congrats .card {
+      padding: 15px;
       border-color: rgba(90, 230, 0, .5);
       box-shadow: 0 8px 0 rgba(90, 200, 0, 0.25), 0 14px 40px rgba(90, 200, 0, 0.15);
     }
@@ -2991,14 +3036,12 @@
 
     #congrats h2 {
       color: #2A9900;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+      margin-bottom: 5px;
     }
 
     #congrats p {
-      color: var(--text2);
-      font-size: 1rem;
-      font-weight: 700;
-      margin: 8px 0 14px;
+      display: none;
     }
 
     #congrats .score-ring {
@@ -4159,6 +4202,48 @@
       box-shadow: 0 2px 0 #1B5E20, 0 3px 8px rgba(0,0,0,0.3);
     }
 
+    /* Barra de Progreso Minimalista */
+    .map-minimal-progress {
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      width: 140px;
+      height: 24px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+      overflow: hidden;
+      z-index: 1000;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(5px);
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #FFD700, #FFA500);
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.4);
+      transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .progress-percentage {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 0.7rem;
+      font-weight: 900;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+      pointer-events: none;
+      font-family: 'Poppins', sans-serif;
+      white-space: nowrap;
+    }
+
+    /* Ocultar elementos antiguos que causaban ruido */
+    .map-top-bar, .map-progress-container {
+      display: none !important;
+    }
+
     /* Top Bar - Above landscape, transparent */
     .map-top-bar {
       display: flex;
@@ -4215,8 +4300,8 @@
     .map-path-content {
       position: relative;
       width: 100%;
-      min-height: 1800px;
-      height: 1800px;
+      min-height: 100%;
+      height: 10000px; /* Suficiente para 100 niveles */
     }
 
     /* Custom scrollbar for map */
@@ -5142,6 +5227,16 @@
 
     /* Mejoras para móviles con muchos niveles */
     @media (max-width: 480px) {
+      .house-decoration.legendary-tower {
+        font-size: 8rem !important; /* Tamaño reducido para móvil */
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        top: -60px !important;
+      }
+      .house-decoration.legendary-tower::after {
+        top: -40px !important; /* Ajustar rayos de luz en móvil */
+        height: 150px !important;
+      }
       .level-pin .level {
         width: 38px;
         height: 38px;
@@ -5151,7 +5246,21 @@
       .map-path-content {
         min-height: 1000%;
       }
+
+      .house-decoration {
+        font-size: 1.2rem !important; /* Casas más pequeñas en móvil */
+      }
       
+      .level-pin .house-decoration {
+        left: 100% !important; /* Mover casas a un lado para liberar espacio en móvil */
+        margin-left: 5px;
+      }
+
+      .level-pin:nth-child(even) .house-decoration {
+        left: auto !important;
+        right: 100% !important;
+        margin-right: 5px;
+      }
       .scroll-hint {
         font-size: 0.75rem;
         padding: 4px 10px;

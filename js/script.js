@@ -127,7 +127,8 @@
 
     // Helper function to show tutorial
     function showTutorial() {
-      if (localStorage.getItem('tutorialShown')) return;
+      localStorage.setItem('tutorialShown', 'true');
+      return; // Tutorial deshabilitado ya que está en la pantalla principal
       
       const tutorialSteps = [
         { title: 
@@ -572,21 +573,24 @@
         allQuestions = [...bank];
       }
       
-      console.log(`Total de preguntas cargadas: ${allQuestions.length}`);
+      // Filtrar preguntas para que solo queden las de los niveles 1-50
+      allQuestions = allQuestions.filter(q => (q.lvl || 1) <= 50);
       
-      // Verificar distribución por niveles (usando los niveles ya asignados en los JSON)
+      console.log(`Total de preguntas cargadas (filtradas 1-50): ${allQuestions.length}`);
+      
+      // Verificar distribución por niveles
       let distribution = {};
-      for (let i = 1; i <= 100; i++) distribution[i] = 0;
+      for (let i = 1; i <= 50; i++) distribution[i] = 0;
       
       allQuestions.forEach(q => {
         const lvl = q.lvl || 1;
-        if (lvl >= 1 && lvl <= 100) {
+        if (lvl >= 1 && lvl <= 50) {
           distribution[lvl] = (distribution[lvl] || 0) + 1;
         }
       });
       
       console.log('Distribución de preguntas por nivel:', distribution);
-      console.log(`Total: ${allQuestions.length} preguntas en 100 niveles`);
+      console.log(`Total: ${allQuestions.length} preguntas en 50 niveles`);
     }
 
     // Función para distribuir preguntas por nivel (solo bank original)
@@ -762,6 +766,8 @@
     }
 
     function initOnboarding() {
+      localStorage.setItem('hasSeenOnboarding', '1');
+      return; // Onboarding deshabilitado
       if (hasSeenOnboarding) return;
       onboardingStep = 0;
       renderOnboardingStep();
@@ -1164,6 +1170,11 @@
 
       isSurvival = false;
       isCategoryMode = false;
+      
+      // Aseguramos que se limpie cualquier estado previo de preguntas
+      questions = [];
+      index = 0;
+      
       show("map");
       updateLocks();
     }
@@ -1516,7 +1527,7 @@
         categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl <= 30);
       } else if (category === 'newTestament') {
         const currentBank = getQuestionBank();
-        categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl >= 31 && currentBank[i].lvl <= 100);
+        categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl >= 31 && currentBank[i].lvl <= 50);
       } else if (category === 'characters') {
         const currentBank = getQuestionBank();
         // Búsqueda simple de palabras clave relacionadas con personajes
@@ -1578,10 +1589,6 @@
           lang === "es" ? "¡Categoría completada! 🎉" :
           lang === "qu" ? "¡Categoría tukurqan! 🎉" :
           "Category completed! 🎉";
-        document.getElementById("congratsMsg").innerText = 
-          lang === "es" ? "¡Superaste la categoría " + categoryNames[currentCategory] + " con honor! 🌟" :
-          lang === "qu" ? "¡Atipanki " + categoryNames[currentCategory] + " categoriata allinllawan! 🌟" :
-          "You passed the " + categoryNames[currentCategory] + " category with honor! 🌟";
         document.getElementById("congrats-score-num").innerText = score;
         
         let sc = document.getElementById("congratsStars");
@@ -2000,6 +2007,13 @@
         wrongSnd.volume = parseFloat(document.getElementById("volume").value) || 0.5;
         wrongSnd.currentTime = 0;
         wrongSnd.play().catch(e => console.error("Fallo audio error:", e));
+
+        // Efecto de sacudida visual al fallar
+        const quizContainer = document.getElementById('quiz');
+        if (quizContainer) {
+          quizContainer.classList.add('shake-error');
+          setTimeout(() => quizContainer.classList.remove('shake-error'), 500);
+        }
       }
 
       let v = document.getElementById("verse");
@@ -2104,17 +2118,13 @@
           lang === "es" ? "¡Felicidades! 🎉" :
           lang === "qu" ? "¡Allinlla! 🎉" :
           "Congratulations! 🎉";
-        document.getElementById("congratsMsg").innerText = 
-          lang === "es" ? "¡Superaste el Nivel " + level + " con honor! 🌟" :
-          lang === "qu" ? "¡Atipanki Nivel " + level + "ta allinllawan! 🌟" :
-          "You passed Level " + level + " with honor! 🌟";
         document.getElementById("congrats-score-num").innerText = score;
         
         let sc = document.getElementById("congratsStars");
         renderStars(sc, 3, earnedStars);
 
         let nextBtn = document.getElementById("nextBtn");
-        nextBtn.innerText = level < 100
+        nextBtn.innerText = level < 50
           ? (
               lang === "es" ? "Siguiente nivel 🚀" :
               lang === "qu" ? "Qatiq nivel 🚀" :
@@ -2125,14 +2135,20 @@
               lang === "qu" ? "🗺️ Mapaman kutiy" :
               "Back to map 🗺️"
             );
-        nextBtn.style.display = level < 100 ? "inline-flex" : "none";
+        nextBtn.style.display = level < 50 ? "inline-flex" : "none";
         nextBtn.onclick = nextLevel;
         
         show("congrats");
         startContinuousConfetti();
-        if (level < 100) {
+        if (score >= 7) {
+          const oldUnlocked = unlocked;
           unlocked = Math.max(unlocked, level + 1);
           localStorage.setItem('unlocked', unlocked);
+          
+          // Si se desbloqueó un nivel nuevo, marcarlo para animación
+          if (unlocked > oldUnlocked) {
+            sessionStorage.setItem('newlyUnlocked', unlocked);
+          }
         }
         updateLocks();
       } else {
@@ -2198,197 +2214,116 @@
       const unlockedEl = document.getElementById("homeUnlockedText");
       const coinsEl = document.getElementById("homeCoinsText");
       const accEl = document.getElementById("homeAccuracyText");
-      if (unlockedEl) unlockedEl.innerText = `${Math.min(unlocked, 100)}/100`;
+      if (unlockedEl) unlockedEl.innerText = `${Math.min(unlocked, 50)}/50`;
       if (coinsEl) coinsEl.innerText = String(coins);
       const accuracy = stats.answered > 0 ? Math.round((stats.correct / stats.answered) * 100) : 0;
       if (accEl) accEl.innerText = `${accuracy}%`;
     }
-
-    // Función para generar niveles 16-100 dinámicamente con patrón zigzag
+    
+    // Función para generar niveles 16-50 dinámicamente con patrón zigzag
     function generateDynamicLevels() {
       const container = document.querySelector('.level-path-buttons');
       if (!container) return;
       
-      // Verificar si ya se generaron los niveles dinámicos
-      if (container.dataset.generated === 'full') return;
-      
-      // Posiciones de los niveles 1-15 para continuar el patrón:
-      // 1:50%, 2:26.7%, 3:20%, 4:26.7%, 5:50%, 6:73.3%, 7:80%, 8:60%, 9:40%, 10:26.7%, 11:50%, 12:73.3%, 13:80%, 14:60%, 15:40%
-      // El patrón es: Centro -> Izq -> IzqExt -> Izq -> Centro -> Der -> DerExt -> Der -> Izq -> Izq -> Centro -> Der -> DerExt -> Der -> Izq
-      const leftPositions = [50, 26.7, 20, 26.7, 50, 73.3, 80, 60, 40, 26.7, 50, 73.3, 80, 60, 40];
-      
-      // El nivel 15 está en top:30%, espaciado de ~2% entre niveles
-      // Para 85 niveles más (16-100), necesitamos extender significativamente
-      const baseTop = 30;
-      const spacing = 2.0; // Espaciado reducido para niveles más compactos
-      
-      for (let i = 16; i <= 100; i++) {
-        // Verificar si ya existe
-        if (document.getElementById('lvlPin' + i)) continue;
-        
-        // Calcular posición siguiendo el patrón cíclico
-        const patternIndex = (i - 1) % 15;
-        const left = leftPositions[patternIndex];
-        const top = baseTop + (i - 15) * spacing;
-        
-        const pin = document.createElement('div');
-        // Determinar clase de diseño según bloque de 5 niveles
-        const blockClass = `level-block-${Math.ceil(i / 5)}`;
-        pin.className = `level-pin ${blockClass}`;
-        pin.id = 'lvlPin' + i;
-        pin.style.cssText = `top:${top}%; left:${left}%;`;
-        pin.dataset.level = i;
-
-        // Determinar emoji de casa según el nivel
-        let houseEmoji = i % 2 === 0 ? '🏘️' : '🏠';
-        let extraClass = '';
-        
-        // Especial para nivel 100: Atalaya
-        if (i === 100) {
-          houseEmoji = '🏰';
-          extraClass = 'legendary-tower';
-        }
-
-        // Determinar posición relativa de la casa (más alejada del nivel)
-        const houseLeftOffset = left > 50 ? -85 : 85;
-
-        pin.innerHTML = `
-          <div class="level locked" id="lvl${i}">${i}</div>
-          <span class="lock-badge" id="lock${i}">🔒</span>
-          <div class="stars-container" id="stars${i}">
-            <span class="star-gray">⭐</span>
-            <span class="star-gray">⭐</span>
-            <span class="star-gray">⭐</span>
-          </div>
-          <span class="house-decoration ${extraClass}" style="position: absolute; top: -10px; left: ${houseLeftOffset}%; animation: houseSway 6s ease-in-out infinite;">
-            ${houseEmoji}
-            ${i === 100 ? `
-              <div class="tower-sparkles-container"></div>
-            ` : ''}
-          </span>
-        `;
-
-        container.appendChild(pin);
-
-        // Generar chispas para el nivel 100
-        if (i === 100) {
-          const sparklesContainer = pin.querySelector('.tower-sparkles-container');
-          setInterval(() => {
-            const sparkle = document.createElement('div');
-            sparkle.className = 'tower-sparkle';
-            sparkle.style.left = Math.random() * 100 + '%';
-            sparkle.style.bottom = '0';
-            sparkle.style.setProperty('--drift', (Math.random() * 100 - 50) + 'px');
-            sparkle.style.animationDelay = Math.random() * 2 + 's';
-            sparklesContainer.appendChild(sparkle);
-            setTimeout(() => sparkle.remove(), 2000);
-          }, 200);
-        }
+      const mapPathContent = document.querySelector('.map-path-content');
+      if (mapPathContent) {
+        mapPathContent.style.height = '6000px'; // Altura ajustada para 50 niveles
       }
       
-      // Ajustar la altura del contenedor del mapa para scroll
-      const mapPathArea = document.querySelector('.map-path-area');
-      if (mapPathArea) {
-        const totalHeight = 100 + (85 * spacing); // 100% base + espaciado
-        mapPathArea.style.height = `${Math.max(800, totalHeight)}%`;
+      // Si ya están todos, no hacer nada
+      if (container.children.length > 50) return;
+      
+      const leftPositions = [50, 26.7, 20, 26.7, 50, 73.3, 80, 73.3, 50, 26.7, 20, 26.7, 50, 73.3, 80];
+      const baseTop = 22; // Empezar después del nivel 15 (que está en 22%)
+      const spacing = 1.5; // Espaciado ajustado para 50 niveles en 6000px
+      
+      for (let i = 16; i <= 50; i++) {
+        let pin = document.getElementById('lvlPin' + i);
+        if (!pin) {
+          pin = document.createElement('div');
+          const patternIndex = (i - 1) % 15;
+          const left = leftPositions[patternIndex];
+          const top = baseTop + (i - 15) * spacing;
+          
+          const blockClass = `level-block-${Math.ceil(i / 5)}`;
+          pin.className = `level-pin ${blockClass}`;
+          pin.id = 'lvlPin' + i;
+          pin.style.top = top + '%';
+          pin.style.left = left + '%';
+          pin.dataset.level = i;
+
+          let houseEmoji = i % 2 === 0 ? '🏘️' : '🏠';
+          if (i === 50) houseEmoji = '🏰';
+
+          pin.innerHTML = `
+            <div class="level locked" id="lvl${i}">${i}</div>
+            <span class="lock-badge" id="lock${i}">🔒</span>
+            <div class="stars-container" id="stars${i}">
+              <span class="star-gray">⭐</span><span class="star-gray">⭐</span><span class="star-gray">⭐</span>
+            </div>
+            <span class="house-decoration" style="position: absolute; top: -10px; left: 85%; animation: houseSway 6s ease-in-out infinite;">
+              ${houseEmoji}
+            </span>
+          `;
+          container.appendChild(pin);
+        }
       }
       
       container.dataset.generated = 'full';
-      console.log('Niveles 16-100 generados dinámicamente con patrón zigzag mejorado');
-      
-      // Generar partículas después de que los niveles estén creados
-      setTimeout(() => {
-        updateLevelParticles();
-        updateLevelWaves();
-        updateLevelPath();
-      }, 300);
     }
 
     function updateLocks() {
-      console.log("updateLocks called, unlocked:", unlocked);
-      let mapCoinsEl = document.getElementById('mapCoins');
-      let quizCoinsEl = document.getElementById('quizCoins');
-      if (mapCoinsEl) mapCoinsEl.innerText = coins;
-      if (quizCoinsEl) quizCoinsEl.innerText = coins;
+      let completedLevels = 0;
+      for (let i = 1; i <= 50; i++) {
+        if (levelStars[i] > 0) completedLevels++;
+      }
       
-      // Update total stars counter
-      let totalStars = 0;
-      for (let i = 1; i <= 100; i++) {
-        totalStars += levelStars[i] || 0;
-      }
-      let totalStarsEl = document.getElementById('mapTotalStars');
-      if (totalStarsEl) totalStarsEl.innerText = totalStars;
-      let highScoreEl = document.getElementById('highScoreText');
-      if (highScoreEl) {
-        let text = "🏆 Récord Supervivencia: ";
-        if (lang === "en") text = "🏆 Survival Record: ";
-        if (lang === "qu") text = "🏆 Kawsay Atipay: ";
-        highScoreEl.innerText = text + survivalHighScore;
-      }
-      updateGiftUI();
-      updateHomeProgress();
+      const progressPercent = Math.round((completedLevels / 50) * 100);
+      const progressTextEl = document.getElementById('progressText');
+      const progressBarFillEl = document.getElementById('progressBarFill');
+      
+      if (progressTextEl) progressTextEl.innerText = `${progressPercent}%`;
+      if (progressBarFillEl) progressBarFillEl.style.width = `${progressPercent}%`;
 
-      // Generar niveles dinámicos si no existen (para niveles 16-100)
+      // Volver a generar niveles dinámicos (16-50)
       generateDynamicLevels();
-      
-      for (let i = 1; i <= 100; i++) {
+
+      for (let i = 1; i <= 50; i++) {
         let el = document.getElementById("lvl" + i);
         let lockEl = document.getElementById("lock" + i);
         let sc = document.getElementById("stars" + i);
-        if (sc) {
-          let st = levelStars[i] || 0;
-          renderStars(sc, 3, st);
-        }
+
+        if (sc) renderStars(sc, 3, levelStars[i] || 0);
 
         if (el) {
           if (unlocked >= i) {
             el.classList.remove("locked");
+            if (levelStars[i] > 0) el.classList.add("completed");
+            else el.classList.remove("completed");
             
-            // Marcar como completado si tiene estrellas
-            if (levelStars[i] > 0) {
-              el.classList.add("completed");
-            } else {
-              el.classList.remove("completed");
-            }
-
-            el.onclick = (function (n) { 
-              return function(e) {
-                startLevel(n);
-              }; 
+            // Usar una función anónima para capturar el valor correcto de i
+            (function(levelNum) {
+                el.onclick = function() { startLevel(levelNum); };
             })(i);
+
             if (lockEl) lockEl.style.display = "none";
-            // Show decorations for this specific unlocked level
-            const levelDecors = document.querySelectorAll('.level-decor[data-level="' + i + '"]');
-            levelDecors.forEach(d => d.classList.add('show'));
           } else {
             el.classList.add("locked");
             el.onclick = null;
             if (lockEl) lockEl.style.display = "flex";
-            // Hide decorations for this locked level
-            const levelDecors = document.querySelectorAll('.level-decor[data-level="' + i + '"]');
-            levelDecors.forEach(d => d.classList.remove('show'));
           }
         }
 
-        // Add hover and click event listeners to level pins
+        // Asegurar que el contenedor del pin (lvlPin) también sea clickeable
         let levelPin = document.getElementById('lvlPin' + i);
         if (levelPin) {
-          levelPin.onmouseenter = (function(n) {
-            return function() {
-              showLevelPreview(n);
-            };
-          })(i);
-          levelPin.onmouseleave = function() {
-            document.getElementById("levelPreview").style.display = "none";
-          };
-          // Make entire pin area clickable for unlocked levels
           if (unlocked >= i) {
             levelPin.style.cursor = 'pointer';
-            levelPin.onclick = (function (n) { 
-              return function(e) {
-                e.stopPropagation();
-                startLevel(n);
-              }; 
+            (function(levelNum) {
+                levelPin.onclick = function(e) { 
+                    e.stopPropagation(); 
+                    startLevel(levelNum); 
+                };
             })(i);
           } else {
             levelPin.style.cursor = 'default';
@@ -2398,14 +2333,9 @@
       }
 
       highlightCurrentLevel();
-      
-      // Actualizar partículas y ondas alrededor de niveles desbloqueados
       updateLevelParticles();
       updateLevelWaves();
       updateLevelPath();
-      
-      // Don't show preview automatically, only on hover
-      document.getElementById("levelPreview").style.display = "none";
     }
 
     // Función para dibujar el camino de puntos entre niveles
@@ -2424,14 +2354,14 @@
       
       pathContainer.innerHTML = '';
 
-      for (let i = 1; i < 100; i++) {
-        const currentPin = document.getElementById(`lvlPin${i}`);
-        const nextPin = document.getElementById(`lvlPin${i+1}`);
+      for (let i = 1; i < 50; i++) {
+        const pin1 = document.getElementById('lvlPin' + i);
+        const pin2 = document.getElementById('lvlPin' + (i + 1));
         
-        if (!currentPin || !nextPin) continue;
+        if (!pin1 || !pin2) continue;
 
-        const rect1 = currentPin.getBoundingClientRect();
-        const rect2 = nextPin.getBoundingClientRect();
+        const rect1 = pin1.getBoundingClientRect();
+        const rect2 = pin2.getBoundingClientRect();
         const containerRect = mapContent.getBoundingClientRect();
 
         const x1 = rect1.left - containerRect.left + rect1.width / 2;
@@ -2475,7 +2405,7 @@
       particlesContainer.innerHTML = '';
       
       // Crear partículas para cada nivel desbloqueado
-      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
+      for (let i = 1; i <= Math.min(unlocked, 50); i++) {
         const levelPin = document.getElementById(`lvlPin${i}`);
         if (!levelPin) continue;
         
@@ -2560,7 +2490,7 @@
       wavesContainer.innerHTML = '';
       
       // Crear ondas para cada nivel desbloqueado
-      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
+      for (let i = 1; i <= Math.min(unlocked, 50); i++) {
         const levelPin = document.getElementById(`lvlPin${i}`);
         if (!levelPin) continue;
         
@@ -2708,7 +2638,7 @@
 
     function nextLevel() {
       if (level < 100) startLevel(level + 1);
-      else show("map");
+      else show("home");
     }
 
     function retryLevel() {
@@ -2730,14 +2660,7 @@
         bgAudio.play().catch(e => {});
       }
       
-      if (isCategoryMode) {
-        isCategoryMode = false;
-        show('categories');
-      } else if (isSurvival) {
-        show('home');
-      } else {
-        show('map');
-      }
+      show("home");
     }
 
     function applyLevelVisualTheme(levelNum) {
