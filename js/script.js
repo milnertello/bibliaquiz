@@ -1162,6 +1162,8 @@
         bgMusic.play().catch(e => console.log("Audio play prevented:", e));
       }
 
+      isSurvival = false;
+      isCategoryMode = false;
       show("map");
       updateLocks();
     }
