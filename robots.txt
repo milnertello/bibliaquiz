@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://tusitio.com/sitemap.xml
+Sitemap: https://milnertello.github.io/bibliaquiz/sitemap.xml
