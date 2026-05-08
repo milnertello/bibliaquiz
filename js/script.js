@@ -31,8 +31,8 @@
     let index = 0;
     let score = 0;
     let timer;
-    let time = 10;
-    let baseTime = 10;
+    let time = 15;
+    let baseTime = 15;
     let ageDifficulty = localStorage.getItem('ageDifficulty') || 'teen';
     let soundMuted = localStorage.getItem('soundMuted') === '1';
     let lastVolumeBeforeMute = parseFloat(localStorage.getItem('lastVolumeBeforeMute')) || 0.5;
@@ -1075,12 +1075,12 @@
 
     function getDifficultyConfig() {
       if (ageDifficulty === 'kids') {
-        return { baseTime: 14, coinMult: 0.9, costs: { fifty: 14, time: 8, hint: 6, skip: 10 } };
+        return { baseTime: 19, coinMult: 0.9, costs: { fifty: 14, time: 8, hint: 6, skip: 10 } };
       }
       if (ageDifficulty === 'adult') {
-        return { baseTime: 8, coinMult: 1.25, costs: { fifty: 24, time: 14, hint: 12, skip: 18 } };
+        return { baseTime: 13, coinMult: 1.25, costs: { fifty: 24, time: 14, hint: 12, skip: 18 } };
       }
-      return { baseTime: 10, coinMult: 1.0, costs: { fifty: 20, time: 10, hint: 8, skip: 12 } };
+      return { baseTime: 15, coinMult: 1.0, costs: { fifty: 20, time: 10, hint: 8, skip: 12 } };
     }
 
     function updateLifelineLabels() {
